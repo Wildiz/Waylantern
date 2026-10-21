@@ -1,0 +1,13 @@
+name: "Free Programming Books (Spanish lists)"
+url: https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-es.md
+category: reference
+areas: [cs, software, general]
+price: free
+level: all
+languages: ["es"]
+structure: self-directed
+focus_friendly: low
+description: "Spanish-language lists of free programming books (about 170 entries across languages, algorithms, databases and AI) plus a Spanish course list in the same repository."
+pros: ["Free books in Spanish by language and subject", "Course list in Spanish: courses/free-courses-es.md"]
+cons: ["Smaller than the English lists", "Quality varies"]
+verified: {date: 2026-10-21, method: github-repo, notes: "Books file books/free-programming-books-es.md has ~170 entries (rough count) and 30+ sections; courses/free-courses-es.md exists; no es interactive-tutorial file found; parent repo last commit 2026-10-20; link-level checks not done"}

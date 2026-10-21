@@ -1,0 +1,13 @@
+name: web.dev Learn
+url: https://web.dev/learn
+category: course
+areas: [web]
+price: free
+level: beginner
+languages: [en, de, es, fr, ja, ko, pt, zh]
+structure: guided
+focus_friendly: unknown
+description: Google Chrome team's free course series on HTML, CSS, JavaScript, forms, images, responsive design, accessibility, performance, PWA, testing and AI.
+pros: [Courses in a fixed order by topic written by the Chrome team and external experts, 'Free, no sign-up required to read', Page offers many interface languages]
+cons: [Reading-based with limited hands-on exercises, Translations of every course page not checked, Assumes you will practice elsewhere]
+verified: {date: '2026-10-21', method: official-site, notes: 'web.dev/learn loads and lists Learn HTML, CSS, JavaScript, AI, Performance, Accessibility, Images, Design, Forms, PWA, Testing; language picker lists many locales (translation completeness not checked); no price or login seen'}

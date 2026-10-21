@@ -1,0 +1,13 @@
+name: "OWASP Juice Shop"
+url: https://owasp-juice.shop/
+category: practice
+areas: [web, security]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "An intentionally insecure, open-source web shop with many hacking challenges covering the OWASP Top 10, run locally (Docker, packaged or from source) for legal security training and CTFs."
+pros: ["Score board tracks challenge progress", "Open source (MIT) with a companion guide"]
+cons: ["Must be installed and run yourself", "Only attack your own local instance; never real systems without permission"]
+verified: {date: 2026-10-21, method: official-site, notes: "Project site says 'free software ... MIT License', install options Docker image, packaged, from source; OWASP page lists it as a Flagship training project."}

@@ -1,0 +1,13 @@
+name: Apache Airflow Tutorials
+url: https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html
+category: course
+areas: [data]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Official Apache Airflow tutorials covering building a first workflow, the TaskFlow API, a simple data pipeline, object storage and human-in-the-loop operators.
+pros: [Official docs for the current stable release (3.3.2 shown), Free and open source, Short tutorials with runnable Python]
+cons: [Needs Python and an Airflow install, Concepts like scheduling and deployment take time beyond the tutorials]
+verified: {date: '2026-10-21', method: official-site, notes: 'Tutorials page loads (Airflow 3.3.2 documentation) listing Airflow 101, Pythonic Dags with the TaskFlow API, Building a Simple Data Pipeline, Cloud-Native Workflows with Object Storage, HITLOperator; no price seen'}

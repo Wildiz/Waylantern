@@ -1,0 +1,13 @@
+name: "KodeKloud"
+url: https://kodekloud.com/
+category: practice
+areas: [devops]
+price: freemium
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "DevOps and cloud training platform with video courses and hands-on browser labs (Linux, Docker, Kubernetes, AWS, Azure), with some free labs and free challenge programs such as 100 Days of Cloud."
+pros: ["Hands-on labs in the browser, no card needed to start", "Free 100 Days of Cloud challenge listed"]
+cons: ["Full course and lab library needs a paid subscription", "Exact free limits and plan prices not confirmed (pricing page needs JavaScript)"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page: 'Start Learning for Free', 'No Credit Card', 100 Days of Cloud/MLOps marked Free; pricing page shows paid Standard plan but figures not readable. Free-lab limits unverified."}

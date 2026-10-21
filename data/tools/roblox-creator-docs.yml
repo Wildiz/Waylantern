@@ -1,0 +1,13 @@
+name: "Roblox Creator Hub Documentation"
+url: https://create.roblox.com/docs
+category: course
+areas: [games-mobile]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Official Roblox documentation with first-experience tutorials and an introduction to coding in Luau, plus API references for building games in Roblox Studio."
+pros: ["Beginner tutorials such as building a first 3D platformer", "Roblox Studio is a free application on Windows and Mac (per Roblox docs)"]
+cons: ["Platform-specific: skills transfer only partly", "Roblox Studio supports Windows and Mac only per the docs"]
+verified: {date: 2026-10-21, method: official-site, notes: "Docs overview, tutorials page and Studio setup page read 2026-10-21; setup page states Roblox Studio is a free application available on Windows and Mac."}

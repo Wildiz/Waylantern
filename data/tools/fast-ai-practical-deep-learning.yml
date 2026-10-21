@@ -1,0 +1,13 @@
+name: Practical Deep Learning for Coders (fast.ai)
+url: https://course.fast.ai
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium   # ~90-minute video lessons, but each ends with notebooks to run
+description: Free video course (2022 Part 1, 2023 Part 2) teaching deep learning top-down with fastai and PyTorch, from image classification and NLP to Stable Diffusion from scratch.
+pros: [Code-first approach with a free companion book, Part 2 builds diffusion models and transformers from scratch]
+cons: [Requires some coding experience, Materials date from 2022-2023 and the course repo was last updated Oct 2024, so library APIs may have drifted]
+verified: {date: 2026-10-21, method: official-site, notes: "course.fast.ai states 'A free course'; Part 1 = 9 lessons of ~90 min (2022), Part 2 = 2023; fastai/course22 last commit 2024-10-08"}

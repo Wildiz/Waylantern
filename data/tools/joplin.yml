@@ -1,0 +1,13 @@
+name: Joplin
+url: https://joplinapp.org/
+category: tool
+areas: [study-skills]
+price: free
+level: all
+languages: [en, ar, bg, bs, ca, cs, da, de, el, eo, es, et, eu, fa, fi, fr, gl, hr, hu, id, it, ja, ko, nb, nl, pl, pt, ro, ru, sk, sl, sr, sv, th, tr, uk, vi, zh]
+structure: self-directed
+focus_friendly: unknown
+description: Open-source note-taking and to-do app with Markdown notes, end-to-end-encrypted sync (Nextcloud, Dropbox, OneDrive, Joplin Cloud) and apps for desktop and mobile.
+pros: [Free and open source, 'Windows, macOS, Linux, Android and iOS', Web clipper for Chrome and Firefox, Plugins and themes]
+cons: [Less oriented to linked-note workflows than Obsidian or Logseq, Joplin Cloud is a separate paid service (plans from 2.99 EUR/month billed monthly or 28.69 EUR/year for 2 GB, 14-day free trial; Dropbox/OneDrive/Nextcloud sync can be used instead)]
+verified: {date: '2026-10-21', method: official-site, notes: 'joplinapp.org and GitHub README (laurent22/joplin, ~56.8k stars, last push 2026-10-21): platforms, sync targets and web clipper confirmed. Site is offered in en, fr, de, zh. Re-checked 2026-10-21: joplinapp.org/help says Joplin is a free, open source note taking and to-do application; joplinapp.org/plans lists Joplin Cloud Basic 2.99 EUR/month (2.40 EUR/month billed yearly, 28.69 EUR/year; 2 GB), Pro 5.99 EUR/month and Pro 100 GB 9.99 EUR/month, Teams per user, with a 14-day free trial, so the app is free and the sync service is optional paid. App UI: packages/lib/locales/index.js in laurent22/joplin lists 39 locales (e.g. es_ES, de_DE, fr_FR, pt_BR, zh_CN), translation completeness varies (fr_FR 100%, es_ES/de_DE/pt_BR 81%, zh_CN 80% in the stats file). License shown as non-standard in GitHub metadata, so not stated.'}

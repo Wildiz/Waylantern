@@ -1,0 +1,13 @@
+name: Machine Learning Zoomcamp (DataTalks.Club)
+url: https://github.com/DataTalksClub/machine-learning-zoomcamp
+category: course
+areas: [data, ai]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: Free hands-on course on building, evaluating and deploying machine learning systems, offered as a cohort (2026 cohort started Sep 14, 2026) with videos and materials open on GitHub.
+pros: [Project-based and community-supported, Recorded videos on YouTube]
+cons: [Cohort deadlines apply to the certificate, Needs some programming experience]
+verified: {date: 2026-10-21, method: github-repo, notes: "README: 'A free, hands-on course'; 2026 cohort start date Sep 14, 2026; last commit 2026-10-16; prerequisites not read in detail"}

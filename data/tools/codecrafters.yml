@@ -1,0 +1,13 @@
+name: "CodeCrafters"
+url: https://codecrafters.io/
+category: practice
+areas: [cs, software]
+price: freemium
+level: advanced
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Step-by-step challenges to rebuild tools such as Redis, Git, SQLite, an HTTP server or a shell from scratch in your own editor, with automated test feedback."
+pros: ["Real-world systems projects", "Automated stage tests"]
+cons: ["Free tier has limited content access; full content needs a paid membership", "Aimed at experienced engineers"]
+verified: {date: 2026-10-21, method: official-site, notes: "Pricing page: Free plan (limited content access, no credit card) and paid Membership (3 month, 1 year and lifetime plans; amounts not captured)."}

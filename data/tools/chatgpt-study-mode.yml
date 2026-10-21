@@ -1,0 +1,13 @@
+name: ChatGPT study mode
+url: https://openai.com/index/chatgpt-study-mode/
+category: tool
+areas: [study-skills]
+price: unverified
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Mode in ChatGPT that uses guiding questions and step-by-step checks instead of immediate answers; launched July 29, 2025.
+pros: ['Search summaries of OpenAI''s help center say it is available on Free, Plus, Pro and other plans on web, iOS and Android', Aims at active learning with questions and quizzes]
+cons: ['Official OpenAI pages returned 403 to automated fetches, so plan availability is not directly confirmed', Release notes say it is powered by system instructions and may behave inconsistently or make mistakes, 'Not available in Projects, GPTs or Temporary Chats (per search summary of help article)', Can be switched off to get direct answers]
+verified: {date: '2026-10-21', method: search-only, notes: 'openai.com and help.openai.com returned HTTP 403 to automated requests; availability and behaviour taken from search-result summaries of OpenAI''s help center and release notes only. Re-tried 2026-10-21: openai.com, help.openai.com and chatgpt.com/pricing still return 403 (Enable JavaScript and cookies) to automated requests, the fetch tool cannot resolve the hosts, and the archive and reader mirrors are rate-limited or blocked, so plan availability and price remain unconfirmed from a primary source. Re-verify manually.'}

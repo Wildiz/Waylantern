@@ -1,0 +1,13 @@
+name: "Godot Engine Documentation"
+url: https://docs.godotengine.org/en/stable/
+category: reference
+areas: [games-mobile]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Official documentation and tutorials for the free and open-source Godot 2D and 3D game engine, with entry points for people who have never made a game."
+pros: ["Official, versioned docs (stable branch 4.7 at time of check)", "Separate paths for first-time game makers and experienced users", "Engine itself is free and open source"]
+cons: ["Docs are reference-style; some learners prefer video courses", "Docs also exist in other languages but only English was checked"]
+verified: {date: 2026-10-21, method: official-site, notes: "Docs home read 2026-10-21: 'free and open source community-driven 2D and 3D game engine', 'Godot Docs 4.7 branch', beginner/intermediate/contributor tiles."}

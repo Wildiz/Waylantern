@@ -1,0 +1,13 @@
+name: Cold Turkey Blocker
+url: https://getcoldturkey.com/
+category: tool
+areas: [focus]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: Website and application blocker for Windows and macOS with a free version for timed website blocks and a one-time-purchase Pro version.
+pros: [Hard-to-bypass blocking with locking options (Pro), Free version includes timed website blocks and statistics, 'Pro is a one-time lifetime purchase, not a subscription', 20% student discount on request]
+cons: ['Windows and macOS only; Linux, ChromeOS, Android and iOS are not supported', Application blocking and scheduling need Pro]
+verified: {date: '2026-10-21', method: official-site, notes: 'Official pricing page: Blocker Free (website blocks, timed blocks, exceptions, statistics, 7-day Pro trial) and Blocker Pro lifetime access (applications, scheduling, locking); 30-day refund; students may request 20% off. Pro price amount not shown in fetched text, so not stated.'}

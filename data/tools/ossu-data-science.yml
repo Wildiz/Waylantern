@@ -1,0 +1,13 @@
+name: Open Source Society University - Data Science
+url: https://github.com/ossu/data-science
+category: path
+areas: [data, ai]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Free self-paced path to an undergraduate-equivalent data science education, following ASA curriculum guidelines.
+pros: [Clear sequence from intro to final project, Follows an external standard]
+cons: [Org page shows last update May 2025, may be slowing]
+verified: {date: 2026-10-21, method: github-repo, notes: "README and org page read"}

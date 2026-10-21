@@ -1,0 +1,13 @@
+name: 'Scrimba: Learn HTML and CSS (free course)'
+url: https://scrimba.com/learn-html-and-css-c0p
+category: course
+areas: [web]
+price: freemium
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Scrimba's interactive in-browser course that teaches HTML and CSS by building five projects, with over 75 coding challenges, taught by Per Borgen.
+pros: [This course is listed as free (price 0 in the page metadata) with no prerequisites and no tools beyond a browser, About 5h40m across 122 lessons per the course page, Interactive format where you can edit code in the lesson]
+cons: [Scrimba as a whole is a paid platform; only specific courses are free and the free list was not checked, Plan prices could not be read (pricing page renders client-side), Beginner level only]
+verified: {date: '2026-10-21', method: official-site, notes: 'Course page scrimba.com/learn-html-and-css-c0p read via page metadata: isAccessibleForFree true, offer price 0 USD, 122 lessons, PT5H40M, no prerequisites; scrimba.com/our-pricing renders client-side so paid plan prices and the full free-course list were not read'}

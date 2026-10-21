@@ -1,0 +1,13 @@
+name: "picoCTF (CyLab Security Academy)"
+url: https://www.picoctf.org/
+category: practice
+areas: [security]
+price: free
+level: beginner
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "Carnegie Mellon's free cybersecurity learning platform with capture-the-flag style challenges; picoCTF has moved into CyLab Security Academy."
+pros: ["Beginner-friendly CTF challenges", "Run by a university"]
+cons: ["Platform is mid-migration (picoctf.com announced as coming soon)"]
+verified: {date: 2026-10-21, method: official-site, notes: "picoctf.org page: now CyLab Security Academy, 'Carnegie Mellon University's free cybersecurity learning platform'; logins from before 2026-05-08 still work."}

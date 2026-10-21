@@ -1,0 +1,13 @@
+name: DEV Community
+url: https://dev.to/
+category: community
+areas: [web, career]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Open-source (Forem) community where developers publish and discuss articles, now associated with Major League Hacking.
+pros: [Beginner-friendly writing culture, Writing posts helps consolidate learning]
+cons: [Article quality varies, Feeds can be a distraction]
+verified: {date: '2026-10-21', method: official-site, notes: 'About page read: community of software developers built on open-source Forem; joined with Major League Hacking. No paywall seen; free sign-up implied by the Create account button rather than stated.'}

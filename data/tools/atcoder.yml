@@ -1,0 +1,13 @@
+name: "AtCoder"
+url: https://atcoder.jp/
+category: practice
+areas: [cs, career]
+price: unverified
+level: all
+languages: [en, ja]
+structure: self-directed
+focus_friendly: unknown
+description: "Japanese competitive programming site that holds weekly online contests for beginners to experts, with an English interface and permanent practice contests."
+pros: ["Beginner-oriented AtCoder Beginner Contests held every week (schedule visible on the home page)", "English interface and English problem statements", "Practice contest for first-time users"]
+cons: ["Pricing is not stated on the pages read", "Contest-oriented rather than a guided course"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page read 2026-10-21: meta description says weekly programming contests for beginners to experts; English/Japanese toggle; upcoming contests listed (e.g. ABC 481, 482, 483 in Oct-Nov 2026). No pricing statement found, so price unverified."}

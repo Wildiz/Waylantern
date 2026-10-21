@@ -1,0 +1,13 @@
+name: FastAPI Tutorial - User Guide
+url: https://fastapi.tiangolo.com/tutorial/
+category: course
+areas: [web]
+price: free
+level: intermediate
+languages: [en, de, es, fr, ja, ko, pt, ru, zh]
+structure: guided
+focus_friendly: unknown
+description: 'Official step-by-step guide to building Python web APIs with FastAPI: path and query parameters, request bodies, validation, dependencies, security and more.'
+pros: [Official docs with runnable code examples, Ordered chapters from first steps to advanced topics, Includes intro pages on Python types and async]
+cons: [Requires basic Python, 'Teaches the framework, not general web or API design', Translation completeness not checked]
+verified: {date: '2026-10-21', method: official-site, notes: 'Tutorial page loads; sidebar lists First Steps, Path Parameters, Query Parameters, Request Body and more; language list (en, de, es, fr, hi, ja, ko, pt, ru, tr, uk, zh) shown, subset recorded; no price seen'}

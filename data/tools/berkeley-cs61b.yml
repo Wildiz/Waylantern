@@ -1,0 +1,19 @@
+name: "UC Berkeley CS 61B - Data Structures"
+url: https://sp26.datastructur.es/
+category: course
+areas: [cs]
+price: free   # public course website
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Berkeley's data structures course (Java) with a public Spring 2026 site offering live lecture recordings, lecture code, homeworks, mini-projects and study guides."
+pros:
+  - "Lecture recordings and code are public"
+  - "Large set of projects (e.g. deque, hash map, percolation)"
+  - "Good follow-up to CS 61A"
+cons:
+  - "Spring 2026 semester site - may be superseded by a newer semester URL"
+  - "Autograder and support for non-enrolled learners not confirmed"
+  - "Java required"
+verified: {date: 2026-10-21, method: official-site, notes: "sp26.datastructur.es loads (CS 61B Spring 2026); cs61b.org did not resolve to our automated checks so the semester URL is used"}

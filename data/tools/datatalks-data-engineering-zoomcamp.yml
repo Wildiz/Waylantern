@@ -1,0 +1,13 @@
+name: Data Engineering Zoomcamp (DataTalks.Club)
+url: https://github.com/DataTalksClub/data-engineering-zoomcamp
+category: course
+areas: [data]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium   # weekly modules with deadlines in the live cohort, self-paced option
+description: Free 9-week course on building an end-to-end data pipeline with modern data engineering tools, offered as a live cohort or self-paced.
+pros: [Free videos, materials and homework, Community support on Slack, Final project and certificate in live cohort]
+cons: [Cohorts run on a schedule, Python experience recommended]
+verified: {date: 2026-10-21, method: github-repo, notes: "README: 'free 9-week course', FAQ 'All videos, materials, and homework are free and open-source'; live cohort and self-paced both cost Free; last commit 2026-09-16"}

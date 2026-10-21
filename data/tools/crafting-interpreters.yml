@@ -1,0 +1,13 @@
+name: "Crafting Interpreters"
+url: https://craftinginterpreters.com/
+category: course
+areas: [cs, software]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Book that walks you through building two complete interpreters for a scripting language (tree-walk and bytecode VM); readable in full on the web."
+pros: ["Hands-on, builds a whole language", "Full web edition free"]
+cons: ["Long; requires writing a lot of code"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page: 'Read the whole book for free. Really.' Print, ebook and PDF are sold separately."}

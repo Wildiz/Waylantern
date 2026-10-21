@@ -1,0 +1,13 @@
+name: "Professor Messer (CompTIA Network+ and Security+ videos)"
+url: https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/
+category: course
+areas: [devops, security]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Free video training courses for the CompTIA Security+ (SY0-701), Network+ (N10-009) and A+ exams, with optional paid course notes and practice exams."
+pros: ["Videos are completely free; Security+ course is 121 videos, about 15 hours", "Short, topic-per-video lessons"]
+cons: ["Course notes (PDF/print) and practice exams are sold separately", "Exam-oriented rather than hands-on"]
+verified: {date: 2026-10-21, method: official-site, notes: "Security+ index page: 'All of my training videos are completely free', 121 videos, 15h11m; 96-page course notes sold separately. Menu shows free Network+ and A+ video courses. Exam voucher/cert costs not checked."}

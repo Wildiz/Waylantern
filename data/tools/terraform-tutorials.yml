@@ -1,0 +1,13 @@
+name: "Terraform Tutorials (HashiCorp Developer)"
+url: https://developer.hashicorp.com/terraform/tutorials
+category: course
+areas: [devops]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Official HashiCorp step-by-step tutorials for Terraform, from getting started with Docker, AWS, Azure and GCP to modules, state and HCP Terraform."
+pros: ["Official, organised into tracks", "A Docker track lets you practise without a cloud account"]
+cons: ["Cloud-provider tracks need an account and may incur costs", "Assumes comfort with the command line"]
+verified: {date: 2026-10-21, method: official-site, notes: "Tutorials overview loads with tracks (AWS, Azure, Docker, GCP, HCP Terraform, OCI, Sandbox); page says 'Sign up for HCP Terraform for free'. Cloud costs for provider tracks not verified."}

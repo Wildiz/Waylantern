@@ -1,0 +1,18 @@
+name: "CS50's Introduction to Databases with SQL"
+url: https://cs50.harvard.edu/sql/
+category: course
+areas: [data]
+price: free   # OpenCourseWare
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Harvard's free course on relational databases and SQL covering querying, relating, designing, writing, viewing, optimizing and scaling data."
+pros:
+  - "Short and focused on one skill"
+  - "Problem sets and a final project"
+  - "Free CS50 Certificate for at least 70% on every problem and the final project (course certificate page)"
+  - "Starts with SQLite for portability and ends with introductions to PostgreSQL and MySQL for scalability (course page)"
+cons:
+  - "Page header still reads 'What's new for 2024' so the material may be older than other CS50 courses"
+verified: {date: 2026-10-21, method: official-site, notes: "Course page and /sql/certificate/ re-read 2026-10-21: free via OpenCourseWare; free CS50 Certificate at 70% on each problem plus final project; edX verified certificate (cs50.edx.org/sql) is a separate paid option, amount not stated on CS50 pages; course description says it begins with SQLite and ends with introductions to PostgreSQL and MySQL; weekly topics read from page"}

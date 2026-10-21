@@ -1,0 +1,13 @@
+name: DuckDB Documentation
+url: https://duckdb.org/docs/stable/
+category: reference
+areas: [data]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Official documentation for DuckDB, an embedded analytical SQL database, including guides for CSV, JSON and Parquet import, client APIs and the CLI.
+pros: [Official docs with a guides section for common tasks, Free and open, 'Runs in-process from Python, CLI and other clients']
+cons: [Assumes SQL knowledge, 'Reference-style, not a graded course']
+verified: {date: '2026-10-21', method: official-site, notes: 'duckdb.org/docs/stable/ redirects to duckdb.org/docs/2.0/ (2.0 LTS shown); navigation lists data import, client APIs, CLI; guides overview page loads; no price seen'}

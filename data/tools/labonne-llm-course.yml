@@ -1,0 +1,13 @@
+name: LLM Course (Maxime Labonne)
+url: https://github.com/mlabonne/llm-course
+category: roadmap
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: Open GitHub roadmap with curated notebooks and articles on LLM fundamentals, building and fine-tuning LLMs (the LLM Scientist) and creating and deploying LLM applications (the LLM Engineer).
+pros: [Clear three-part roadmap with linked notebooks, Author states the course will always stay free]
+cons: [Links to resources rather than being a single course, Last repo commit February 2026]
+verified: {date: 2026-10-21, method: github-repo, notes: "README says 'The LLM course will always stay free'; last commit 2026-02-05"}

@@ -1,0 +1,13 @@
+name: "Develop in Swift Tutorials"
+url: https://developer.apple.com/tutorials/develop-in-swift/
+category: course
+areas: [software, games-mobile]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Apple's tutorials introducing app development with Swift, SwiftUI and Xcode, from first project through data persistence, intelligent features and publishing."
+pros: ["Official Apple tutorials for anyone learning to build Apple-platform apps", "Covers SwiftUI, SwiftData, Core ML and distribution via TestFlight"]
+cons: ["Xcode requires a Mac to build apps", "Page needs JavaScript"]
+verified: {date: 2026-10-21, method: official-site, notes: "Apple's tutorial index JSON read 2026-10-21 (Welcome, Explore Xcode, SwiftData, Natural Language, visionOS, Preparation for distribution). Public without sign-in; no explicit price line, so free is inferred from open access; third-party coverage says no Apple ID needed. Hardware requirements not checked."}

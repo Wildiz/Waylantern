@@ -1,0 +1,13 @@
+name: "Cisco Packet Tracer"
+url: https://www.netacad.com/cisco-packet-tracer
+category: practice
+areas: [devops, security]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Cisco's network simulation software for building and testing virtual networks (routers, switches, IoT, basic cybersecurity) without hardware, with free training from Cisco Networking Academy."
+pros: ["Free download, no hardware needed", "Visualises how networks work"]
+cons: ["Requires a free Cisco Networking Academy account to download", "Simulator only: some commands and features differ from real devices"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page title 'Free Training and Download'; description says 'download the latest version of Cisco Packet Tracer for free'. Account requirement and simulator limits are general knowledge not read on the JS-rendered page, so left as noted caveats; Networking Academy course catalogue pricing not verified."}

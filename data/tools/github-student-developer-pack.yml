@@ -1,0 +1,13 @@
+name: "GitHub Student Developer Pack"
+url: https://education.github.com/pack
+category: reference
+areas: [software, career, general]
+price: free
+level: all
+languages: ["en"]
+structure: self-directed
+focus_friendly: unknown
+description: "Bundle of free developer tools, cloud credits and learning offers from GitHub and partners for verified students."
+pros: ["GitHub Pro, Copilot Student, cloud credits and domains for students", "Includes guided \"Experiences\" bundles"]
+cons: ["Only for verified students; some offers have age limits (for example Azure credit for 18+)", "Partner offers change"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page read on 2026-10-21: GitHub Pro free while a student, Copilot Student available to verified students, Azure offer for students aged 18+; eligibility and verification rules not read in full"}

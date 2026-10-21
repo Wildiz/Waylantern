@@ -1,0 +1,13 @@
+name: FLOWN
+url: https://www.flown.com/
+category: tool
+areas: [focus]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: Virtual coworking platform with scheduled live focus sessions for body doubling, aimed at remote workers, students and people with ADHD.
+pros: [30-day free trial without payment details, Free account keeps access to free sessions on Fridays, Sessions with facilitators and shared intentions]
+cons: ['Most sessions need a paid monthly, yearly or lifetime membership after the trial', Effectiveness of body doubling for ADHD is not firmly established in research]
+verified: {date: '2026-10-21', method: official-site, notes: 'FAQ on official site: 30-day free trial, then monthly/yearly/lifetime membership or a free account with free sessions every Friday. Exact membership prices not captured from the page.'}

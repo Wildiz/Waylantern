@@ -1,0 +1,13 @@
+name: Hugging Face AI Agents Course
+url: https://huggingface.co/learn/agents-course
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en, es, fr, ko, ru, vi, zh]
+structure: guided
+focus_friendly: medium   # unit-based with small hands-on pieces
+description: Free course on understanding, building and evaluating AI agents with smolagents, LlamaIndex and LangGraph, ending in a certified final project.
+pros: [Covers three agent frameworks plus agentic RAG and observability, Translations include Spanish]
+cons: [Assumes Python and basic LLM knowledge, Translations may lag behind the English version]
+verified: {date: 2026-10-21, method: official-site, notes: "Page says 'This free course'; unit0 has hreflang pages for en, es, fr, ko, ru, vi, zh; GitHub README lists prerequisites (Python, basic LLMs); repo last commit 2026-10-06"}

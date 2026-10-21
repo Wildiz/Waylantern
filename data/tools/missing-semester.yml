@@ -1,0 +1,19 @@
+name: "The Missing Semester of Your CS Education"
+url: https://missing.csail.mit.edu/
+category: course
+areas: [software, devops]
+price: free   # CC BY-NC-SA
+level: beginner
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "MIT course teaching practical tooling: the command line, a text editor, version control, packaging and shipping code, code quality and AI-assisted coding workflows, with lecture videos and notes."
+pros:
+  - "Fills a gap most degree paths leave"
+  - "Notes and recorded lectures free"
+  - "Community translations linked (including Spanish)"
+cons:
+  - "Translations are unvetted community links per the site"
+  - "Concepts only - no graded exercises"
+  - "Topics change year to year"
+verified: {date: 2026-10-21, method: official-site, notes: "2026 edition page read; license and translation list confirmed"}

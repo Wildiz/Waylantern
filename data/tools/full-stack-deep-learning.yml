@@ -1,0 +1,13 @@
+name: The Full Stack (Full Stack Deep Learning and LLM Bootcamp)
+url: https://fullstackdeeplearning.com
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: low   # long lectures
+description: Open lecture series on building and shipping ML-powered products, including the FSDL 2022 course and the 2023 LLM Bootcamp, with lab notebooks.
+pros: [Covers the product side of ML (infrastructure, testing, deployment, teams), Includes a LLM app bootcamp]
+cons: [Main courses date from 2022 and 2023 so tooling has moved on, Newer content is a few essays]
+verified: {date: 2026-10-21, method: official-site, notes: "Site lists FSDL 2022 lectures and labs, LLM Bootcamp Spring 2023 and a 'Working with AI Agents' section; no price shown, content open without login; no explicit 'free' wording seen"}

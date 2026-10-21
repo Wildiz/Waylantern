@@ -1,0 +1,13 @@
+name: "Rustlings"
+url: https://rustlings.rust-lang.org/
+category: practice
+areas: [software]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: high
+description: "Official small exercises that you fix locally with compiler feedback to get used to reading and writing Rust."
+pros: ["Tiny exercises with immediate compiler feedback", "Official Rust project, MIT license"]
+cons: ["Needs local Rust install"]
+verified: {date: 2026-10-21, method: official-site, notes: "Site read: official Rust project, MIT license, installed via cargo. focus high: small exercises with instant compiler feedback."}

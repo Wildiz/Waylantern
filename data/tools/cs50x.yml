@@ -1,0 +1,20 @@
+name: "CS50x - Harvard's Introduction to Computer Science"
+url: https://cs50.harvard.edu/x/
+category: path
+areas: [cs, software]
+price: free   # OpenCourseWare; free CS50 Certificate at >=70% on every problem set and the final project; verified edX certificate is paid
+level: beginner
+languages: [en, es, pt]   # lectures dubbed into Spanish and Portuguese per the course page
+structure: guided
+focus_friendly: unknown
+description: "Harvard's free introductory CS course covering Scratch, C, algorithms, memory, data structures, Python, SQL, HTML/CSS/JavaScript and Flask, ending in a final project."
+pros:
+  - "Free CS50 Certificate available (70% on each problem set and final project)"
+  - "Weekly lectures with problem sets and a final project"
+  - "Large community (Discord, Ed, Reddit)"
+  - "Spanish and Portuguese pages linked from the site (CS50x en espanol)"
+cons:
+  - "Problem sets are demanding for complete beginners"
+  - "Spanish and Portuguese lectures are dubbed by an AI service (lingopal.ai, per the site banner); other materials not checked in those languages"
+  - "Verified edX certificate costs money"
+verified: {date: 2026-10-21, method: official-site, notes: "cs50.harvard.edu/x loads (CS50x 2026); certificate page confirms free CS50 Certificate; FAQs updated 2026-10-14"}

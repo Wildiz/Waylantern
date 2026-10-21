@@ -1,0 +1,13 @@
+name: Think Stats (3rd edition)
+url: https://allendowney.github.io/ThinkStats/
+category: course
+areas: [data, math]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: Free online book introducing probability and statistics to Python programmers through exploratory data analysis, distributions, estimation, hypothesis testing and regression, with runnable notebooks.
+pros: [Learn statistics by coding, Chapters come with notebooks, 3rd edition updated]
+cons: [Requires basic Python, Print edition is paid (optional)]
+verified: {date: 2026-10-21, method: official-site, notes: "Site says 'free, online version' of the third edition, 14 chapters; AllenDowney/ThinkStats last commit 2026-10-15"}

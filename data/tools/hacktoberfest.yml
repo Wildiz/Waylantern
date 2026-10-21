@@ -1,0 +1,13 @@
+name: "Hacktoberfest"
+url: https://hacktoberfest.com/
+category: community
+areas: [software, career]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Month-long October open-source event; the 2026 edition is run by MLH and DEV with DigitalOcean and focuses on in-person Fests and online activities about building with open-source AI."
+pros: ["Free for almost all Fests", "Beginners welcome at Fests (per the FAQ)", "Online participation possible"]
+cons: ["Since 2026, pull requests no longer count toward rewards, which differs from earlier years", "Seasonal: runs in October only", "Age 13 or older, subject to country rules; individual events can set their own limits"]
+verified: {date: 2026-10-21, method: official-site, notes: "Official 2026 home page and FAQ read 2026-10-21: format changed to 300+ one-day Fests plus online events; PRs/MRs no longer count for swag; age 13+; most Fests free. Status is current for 2026 only."}

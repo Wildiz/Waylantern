@@ -1,0 +1,13 @@
+name: Logseq
+url: https://logseq.com/
+category: tool
+areas: [study-skills]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Open-source, privacy-first outliner and knowledge-management app with bidirectional links and local Markdown/Org files.
+pros: [Free and open source (AGPL-3.0), Outliner format suits daily journaling and linked notes, Works from local files]
+cons: [The newer database-based version is in beta and the README warns data loss is possible, 'Mobile apps are less mature (README: DB-version iOS app alpha, Android coming soon)', Learning curve for the outliner workflow]
+verified: {date: '2026-10-21', method: github-repo, notes: 'GitHub: logseq/logseq, ~45.3k stars, AGPL-3.0, last push 2026-10-21 (search API). README read via GitHub page. Re-checked 2026-10-21: README funds the project via Open Collective sponsors/backers and has no price list; blog.logseq.com says Logseq Sponsors and Backers get the beta of Logseq Sync (undated post, so current sync terms are unconfirmed); logseq.com itself is JavaScript-rendered. focus_friendly=medium: same tinkering risk as other PKM tools (judgement).'}

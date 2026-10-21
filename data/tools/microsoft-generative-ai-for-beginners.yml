@@ -1,0 +1,13 @@
+name: Generative AI for Beginners (Microsoft)
+url: https://github.com/microsoft/generative-ai-for-beginners
+category: course
+areas: [ai]
+price: free
+level: beginner
+languages: [en, es, fr, de, pt, zh, ja, ko]
+structure: guided
+focus_friendly: medium
+description: Microsoft's 21-lesson open course on building generative AI applications, from LLM basics and prompt engineering to RAG, agents and fine-tuning, with code samples.
+pros: [Lesson-by-lesson with code in Python and TypeScript, Translated into 50+ languages including Spanish, Updated Oct 2026]
+cons: [Assignments use Azure OpenAI, Microsoft Foundry Models or the OpenAI API (account and possible usage costs), A GitHub account is recommended to fork the repo]
+verified: {date: 2026-10-21, method: github-repo, notes: "README: 21 lessons; Spanish translation present; last commit 2026-10-21; README says Build lessons have Python and TypeScript examples and list providers (Azure OpenAI, Microsoft Foundry Models, OpenAI API); prerequisite: GitHub account"}

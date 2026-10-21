@@ -1,0 +1,13 @@
+name: CS50.ai (CS50 Duck)
+url: https://cs50.ai/
+category: tool
+areas: [study-skills]
+price: unverified
+level: beginner
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: Harvard CS50's AI rubber-duck debugger and tutor, built on Azure/OpenAI with course-specific data, for CS50 students and teachers.
+pros: [Tuned to CS50 course material, Explicitly allowed by CS50's academic-honesty policy (unlike general chatbots), Built to help rather than write the answer (course notes)]
+cons: [Requires logging in; whether it is free to all learners was not confirmed, CS50 itself warns it is an experimental AI and not to trust it blindly, Aimed at CS50 course work]
+verified: {date: '2026-10-21', method: official-site, notes: 'cs50.ai page text (''CS50''s adaptation of ChatGPT for students and teachers with support from Microsoft and OpenAI'', Log In) and CS50x 2025 AI notes read: duck debugger described, allowed in CS50, built with Azure and OpenAI plus a vector database. Re-checked 2026-10-21: cs50.ai still shows only the tagline and a Log In button; CS50x FAQ suggests new learners ''start with CS50.ai and Ed'' among the course communities and the CS50x AI notes describe the duck as CS50''s own tool, but no page states a price, usage limits or whether non-enrolled learners can log in free, so price stays unverified.'}

@@ -1,0 +1,13 @@
+name: Kaggle Learn
+url: https://www.kaggle.com/learn
+category: practice
+areas: [data, ai]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: high   # short micro-courses with in-browser notebooks and instant exercise checking
+description: Short, no-cost interactive micro-courses with in-browser notebooks on Python, pandas, SQL, data visualization, machine learning, deep learning, computer vision, NLP and more.
+pros: [Runs in the browser with no setup, Exercises are auto-checked, Courses are short and self-contained]
+cons: [Shallow depth compared with full courses, Needs a free Kaggle account for notebooks]
+verified: {date: 2026-10-21, method: official-site, notes: "Page meta description says 'no-cost courses'; page body is JavaScript-rendered so the course list was taken from the open-source Kaggle/learntools repo (last commit 2026-09-28: python, pandas, sql, sql_advanced, data_viz_to_coder, machine_learning, ml_intermediate, deep_learning, computer_vision, nlp, time_series, geospatial, ethics, etc.)"}

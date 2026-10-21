@@ -1,0 +1,13 @@
+name: Mochi Cards
+url: https://mochi.cards/
+category: tool
+areas: [study-skills]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Markdown-based spaced-repetition flashcard and note app with a free tier and an optional paid Pro plan for sync.
+pros: [Free tier with unlimited offline usage, 'Markdown cards and templates, FSRS mentioned in the docs']
+cons: [Sync across devices needs Pro at US$5/month, Smaller ecosystem than Anki]
+verified: {date: '2026-10-21', method: official-site, notes: 'mochi.cards read: Free $0 forever (unlimited offline usage); Pro $5/month adds sync, publishing decks, dynamic fields, AI integration. Docs list an FSRS section. Languages not verified (re-checked 2026-10-21: site and docs pages show no language selector, so languages stay en).'}

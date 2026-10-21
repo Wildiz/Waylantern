@@ -1,0 +1,13 @@
+name: Exercism Community (Discord and forum)
+url: https://exercism.org/community
+category: community
+areas: [software, study-skills]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Exercism community hub with a Discord server for social chat and support and a forum for deeper discussion and bug reports.
+pros: [Forum for deeper technical discussion, Ties into Exercism coding tracks and mentoring]
+cons: [Community discussion is in English, 'The site now points absolute beginners to a separate platform, Jiki']
+verified: {date: '2026-10-21', method: official-site, notes: 'Official community page read: Join our Discord and Explore our forum. Exercism site UI offers Spanish translations but community language beyond English was not confirmed. Re-checked 2026-10-21: the exercism.org site language picker lists about 20 languages (e.g. Deutsch, two Spanish variants, francais, italiano, portugues, Japanese, Korean, Chinese) with a Translators call, but the community page itself offers only the Discord and the forum with no per-language channels mentioned, so languages stay en.'}

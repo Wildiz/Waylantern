@@ -1,0 +1,13 @@
+name: "LeetCode"
+url: https://leetcode.com/
+category: practice
+areas: [cs, career]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Online judge with a large library of coding problems, contests and company-tagged interview questions in many programming languages."
+pros: ["Very large problem library with in-browser editor and automatic judging", "Weekly contests and a big community of solutions and discussions", "Free tier is widely used for interview prep (per third-party guides)"]
+cons: ["Paid Premium plan unlocks company-tagged questions and some problems", "Interview-drill focus, not a structured course", "Official site sits behind bot protection (could not be read automatically)"]
+verified: {date: 2026-10-21, method: search-only, notes: "Official site returned a bot-protection challenge (HTTP 403) for automated access, so details come from web search. Subscribe page was reported (by a directory checked 2026-10-08) at 35 USD/month or 159 USD/year; free tier exists. Treat exact prices as unconfirmed."}

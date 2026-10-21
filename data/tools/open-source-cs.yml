@@ -1,0 +1,13 @@
+name: open-source-cs
+url: https://github.com/ForrestKnight/open-source-cs
+category: path
+areas: [cs]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Curated list of 27 free university courses covering an undergraduate CS degree without general education.
+pros: [Lists school, duration, weekly effort and prerequisites per course]
+cons: [Overlaps heavily with OSSU]
+verified: {date: 2026-10-21, method: github-repo, notes: "README read; MIT license"}

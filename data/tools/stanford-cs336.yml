@@ -1,0 +1,13 @@
+name: Stanford CS336 - Language Modeling from Scratch
+url: https://cs336.stanford.edu
+category: course
+areas: [ai]
+price: free
+level: advanced
+languages: [en]
+structure: guided
+focus_friendly: low   # very heavy assignments
+description: Stanford course that walks through building a language model end to end (tokenizer, Transformer, training, systems optimization, scaling, data), with public lectures on YouTube and assignment code on GitHub.
+pros: [Public YouTube playlist and public assignment repos, Covers GPU efficiency and distributed training rarely taught elsewhere]
+cons: [Requires strong Python and deep learning experience, Assignments come with minimal scaffolding and need GPU compute]
+verified: {date: 2026-10-21, method: official-site, notes: "Spring 2026 site lists a YouTube playlist, schedule with lecture code and links to github.com/stanford-cs336/assignment1-basics and assignment2-systems; earlier offerings 2024 and 2025 linked"}

@@ -1,0 +1,13 @@
+name: "Awesome Data Science"
+url: https://github.com/academic/awesome-datascience
+category: reference
+areas: [data]
+price: free
+level: beginner
+languages: ["en"]
+structure: self-directed
+focus_friendly: low
+description: "Curated data science repository with a beginner roadmap and lists of free courses, books, tools, datasets, podcasts and communities."
+pros: ["Has a \"where do I start\" section", "Covers courses, tools and datasets in one place"]
+cons: ["Long list; needs a goal to filter", "Some linked courses may be paid"]
+verified: {date: 2026-10-21, method: github-repo, notes: "MIT; ~30.2k stars; last commit 2026-10-18; not archived; sections read from README (page truncated)"}

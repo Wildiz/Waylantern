@@ -1,0 +1,13 @@
+name: "Grind 75"
+url: https://www.techinterviewhandbook.org/grind75/
+category: roadmap
+areas: [cs, career]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Customizable coding-interview question list by the author of Blind 75 that lets you choose weeks available, hours per week, difficulty and topics."
+pros: ["Schedule builder based on your available time", "Successor to the widely shared Blind 75 list", "Part of the free Tech Interview Handbook"]
+cons: ["Links out to problems on third-party sites such as LeetCode", "Interview-prep focus"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page title and meta description read 2026-10-21 ('A better Blind 75 you can customize, by the author of Blind 75'); the list is JavaScript-rendered. The parent Tech Interview Handbook is already in the directory."}

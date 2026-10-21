@@ -1,0 +1,13 @@
+name: Anki
+url: https://apps.ankiweb.net/
+category: tool
+areas: [study-skills]
+price: freemium
+level: all
+languages: [en, es]
+structure: self-directed
+focus_friendly: high
+description: Open-source spaced-repetition flashcard program with add-ons, media support and optional free AnkiWeb sync; desktop and Android are free, the iOS app is paid.
+pros: ['Desktop app is free for Windows, macOS and Linux', AnkiWeb sync is free, Built-in FSRS scheduler (opt-in in deck options), Large add-on and shared-deck ecosystem, Short daily review sessions with immediate feedback]
+cons: ['iOS app (AnkiMobile) is paid: US$24.99 on the US App Store at check time', Steep learning curve for card templates and settings, Value depends on writing good cards yourself; copying other people's decks teaches less]
+verified: {date: '2026-10-21', method: official-site, notes: 'Official site: desktop 26.09.3 listed as free for Windows/macOS/Linux; AnkiWeb described as a free sync service; AnkiDroid is free (donation-funded); AnkiMobile (iOS) is sold, US$24.99 on the US App Store page. Manual is available in en, es, de, fr, it and more. focus_friendly=high because reviews are short and scheduled (reasoning, not measured). Price field is freemium only because of the paid iOS app.'}

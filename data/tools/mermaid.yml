@@ -1,0 +1,13 @@
+name: Mermaid
+url: https://mermaid.js.org/
+category: tool
+areas: [study-skills]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Open-source JavaScript library and live editor that generates flowcharts, sequence diagrams and other diagrams from Markdown-like text.
+pros: [MIT license, Diagrams-as-code that live in version control]
+cons: [Layout is automatic and limited, The project now points to mermaid.ai for a platform around the library; paid tiers exist there (Basic free with limited diagrams, Plus $10 and Premium $20 per user per month billed annually)]
+verified: {date: '2026-10-21', method: official-site, notes: 'mermaid.js.org read (docs, live editor, v12.2.0 listed); GitHub mermaid-js/mermaid ~90.8k stars, MIT, last push 2026-10-21. Site notes mermaid.js is now linked to mermaid.ai; mermaid.ai/pricing read 2026-10-21: the hosted platform has Basic (free, up to 6 diagrams, limited size and AI), Plus ($10 per user per month, billed annually), Premium ($20) and Enterprise; the open-source library and the live editor on mermaid.js.org remain MIT licensed (LICENSE in the repo) and free.'}

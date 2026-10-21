@@ -1,0 +1,18 @@
+name: "Khan Academy Computing"
+url: https://www.khanacademy.org/computing
+category: course
+areas: [cs, software, general]
+price: free   # Khan Academy blog post on the Intro to CS course says "Sign up for this course for FREE"; khanacademy.org itself blocks automated fetches
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Khan Academy's computing section with beginner programming and computer science courses, including an Intro to Computer Science course in Python released for the 2024-25 school year."
+pros:
+  - "Intro to Computer Science course in Python is free to sign up for (Khan Academy blog)"
+  - "Custom in-browser coding environment with no setup, works across devices (Khan Academy blog)"
+cons:
+  - "Shallower than university-style paths"
+  - "Course list not confirmed from the live site"
+  - "Spanish availability of computing courses not confirmed"
+verified: {date: 2026-10-21, method: official-site, notes: "Confirmed from Khan Academy's own blog (blog.khanacademy.org, post of Aug 2024 updated Mar 2025): Intro to Computer Science course teaches Python, in-browser editor with no setup, 'Sign up for this course for FREE'. khanacademy.org itself serves a JavaScript client challenge to automated fetches, so the live course list and the Spanish availability of computing courses remain unconfirmed."}

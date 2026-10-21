@@ -1,0 +1,13 @@
+name: 'Cal Newport: essays and Study Hacks blog'
+url: https://calnewport.com/
+category: reference
+areas: [focus]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Free blog and weekly essay archive by computer science professor Cal Newport on deep work and attention, with a free email newsletter; books and courses are separate paid products.
+pros: [Free essays and newsletter, Written by a CS academic with a developer-friendly angle]
+cons: [Not ADHD-specific, 'Books, courses and some media are paid or on a separate site']
+verified: {date: '2026-10-21', method: official-site, notes: 'Official site read: blog and essay archive, newsletter signup (100,000+ subscribers claimed), podcast and courses via TheDeepLife.com. Not medical advice; general productivity writing.'}

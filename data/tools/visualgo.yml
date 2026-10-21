@@ -1,0 +1,13 @@
+name: "VisuAlgo"
+url: https://visualgo.net/
+category: tool
+areas: [cs, study-skills]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Animated visualizations of data structures and algorithms created at the National University of Singapore, where you can run each algorithm on your own input."
+pros: ["Step-by-step animations with custom input", "Covers graph, sorting, tree and many other topics", "Optional login for training and tests"]
+cons: ["Visual aid only, not a full course", "Translations lag behind the English version"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page read 2026-10-21: conceived in 2011 by Assoc. Prof. Steven Halim (NUS); funded by Optiver; usable without login. Site has no explicit price statement; marked free because no login or payment was required to use the visualizations."}

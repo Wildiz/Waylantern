@@ -1,0 +1,13 @@
+name: "Free for Developers (free-for.dev)"
+url: https://github.com/ripienaar/free-for-dev
+category: reference
+areas: [devops]
+price: free
+level: all
+languages: ["en"]
+structure: self-directed
+focus_friendly: low
+description: "List of SaaS, PaaS and IaaS services that offer free tiers useful to developers, covering cloud, CI/CD, hosting, databases, monitoring and more."
+pros: ["Helps build projects without paying for infrastructure", "Only genuine free tiers are accepted, not trials, per the README"]
+cons: ["Free-tier limits change often; check each provider", "Long list with no learning path"]
+verified: {date: 2026-10-21, method: github-repo, notes: "~140k stars; last commit 2026-10-20; not archived; README says free tiers only (no trials); no LICENSE file found at the repo root on main or master (raw 404) and the README states no license, so license stays unconfirmed (re-checked 2026-10-21); site free-for.dev is JS-rendered and was not parsed"}

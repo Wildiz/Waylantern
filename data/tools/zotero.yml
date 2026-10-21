@@ -1,0 +1,13 @@
+name: Zotero
+url: https://www.zotero.org/
+category: tool
+areas: [study-skills]
+price: freemium
+level: all
+languages: [en, ar, bg, br, ca, cs, da, de, el, es, et, eu, fa, fi, fr, gl, hu, id, is, it, ja, km, ko, lt, nb, nl, pl, pt, ro, ru, sk, sl, sr, sv, ta, th, tr, uk, vi, zh]
+structure: self-directed
+focus_friendly: unknown
+description: Free, open-source reference manager that collects, organises, annotates, cites and shares research sources, with optional paid file-storage sync.
+pros: [Free software from a non-profit, Browser connector saves papers and web pages in one click, 'Citations in Word, LibreOffice and Google Docs', 'Desktop, iOS and Android']
+cons: [Only 300 MB of free file storage; 2 GB is US$20/year, 'Aimed at academic writing, overkill for pure self-study of programming']
+verified: {date: '2026-10-21', method: official-site, notes: 'zotero.org and zotero.org/storage read: app is free; storage 300 MB free, 2 GB US$20/yr, 6 GB US$60/yr, unlimited US$120/yr; available for Mac, Windows, Linux, iOS and Android. zotero/zotero repo (raw files, 2026-10-21): README calls Zotero a free tool, COPYING says the source is under AGPLv3, and app/assets/multilocale.txt lists 47 UI locales (incl. es-ES, de, fr-FR, pt-BR, pt-PT, zh-CN, ja-JP, ko-KR, ru-RU); zotero.org/support/supported_languages says the UI language is selectable in Preferences. Per-language translation completeness not checked.'}

@@ -1,0 +1,13 @@
+name: From Data to Viz
+url: https://www.data-to-viz.com/
+category: reference
+areas: [data]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Decision-tree website that guides you from your data type to an appropriate chart, with links to R and Python code and a catalog of common chart caveats.
+pros: [Helps choose a chart type by data format, Links to code and common pitfalls, Free]
+cons: [Examples are mainly in R, 'Reference tool, not a course']
+verified: {date: '2026-10-21', method: official-site, notes: 'Site loads with data type buttons (Numeric, Categoric, Num & Cat, Maps, Network, Time series), Caveats and Poster pages; text says examples use R; Python code links on chart pages not checked'}

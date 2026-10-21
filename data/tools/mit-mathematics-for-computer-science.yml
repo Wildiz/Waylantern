@@ -1,0 +1,13 @@
+name: Mathematics for Computer Science (MIT 6.042 text)
+url: https://courses.csail.mit.edu/6.042/spring18/mcs.pdf
+category: course
+areas: [cs, math]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Free textbook by Lehman, Leighton and Meyer used in MIT 6.042 covering proofs, discrete structures, counting and discrete probability.
+pros: [Complete free textbook (June 2018 revision) under CC BY-SA 3.0, 'Covers proofs, logic, graph theory, counting and probability', Written for computer science students]
+cons: [A 13 MB PDF with proof-heavy content, No auto-graded exercises, Pairs best with a course schedule such as the OCW version of 6.042]
+verified: {date: '2026-10-21', method: official-site, notes: 'PDF downloaded from courses.csail.mit.edu (13 MB, PDF 1.5); title page states ''revised Wednesday 6th June, 2018'' and the Creative Commons Attribution-ShareAlike 3.0 license; table of contents seen'}

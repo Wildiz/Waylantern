@@ -1,0 +1,19 @@
+name: "Open Source Society University - Pre-college Math"
+url: https://github.com/ossu/precollege-math
+category: path
+areas: [math]
+price: free   # all or nearly all material free; extra courses may charge for grading (per README)
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Free curriculum from arithmetic through precalculus (and beyond) using online video courses, with a final test per course to check readiness before moving on."
+pros:
+  - "Clear linear order with prerequisites"
+  - "Placement advice and final tests per course"
+  - "Fills the maths gap before CS or data science"
+cons:
+  - "Long (weeks to months per course)"
+  - "Mostly video-based"
+  - "Math only"
+verified: {date: 2026-10-21, method: github-repo, notes: "README read via raw.githubusercontent.com; course table and cost note read"}

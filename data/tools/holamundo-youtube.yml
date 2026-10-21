@@ -1,0 +1,13 @@
+name: "HolaMundo (YouTube)"
+url: https://www.youtube.com/@HolaMundoDev
+category: community
+areas: [software, study-skills]
+price: free
+level: all
+languages: ["es"]
+structure: self-directed
+focus_friendly: unknown
+description: "Spanish-language programming channel with videos on development tools, web, mobile and AI."
+pros: ["Active Spanish-language content", "Covers tools and trends"]
+cons: ["Channel description is empty so scope was inferred from recent video titles", "Not a structured course"]
+verified: {date: 2026-10-21, method: official-site, notes: "Channel and RSS read on 2026-10-21; latest upload 2026-10-21; scope inferred from recent titles (self-hosting, iOS development tooling); no channel description available"}

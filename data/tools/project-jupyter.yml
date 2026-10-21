@@ -1,0 +1,13 @@
+name: Project Jupyter
+url: https://jupyter.org/
+category: tool
+areas: [data]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Open-source project behind JupyterLab and Jupyter Notebook, interactive notebook environments for code, data and text that you can try in the browser or install locally.
+pros: ['Free, open-source and the standard notebook tool for data work', Offers a try-in-browser option (per the site), Runs many languages through kernels]
+cons: [Local use needs installation, Notebooks can become messy for large codebases]
+verified: {date: '2026-10-21', method: official-site, notes: 'jupyter.org loads with ''Free software, open standards, and web services for interactive computing''; JupyterLab, Notebook, JupyterHub, Binder, Jupyter Book subprojects listed; ''Try it in your browser'' link present but not run'}

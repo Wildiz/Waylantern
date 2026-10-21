@@ -1,0 +1,13 @@
+name: Machine Learning Specialization (Andrew Ng)
+url: https://www.deeplearning.ai/courses/machine-learning-specialization/
+category: course
+areas: [ai]
+price: freemium
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: medium   # video lessons plus graded labs, about 95 hours in total
+description: Beginner-friendly three-course program by DeepLearning.AI and Stanford Online covering supervised and unsupervised learning, neural networks, trees, recommenders and reinforcement learning in Python.
+pros: [Needs no heavy math or coding background, Many graded labs with NumPy, scikit-learn and TensorFlow, Free audit option on Coursera]
+cons: [Certificate and graded assignments need a paid plan (Coursera subscription listed at $49/month or DeepLearning.AI Pro), Course pages state about 95 hours]
+verified: {date: 2026-10-21, method: official-site, notes: "Coursera and DeepLearning.AI pages both state auditing for free gives no certificate; DeepLearning.AI page updated Sep 2, 2026, 94h58m, 151 videos; Coursera page says 30 languages available (not verified per language); re-checked 2026-10-21 on the Coursera specialization page: FAQ again says auditing for free gives no certificate, but nothing states whether graded assignments or labs are open in audit mode, so that remains unconfirmed"}

@@ -1,0 +1,13 @@
+name: "A Tour of Go"
+url: https://go.dev/tour/
+category: practice
+areas: [software]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: "Official interactive browser tour of the Go language: basics, methods, interfaces and concurrency with runnable code."
+pros: ["Run code in the browser", "Official"]
+cons: ["Brief; not a full course"]
+verified: {date: 2026-10-21, method: official-site, notes: "Re-checked 2026-10-21: go.dev/tour page shell and its script.js bundle read; lessons include Basics, Methods and interfaces, Generics and Concurrency; the page has no sign-in and only theme, table-of-contents and feedback controls, and no language selector (so en only). Content is part of golang/website, whose LICENSE is the Go BSD-style license; no paid tier exists in the code or pages. focus medium: short runnable pages, not graded."}

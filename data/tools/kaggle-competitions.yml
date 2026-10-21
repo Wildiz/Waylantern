@@ -1,0 +1,13 @@
+name: "Kaggle Competitions"
+url: https://www.kaggle.com/competitions
+category: community
+areas: [software, data, ai, career]
+price: unverified
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Machine-learning competitions on Kaggle, including Getting Started competitions (such as Titanic) designed as tutorial-heavy practice for newcomers."
+pros: ["Beginner-friendly Getting Started competitions (e.g. Titanic) with leaderboards and many public notebooks", "Real datasets and a large community"]
+cons: ["Prize competitions are hard for beginners", "Needs a Kaggle account and acceptance of each competition's rules", "Cost of entering not stated on pages we could read"]
+verified: {date: 2026-10-21, method: search-only, notes: "competitions page is behind a reCAPTCHA check and JavaScript-rendered; details from Kaggle's official docs/Titanic page via web search (Getting Started competitions: no prizes or points, heavily tutorialized, two-month rolling leaderboards; rules must be accepted). Price left unverified. Kaggle Learn is a separate entry."}

@@ -1,0 +1,13 @@
+name: "Boot.dev"
+url: https://www.boot.dev/
+category: course
+areas: [software]
+price: freemium
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Gamified backend development curriculum (Python, Go, JavaScript, SQL, DevOps and more) with in-browser interactive lessons and projects."
+pros: ["Structured path with hands-on lessons"]
+cons: ["Free mode only demos the first chapters; completing lessons needs a paid membership (about $33 per month billed yearly, $399 per year)"]
+verified: {date: 2026-10-21, method: official-site, notes: "Pricing page read: first chapters of each course interactive, then read-only 'free mode'; yearly membership $399. Not a cheap tool."}

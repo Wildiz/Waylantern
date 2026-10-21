@@ -1,0 +1,13 @@
+name: "Android Basics with Compose"
+url: https://developer.android.com/courses/android-basics-compose/course
+category: course
+areas: [software, games-mobile]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Google's self-paced online course on building Android apps with Kotlin and Jetpack Compose, organized into eight units of codelabs and videos."
+pros: ["Official Google course starting from Kotlin basics", "Eight units from first app to data persistence and WorkManager"]
+cons: ["Needs a computer able to run Android Studio", "Price is not stated explicitly on the page (public and no login to read)"]
+verified: {date: 2026-10-21, method: official-site, notes: "Course page read 2026-10-21: Units 1-8 listed (Unit 1: 10 hours, three pathways), prerequisites include basic math skills and a computer that can run Android Studio. Site has no explicit pricing line; marked free because the course is Google developer documentation readable without sign-in."}

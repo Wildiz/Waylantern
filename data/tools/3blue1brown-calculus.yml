@@ -1,0 +1,13 @@
+name: '3Blue1Brown: Essence of Calculus'
+url: https://www.3blue1brown.com/topics/calculus
+category: course
+areas: [math]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Grant Sanderson's video series that explains derivatives, integrals and the fundamental theorem of calculus visually, with text adaptations of the lessons on the website.
+pros: [Visual explanations of why calculus works, Chapter 1 has a text adaptation on the site (by Kurt Bruns), Free; supporters on Patreon are optional]
+cons: [No exercises, Not a replacement for a problem-solving calculus course]
+verified: {date: '2026-10-21', method: official-site, notes: Lesson page 'The Essence of Calculus' (Apr 28 2017) loads with text adaptation; no paywall seen; whether every chapter has a text version was not checked}

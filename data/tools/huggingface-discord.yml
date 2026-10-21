@@ -1,0 +1,13 @@
+name: Hugging Face Discord
+url: https://discord.com/invite/hugging-face-879548962464493619
+category: community
+areas: [ai, study-skills]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Official Hugging Face Discord server for questions about machine learning, models and the Hugging Face courses.
+pros: [Large community around widely used open ML libraries, Linked from Hugging Face]
+cons: [Fast-moving chat, Account linking with the Hub is requested for verification]
+verified: {date: '2026-10-21', method: official-site, notes: 'Discord invite resolves to server Hugging Face with ~244,000 members per the page description on 2026-10-21; the huggingface.co/join/discord page is JavaScript-rendered.'}

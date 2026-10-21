@@ -1,0 +1,13 @@
+name: Machine Learning Crash Course (Google)
+url: https://developers.google.com/machine-learning/crash-course
+category: course
+areas: [ai]
+price: free
+level: beginner
+languages: [en, es, de, fr, it, pt, tr, ru, vi, zh, ja, ko]
+structure: guided
+focus_friendly: high   # modules split into 3-20 minute lessons with interactive exercises
+description: Google's fast-paced introduction to machine learning with animated videos, interactive visualizations and exercises, refreshed to cover embeddings, large language models and production ML.
+pros: [Short timed lessons, Available in many languages including Spanish, No account needed to read]
+cons: [Breadth over depth, Some exercises run in Colab and need a Google account]
+verified: {date: 2026-10-21, method: official-site, notes: "Page describes a refreshed version covering recent advances; language selector lists Español, Deutsch, Français, etc. (subset listed here); no price shown and content is open without login"}

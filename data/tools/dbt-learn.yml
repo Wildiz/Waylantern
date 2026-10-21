@@ -1,0 +1,13 @@
+name: dbt Learn (free courses)
+url: https://learn.getdbt.com/catalog
+category: course
+areas: [data]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: dbt Labs' on-demand courses, including dbt Fundamentals (about 5 hours), that teach modeling, sources, testing, documentation and deployment with dbt.
+pros: [dbt docs state dbt Learn offers free online courses, Self-paced from beginner to advanced, Official source of dbt training]
+cons: ['The fundamentals course uses dbt Cloud connected to a data warehouse and Git, so some setup is needed', The platform has paid plans; their prices and the free-account limits were not verified, 'Catalog page renders client-side, so the full course list was not read']
+verified: {date: '2026-10-21', method: official-site, notes: learn.getdbt.com/catalog is JavaScript-rendered (course list not readable); docs.getdbt.com states 'dbt Learn offers free online courses'; getdbt.com/dbt-learn lists dbt Fundamentals (5 hours) and Canvas Fundamentals (5 hours); free-account limits not verified}

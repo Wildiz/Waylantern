@@ -1,0 +1,13 @@
+name: "TryHackMe"
+url: https://tryhackme.com/
+category: path
+areas: [security]
+price: freemium
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Browser-based cybersecurity training with guided learning paths (Pre Security, Cyber Security 101, SOC Level 1 and others) and hands-on rooms, for practice in legal, authorized lab environments only."
+pros: ["Beginner-friendly guided paths starting from scratch", "Labs run in the browser, no setup needed"]
+cons: ["Has a paid Premium plan; which rooms and paths are free was not confirmed", "Premium price not confirmed (pricing page needs JavaScript)"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page: 'Join for FREE', paths listed (Pre Security, Cyber Security 101, SOC Level 1, Jr Penetration Tester); pricing page is titled 'Premium Plans'. Exact free-tier limits and Premium price could not be read (JS-rendered), so price is freemium by signup+Premium evidence only."}

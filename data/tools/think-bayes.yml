@@ -1,0 +1,13 @@
+name: Think Bayes (2nd edition)
+url: https://allendowney.github.io/ThinkBayes2/
+category: course
+areas: [data, math]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: Free online introduction to Bayesian statistics using computational methods in Python, from Bayes's theorem through MCMC and approximate Bayesian computation, with Colab notebooks.
+pros: [Code-first approach, Notebooks run on Colab, CC BY-NC-SA licensed]
+cons: [Assumes basic Python and probability, Print edition is paid (optional)]
+verified: {date: 2026-10-21, method: github-repo, notes: "README: 'Think Bayes is a Free Book', CC BY-NC-SA 4.0; 20 chapters listed on site; last commit 2026-10-15"}

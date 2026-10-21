@@ -1,0 +1,13 @@
+name: 'Microsoft Learn: Power BI training'
+url: https://learn.microsoft.com/en-us/training/powerplatform/power-bi
+category: course
+areas: [data]
+price: freemium
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Microsoft Learn's free learning paths for Power BI covering connecting to data, cleaning with Power Query, modeling and building reports.
+pros: [Free learning paths from Microsoft, Power BI Desktop is described as a free Windows application, Progress tracking on Microsoft Learn]
+cons: [Power BI Desktop runs on Windows only (per its Microsoft Learn page), 'Publishing and sharing needs paid licenses (Pro listed at $14.00 user/month, paid yearly, on the US pricing page; may differ by market)', Account may be required for progress tracking]
+verified: {date: '2026-10-21', method: official-site, notes: 'Training page and ''Get started with Power BI Desktop'' article read (free Windows application); microsoft.com Power BI pricing page shows Free account, Pro $14.00 user/month paid yearly and Premium Per User $24.00 user/month; page also says not available in some markets; powerbi.microsoft.com blocked by Cloudflare'}

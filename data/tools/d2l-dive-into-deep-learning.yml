@@ -1,0 +1,13 @@
+name: Dive into Deep Learning (d2l.ai)
+url: https://d2l.ai
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en, zh]
+structure: guided
+focus_friendly: low   # long-form interactive textbook
+description: Free interactive deep learning textbook with runnable code in PyTorch (and other frameworks), covering linear models through CNNs, RNNs, attention, transformers and optimization.
+pros: [Math, text and runnable notebooks together, Used by many universities, Also has a Chinese edition]
+cons: [Dense, long, Requires Python, linear algebra and calculus, The GitHub repo's last commit is March 2024 (v1.0.3) so newest topics like modern LLM practice are limited]
+verified: {date: 2026-10-21, method: official-site, notes: "Site is v1.0.3; README says goal is to be freely available; Chinese edition linked; page mentions translation efforts (Portuguese, Turkish, Vietnamese, Korean, Japanese) that were not verified as complete (re-checked 2026-10-21: the only mention is a May 2022 news item inviting help with ongoing translations, and the site nav links only the Chinese version, so languages stay en and zh); d2l-ai/d2l-en last commit 2024-03-16"}

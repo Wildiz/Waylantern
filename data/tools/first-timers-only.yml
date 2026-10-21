@@ -1,0 +1,13 @@
+name: "First Timers Only"
+url: https://www.firsttimersonly.com/
+category: community
+areas: [software, career]
+price: free
+level: beginner
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "Guide and link hub for people making their first open-source contribution, pointing to beginner-friendly issues and hands-on tutorials."
+pros: ["Written for complete newcomers", "Links to practice repositories and issue finders", "Page shows a 'last reviewed August 2026' status"]
+cons: ["Mostly a link list; you still need to learn Git", "Quality of the linked projects varies"]
+verified: {date: 2026-10-21, method: official-site, notes: "Site read 2026-10-21; it displays 'Resource status: last reviewed in August 2026'. The GitHub repo URL returned 403 to automated access."}

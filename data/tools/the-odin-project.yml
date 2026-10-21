@@ -1,0 +1,13 @@
+name: The Odin Project
+url: https://www.theodinproject.com/
+category: path
+areas: [web, software]
+price: free   # official About page: "free open source coding curriculum"
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Open-source full-stack web development curriculum (Foundations, JavaScript, Node, React, Ruby on Rails, databases) with projects and an active Discord.
+pros: [Project-based, Active community]
+cons: [Mostly web-focused]
+verified: {date: 2026-10-21, method: github-repo, notes: "Curriculum repo read; About page on theodinproject.com confirms a free curriculum (checked 2026-10-21)"}

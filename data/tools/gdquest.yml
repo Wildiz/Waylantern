@@ -1,0 +1,13 @@
+name: "GDQuest"
+url: https://www.gdquest.com/
+category: course
+areas: [games-mobile]
+price: freemium
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Godot learning site offering free tutorials, a free in-browser GDScript course and in-editor Godot Tours, plus paid Godot 4 courses."
+pros: ["Free interactive GDScript course that runs in the browser with no login (per site)", "Hundreds of free Godot tutorials", "Over 100 open-source demos and tools"]
+cons: ["Full curriculum courses are paid (starter kit listed at 216 USD on sale at time of check)", "Godot-specific"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page read 2026-10-21: free GDScript app and free tutorials, paid courses (The Great Godot 4 Starter Kit 216 USD discounted from 259.95; Learn Gamedev From Zero 154 USD from 179.95). Prices change; not a cheap-only entry, included for its free material."}

@@ -1,0 +1,13 @@
+name: "Use The Index, Luke"
+url: https://use-the-index-luke.com/
+category: course
+areas: [data]
+price: free
+level: intermediate
+languages: [en, es]
+structure: self-directed
+focus_friendly: unknown
+description: "Free web edition of the book SQL Performance Explained that teaches SQL indexing and tuning for developers across Oracle, MySQL, PostgreSQL, SQL Server and Db2."
+pros: ["Vendor-neutral with product-specific notes", "Free online; print and e-book editions available"]
+cons: ["Assumes you already know basic SQL", "Focused on indexing and query performance only"]
+verified: {date: 2026-10-21, method: official-site, notes: "Site: 'free web-edition of my book SQL Performance Explained'; product notes list Db2, MySQL, Oracle, PostgreSQL (tested through 17), SQL Server. Language switcher shows DE, FR, EN, ES, JA; only en and es recorded as this round is English-first."}

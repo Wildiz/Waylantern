@@ -1,0 +1,13 @@
+name: "OWASP Top 10"
+url: https://owasp.org/www-project-top-ten/
+category: reference
+areas: [web, security]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "The OWASP reference document listing the ten most critical web application security risks, currently the 2025 edition, with earlier editions kept available."
+pros: ["The standard first read for secure web development", "Free, with translation efforts and previous versions available"]
+cons: ["A reference list, not a course: no exercises", "Pair with Juice Shop, WebGoat or PortSwigger labs for practice"]
+verified: {date: 2026-10-21, method: official-site, notes: "OWASP page: latest released version is OWASP Top 10 2025; 2021 and 2017 available; Flagship documentation project."}

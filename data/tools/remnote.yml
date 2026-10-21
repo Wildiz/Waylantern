@@ -1,0 +1,13 @@
+name: RemNote
+url: https://www.remnote.com/
+category: tool
+areas: [study-skills]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Note-taking app with built-in spaced-repetition flashcards, PDF annotation and optional AI study features.
+pros: [Free plan has unlimited notes and flashcards and unlimited synced devices, Notes and flashcards in one place, Exam scheduler and image occlusion cards]
+cons: ['Free plan limits: 3 annotated PDFs, 5 image occlusion cards, 1 exam, 250 AI credits', 'Pro is US$8/month (US$96 billed yearly), Pro with AI US$18/month (US$216 yearly) at check time', AI-generated cards can contain errors and need review]
+verified: {date: '2026-10-21', method: official-site, notes: 'remnote.com/pricing read: Free $0; Pro $8/month ($96/yr); Pro with AI $18/month ($216/yr); a Lifetime tab exists but was not read. Free plan limits as listed on the page. Re-checked 2026-10-21: the pricing page still hides the Lifetime tab content (client-rendered) and the help center is offered in English and Simplified Chinese; app UI languages were not itemised, so languages stay en.'}

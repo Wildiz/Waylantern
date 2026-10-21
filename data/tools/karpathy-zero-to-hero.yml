@@ -1,0 +1,13 @@
+name: Neural Networks - Zero to Hero (Andrej Karpathy)
+url: https://github.com/karpathy/nn-zero-to-hero
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Video series building neural networks from scratch, from micrograd and makemore up to GPT and the GPT tokenizer.
+pros: [Builds understanding from first principles, Includes a Colab exercise]
+cons: [Requires Python and high-school calculus]
+verified: {date: 2026-10-21, method: official-site, notes: "8 lectures listed; series marked Ongoing; karpathy.ai/zero-to-hero.html lists the syllabus with no paywall and the YouTube playlist loads without login; repo last commit 2024-02-20"}

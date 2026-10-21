@@ -1,0 +1,13 @@
+name: "HackerRank"
+url: https://www.hackerrank.com/
+category: practice
+areas: [cs, career]
+price: unverified
+level: all
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "Coding practice platform for developers with problem tracks, role-based Prep Kits (practice, mock tests, AI mock interviews) and skill certifications, alongside its employer hiring-assessment products."
+pros: ["Interview Prep Kit with mock tests and mock interviews (per official help center)", "Practice in many languages and domains such as algorithms and SQL"]
+cons: ["Home page is aimed at employers hiring developers, which can confuse learners", "Free vs paid split for candidates not confirmed from a primary source", "Practice pages need JavaScript and a login"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page meta description is about hiring (employer product). Candidate side: official HackerRank Community help center describes Prep Kits (practice challenges, mock tests, AI mock interviews, role certification; currently only a Software Engineer kit). Price of candidate features not confirmed from a primary source, so left unverified."}

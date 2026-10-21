@@ -1,0 +1,13 @@
+name: OpenIntro Statistics
+url: https://www.openintro.org/book/os/
+category: course
+areas: [data, math]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Open-license introductory statistics textbook from OpenIntro with free PDF, video lectures, slides, labs and data sets.
+pros: [Free PDF (optional contribution; set price to $0 to skip), Videos and companion notebooks for each chapter, Used in college courses and for self-study (per OpenIntro)]
+cons: [Exam banks and some teacher materials are for verified teachers only, Print versions cost $25 (B&W) or $40 (color) per the page, 'Labs use R and similar tools, so some setup is needed']
+verified: {date: '2026-10-21', method: official-site, notes: 'Book page loads; states ''FREE -- OpenIntro Statistics PDF'' with optional contribution, B&W paperback $25, color $40; chapter 1 videos listed; companion notebooks marked beta'}

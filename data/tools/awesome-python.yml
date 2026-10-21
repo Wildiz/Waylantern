@@ -1,0 +1,13 @@
+name: "Awesome Python"
+url: https://github.com/vinta/awesome-python
+category: reference
+areas: [software]
+price: free
+level: all
+languages: ["en"]
+structure: self-directed
+focus_friendly: low
+description: "Opinionated curated list of Python frameworks, libraries and tools grouped by area such as web, data science, AI and ML, DevOps and security."
+pros: ["Quickly find the standard tool for a task", "Very active repo"]
+cons: ["Tool list, not a tutorial", "Opinionated selection"]
+verified: {date: 2026-10-21, method: github-repo, notes: "~329k stars; last commit 2026-10-21; not archived; license not shown on page"}

@@ -1,0 +1,13 @@
+name: "Docker Docs: Get started"
+url: https://docs.docker.com/get-started/
+category: course
+areas: [devops]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Official Docker tutorials that walk you through building, running and sharing a containerized application."
+pros: ["Official and current", "Step-by-step tutorial path in the docs"]
+cons: ["Need to install Docker locally (Docker Desktop licensing for companies not checked)", "Documentation style, not a full course"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page loads and offers tutorials; 'Build and share a containerized application' tutorial page loads. Documentation is openly readable without login."}

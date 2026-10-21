@@ -1,0 +1,13 @@
+name: Google Colab
+url: https://colab.research.google.com/
+category: tool
+areas: [data]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Hosted Jupyter notebook service from Google that runs in the browser with free access to computing including GPUs and TPUs, with paid plans for more.
+pros: [No setup; works in the browser with a Google account, Free tier includes GPUs and TPUs per the official FAQ, Good for ML and data science courses]
+cons: [Free resources are not guaranteed and not unlimited; usage limits fluctuate and expensive GPUs are heavily restricted on the free tier, 'Free runtimes may be terminated, and SSH, remote desktops and some web UIs are disallowed on the free tier', 'Paid tiers (Pro, compute units) exist; their prices were not checked']
+verified: {date: '2026-10-21', method: official-site, notes: 'colab.research.google.com shows only a sign-in shell; the official Colab FAQ (research.google.com/colaboratory/faq.html) read: free of charge, GPUs and TPUs, resources not guaranteed or unlimited, restrictions on free runtimes, disk not increased except by Colab Pro; plan prices not captured'}

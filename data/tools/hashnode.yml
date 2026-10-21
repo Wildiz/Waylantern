@@ -1,0 +1,13 @@
+name: Hashnode
+url: https://hashnode.com/
+category: community
+areas: [web, career, study-skills]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Developer blogging platform where you can start a blog on your own domain and read and follow other developers.
+pros: [Free to start a blog, Public learning log gives accountability]
+cons: [Some features are behind a Pro plan, Blogging platform more than a help forum]
+verified: {date: '2026-10-21', method: official-site, notes: 'Home page meta description: free to start; Pro appears in navigation. Pro price not captured.'}

@@ -1,0 +1,13 @@
+name: "Frontend Mentor"
+url: https://www.frontendmentor.io/
+category: practice
+areas: [web]
+price: freemium
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Build real front-end and full-stack projects from professional designs and briefs, with community code review and AI code reviews."
+pros: ["Real-world project briefs", "Free members can use challenges and get one AI review per month"]
+cons: ["Pro plan needed for a review on every submission and extra content"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page read: 'learn to code for free'; free members get one AI review a month; Pro available."}

@@ -1,0 +1,13 @@
+name: Notion (free plan and Education Plan)
+url: https://www.notion.com/product/notion-for-education
+category: tool
+areas: [study-skills]
+price: freemium
+level: all
+languages: [en, es]
+structure: self-directed
+focus_friendly: unknown
+description: All-in-one workspace for notes, databases and planners; the Free plan covers individuals and students with a verified education email can get the Education Plan for free.
+pros: [Free plan for individuals, Free Education Plan for students and teachers with an institutional email (one-member workspace), Free plan for eligible student organisations, Templates for student planners and trackers]
+cons: [Closed source and cloud-based; limited offline use, Free plan only includes a trial of Notion AI, Can become an elaborate organisation project instead of studying]
+verified: {date: '2026-10-21', method: official-site, notes: 'notion.com/product/notion-for-education and Help Center page ''Get the Education Plan'' read: Education Plan for individual students/teachers is free for a one-member workspace, eligibility via institutional email per WHED listing; student-org plan available at select institutions. notion.com/pricing: Free $0, Plus $10/member/month. Spanish listed in site language menu.'}

@@ -1,0 +1,13 @@
+name: MLOps Zoomcamp (DataTalks.Club)
+url: https://github.com/DataTalksClub/mlops-zoomcamp
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: Free 9-week course on productionizing ML services covering training, experiment tracking, deployment, orchestration and monitoring.
+pros: [Free videos and materials, Practical end-to-end focus]
+cons: [Expects Python, Docker basics and the ML workflow plus about a year of programming experience, Cohort schedule]
+verified: {date: 2026-10-21, method: github-repo, notes: "README: 'free 9-week course'; FAQ lists prerequisites; last commit 2026-09-16"}

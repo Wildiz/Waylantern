@@ -1,0 +1,13 @@
+name: StatQuest with Josh Starmer
+url: https://statquest.org
+category: course
+areas: [data, ai, math]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: high   # short videos on single concepts
+description: Video explanations of statistics, machine learning, and neural networks, from linear regression to attention, with the author's book and store as optional paid extras.
+pros: [Clear step-by-step explanations of single concepts, Huge video back catalogue]
+cons: [Videos only, so you need practice material elsewhere, Not a linear curriculum]
+verified: {date: 2026-10-21, method: official-site, notes: "statquest.org shows recent videos (e.g. Simplex Algorithm, Linear Regression) with optional Support, Book and Store pages; videos are hosted on YouTube (not opened here); no paywall seen on site"}

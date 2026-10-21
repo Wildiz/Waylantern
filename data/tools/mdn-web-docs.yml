@@ -1,0 +1,13 @@
+name: "MDN Web Docs"
+url: https://developer.mozilla.org/
+category: reference
+areas: [web]
+price: free
+level: all
+languages: ["en", "es"]
+structure: self-directed
+focus_friendly: medium
+description: "Mozilla-run documentation hub for HTML, CSS, JavaScript, Web APIs and HTTP, with reference pages, guides and a Learn web development section."
+pros: ["Authoritative web platform reference", "Learn section with tutorials and exercises", "Actively maintained"]
+cons: ["Reference is dense for absolute beginners", "Non-English locales may lag behind English"]
+verified: {date: 2026-10-21, method: official-site, notes: "Site loads; content freely readable; es, fr and ja locales respond (HTTP 200) for the JavaScript docs; freshness of the es translation was not checked; mdn/content last commit 2026-10-21"}

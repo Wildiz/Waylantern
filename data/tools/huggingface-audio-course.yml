@@ -1,0 +1,13 @@
+name: Hugging Face Audio Course
+url: https://huggingface.co/learn/audio-course
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en, es, fr, ko, pt, ru, tr, zh, bn]
+structure: guided
+focus_friendly: unknown
+description: Course on applying Transformers to audio tasks such as classification, speech recognition and text-to-speech using Hugging Face libraries.
+pros: [Covers speech and audio models end to end, Translations exist for several languages (see the cons for how complete they are)]
+cons: ['Translations are partial: of the sampled chapters (0, 2, 5, 7) fr, pt and ru have all four, es and ko stop before chapter 5 and zh-CN lacks chapter 7', Assumes Python and deep learning basics, Course dates from 2023 and may not reflect newest audio models]
+verified: {date: 2026-10-21, method: official-site, notes: "Intro page open without login; hreflang versions for bn, en, es, fr, ko, pt, ru, tr, zh; re-checked 2026-10-21: the course repo huggingface/audio-transformers-course README says it is completely free and open-source and lists the translations, and the sampled chapters on huggingface.co (0, 2, 5, 7) show which languages are complete: fr, pt and ru all four, zh-CN lacks chapter 7, es/ko/tr/bn have only the first chapters; publication year not confirmed from page"}

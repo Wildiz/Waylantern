@@ -1,0 +1,13 @@
+name: "Wizard Zines (Julia Evans)"
+url: https://wizardzines.com/zines/
+category: reference
+areas: [devops]
+price: freemium
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Illustrated programming zines by Julia Evans on Linux, networking, debugging and tools; the black-and-white-cover zines (for example tcpdump, strace, perf, Networking! ACK!) are free and the colour ones are paid."
+pros: ["Visual, short, approachable explanations", "Free zines plus free quizzes and playgrounds"]
+cons: ["Most zines cost $10-$12 each", "Overviews, not step-by-step courses"]
+verified: {date: 2026-10-21, method: official-site, notes: "Site: 'The ones with black and white covers are free'; colour zines $10-$12 each, 15-zine collection $145; free list includes tcpdump, Linux debugging tools, Networking! ACK!, perf, strace."}

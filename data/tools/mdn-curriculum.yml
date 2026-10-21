@@ -1,0 +1,13 @@
+name: "MDN Curriculum"
+url: https://developer.mozilla.org/en-US/curriculum/
+category: roadmap
+areas: [web]
+price: free
+level: beginner
+languages: ["en"]
+structure: guided
+focus_friendly: unknown
+description: "Structured front-end developer curriculum from MDN listing the skills and practices to learn, with recommended resources for each module."
+pros: ["Vendor-neutral roadmap for front-end work", "Linked to MDN reference and Learn modules"]
+cons: ["Front-end only", "Mostly points to other resources rather than teaching itself"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page read on 2026-10-21; description from MDN: structured guide to skills for a front-end developer with recommended learning resources; the site also links a Scrimba video course partner (not checked)"}

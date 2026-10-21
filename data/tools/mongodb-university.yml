@@ -1,0 +1,13 @@
+name: "MongoDB University"
+url: https://learn.mongodb.com/
+category: course
+areas: [data]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "MongoDB's official training site with free self-paced courses, hands-on labs and free skill badges on data modeling, performance and security."
+pros: ["Free skill badges: videos, hands-on labs and a 10-question skill check", "Official content for a widely used document database"]
+cons: ["Needs a free account", "Instructor-led training and some credentials are separate offerings"]
+verified: {date: 2026-10-21, method: official-site, notes: "Site description: 'Start training with MongoDB University for free today'; Skills page: 'MongoDB Skill Badges are free', 37 skills listed. Course catalogue itself is JS-rendered, so certification pricing was not checked."}

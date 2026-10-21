@@ -1,0 +1,13 @@
+name: "OWASP WebGoat"
+url: https://owasp.org/www-project-webgoat/
+category: practice
+areas: [security]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "A deliberately insecure Java application with guided lessons that teach common web application vulnerabilities in a safe, local, legal environment."
+pros: ["Lesson-based, so more guided than a pure challenge app", "Runs locally; Docker image available"]
+cons: ["Needs local setup and the machine is vulnerable while it runs", "Java-focused examples"]
+verified: {date: 2026-10-21, method: official-site, notes: "OWASP project page: 'deliberately insecure application', Lab project, links to GitHub/DockerHub and lessons. Warns to run it only locally. Price taken from open-source OWASP project status; no price listed."}

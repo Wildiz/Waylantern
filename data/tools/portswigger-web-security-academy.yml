@@ -1,0 +1,13 @@
+name: "PortSwigger Web Security Academy"
+url: https://portswigger.net/web-security
+category: path
+areas: [web, security]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Free online web application security training from the makers of Burp Suite, with learning paths, written material and interactive labs on topics such as SQL injection, XSS and API testing, for legal, authorized practice only."
+pros: ["100% free interactive labs with progress tracking", "Written by the Burp Suite team; regularly adds new topics"]
+cons: ["Assumes basic web knowledge (HTTP, HTML)", "Labs are easier with the free Burp Suite Community Edition installed"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page states 'the Academy is 100% free' and 'free interactive labs and progress-tracking'; topics and lab counts listed on the page."}

@@ -1,0 +1,13 @@
+name: "Hack The Box Academy"
+url: https://academy.hackthebox.com/
+category: path
+areas: [security]
+price: freemium
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Guided cybersecurity modules with interactive exercises against live targets in an in-browser Pwnbox VM, for practice in legal, authorized lab environments only; free to start with a small cube allowance."
+pros: ["Free signup gives 30 cubes, enough for the Fundamental modules", "No install needed: browser-based Pwnbox"]
+cons: ["Easy, Medium and Hard modules need purchased cubes or a subscription", "Certification exams cost from $490"]
+verified: {date: 2026-10-21, method: official-site, notes: "FAQ: 'Is HTB Academy Free? To some extent, yes' - 30 cubes on registration, Fundamental modules unlockable with earned cubes, higher tiers need cubes or subscription. Homepage lists certifications at $490 and $1260."}

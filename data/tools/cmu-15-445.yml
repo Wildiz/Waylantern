@@ -1,0 +1,13 @@
+name: "CMU 15-445/645 Intro to Database Systems"
+url: https://15445.courses.cs.cmu.edu/
+category: course
+areas: [cs, data, devops]
+price: free
+level: advanced
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Carnegie Mellon's database systems course on storage, indexes, query processing, transactions and recovery, with public lecture slides, notes, videos and project assignments."
+pros: ["Lecture slides, notes and videos linked from the schedule", "Hands-on C++ projects (for example a buffer pool manager)"]
+cons: ["Needs systems programming (C++) experience", "Grading and support are for enrolled students only; check the current policy on AI coding tools for the projects"]
+verified: {date: 2026-10-21, method: official-site, notes: "Fall 2026 course site loads; schedule (updated Oct 21, 2026) shows Slides, Notes and Video links per lecture. Free public access assumed from open site and links, no login seen; whether autograder access is open to non-students not checked."}

@@ -1,0 +1,13 @@
+name: "Flutter Getting Started Pathway"
+url: https://docs.flutter.dev/learn/pathway
+category: course
+areas: [software, games-mobile]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Official four-step pathway: set up Flutter, complete the Dart tutorial, build three small Flutter apps, then watch a series on how Flutter works."
+pros: ["Step-by-step order from official Flutter docs", "Docs licensed CC BY 4.0, code samples BSD-3", "Includes an interactive Dart tutorial for newcomers to the language"]
+cons: ["Needs a local development setup", "Docs reflect Flutter 3.47 and update often"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page read 2026-10-21 (docs.flutter.dev/learn/pathway; last updated 2026-08-26): four steps listed; license statement CC BY 4.0. The old /codelabs path redirects to a learning-resources catalog."}

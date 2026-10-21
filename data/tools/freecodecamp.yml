@@ -1,0 +1,13 @@
+name: freeCodeCamp
+url: https://www.freecodecamp.org/
+category: practice
+areas: [web, software, general]
+price: free   # run by a donor-supported 501(c)(3) charity
+level: beginner
+languages: [en, es]   # curriculum in English; some certifications in Spanish/Chinese (beta)
+structure: guided
+focus_friendly: unknown
+description: Free self-paced curriculum with interactive coding challenges, projects and certifications (web, JavaScript, Python, databases, APIs, machine learning).
+pros: [Interactive in the browser, Certifications with projects and exam, Open source]
+cons: [Many learners stall without external structure (anecdotal)]
+verified: {date: 2026-10-21, method: github-repo, notes: "Details from the GitHub README; site not reachable"}

@@ -1,0 +1,13 @@
+name: Excalidraw
+url: https://excalidraw.com/
+category: tool
+areas: [study-skills]
+price: free
+level: all
+languages: [en, ar, de, es, eu, fa, fr, he, id, it, ja, ko, nl, pl, pt, ro, ru, sk, sl, sv, tr, uk, zh]
+structure: self-directed
+focus_friendly: unknown
+description: Open-source virtual whiteboard for sketching hand-drawn-style diagrams, with real-time collaboration and export to PNG/SVG.
+pros: ['Free, MIT-licensed (per project README)', Hand-drawn style makes quick explanation sketches easy]
+cons: [Not a formal diagram tool (no auto-layout), A paid Excalidraw+ exists ($6 per user per month, 14-day trial) for cloud-saved scenes, comments and teams; the free editor stays free]
+verified: {date: '2026-10-21', method: github-repo, notes: 'GitHub excalidraw/excalidraw: ~134k stars, MIT, last push 2026-10-21; README lists collaboration, PNG/SVG export, PWA and i18n support. excalidraw.com itself is a JavaScript app and returned no readable text. Re-checked 2026-10-21: plus.excalidraw.com/pricing lists Free (free forever, full editor, unlimited collaborators, 10 AI requests a day, export to PNG/SVG, no account needed per the homepage) and Plus at $6 per user per month with a 14-day free trial (unlimited scenes, cloud storage, comments, PDF/PPTX export, 100 AI requests a day). UI languages: packages/excalidraw/i18n.ts only offers locales at 85% completion or more per locales/percentages.json, which gives 23 languages (es-ES 96%, de-DE 96%, fr-FR 98%, pt-BR 96%) listed in the languages field.'}

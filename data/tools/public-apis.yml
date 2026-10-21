@@ -1,0 +1,13 @@
+name: "Public APIs"
+url: https://github.com/public-apis/public-apis
+category: reference
+areas: [software]
+price: free
+level: all
+languages: ["en"]
+structure: self-directed
+focus_friendly: low
+description: "Community-maintained list of free public APIs grouped by category (for example weather, science, machine learning, open data) for use in practice projects."
+pros: ["Good source of data and API ideas for portfolio projects", "Very active repo"]
+cons: ["A project-ideas source rather than a teaching resource", "Individual APIs may change auth or pricing; not every listed API is free in the long term"]
+verified: {date: 2026-10-21, method: github-repo, notes: "MIT; ~491k stars; last commit 2026-10-21; not archived; README note on free vs paid access not verified per API"}

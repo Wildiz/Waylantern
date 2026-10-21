@@ -1,0 +1,13 @@
+name: '3Blue1Brown: Essence of Linear Algebra'
+url: https://www.3blue1brown.com/topics/linear-algebra
+category: course
+areas: [math]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Grant Sanderson's video series that builds geometric intuition for vectors, linear transformations, matrices, determinants and eigenvectors.
+pros: [Strong visual intuition that complements textbook computation, Short videos in a fixed order, Free on the author site and YouTube]
+cons: [No exercises or problem sets, Builds intuition but does not teach computational fluency by itself]
+verified: {date: '2026-10-21', method: official-site, notes: '3blue1brown.com topic page for linear algebra loads and the series preview lesson (eola-preview, Aug 5 2016) exists; site funds itself via optional Patreon supporters, no paywall seen; video count and subtitle languages not checked'}

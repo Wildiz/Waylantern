@@ -1,0 +1,13 @@
+name: "Kubernetes Tutorials (official docs)"
+url: https://kubernetes.io/docs/tutorials/
+category: course
+areas: [devops]
+price: free
+level: intermediate
+languages: [en, es]
+structure: semi
+focus_friendly: unknown
+description: "Official Kubernetes tutorials, including a hands-on basics module you can follow with a browser-based or local cluster."
+pros: ["Official and current (v1.37 docs)", "Docs available in many languages including Spanish"]
+cons: ["Translations may lag behind English"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page loads; language menu lists English, Espanol and 16 more. Free official documentation."}

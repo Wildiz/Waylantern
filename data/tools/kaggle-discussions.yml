@@ -1,0 +1,13 @@
+name: Kaggle Discussions
+url: https://www.kaggle.com/discussions
+category: community
+areas: [data]
+price: unverified
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Kaggle forums for discussing AI research, competitions, benchmarks and techniques with other practitioners.
+pros: [Competition-specific threads and shared notebooks nearby, Beginner-friendly learning areas on the same platform]
+cons: [Competition discussions can assume prior knowledge]
+verified: {date: '2026-10-21', method: official-site, notes: 'Page meta description read; the site is JavaScript-rendered so pricing and structure were not confirmed (Kaggle account is required for some actions). Re-tried 2026-10-21: kaggle.com now answers every URL (discussions, docs, terms, about) with a reCAPTCHA browser check, so nothing could be read. The official Kaggle/kaggle-api README only says the CLI can browse and read discussion forums, with no pricing statement. Price stays unverified.'}

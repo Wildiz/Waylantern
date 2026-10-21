@@ -1,0 +1,13 @@
+name: ADDitude
+url: https://www.additudemag.com/
+category: reference
+areas: [focus]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: ADHD magazine and website with free articles, webinars, downloads and newsletters on symptoms, strategies and adult ADHD, plus a paid magazine subscription.
+pros: ['Large free library of articles, free webinars and downloads', 'Sections on adults, time management and productivity']
+cons: [Commercial publication with sponsored content, 'General information only, not medical advice', Not specific to learning to code]
+verified: {date: '2026-10-21', method: official-site, notes: 'Official homepage read: Free Webinars, Free Downloads, Free Newsletters menus plus magazine Subscribe/Manage subscription. Re-checked 2026-10-21: no Spanish edition found (additudemag.com/es/ redirects to an English article, the homepage has no hreflang or Spanish link), so languages stay en; subscribe page offers a free issue and free eBook with a paid magazine subscription. General information, not medical advice.'}

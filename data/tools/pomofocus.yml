@@ -1,0 +1,13 @@
+name: Pomofocus
+url: https://pomofocus.io/
+category: tool
+areas: [focus]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Browser-based customizable Pomodoro timer with a task list, usable on desktop and mobile, with some extras behind a premium tier.
+pros: [No install needed, 'Customizable focus and break lengths, alarm and background sounds']
+cons: [Reports and integrations are premium features, Premium price not captured]
+verified: {date: '2026-10-21', method: official-site, notes: 'Official page read: customizable timer and task list free; premium features listed (projects, yearly reports, integrations, no ads). Price not captured.'}

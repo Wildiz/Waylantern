@@ -1,0 +1,13 @@
+name: Freedom
+url: https://freedom.to/
+category: tool
+areas: [focus]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: Cross-device app and website blocker (Mac, Windows, iOS, Android, Chromebook) with a free tier and a paid Premium plan adding scheduling and locked mode.
+pros: [Blocks across multiple devices at once, Locked mode (Premium) prevents quitting a session, Free tier available]
+cons: ['Scheduling, recurring sessions and locked mode need Premium', Free tier session limits were not confirmed]
+verified: {date: '2026-10-21', method: official-site, notes: 'Official plans page: Free $0; Premium $3.33/month billed yearly or $8.99/month; lifetime shown as $99.50 (listed as 50% off $199, likely a promotion); 7-day Premium trial. Prices as displayed on fetch day; taxes extra.'}

@@ -1,0 +1,13 @@
+name: Obsidian
+url: https://obsidian.md/
+category: tool
+areas: [study-skills]
+price: freemium
+level: all
+languages: [en, es]
+structure: self-directed
+focus_friendly: medium
+description: Local-first Markdown note-taking and knowledge-base app with links between notes, a graph view and plugins; free for personal and commercial use with optional paid Sync and Publish.
+pros: ['Free for personal, commercial and non-profit use, no account needed', Notes are plain Markdown files stored locally, 40% discount on Sync/Publish for students and faculty (per pricing page), Plugin catalogue is linked from the official site (not itemised here)]
+cons: [Official Sync costs US$4/month (billed yearly) or US$5/month, Easy to over-tinker with plugins and themes instead of studying (widely reported in the community)]
+verified: {date: '2026-10-21', method: official-site, notes: 'obsidian.md/pricing and /license read: free without limits; Sync US$4/mo billed annually (US$5 monthly), Publish US$8/mo annually; Catalyst US$25 one-time and Commercial US$50/yr are optional supporter licenses; student/faculty 40% discount on Sync and Publish. Site language menu includes Spanish. focus_friendly=medium is a judgement based on the tinkering risk, not measured.'}

@@ -1,0 +1,33 @@
+title: "Path 0: fundamentals"
+intro: >
+  A general, no-deadline order for someone starting IT from zero. Do one step at a time.
+  Move on when you can do the "advance when" check, not when a calendar says so.
+helpers:
+  why: Two habits that make every step easier. Start them early and keep them all along. Free content has plenty of material and little structure, so decide how you will stay focused and how you will remember things.
+  tools: [focusmate, anki]
+steps:
+  - title: Learn the basics of computing and write your first code
+    short: Basics and first code
+    tools: [cs50x, automate-the-boring-stuff]
+    why: Pick one. CS50x is a university-style intro to computer science, and Automate the Boring Stuff is a gentler Python book if you prefer something lighter.
+    advance_when: You can write a small program that takes input, makes decisions and repeats something, and explain what it does.
+  - title: Practice with small exercises
+    short: Daily practice
+    tools: [exercism]
+    why: Instant feedback on small problems builds the habit of writing code every day.
+    advance_when: You solve easy exercises without looking up the solution.
+  - title: Learn the terminal and Git
+    short: Terminal and Git
+    tools: [missing-semester]
+    why: Every software, data and AI job uses the command line and version control.
+    advance_when: You can move around in a terminal, and create and push a Git repository.
+  - title: See the big picture and choose a direction
+    short: Choose a direction
+    tools: [roadmap-sh]
+    why: Now that you know the basics, a roadmap shows what exists (web, data, AI...). Change direction freely, nothing you learned so far is wasted.
+    advance_when: You can name the area you want to try next and the first thing to learn there.
+  - title: Follow a full path (optional)
+    short: A full path (optional)
+    tools: [freecodecamp, the-odin-project, ossu-computer-science]
+    why: If you want a complete ordered curriculum, pick one of these and follow it.
+    advance_when: You finished a project of your own, not just a course.

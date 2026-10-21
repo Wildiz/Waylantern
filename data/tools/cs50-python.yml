@@ -1,0 +1,19 @@
+name: "CS50's Introduction to Programming with Python"
+url: https://cs50.harvard.edu/python/
+category: course
+areas: [cs, software]
+price: free   # OpenCourseWare; free CS50 Certificate; edX verified certificate is optional and paid
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Harvard's free Python course with weekly lectures and problem sets covering functions, conditionals, loops, exceptions, libraries, unit tests, file I/O, regular expressions and object-oriented programming."
+pros:
+  - "No prior programming experience required"
+  - "Problem sets inspired by real tasks"
+  - "Same community and tooling as CS50x"
+  - "Free CS50 Certificate for scoring at least 70% on every problem and the final project (course certificate page)"
+cons:
+  - "Python only - no broader CS theory"
+  - "Spanish version not confirmed on the course page"
+verified: {date: 2026-10-21, method: official-site, notes: "Course page, /certificate/ page and FAQ re-read 2026-10-21: OpenCourseWare is free to take; free CS50 Certificate at 70% on each problem plus final project; edX verified certificate is a separate paid option (amount not stated on CS50 pages; FAQ says edX offers a free/audit registration option and verification can be paid later); edX registration is required for submissions. Menu lists Spanish/Portuguese only for CS50x, so no Spanish for this course"}

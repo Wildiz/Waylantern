@@ -1,0 +1,13 @@
+name: Machine Learning for Beginners (Microsoft)
+url: https://github.com/microsoft/ML-For-Beginners
+category: course
+areas: [ai]
+price: free
+level: beginner
+languages: [en, es, fr, de, pt, zh, ja, ko]
+structure: guided
+focus_friendly: medium
+description: Microsoft's 12-week, 26-lesson curriculum on classic machine learning with Scikit-learn, with pre- and post-lesson quizzes, assignments and projects (Python and R).
+pros: [Quizzes, solutions and projects in every lesson, Translated into 50+ languages including Spanish]
+cons: [Classic ML only (no deep learning), Translations may lag the English version]
+verified: {date: 2026-10-21, method: github-repo, notes: "README: 12-week, 26-lesson curriculum; Spanish translation folder present; last commit 2026-09-14"}

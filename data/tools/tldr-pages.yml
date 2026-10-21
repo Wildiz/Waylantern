@@ -1,0 +1,13 @@
+name: "tldr pages"
+url: https://tldr.sh/
+category: reference
+areas: [software]
+price: free
+level: all
+languages: ["en", "es"]
+structure: self-directed
+focus_friendly: medium
+description: "Community-maintained simplified man pages that show practical examples for common command-line tools, usable via web, PDF or command-line clients."
+pros: ["Fast answers with examples instead of long manuals", "Many translations including Spanish (pages.es)"]
+cons: ["Not a tutorial: assumes you know what the command is for", "Coverage and translation completeness vary by language"]
+verified: {date: 2026-10-21, method: github-repo, notes: "Site tldr.sh read; repo tldr-pages/tldr: ~64k stars, CC BY 4.0 badge, last commit 2026-10-21, pages.es directory present among ~40 translation directories"}

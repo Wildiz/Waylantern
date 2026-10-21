@@ -1,0 +1,13 @@
+name: Hugging Face Course
+url: https://github.com/huggingface/course
+category: course
+areas: [ai]
+price: free   # Apache-2.0 open repo; confirm on the official site
+level: intermediate
+languages: [en, fr, vi, zh, ru]   # chapters 1, 4, 8, 9 present in these; es is partial (chapters 4, 9, 11 missing); chapters 11-12 exist only in en
+structure: guided
+focus_friendly: unknown
+description: Course on applying Transformers and the Hugging Face ecosystem (Transformers, Datasets, Tokenizers, Accelerate, Hub).
+pros: [Open source, Many community translations including Spanish (WIP)]
+cons: [Assumes Python and ML basics]
+verified: {date: 2026-10-21, method: github-repo, notes: "Re-checked 2026-10-21 on huggingface.co/learn/llm-course: the language picker lists 27 languages (incl. ES, FR, VI, ZH-CN, RU) but I sampled chapters 1, 4, 8 and 9 per language: fr, zh-CN, vi and ru have all four, es has only chapters 1 and 8 (the site says chapters 4, 9 and 11 do not exist in es), de/ja/ko/pt/tr/ar are partial or empty in the sample; chapters 11 (Fine-tune LLMs) and 12 (Build Reasoning Models) exist in English only. The hub huggingface.co/learn also lists newer courses (Context, Robotics, smol course, Agents, Diffusion, ML for 3D) that were not reviewed here. Price free is backed by open access without login on the site plus the Apache-2.0 repo."}

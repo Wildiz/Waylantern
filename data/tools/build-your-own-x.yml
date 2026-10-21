@@ -1,0 +1,13 @@
+name: "Build Your Own X"
+url: https://github.com/codecrafters-io/build-your-own-x
+category: reference
+areas: [cs, software]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Curated list of step-by-step tutorials for re-creating technologies such as databases, Git, shells, interpreters and browsers from scratch."
+pros: ["Wide range of topics and languages", "Learn by building"]
+cons: ["Link quality and freshness vary by tutorial", "Not a course; each linked tutorial has its own terms"]
+verified: {date: 2026-10-21, method: github-repo, notes: "Verified from the repo README via raw.githubusercontent.com (github.com was not reachable). Category reference-directory since it is a list."}

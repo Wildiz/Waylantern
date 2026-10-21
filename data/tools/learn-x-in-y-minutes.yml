@@ -1,0 +1,13 @@
+name: "Learn X in Y Minutes"
+url: https://learnxinyminutes.com/
+category: reference
+areas: [software]
+price: free
+level: beginner
+languages: ["en", "es"]
+structure: self-directed
+focus_friendly: medium
+description: "Community-written, code-first whirlwind tours of many programming languages and tools, each on a single page with translations."
+pros: ["Quick syntax overview in one page", "Many language pages translated, including Spanish for many languages"]
+cons: ["Syntax tour, not a course", "Depth and translation coverage vary per language"]
+verified: {date: 2026-10-21, method: official-site, notes: "Index page read on 2026-10-21 lists many languages with es translations (for example Bash, C, Go, Python); repo adambard/learnxinyminutes-docs last commit 2026-09-21"}

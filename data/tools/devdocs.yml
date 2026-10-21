@@ -1,0 +1,13 @@
+name: "DevDocs"
+url: https://devdocs.io/
+category: reference
+areas: [web]
+price: free
+level: all
+languages: ["en"]
+structure: self-directed
+focus_friendly: medium
+description: "Fast, searchable, offline-capable documentation browser that combines API docs for 100+ languages and libraries in one web app."
+pros: ["Single search across many docs", "Works offline", "Open source (freeCodeCamp/devdocs)"]
+cons: ["Documentation only, not tutorials", "Docs are in English"]
+verified: {date: 2026-10-21, method: official-site, notes: "Site meta description: free documentation browser, 100+ docs; repo freeCodeCamp/devdocs last commit 2026-10-08"}

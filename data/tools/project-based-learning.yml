@@ -1,0 +1,13 @@
+name: "Project Based Learning"
+url: https://github.com/practical-tutorials/project-based-learning
+category: reference
+areas: [software]
+price: free
+level: intermediate
+languages: ["en"]
+structure: self-directed
+focus_friendly: low
+description: "Curated list of project-based programming tutorials grouped by language such as Python, JavaScript, Go, C/C++ and Rust."
+pros: ["Learn by building real projects", "Organised by programming language"]
+cons: ["Quality varies; some tutorials may be dated", "Not a guided path"]
+verified: {date: 2026-10-21, method: github-repo, notes: "MIT; ~288k stars; last commit 2026-10-19 (automated link-rot sweep); not archived; whether all linked tutorials are free was not checked"}

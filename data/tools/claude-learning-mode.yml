@@ -1,0 +1,13 @@
+name: Claude learning mode
+url: https://claude.com/solutions/education
+category: tool
+areas: [study-skills]
+price: unverified
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Claude's tutor-style mode that asks guiding questions to help you reach answers yourself; offered through Claude for Education and, in Claude Code, as a built-in 'Learning' output style.
+pros: [Designed to guide reasoning rather than just answer (Anthropic's education page), Claude Code 'Learning' style leaves small pieces of code for you to write and adds explanatory insights]
+cons: [Chat-app learning mode is described by Anthropic as part of Claude for Education (institution-level; claude.com/pricing lists 'Academic research and learning mode' under the higher-education plan) and availability for individual or Free-plan users is not confirmed, Claude Code is not included in the Free plan (claude.com/pricing shows Pro and Max only), Like all LLMs it can be wrong; verify against documentation, 'You can always ask for the answer directly, so it only helps if you stay disciplined']
+verified: {date: '2026-10-21', method: official-site, notes: 'Re-checked 2026-10-21. claude.com/solutions/education: ''Claude''s learning mode works like a good tutor''; anthropic.com/news/introducing-claude-for-education (Apr 2, 2025): Learning mode introduced as part of Claude for Education, works within Projects, get started by sharing interest with the education team. claude.com/pricing: Free plan $0 and Claude Code listed as No on Free / Yes on Pro and Max; learning mode appears only under the higher-education plan (contact sales). Claude Code docs list a built-in Learning output style. Whether individual Free or Pro users can use the chat learning mode was not found on any official page, so price stays unverified.'}

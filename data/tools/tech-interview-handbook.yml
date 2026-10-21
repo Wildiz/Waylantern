@@ -1,0 +1,13 @@
+name: "Tech Interview Handbook"
+url: https://github.com/yangshun/tech-interview-handbook
+category: roadmap
+areas: [cs, software, career]
+price: free
+level: intermediate
+languages: ["en"]
+structure: semi
+focus_friendly: unknown
+description: "Free curated coding interview preparation material with study plans, algorithm cheatsheets, practice question lists and behavioural interview guidance."
+pros: ["Ready-made study plans", "MIT licensed"]
+cons: ["Career-prep focus rather than general learning", "README promotes paid third-party courses via affiliate links"]
+verified: {date: 2026-10-21, method: github-repo, notes: "MIT; ~143k stars; last commit 2026-08-07; not archived; README describes materials as free"}

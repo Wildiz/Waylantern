@@ -1,0 +1,13 @@
+name: Node.js Learn
+url: https://nodejs.org/learn
+category: course
+areas: [web]
+price: free
+level: beginner
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: Official Node.js learning section with articles on getting started, the command line, HTTP, file system, npm, debugging and security best practices.
+pros: [Official project documentation, 'Covers common tasks such as files, HTTP and the command line', Free]
+cons: [Collection of articles rather than a graded course, Expects some JavaScript knowledge]
+verified: {date: '2026-10-21', method: official-site, notes: 'nodejs.org/en/learn redirects to nodejs.org/learn and loads; navigation lists Getting Started, Command Line, HTTP, Manipulating Files and more; no price seen'}

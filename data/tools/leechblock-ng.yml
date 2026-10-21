@@ -1,0 +1,13 @@
+name: LeechBlock NG
+url: https://www.proginosko.com/leechblock/
+category: tool
+areas: [focus]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: Free browser extension for Firefox, Chrome, Edge and Chromium browsers that blocks chosen sites by schedule, time limit or lockdown.
+pros: [Free, Up to 30 block sets with different times and days, Options page can be password or access-code protected, 'Works on Linux, unlike some desktop blockers']
+cons: ['Browser-only: does not block other applications or other browsers', Easy to disable if you control the browser settings]
+verified: {date: '2026-10-21', method: official-site, notes: 'Official site: described as a simple free productivity tool; available for Firefox, Chrome, Edge and Chromium browsers; up to 30 block sets; lockdown feature; ivBlock suggested for macOS/iOS. Open-source status not checked.'}

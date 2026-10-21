@@ -1,0 +1,13 @@
+name: MoureDev Discord
+url: https://discord.gg/mouredev
+category: community
+areas: [software, study-skills]
+price: free
+level: beginner
+languages: [es]
+structure: self-directed
+focus_friendly: medium
+description: Spanish-language programming community Discord run by developer Brais Moure, with chat and study groups, alongside his free YouTube courses.
+pros: [Spanish-language community for learning programming, Study groups listed on the creator site]
+cons: [Creator also sells paid courses and a paid academy, Large server; quality of answers varies]
+verified: {date: '2026-10-21', method: official-site, notes: 'moure.dev links Discord (chat and study groups) and free courses; invite resolves to a server with ~123,800 members per Discord on 2026-10-21. Whether any server areas are paid was not checked.'}

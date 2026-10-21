@@ -1,0 +1,13 @@
+name: "CS Unplugged"
+url: https://www.csunplugged.org/en/
+category: course
+areas: [cs]
+price: free
+level: beginner
+languages: [en, es]
+structure: semi
+focus_friendly: unknown
+description: "Free collection of games and puzzles that teach computer-science ideas with cards, string and paper, with no computer needed."
+pros: ["Offline, hands-on activities", "Site available in English, Spanish and more"]
+cons: ["Aimed at teachers and school-age learners"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page: 'free teaching material'; language switcher lists English, Deutsch, Espanol, Francais, Te Reo Maori, Chinese."}

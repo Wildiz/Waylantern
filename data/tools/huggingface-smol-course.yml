@@ -1,0 +1,13 @@
+name: Hugging Face smol course (LLM post-training)
+url: https://huggingface.co/learn/smol-course
+category: course
+areas: [ai]
+price: free
+level: advanced
+languages: [en, es, ja, ko, pt, vi]
+structure: guided
+focus_friendly: unknown
+description: Free course on fine-tuning language models, covering instruction tuning, supervised fine-tuning, preference alignment, evaluation and vision-language models with TRL and Transformers.
+pros: [Practical focus on fine-tuning frameworks, Optional certificate and community challenges]
+cons: [Aimed at developers who already know LLM basics, Translations may be partial]
+verified: {date: 2026-10-21, method: official-site, notes: "Intro page says 'This free course'; hreflang versions en, es, ja, ko, pt-br, vi; says to try the LLM Course first if not a fit"}

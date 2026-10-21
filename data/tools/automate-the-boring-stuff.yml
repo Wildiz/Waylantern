@@ -1,0 +1,13 @@
+name: "Automate the Boring Stuff with Python"
+url: https://automatetheboringstuff.com/
+category: course
+areas: [software]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Beginner Python book on practical automation (files, spreadsheets, web scraping, email) that is free to read online under a Creative Commons license."
+pros: ["Practical projects for beginners", "Free online"]
+cons: ["Few automated checks of your work"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page: 'Free to read under a Creative Commons license'; print and video course sold separately."}

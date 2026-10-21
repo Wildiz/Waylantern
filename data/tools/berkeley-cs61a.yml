@@ -1,0 +1,19 @@
+name: "UC Berkeley CS 61A - Structure and Interpretation of Computer Programs"
+url: https://cs61a.org/
+category: course
+areas: [cs]
+price: free   # public course website; no login needed to read it
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Berkeley's introductory CS course on programming abstraction (Python, Scheme, SQL) with a public website offering lecture recordings, labs, homework, projects and a free online textbook."
+pros:
+  - "Recommended by teachyourselfcs as the programming course"
+  - "Free textbook (Composing Programs) linked from the site"
+  - "Lab and project materials are public"
+cons:
+  - "Site shows the current semester (Fall 2026) so deadlines and some tools are for enrolled students"
+  - "Fall 2026 homework is submitted by uploading a bundle to Gradescope (hw01 page), so no public autograder or office-hours access for non-enrolled learners was found; tests can be run locally with pytest"
+  - "Demanding for beginners"
+verified: {date: 2026-10-21, method: official-site, notes: "cs61a.org redirects to /fa26 and loads; lecture recordings link and composingprograms.com textbook links present. Re-checked 2026-10-21: lecture slide PDFs (/fa26/assets/lec/), hw01/hw02, labs/lab00, labs/lab01, projects/hog and projects/ants pages return 200 without login; the hw01 page says to submit a Provenance bundle zip to Gradescope and mentions an AI tool called Preceptor, and lists local pytest tests. No statement found on autograder or Gradescope access for people not enrolled at Berkeley, so that stays unconfirmed."}

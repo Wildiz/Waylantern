@@ -1,0 +1,13 @@
+name: DeepTutor
+url: https://github.com/HKUDS/DeepTutor
+category: tool
+areas: [study-skills]
+price: free
+level: intermediate
+languages: [en, zh, de, fr, uk]
+structure: self-directed
+focus_friendly: unknown
+description: Open-source, self-hosted agent-based learning workspace that combines tutoring chat, problem solving, quiz generation, research and a knowledge base over your own documents.
+pros: ['Apache-2.0 and very active (~42k stars, release v1.6.15 on 2026-10-19)', 'Works with local models via Ollama or LM Studio, or your own API key', README in 12 languages including Spanish]
+cons: [You must run it yourself and supply a model provider (API costs may apply), Setup is more technical than a hosted tutor, Hallucination risk depends on the model; always verify answers, Fast-moving project; features and quality vary]
+verified: {date: '2026-10-21', method: github-repo, notes: 'GitHub HKUDS/DeepTutor: ~42k stars, Apache-2.0, last push 2026-10-19, latest release v1.6.15 (2026.10.19) per page; README in 12 languages incl. Spanish (UI locales re-checked 2026-10-21 via raw files: web/locales has app.json and common.json for en, zh, de, fr and uk but no es, ja, ko, ru or pt, so the languages field now lists UI languages instead of README translations; the Spanish README is documentation only). Created Dec 2025, so young.'}

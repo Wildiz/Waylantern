@@ -1,0 +1,19 @@
+name: "Coursera"
+url: https://www.coursera.org/
+category: course
+areas: [general]
+price: freemium   # free to browse and join; course pages show free trial and financial aid; audit availability varies and was not confirmed
+level: all
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Course platform hosting university and company courses (e.g. Princeton Algorithms, Nand2Tetris) where free access, trials or financial aid vary by course and certificates are paid."
+pros:
+  - "Large catalog from universities"
+  - "Financial aid is available for eligible learners (per course pages)"
+  - "Join for Free on the site"
+cons:
+  - "Graded work and certificates generally require payment"
+  - "Audit option is not guaranteed per course (not confirmed here)"
+  - "Catalog and terms change often"
+verified: {date: 2026-10-21, method: official-site, notes: "Course pages for Algorithms Part I/II read: Enroll now, Free trial status tags and Financial aid text; no 'audit' wording found. Check each course page."}

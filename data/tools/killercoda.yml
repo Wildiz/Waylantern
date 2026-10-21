@@ -1,0 +1,13 @@
+name: "Killercoda"
+url: https://killercoda.com/
+category: practice
+areas: [devops]
+price: freemium
+level: intermediate
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "Browser-based interactive scenarios for Linux, Kubernetes and DevOps tools with free sessions and paid exam-prep courses."
+pros: ["No setup: ready environments in the browser", "Free scenarios usable without limit"]
+cons: ["Free sessions limited to 1 hour", "CKA/CKAD/CKS courses are paid"]
+verified: {date: 2026-10-21, method: official-site, notes: "Pricing page: FREE membership uses all free scenarios (excluding Courses); PLUS gives 4-hour sessions; courses need Membership."}

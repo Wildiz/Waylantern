@@ -1,0 +1,13 @@
+name: "Codility Lessons"
+url: https://app.codility.com/programmers/lessons/1-iterations/
+category: practice
+areas: [cs, career]
+price: unverified
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Candidate-side training area of Codility with 17 numbered lessons (iterations, arrays, time complexity, sorting, dynamic programming and more) each paired with coding tasks."
+pros: ["Ordered lessons from basic iteration to dynamic programming", "Practice style matches Codility's hiring tests"]
+cons: ["Primarily interview preparation", "Site states the browser may be unsupported on some setups", "Free vs paid status not stated on the page"]
+verified: {date: 2026-10-21, method: official-site, notes: "Lessons page loaded without login on 2026-10-21 listing Lessons 1-17 and tasks (e.g. BinaryGap); the main codility.com site is an employer assessment product. No pricing statement found, so price unverified."}

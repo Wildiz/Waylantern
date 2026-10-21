@@ -1,0 +1,13 @@
+name: Goblin Tools
+url: https://goblin.tools/
+category: tool
+areas: [focus]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: Collection of small AI-assisted web tools for neurodivergent users, such as Magic ToDo, which breaks a task into smaller steps, plus an estimator and a braindump compiler.
+pros: ['Web tools are free, stated to stay ad-free and paywall-free', Magic ToDo gives a quick way to break a vague task into steps]
+cons: [Output is AI-generated and can be wrong; the site says treat it as guesswork, Mobile apps are paid (low price) and some advanced features need Goblin Tools Pro]
+verified: {date: '2026-10-21', method: official-site, notes: 'About page: web tools free without ads or paywalls; mobile apps low-priced; some advanced features in a low monthly Pro subscription. Exact prices not captured. Interface language not confirmed beyond English.'}

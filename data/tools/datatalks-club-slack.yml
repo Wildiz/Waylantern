@@ -1,0 +1,13 @@
+name: DataTalks.Club Slack
+url: https://datatalks.club/slack.html
+category: community
+areas: [data, study-skills]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Free Slack community for data scientists, ML engineers and AI practitioners, with channels for courses, career questions and weekly events.
+pros: [Free email-invite signup, Linked to free DataTalks.Club courses (Zoomcamps) and events]
+cons: [Slack can be noisy, Mostly English]
+verified: {date: '2026-10-21', method: official-site, notes: 'Official signup page read: join by email invite; main page mentions free courses, weekly events and career questions.'}

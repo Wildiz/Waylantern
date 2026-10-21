@@ -1,0 +1,13 @@
+name: Focus Timer (GNOME Pomodoro)
+url: https://github.com/focustimerhq/FocusTimer
+category: tool
+areas: [focus]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: Open-source time-management utility for GNOME based on the Pomodoro technique.
+pros: [GPL-3.0, Actively maintained]
+cons: [GNOME/Linux only, Timer only; no task tracking]
+verified: {date: '2026-10-21', method: github-repo, notes: 'GitHub focustimerhq/FocusTimer: ~2.3k stars, GPL-3.0, last push 2026-10-21. focus_friendly=high because fixed short work/break cycles are built in (reasoning).'}

@@ -1,0 +1,13 @@
+name: Mathematics for Machine Learning (book)
+url: https://mml-book.github.io/
+category: course
+areas: [ai, math]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Companion site of the Cambridge University Press book covering linear algebra, analytic geometry, matrix decompositions, vector calculus, probability and optimization, plus linear regression, PCA, GMMs and SVMs.
+pros: [Authors state the PDF will be kept freely available, Aimed at readers who want to understand ML papers and textbooks, 'Part II applies the math to PCA, regression, GMMs and SVMs']
+cons: [Dense and notation-heavy for beginners, Printed edition is paid (optional), No videos or solutions on the main page]
+verified: {date: '2026-10-21', method: official-site, notes: 'Companion page loads (copyright 2020, Cambridge University Press); states ''We will keep PDFs of this book freely available''; table of contents read; PDF download itself not opened'}

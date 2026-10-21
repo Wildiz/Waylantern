@@ -1,0 +1,13 @@
+name: "Awesome Machine Learning"
+url: https://github.com/josephmisiti/awesome-machine-learning
+category: reference
+areas: [ai]
+price: free
+level: intermediate
+languages: ["en"]
+structure: self-directed
+focus_friendly: low
+description: "Curated list of machine learning frameworks, libraries and software grouped by programming language, with a section on educational tools."
+pros: ["Compare ML libraries across languages", "Actively maintained"]
+cons: ["Tools list, not a learning path", "Maintainer limits pull requests due to LLM-generated submissions (README, April 2026)"]
+verified: {date: 2026-10-21, method: github-repo, notes: "~74.6k stars; last commit 2026-10-19; not archived; license not shown on page"}

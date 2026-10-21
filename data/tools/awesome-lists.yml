@@ -1,0 +1,13 @@
+name: "Awesome (sindresorhus/awesome)"
+url: https://github.com/sindresorhus/awesome
+category: reference
+areas: [cs, software, general]
+price: free
+level: all
+languages: ["en"]
+structure: self-directed
+focus_friendly: low
+description: "Curated index of community \"awesome\" lists organised into about 27 categories such as programming languages, computer science, databases and learning."
+pros: ["Entry point to hundreds of topic-specific curated lists", "CC0 licensed"]
+cons: ["Only an index: quality and freshness differ per linked list", "Pull requests temporarily disabled according to the README"]
+verified: {date: 2026-10-21, method: github-repo, notes: "CC0-1.0; ~522k stars; last commit 2026-09-02 (\"Meta tweaks\"); not archived"}

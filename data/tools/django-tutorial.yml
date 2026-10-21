@@ -1,0 +1,13 @@
+name: 'Django: Writing your first Django app'
+url: https://docs.djangoproject.com/en/stable/intro/tutorial01/
+category: course
+areas: [web]
+price: free
+level: beginner
+languages: [en, es, fr, ja, ko, pt, it]
+structure: guided
+focus_friendly: unknown
+description: Official multi-part Django tutorial that walks through building a polls web app with an admin site.
+pros: [Official and kept in step with each Django version, Learn-by-example with a complete small project, Free documentation]
+cons: [Requires Python installed and basic Python knowledge, Covers only the basics; larger topics are in the how-to guides, Other languages on the doc site may be partial]
+verified: {date: '2026-10-21', method: official-site, notes: 'Part 1 loads (stable now redirects to docs 6.1 dev page; versions 6.0, 5.2 and older listed); language switcher lists en, es, fr, ja, ko, it, pt-br and more; translation completeness not checked'}

@@ -1,0 +1,13 @@
+name: "Advent of Code"
+url: https://adventofcode.com/
+category: practice
+areas: [cs]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Yearly Advent calendar of small programming puzzles for all skill levels, solvable in any language; past years remain available."
+pros: ["Language-agnostic puzzles", "Past years available for practice", "No CS background needed"]
+cons: ["Puzzle text may not be redistributed", "Calendar format is shorter in recent years (fewer days per event per FAQ)"]
+verified: {date: 2026-10-21, method: official-site, notes: "About page: 'free to use, not free to copy'; optional AoC++ supporter tier. Page works (2025 event shown)."}

@@ -1,0 +1,13 @@
+name: r/learnprogramming (with wiki)
+url: https://www.reddit.com/r/learnprogramming/
+category: community
+areas: [software, study-skills]
+price: free   # owner decision: Reddit is free to read and post; a bot could not open the page to confirm
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Large Reddit community for beginner programming questions whose wiki includes an FAQ with a Getting started section and rules for asking questions.
+pros: [Wiki FAQ with getting-started guidance, Community asks learners to show effort and answerers to guide rather than hand over solutions]
+cons: [Content quality and response time vary, Reddit threads can be a distraction trap]
+verified: {date: '2026-10-21', method: search-only, notes: 'reddit.com returned 403 to our automated checks, so the subreddit was not opened directly; existence and wiki structure (FAQ, getting started, rules) come from web search results and mirrors of the pinned post, which may be dated. Price left unverified for the same reason. Re-tried 2026-10-21: www, old, i and api reddit.com and the .json endpoints all return a 403 block to our automated checks, and third-party mirrors are also blocked or rate-limited, so the subreddit itself still could not be opened. Reddit''s User Agreement (redditinc.com, effective July 1, 2026, section 10) says there are no fees for many aspects of the Services while some features are paid, which is not specific to this subreddit, so a bot could not confirm the price. Marked free by the maintainer (Reddit is free to read and post in); re-check by hand if possible.'}

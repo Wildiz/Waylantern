@@ -1,0 +1,13 @@
+name: "CSES Problem Set"
+url: https://cses.fi/problemset/
+category: practice
+areas: [cs]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: "Curated set of algorithm practice problems grouped by topic with an online judge, from introductory to advanced."
+pros: ["Well-organised by topic", "Automatic judging"]
+cons: ["No explanations; assumes competitive-programming knowledge"]
+verified: {date: 2026-10-21, method: official-site, notes: "Problem set page loads with grouped problems and solve counts; free account creation offered. focus medium: independent problems with instant judging."}

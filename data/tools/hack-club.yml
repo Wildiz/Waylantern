@@ -1,0 +1,13 @@
+name: "Hack Club"
+url: https://hackclub.com/
+category: community
+areas: [software, career, study-skills]
+price: free
+level: beginner
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "Nonprofit community of teenagers aged 13 to 18 who build projects together through programs, clubs and online hackathons."
+pros: ["Free community with many project programs", "Teen-only community (per site)"]
+cons: ["Only for teenagers: site states 'For all teens aged 13-18'", "Programs and events change over time"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page read 2026-10-21: 'world's largest nonprofit movement of teenagers making cool projects', join form states 'For all teens aged 13-18'. Individual program terms (stickers, grants) not evaluated."}

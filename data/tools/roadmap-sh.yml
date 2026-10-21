@@ -1,0 +1,13 @@
+name: roadmap.sh
+url: https://roadmap.sh/
+category: roadmap
+areas: [cs, web, software, data, ai, general]
+price: freemium   # roadmaps are free and open source; site also sells AI-tutor packs (first lessons free)
+level: all
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: Interactive role and skill roadmaps (Frontend, Backend, DevOps, Data Analyst, AI Engineer, AI Agents, Prompt Engineering and more) with linked resources per topic.
+pros: [Good for seeing the whole map when you do not know where to start, Covers AI and data roadmaps]
+cons: [Shows what to learn, not how to learn it]
+verified: {date: 2026-10-21, method: github-repo, notes: "Site not reachable from research environment"}

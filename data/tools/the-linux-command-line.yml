@@ -1,0 +1,13 @@
+name: "The Linux Command Line (William Shotts)"
+url: https://linuxcommand.org/tlcl.php
+category: course
+areas: [software, devops]
+price: free
+level: beginner
+languages: [en, es]
+structure: guided
+focus_friendly: unknown
+description: "A 596-page book that teaches the Linux command line and shell scripting from scratch, free to download as a PDF under a Creative Commons license."
+pros: ["Free PDF; printed edition also available", "Covers shell basics through scripting"]
+cons: ["Long book, read linearly", "Spanish version is a community translation"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page: Seventh Internet Edition, 596 pages, BY-NC-ND license, free PDF download; lists a Spanish community translation (translation completeness not checked)."}

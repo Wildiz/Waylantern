@@ -1,0 +1,18 @@
+name: "Algorithms, 4th Edition (Princeton booksite and Coursera courses)"
+url: https://algs4.cs.princeton.edu/home/
+category: course
+areas: [cs]
+price: free   # booksite says everything is freely available; Coursera pages for Parts I and II say all features are free (no certificate)
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Sedgewick and Wayne's Algorithms booksite (fundamentals, sorting, searching, graphs, strings) with lectures, code and data in Java, plus links to the Algorithms Part I and II Coursera courses."
+pros:
+  - "Booksite states all online content is freely available (code, lectures, data files)"
+  - "Coursera Parts I and II: course FAQ says all features, including videos and programming assignments, are free"
+cons:
+  - "Java based"
+  - "No certificate from the free Coursera courses (Princeton policy); a certificate is offered only via separate CUbits courses (cost not checked)"
+  - "The textbook is distinct from the free online booksite; its price was not checked"
+verified: {date: 2026-10-21, method: official-site, notes: "Booksite home: 'Everything on these pages is freely available', links 'our free Coursera MOOCs' Parts I and II and CUbits certificate courses (cost not checked). Coursera course pages (algorithms-part1, algorithms-part2) FAQ: 'Do I need to pay for this course? No. All features of this course are available for free.' and no certificates are awarded per Princeton policy; Part I page lists 26 languages for subtitles/translations, primary language en. The earlier con about the textbook being free only at participating institutions was not found on the booksite home page and was replaced."}

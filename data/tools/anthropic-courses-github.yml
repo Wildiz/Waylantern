@@ -1,0 +1,13 @@
+name: Anthropic courses (GitHub)
+url: https://github.com/anthropics/courses
+category: course
+areas: [ai]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: medium   # notebook-based exercises
+description: Anthropic's open repository of five notebook-based courses on the Claude API, interactive prompt engineering, real-world prompting, prompt evaluations and tool use.
+pros: [Hands-on notebooks written by the model maker, Suggested learning order is given]
+cons: [Running the notebooks needs an Anthropic API key with paid usage, Materials favor Claude 3 Haiku and the repo was last updated Nov 2025]
+verified: {date: 2026-10-21, method: github-repo, notes: "README lists five courses and the suggested order; last commit 2025-11-13; no license or price statement read, materials are public"}

@@ -1,0 +1,13 @@
+name: Flexbox Froggy
+url: https://flexboxfroggy.com/
+category: practice
+areas: [web]
+price: free
+level: beginner
+languages: [en, es, fr, de, ja, zh]
+structure: guided
+focus_friendly: high
+description: Browser game by Codepip where you write CSS flexbox properties to move frogs onto lily pads, level by level.
+pros: [Tiny levels with immediate visual feedback, No setup or account, Many interface languages]
+cons: [Covers only flexbox, Does not teach HTML or when to use flexbox in real layouts]
+verified: {date: '2026-10-21', method: official-site, notes: 'Site loads; level selector and difficulty modes shown; language list includes English, Spanish, French, German, Japanese, Chinese and many more (subset recorded); no price or login seen. focus high: very short single-puzzle levels with instant visual feedback'}

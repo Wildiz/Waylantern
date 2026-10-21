@@ -1,0 +1,13 @@
+name: The TypeScript Handbook
+url: https://www.typescriptlang.org/docs/handbook/intro.html
+category: reference
+areas: [web]
+price: free
+level: intermediate
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: Official TypeScript documentation with a Handbook (basics, narrowing, generics, classes, modules) and start guides such as TypeScript for JavaScript programmers.
+pros: [Official and current (covers TypeScript 6.0 in the What's New list), 'Start guides for JavaScript, Java/C# and functional programmers', Includes an online Playground]
+cons: [Assumes JavaScript knowledge, Reference-style rather than a guided course]
+verified: {date: '2026-10-21', method: official-site, notes: 'Handbook intro loads; sidebar lists Get Started guides, Handbook chapters and What''s New TypeScript 6.0 and 5.9; no price seen; Playground link present but not tried'}

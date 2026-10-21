@@ -1,0 +1,13 @@
+name: LangChain Academy
+url: https://academy.langchain.com
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: Self-paced courses on building, testing, deploying and monitoring agents with LangChain, LangGraph, Deep Agents and LangSmith.
+pros: [Official course content from the framework makers, Covers the full agent lifecycle]
+cons: [Tied to the LangChain ecosystem, Optional LangSmith exercises need a LangSmith account, Certified Agent Engineer exam is a paid extra]
+verified: {date: 2026-10-21, method: official-site, notes: "FAQ states 'Our course content is always free! Our paid offering is the LangChain Certified Agent Engineer certification exam'"}

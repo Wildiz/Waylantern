@@ -1,0 +1,13 @@
+name: "Papers We Love"
+url: https://github.com/papers-we-love/papers-we-love
+category: reference
+areas: [cs]
+price: free
+level: advanced
+languages: ["en"]
+structure: self-directed
+focus_friendly: low
+description: "Community repository of computer science research papers organised by topic, with reading guides and links to local chapters."
+pros: ["Curated classics by topic", "Has guidance on how to read papers"]
+cons: ["Papers are dense and assume background", "Mostly links; hosting depends on licensing"]
+verified: {date: 2026-10-21, method: github-repo, notes: "~111k stars; last commit 2026-09-29; not archived; repo license not shown on page; the project name and logo are noted as owned by Papers We Love Ltd"}

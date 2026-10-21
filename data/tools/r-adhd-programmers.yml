@@ -1,0 +1,13 @@
+name: r/ADHD_Programmers
+url: https://www.reddit.com/r/ADHD_Programmers/
+category: community
+areas: [focus]
+price: free   # owner decision: Reddit is free to read and post; a bot could not open the page to confirm
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Reddit community for programmers with ADHD, described in a 2025 ICSE paper as the largest public forum for that group.
+pros: [Peer advice and shared strategies from other ADHD programmers, Cited as a data source in peer-reviewed research]
+cons: ['Peer anecdotes, not medical advice', Reddit threads can be a distraction]
+verified: {date: '2026-10-21', method: search-only, notes: 'reddit.com returned 403 to our automated checks; existence confirmed via web search and the ICSE 2025 paper abstract (which names the subreddit), not by opening the subreddit. Subscriber counts vary by source and are not stated. Re-tried 2026-10-21: www, old, i and api reddit.com and the .json endpoints all return a 403 block to our automated checks, and third-party mirrors are also blocked or rate-limited, so the subreddit itself still could not be opened. Reddit''s User Agreement (redditinc.com, effective July 1, 2026, section 10) says there are no fees for many aspects of the Services while some features are paid, which is not specific to this subreddit, so a bot could not confirm the price. Marked free by the maintainer (Reddit is free to read and post in); re-check by hand if possible.'}

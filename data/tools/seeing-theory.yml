@@ -1,0 +1,13 @@
+name: Seeing Theory
+url: https://seeing-theory.brown.edu/
+category: course
+areas: [data, math]
+price: free
+level: beginner
+languages: [en, zh, es]
+structure: self-directed
+focus_friendly: unknown
+description: Brown University's interactive visual introduction to probability and statistics, from basic probability and distributions to Bayesian inference and regression.
+pros: [Interactive visualizations of probability and statistics concepts, Six chapters from basic probability to regression, Free in the browser]
+cons: [Site states it is archived for reference (not actively developed), 'Concept demos, no exercises or problem sets', 'Language availability (English, Chinese, Spanish) as shown on the site, quality not checked']
+verified: {date: '2026-10-21', method: official-site, notes: 'Site loads and shows ''This site is archived for reference''; six chapters listed; English, Chinese and Spanish selector present; no price or login seen'}

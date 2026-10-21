@@ -1,0 +1,13 @@
+name: MIT 6.S191 - Introduction to Deep Learning
+url: https://introtodeeplearning.com
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium   # compact lectures with software labs
+description: MIT's one-week introductory deep learning bootcamp (2026 edition) covering fundamentals, CNNs, sequence models, generative AI and LLMs, with lectures, slides and labs open-sourced under the MIT license.
+pros: [Updated yearly, Includes software labs, Needs only calculus, linear algebra and some Python]
+cons: [New materials appear on a schedule after the live MIT program, Fast-paced]
+verified: {date: 2026-10-21, method: official-site, notes: "FAQ says all materials are open-sourced to the world for free under the MIT license; page shows 2026 edition (Jan 5-9, 2026) and 'open-sourced' schedule"}

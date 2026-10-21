@@ -1,0 +1,13 @@
+name: "Hugging Face Learn"
+url: https://huggingface.co/learn
+category: reference
+areas: [ai]
+price: free
+level: all
+languages: ["en"]
+structure: self-directed
+focus_friendly: unknown
+description: "Hub page linking Hugging Face courses and cookbooks, including the LLM, Agents, Deep RL, Audio, Computer Vision, Diffusion and smol courses."
+pros: ["Single entry point to all Hugging Face courses", "Open-source AI Cookbook included"]
+cons: ["Course level and language coverage differ per course", "Hub only; see separate entry for the LLM course"]
+verified: {date: 2026-10-21, method: official-site, notes: "Hub page read on 2026-10-21 and lists the courses named; pages open without login; Spanish availability was verified only for the LLM course (existing huggingface-llm-course entry), not per course; distinct from huggingface-llm-course"}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# stray downloads at the repo root
+/*.js
+/*.html

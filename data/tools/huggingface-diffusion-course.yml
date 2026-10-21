@@ -1,0 +1,13 @@
+name: Hugging Face Diffusion Models Course
+url: https://huggingface.co/learn/diffusion-course
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Free course on the theory behind diffusion models and using the Diffusers library to generate images and audio, train and fine-tune models.
+pros: [Mixes theory with notebooks for training and fine-tuning your own models]
+cons: [Assumes Python and PyTorch basics, Only an English version found]
+verified: {date: 2026-10-21, method: official-site, notes: "Intro page says 'In this free course'; only 'en' hreflang found; repo huggingface/diffusion-models-class last commit 2026-10-06"}

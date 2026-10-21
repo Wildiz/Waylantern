@@ -1,0 +1,13 @@
+name: The Learning Scientists
+url: https://www.learningscientists.org/
+category: reference
+areas: [study-skills]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Cognitive psychologists' site that explains research-backed study strategies (spaced practice, retrieval practice, interleaving, elaboration, concrete examples, dual coding) with free downloadable materials.
+pros: [Free content (donation-supported), Downloadable posters and summaries of the six strategies, Written by learning researchers]
+cons: ['General study skills, not IT-specific', Spanish version not confirmed]
+verified: {date: '2026-10-21', method: official-site, notes: 'learningscientists.org home and Downloadable Materials pages read: free access, donations via PayPal, not a non-profit, materials free to share with attribution.'}

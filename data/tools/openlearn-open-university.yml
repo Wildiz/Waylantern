@@ -1,0 +1,18 @@
+name: "OpenLearn (The Open University)"
+url: https://www.open.edu/openlearn/
+category: course
+areas: [general]
+price: free   # free courses; statement of participation free with an OU account; no formal credit
+level: beginner
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "The Open University's free learning platform with short courses including computing and IT topics, offering a free statement of participation after completion."
+pros:
+  - "Free statements of participation"
+  - "Short introductory courses"
+  - "Some courses are CPD-accredited or award digital badges"
+cons:
+  - "No formal credit toward a qualification"
+  - "Older courses get withdrawn"
+verified: {date: 2026-10-21, method: search-only, notes: "open.edu is behind a Cloudflare challenge for automated fetches; details from search-result summaries of open.edu OpenLearn pages. Re-tried 2026-10-21: open.edu and open.ac.uk (including OpenLearn pages, the sitemap and help site) still return a Cloudflare challenge (HTTP 403) to automated requests and are not reachable through the fetch tool or the Wayback and reader mirrors, so the price, statement of participation and course list remain unconfirmed from a primary source. Re-verify manually."}

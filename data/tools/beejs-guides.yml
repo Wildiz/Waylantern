@@ -1,0 +1,13 @@
+name: "Beej's Guides"
+url: https://beej.us/guide/
+category: course
+areas: [cs, software, devops]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Free online guides to C programming, network (socket) programming, Git, Unix IPC and related topics by Brian 'Beej' Hall."
+pros: ["Clear, informal writing", "Also free to download as PDF"]
+cons: ["Text only, no interactive exercises"]
+verified: {date: 2026-10-21, method: official-site, notes: "Index page: 'Free downloads!'; guides on C, network programming, network concepts (Python), Git, IPC. Paperbacks optional."}

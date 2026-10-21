@@ -1,0 +1,13 @@
+name: "SQLZoo"
+url: https://sqlzoo.net/
+category: practice
+areas: [data]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: "Wiki-style interactive SQL tutorials with in-browser exercises on real example tables (World, Nobel, movies and more)."
+pros: ["Many practice queries", "No setup"]
+cons: ["Dated interface"]
+verified: {date: 2026-10-21, method: official-site, notes: "Main page loads with tutorials 0-8+ (SELECT basics to JOINs); no price shown, free as anonymous access works."}

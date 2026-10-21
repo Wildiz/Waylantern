@@ -1,0 +1,13 @@
+name: "NeetCode"
+url: https://neetcode.io/
+category: practice
+areas: [cs, career]
+price: freemium   # site code: /practice meta says 'Practice for free.'; many problems flagged pro; NeetCode Pro offered as yearly or lifetime access
+level: intermediate
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "Coding-interview preparation site with structured courses, a curated problem list (1,000+ problems), head-to-head Versus mode and AI-assisted assessments."
+pros: ["Curated, ordered problem lists", "Video explanations (author's YouTube channel)"]
+cons: ["Some problems and features are marked Pro in the site's own code and sit behind a paid NeetCode Pro plan; exact free/paid split and current prices not captured", "Interview-prep focus, not general learning"]
+verified: {date: 2026-10-21, method: official-site, notes: "neetcode.io is an Angular app that returns no readable text, so its JavaScript bundles were read instead (2026-10-21): /practice route description is 'Practice for free.'; the problem list marks many entries pro:true (premium); the /pro chunk shows paid NeetCode Pro as One-Year Access (12 months) and Lifetime, and a 'you don't have an active NeetCode Pro subscription' state for free accounts. Hence freemium. The exact list of free vs Pro content and the current prices were not confirmed from a rendered page; github.com/neetcode-gh/leetcode README only hosts solutions."}

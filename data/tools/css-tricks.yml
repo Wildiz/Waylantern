@@ -1,0 +1,13 @@
+name: CSS-Tricks
+url: https://css-tricks.com/
+category: reference
+areas: [web]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Long-running web publication (since 2007) with articles, guides and an Almanac reference on CSS, HTML and JavaScript, now powered by DigitalOcean.
+pros: ['Articles, Guides and an Almanac of CSS properties', Free to read, Actively publishing (articles dated Aug-Sep 2026 seen)]
+cons: [Article collection rather than a structured course, Quality and depth vary by author]
+verified: {date: '2026-10-21', method: official-site, notes: 'Home page loads showing articles dated Jun-Sep 2026 and nav (Articles, Guides, Almanac, Links, Picks, Newsletter); no paywall seen'}

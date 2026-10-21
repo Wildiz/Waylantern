@@ -1,0 +1,13 @@
+name: Paul's Online Math Notes
+url: https://tutorial.math.lamar.edu/
+category: reference
+areas: [math]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Lamar University notes by Paul Dawkins on algebra, calculus I-III and differential equations, with worked examples and practice problems.
+pros: [Clear worked examples for algebra and calculus, 'Free in-browser notes, no sign-up seen', Good refresher for multivariable calculus used in ML]
+cons: [Does not cover linear algebra or statistics in depth, Reading-based with no interactive checking]
+verified: {date: '2026-10-21', method: official-site, notes: 'Site loads; menu shows Algebra, Calculus, Differential Equations, Extras, Misc; no price or login on the page; chapter-level coverage beyond the Algebra page not checked'}

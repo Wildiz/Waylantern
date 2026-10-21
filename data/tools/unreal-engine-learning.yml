@@ -1,0 +1,13 @@
+name: "Epic Developer Community Learning (Unreal Engine)"
+url: https://dev.epicgames.com/community/unreal-engine/learning
+category: course
+areas: [games-mobile]
+price: free
+level: beginner
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "Epic Games' learning hub with tutorials, courses and demos for Unreal Engine, created by Epic and the community."
+pros: ["Official Epic learning hub", "Reportedly includes 20+ free on-demand professional courses (Epic announcement, 2026-06-15)"]
+cons: ["Learning hub page is JavaScript-rendered, so contents could not be listed", "Unreal Engine is demanding on hardware"]
+verified: {date: 2026-10-21, method: search-only, notes: "dev.epicgames.com returned the page title/description ('tutorials, courses, demos...created by Epic Games and the developer community') but body is JavaScript-rendered and unrealengine.com blocked automated access (403). Free-course claim comes from web search result of Epic's announcement; price per course not individually checked."}

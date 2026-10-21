@@ -1,0 +1,13 @@
+name: The Odin Project Discord
+url: https://www.theodinproject.com/community
+category: community
+areas: [web, study-skills]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Official Discord server of The Odin Project, where learners following its free web development curriculum ask for help and study together.
+pros: ['Linked from the official site, tied to a structured free curriculum', Very large active server, Community rules and expectations published]
+cons: [Chat can be noisy and distracting, Read the rules and expectations before asking]
+verified: {date: '2026-10-21', method: official-site, notes: 'Official community page links the Discord; invite API returned server name The Odin Project with ~95,000 approximate members on 2026-10-21.'}

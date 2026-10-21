@@ -1,0 +1,13 @@
+name: AnkiDroid
+url: https://github.com/ankidroid/Anki-Android
+category: tool
+areas: [study-skills]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: Free, open-source Android flashcard app that is compatible with Anki and syncs through AnkiWeb.
+pros: [Free and open source (GPL-3.0), Works offline; syncs with desktop Anki via AnkiWeb, Active project]
+cons: [Android only (iOS users must buy AnkiMobile), Developed by volunteers; fewer features than desktop for card editing]
+verified: {date: '2026-10-21', method: github-repo, notes: 'GitHub: ankidroid/Anki-Android, ~12k stars, GPL-3.0, last push 2026-10-21. Anki site: AnkiDroid is free and developed by contributors, donations fund it. UI languages: README (raw) says AnkiDroid is available, partially or totally, in 99 languages as of July 2022 via 1400 Crowdin translators; no individual language such as Spanish was checked in the repo, so languages stay en.'}

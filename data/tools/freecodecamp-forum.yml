@@ -1,0 +1,13 @@
+name: freeCodeCamp Forum
+url: https://forum.freecodecamp.org/
+category: community
+areas: [web, study-skills]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Discourse forum for freeCodeCamp learners with curriculum help, platform support, project showcase and career categories.
+pros: [Dedicated Curriculum Help category, Public and searchable, Maintained by the freeCodeCamp nonprofit]
+cons: [Mainly English, Level 1 or higher required to post in some categories (anti-spam)]
+verified: {date: '2026-10-21', method: official-site, notes: 'Official forum home page read: categories include Curriculum Help, freeCodeCamp Support, Career, I Built This, Getting Things Done with AI.'}

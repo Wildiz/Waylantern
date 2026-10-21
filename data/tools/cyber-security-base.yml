@@ -1,0 +1,13 @@
+name: "Cyber Security Base (University of Helsinki)"
+url: https://cybersecuritybase.mooc.fi/
+category: course
+areas: [security]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "University of Helsinki course series on cyber security covering vulnerabilities, secure software development and risk analysis, with free MOOC courses and a closing capture-the-flag."
+pros: ["University-level, with programming assignments and quizzes", "MOOC parts are free for everyone"]
+cons: ["Courses are open only during set time windows", "The two exam courses are free only for University of Helsinki students", "Needs programming experience"]
+verified: {date: 2026-10-21, method: official-site, notes: "Series page: 4 courses, 2 MOOC courses free for everyone, 2 exam courses free for Helsinki students; each course open for a certain period; 2026 edition."}

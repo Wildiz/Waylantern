@@ -1,0 +1,13 @@
+name: CHADD
+url: https://chadd.org/
+category: reference
+areas: [focus]
+price: freemium
+level: all
+languages: [en, es]
+structure: self-directed
+focus_friendly: medium
+description: US nonprofit ADHD organization with information for adults, parents and educators, local chapters and online communities, a Spanish-language resource section and paid membership.
+pros: [Nonprofit with free educational pages and a National Resource Center line, Recursos en espanol section and Spanish-speaking helpline option, Online support communities]
+cons: [US-focused, 'Membership, magazine and some content are paid', 'General information only, not medical advice']
+verified: {date: '2026-10-21', method: official-site, notes: 'Official site read: About ADHD pages, adult section, Online Communities, Recursos en espanol, helpline listing Hablamos Espanol, Membership and Donate. Membership price not captured.'}

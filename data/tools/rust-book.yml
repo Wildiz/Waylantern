@@ -1,0 +1,13 @@
+name: "The Rust Programming Language (the Rust Book)"
+url: https://doc.rust-lang.org/book/
+category: course
+areas: [software]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Official book teaching Rust from basics to ownership, traits, concurrency and projects; updated for Rust 1.97 and edition 2024."
+pros: ["Official and current", "Free online and offline via rustup doc"]
+cons: ["Reading only; pair with Rustlings for practice"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page loads and states it targets Rust 1.97.0 / edition 2024; freely readable online."}

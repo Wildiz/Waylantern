@@ -1,0 +1,13 @@
+name: Habitica
+url: https://habitica.com/
+category: tool
+areas: [focus]
+price: freemium   # core app free (site meta description); optional paid Subscription and Group Plans per the GitHub repo
+level: all
+languages: [en, es, de, fr, pt]
+structure: self-directed
+focus_friendly: medium
+description: Open-source habit and to-do app that turns tasks into a role-playing game with points, rewards and optional parties.
+pros: [Open source (GPL v3 code), Game mechanics reward small completed tasks, Web and mobile apps]
+cons: [Rewards-and-penalties loop does not suit everyone, Optional paid Subscription (cosmetic and convenience perks such as Gold-purchasable Gems) and paid Group Plans exist; Habitica itself has paused outside code contributions since Aug 2026 per its README]
+verified: {date: '2026-10-21', method: github-repo, notes: 'habitica.com meta description calls it a free habit and productivity app; GitHub LICENSE is GPL v3; API status endpoint reports up (v5.51.0). HabitRPG/habitica (raw files, 2026-10-21): subscriptionBlocks.js defines optional paid user subscriptions (1/3/6/12 months, USD 5 for 1 month) and a paid group plan; en/subscriber.json lists subscriber perks (Gold-purchasable Gems, double drops, exclusive gear, Mystic Hourglass); en/faq.json says Group Plans are a paid feature while Challenges are free to everyone. website/common/locales has translated files for es, es_419, de, fr, pt_BR (full language list not enumerated). README: pull requests paused since Aug 4, 2026. Price freemium.'}

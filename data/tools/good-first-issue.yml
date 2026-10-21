@@ -1,0 +1,13 @@
+name: "Good First Issue"
+url: https://goodfirstissue.dev/
+category: reference
+areas: [software, career]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Curated list of open-source projects with issues labelled as easy for newcomers, browsable by programming language and run by DeepSource."
+pros: ["Filter by language (Python, TypeScript, Go and others)", "Shows number of open easy issues and recent project activity"]
+cons: ["Only projects that were added to the list", "Curated list does not guarantee maintainers respond quickly"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page read 2026-10-21: lists projects with issue counts, stars and last activity (e.g. react-native, eslint); described as 'A DeepSource initiative'."}

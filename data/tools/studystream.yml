@@ -1,0 +1,13 @@
+name: StudyStream (formerly Study Together)
+url: https://studystream.live/
+category: tool
+areas: [focus]
+price: freemium   # free sign-up with limited focus time and ads; Premium plan exists (per the app's own code); prices not captured
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Online community of students with always-on virtual study rooms, timers and goals; Study Together merged into StudyStream and new users are asked to sign up there.
+pros: [24/7 focus rooms described as available to all, Large student community]
+cons: [Paid Premium plan exists and the free tier appears time-limited (the app shows 'Your focus time is almost up' with an unlock prompt) and shows ads; exact limits and prices not captured, Rooms are social and can themselves be distracting, Study Together account holders can ask for data deletion after the merger]
+verified: {date: '2026-10-21', method: official-site, notes: 'studytogether.com notice says it joined StudyStream (Knowledge Collective Ltd) and new users should sign up at studystream.live. studystream.live meta description says 24/7 Focus Rooms are available for all; the app is JavaScript-rendered so no pricing page is readable. Its Angular bundles (read 2026-10-21) contain a Plans and Pricing screen, a ''You''re on Premium'' state, a Click to upgrade to premium prompt, Premium and Gold tiers, an ads layout, and a prompt reading Your focus time is almost up / Unlock next focus session / Not yet - finish this session for free. That shows a paid tier and a limited free tier exists; plan prices and exact free limits were not confirmed.'}

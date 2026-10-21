@@ -1,0 +1,13 @@
+name: AI for Beginners (Microsoft)
+url: https://github.com/microsoft/AI-For-Beginners
+category: course
+areas: [ai]
+price: free
+level: beginner
+languages: [en, es, fr, de, pt, zh, ja, ko]
+structure: guided
+focus_friendly: medium
+description: Microsoft's 12-week, 24-lesson open curriculum on AI with lessons, quizzes and labs covering symbolic AI, neural networks, computer vision, NLP and ethics using TensorFlow and PyTorch.
+pros: [Structured weekly plan with quizzes and labs, Translated into 50+ languages including Spanish]
+cons: [Classic-AI and early deep learning focus, little on modern LLMs, Translations may lag the English version]
+verified: {date: 2026-10-21, method: github-repo, notes: "README: 12-week, 24-lesson curriculum; translations folder lists Spanish, French, German, etc. (subset listed here); last commit 2026-09-04"}

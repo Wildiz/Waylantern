@@ -1,0 +1,13 @@
+name: OSSU Discord
+url: https://github.com/ossu/computer-science
+category: community
+areas: [cs, study-skills]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Discord server of Open Source Society University for people working through its free computer science curriculum, linked from the README.
+pros: [Tied to a published free CS curriculum, Place to introduce yourself and ask about courses]
+cons: [Needs self-discipline; chat can distract]
+verified: {date: '2026-10-21', method: github-repo, notes: 'OSSU README (raw GitHub) links the Discord invite; invite API returned server name OSSU with ~36,800 approximate members on 2026-10-21.'}

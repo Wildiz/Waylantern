@@ -1,0 +1,13 @@
+name: Stanford CS224N - NLP with Deep Learning
+url: https://web.stanford.edu/class/cs224n/
+category: course
+areas: [ai]
+price: free
+level: advanced
+languages: [en]
+structure: guided
+focus_friendly: low   # full university lectures of roughly 80 minutes plus heavy assignments
+description: Stanford graduate course on deep learning for NLP and large language models in PyTorch, with public course site and free full lecture videos on YouTube (2024 edition).
+pros: [Complete lecture videos free on YouTube, Strong coverage of transformers and LLMs from a leading group]
+cons: [Current-term videos are Stanford-only (Canvas), public videos are from the 2024 edition, Requires solid math and PyTorch]
+verified: {date: 2026-10-21, method: official-site, notes: "Site shows Winter 2026 offering; states complete videos are available (free!) on the 2024 YouTube playlist; paid XCS224N version exists separately"}

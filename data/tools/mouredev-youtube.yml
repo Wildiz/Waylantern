@@ -1,0 +1,13 @@
+name: "MoureDev (YouTube)"
+url: https://www.youtube.com/@mouredev
+category: course
+areas: [web, software]
+price: free
+level: beginner
+languages: ["es"]
+structure: self-directed
+focus_friendly: unknown
+description: "Spanish-language channel by Brais Moure with free courses on Python, JavaScript, SQL, Java, GitHub and AI-assisted programming."
+pros: ["Free from-zero courses in Spanish", "Very active"]
+cons: ["Channel also contains news and commentary videos", "Video-only"]
+verified: {date: 2026-10-21, method: official-site, notes: "Channel description: free Spanish courses in Python, JavaScript, SQL, Java, GitHub, Claude Code; latest upload 2026-10-21"}

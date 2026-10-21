@@ -1,0 +1,13 @@
+name: Pomotroid
+url: https://github.com/Splode/pomotroid
+category: tool
+areas: [focus]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Open-source desktop Pomodoro timer with configurable intervals, statistics, themes and a WebSocket API, built with Tauri, Rust and Svelte.
+pros: [MIT license, Configurable work and break lengths, Session statistics and many themes]
+cons: [Timer only; no task management or blocking, Interface language other than English not confirmed]
+verified: {date: '2026-10-21', method: github-repo, notes: GitHub README and LICENSE (MIT) read via raw.githubusercontent.com. Latest release date and platform builds not checked.}

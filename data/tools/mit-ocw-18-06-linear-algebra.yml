@@ -1,0 +1,13 @@
+name: MIT OpenCourseWare 18.06 Linear Algebra (Gilbert Strang)
+url: https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/
+category: course
+areas: [math]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: MIT's undergraduate linear algebra course taught by Gilbert Strang, with lecture videos, readings, problem sets, exams and solutions.
+pros: [Full course materials including exams and solutions, 'Classic, widely recommended for machine learning prerequisites', Free under a Creative Commons license (per OCW footer)]
+cons: [Assumes calculus and comfort with proofs-light mathematics, Spring 2010 recording (a 2023 final lecture is also listed), No grading or feedback]
+verified: {date: '2026-10-21', method: official-site, notes: 'OCW course page loads and lists Syllabus, Calendar, Video Lectures, Readings, Assignments, Exams; ''As Taught In Spring 2010'', Undergraduate; Creative Commons link in footer; video playback not tested'}

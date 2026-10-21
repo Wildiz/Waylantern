@@ -1,0 +1,13 @@
+name: Polars User Guide
+url: https://docs.pola.rs/
+category: reference
+areas: [data]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Official user guide for the Polars DataFrame library covering expressions, the lazy API, joins, time series, IO and streaming.
+pros: [Official docs with concept pages on expressions and lazy evaluation, Free and open, Good next step after pandas]
+cons: [Assumes some Python or DataFrame experience, API changes between versions; check you read the version you use]
+verified: {date: '2026-10-21', method: official-site, notes: 'docs.pola.rs loads (Polars user guide) with sections Getting started, Concepts, Expressions, Transformations, Time series, Lazy API, IO; no price seen; pola-rs/polars activity not checked'}

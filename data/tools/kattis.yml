@@ -1,0 +1,13 @@
+name: "Kattis Problem Archive"
+url: https://open.kattis.com/
+category: practice
+areas: [cs]
+price: unverified
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Online judge with thousands of programming problems rated by difficulty, plus contests and ranklists, run by Kattis."
+pros: ["Problems carry numeric difficulty scores", "Supports many programming languages", "Problems are linked from USACO Guide lessons"]
+cons: ["Requires registering an account to submit", "Terse problem statements, no tutorials", "Pricing not stated on the pages read"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page read 2026-10-21: 'thousands of programming problems', register and start solving, suggested problems by difficulty. No pricing statement found, so price unverified."}

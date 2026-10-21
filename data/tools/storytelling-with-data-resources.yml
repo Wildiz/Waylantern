@@ -1,0 +1,13 @@
+name: 'storytelling with data: free resources'
+url: https://www.storytellingwithdata.com/resources
+category: reference
+areas: [data]
+price: freemium
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Free blog, chart guide, podcast and video resources from storytelling with data on communicating with charts and presenting data, next to paid workshops, an 8-week course and books.
+pros: ['Free chart guide, blog and podcast', Practical advice on clear charts and data storytelling, Clearly separates free resources from paid trainings]
+cons: [The paid trainings and books hold most structured learning, Not tool-specific; no coding practice]
+verified: {date: '2026-10-21', method: official-site, notes: 'Home and resources pages load; resources page says ''practice with our free resources'' and links a chart guide, blog and podcast; trainings, 8-week online course and books are sold separately (prices not read)'}

@@ -1,0 +1,13 @@
+name: "Unity Learn"
+url: https://learn.unity.com/
+category: course
+areas: [games-mobile]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Unity's official platform of free tutorials, courses and guided pathways for real-time 3D, games, VR and AR development."
+pros: ["Official content with guided pathways", "Starts with a guided tour of the Unity Editor and first 3D scene"]
+cons: ["Account sign-in is offered on the site", "Unity-specific"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page meta description read 2026-10-21: 'Free tutorials, courses, and guided pathways for mastering real-time 3D development skills'."}

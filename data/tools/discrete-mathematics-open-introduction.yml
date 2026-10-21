@@ -1,0 +1,13 @@
+name: 'Discrete Mathematics: An Open Introduction (Oscar Levin)'
+url: https://discrete.openmathbooks.org/dmoi4.html
+category: course
+areas: [cs, math]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Free open-source textbook for a first or second year discrete math course, covering logic, proofs, graph theory, counting and sequences, with interactive exercises on Runestone Academy.
+pros: [Free to read online or download as PDF, Interactive exercises with instant feedback via Runestone Academy, Endorsed by the AIM Open Textbook Initiative (per the book page)]
+cons: [Written for university math and CS majors; proofs take effort, Paperback is paid (optional)]
+verified: {date: '2026-10-21', method: official-site, notes: 'Book page for the 4th edition loads (4th edition released August 2024; 3rd edition still available); says ''free, open source textbook''; Runestone version not opened'}

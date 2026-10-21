@@ -1,0 +1,13 @@
+name: The Pomodoro Technique (official site)
+url: https://www.pomodorotechnique.com/
+category: tool
+areas: [focus]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Official site of Francesco Cirillo's Pomodoro Technique with free tools and worksheets and optional paid online learning and cohorts.
+pros: ['Free tools and worksheets (Activity Inventory, To Do Today sheet)', 'Describes the method as a planning and review system, not just a timer']
+cons: [Structured courses and cohorts are paid, Fixed 25-minute blocks may not suit everyone]
+verified: {date: '2026-10-21', method: official-site, notes: 'Official home page read: essential resources free, online learning described as affordable, coaching optional; next online cohort listed for January 2027. Course prices not captured.'}

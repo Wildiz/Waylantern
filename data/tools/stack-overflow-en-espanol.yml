@@ -1,0 +1,13 @@
+name: Stack Overflow en espanol
+url: https://es.stackoverflow.com/
+category: community
+areas: [cs, software]
+price: free
+level: all
+languages: [es]
+structure: self-directed
+focus_friendly: low
+description: Spanish-language Stack Overflow site with questions and answers for programmers and IT professionals.
+pros: [Q&A in Spanish, Same format and reputation system as Stack Overflow]
+cons: [Smaller than the English site, Strict question standards apply]
+verified: {date: '2026-10-21', method: official-site, notes: Site loaded with Spanish interface and meta description about Q&A for programmers and IT professionals. No paid tier seen.}

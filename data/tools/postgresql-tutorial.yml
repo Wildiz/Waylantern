@@ -1,0 +1,13 @@
+name: "PostgreSQL Tutorial"
+url: https://neon.com/postgresql/tutorial
+category: course
+areas: [data]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "A step-by-step PostgreSQL tutorial covering installing Postgres, querying, joins, grouping, CTEs, modifying data, transactions and managing tables."
+pros: ["Short, task-per-page lessons with a sample database", "Covers installation on Windows, macOS and Linux"]
+cons: ["Hosted by Neon (a Postgres company), which promotes its own product on the pages", "Reads like a reference, with no graded exercises"]
+verified: {date: 2026-10-21, method: official-site, notes: "postgresqltutorial.com redirects to neon.com/postgresql/tutorial; page loads with full table of contents and no login seen. Free access taken from open pages."}

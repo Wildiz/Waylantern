@@ -1,0 +1,13 @@
+name: DeepLearning.AI Short Courses
+url: https://www.deeplearning.ai/short-courses/
+category: course
+areas: [ai]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high   # most short courses run about 1-2 hours
+description: Catalogue of 100+ short, project-based courses on generative AI, agents, RAG, prompt engineering and LLMOps, often co-created with companies such as OpenAI, Anthropic and Google.
+pros: [Short courses of roughly 1-2 hours, Taught by tool makers and AI practitioners]
+cons: [Course page states access is free only for a limited time during the platform beta, Certificates and some content need the paid Pro membership (listed at $25-30/month), Some courses are tied to specific vendor tools]
+verified: {date: 2026-10-21, method: official-site, notes: "Catalogue page shows 107 short courses; a sample course page says 'Course access is free for a limited time during the DeepLearning.AI learning platform beta'; ML Specialization page states Pro costs $25/mo billed annually, $30/mo monthly; future free status not guaranteed"}

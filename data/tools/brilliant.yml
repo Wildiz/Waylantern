@@ -1,0 +1,13 @@
+name: Brilliant
+url: https://brilliant.org/
+category: course
+areas: [math]
+price: freemium
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Interactive, problem-based lessons in math and coding with a built-in AI tutor, organized into topics, units and concepts.
+pros: [Hands-on interactive problems instead of long videos, Free tier gives access to the full catalog (per Brilliant help center), Sequential topics with progress tracking]
+cons: ['Free users are limited to two concepts or practice sets per day, must go through topics in order and see occasional ads', Free users only get a limited preview of the Koji tutor, Full access needs a paid Premium subscription (price not verified here); free trials are only sometimes offered, Not a substitute for a full textbook or course]
+verified: {date: '2026-10-21', method: official-site, notes: 'Brilliant help pages read: ''What can I learn on Brilliant without a Premium subscription?'' (updated Oct 19 2026) states the daily limit, sequential order, ads and limited Koji preview; trial page says free trials are only sometimes offered; Premium price was not captured, languages beyond English not confirmed'}

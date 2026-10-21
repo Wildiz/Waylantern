@@ -1,0 +1,13 @@
+name: LLM Zoomcamp (DataTalks.Club)
+url: https://github.com/DataTalksClub/llm-zoomcamp
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: Free 10-week course on building production-ready LLM applications with RAG, vector search, agents, function calling, evaluation and monitoring.
+pros: [Hands-on and open source, Free for both cohort and self-paced learners]
+cons: [Certificate only for cohort learners, Requires confident Python]
+verified: {date: 2026-10-21, method: github-repo, notes: "README: 'free, open-source, hands-on course', cost Free for cohort and self-paced; certificates not available to self-paced learners; last commit 2026-09-16"}

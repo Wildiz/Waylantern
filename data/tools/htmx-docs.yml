@@ -1,0 +1,13 @@
+name: htmx Documentation
+url: https://htmx.org/docs/
+category: reference
+areas: [web]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Official documentation for htmx, a library that adds AJAX, SSE and WebSockets behavior to HTML through attributes, covering triggers, targets, swapping and events.
+pros: [Single-page docs with short examples, Free and open documentation, Useful to understand server-rendered interactivity as an alternative to SPAs]
+cons: ['Reference-style, expects HTML and HTTP basics and a backend', No guided exercises]
+verified: {date: '2026-10-21', method: official-site, notes: 'Docs page loads with table of contents (introduction, installing, ajax, triggers, swapping, websockets & SSE, security, configuring); no price seen'}

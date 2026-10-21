@@ -1,0 +1,19 @@
+name: "MIT 6.100L - Introduction to CS and Programming using Python"
+url: https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/
+category: course
+areas: [cs, software]
+price: free   # MIT OpenCourseWare
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "MIT OpenCourseWare's Fall 2022 Python course for people with little or no programming experience, with lecture videos, notes, finger exercises, problem sets and recitations."
+pros:
+  - "Complete course materials per lecture"
+  - "Finger exercises give small practice steps"
+  - "Taught by Dr. Ana Bell"
+cons:
+  - "No autograder or feedback (static materials)"
+  - "Course ended in 2022"
+  - "Follow-up course 6.100B / 6.1010 not covered here"
+verified: {date: 2026-10-21, method: official-site, notes: "OCW course page loads; resource types (lecture videos, notes, problem sets, recitations) listed on page"}

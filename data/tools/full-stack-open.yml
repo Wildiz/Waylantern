@@ -1,0 +1,20 @@
+name: "Full Stack Open"
+url: https://fullstackopen.com/en/
+category: path
+areas: [web, software]
+price: free   # course, certificate and University of Helsinki ECTS credits are free per the About page
+level: intermediate
+languages: [en, es, fi, zh, fr, pt]   # language selector on the site (Suomi, English, Chinese, Espanol, Francais, Portugues BR)
+structure: guided
+focus_friendly: unknown
+description: "University of Helsinki's free course on modern web development with React, Redux, Node.js, MongoDB, GraphQL, TypeScript, testing and CI/CD, with optional certificate and ECTS credits."
+pros:
+  - "Free certificate and optional ECTS credits"
+  - "Spanish translation plus several other languages"
+  - "Continuous course with no yearly cutoff"
+  - "Active Discord"
+cons:
+  - "Expects good programming skills and basic web/database knowledge"
+  - "Large time commitment (5-14 credits)"
+  - "Credit registration process has its own rules (see course FAQ)"
+verified: {date: 2026-10-21, method: official-site, notes: "EN and ES pages load; About page states free of charge incl. certificate and ECTS credits; language selector read from page"}

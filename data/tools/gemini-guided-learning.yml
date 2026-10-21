@@ -1,0 +1,13 @@
+name: Gemini Guided Learning
+url: https://blog.google/products-and-platforms/products/education/guided-learning/
+category: tool
+areas: [study-skills]
+price: unverified
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Gemini mode that guides you with questions and step-by-step explanations, with images, diagrams, videos and quizzes, instead of just giving answers; announced Aug 6, 2025.
+pros: [Uses LearnLM-based tuning built with educators (per Google's blog), Multimodal explanations and quizzes, Educators can share it through Google Classroom]
+cons: [Plan requirements and pricing are not stated in the announcement post, Free promotional student plans have been time-limited and region-specific, Can still be wrong; verify facts]
+verified: {date: '2026-10-21', method: official-site, notes: 'Google blog post ''Guided Learning in Gemini: From answers to understanding'' (Aug 06, 2025) read; no plan or price stated in the post. A separate Google blog post described a 12-month free Google AI Pro offer for students in selected countries with a sign-up deadline; its current status was not checked. gemini.google/subscriptions (2026-10-21) shows a Free plan at $0/month plus paid AI Plus/Pro/Ultra tiers but does not say which plan includes Guided Learning, so price stays unverified.'}

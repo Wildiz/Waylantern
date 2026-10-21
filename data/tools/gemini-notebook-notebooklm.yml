@@ -1,0 +1,13 @@
+name: Gemini Notebook (NotebookLM)
+url: https://notebooklm.google.com/
+category: tool
+areas: [study-skills]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: 'Google''s source-grounded AI notebook: upload documents, ask questions about them and generate study guides, flashcards, quizzes, mind maps and audio/video overviews.'
+pros: [Answers are grounded in the sources you upload and cite them, 'Generates flashcards, quizzes, mind maps and overviews from your own material', Standard tier is free with a Google account]
+cons: [Can still misread or oversimplify sources; verify against the originals, 'Passive consumption (audio overviews, summaries) can replace real study', Free tier has usage limits (e.g. notebooks and sources per notebook), Product has been renamed; the site currently brands itself 'Gemini Notebook']
+verified: {date: '2026-10-21', method: official-site, notes: 'notebooklm.google.com loads a page titled ''Gemini Notebook''; help center: Standard plan is free with a Gmail account, with limits (100 notebooks/user, 50 sources/notebook) and paid Google AI Plus/Pro/Ultra tiers with higher limits. Limits are subject to change per Google. Output language options exist but were not itemised.'}

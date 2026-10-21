@@ -1,0 +1,13 @@
+name: Learn Next.js
+url: https://nextjs.org/learn
+category: course
+areas: [web]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Vercel's free Next.js Foundations course that builds a full-stack dashboard app in chapters from getting started to data fetching, mutations, auth and metadata.
+pros: [Guided chapters building one app, Page describes the Foundations course as free, Maintained by the Next.js team]
+cons: [Requires React knowledge, Course content is tied to the current Next.js version and Vercel ecosystem, Database setup chapter uses external services (not checked for cost)]
+verified: {date: '2026-10-21', method: official-site, notes: 'nextjs.org/learn loads with chapters 00-14 (Introduction, Getting Started, CSS Styling, Setting Up Your Database, Fetching Data, Streaming, Mutating Data...) and the text ''free, Next.js Foundations course''; chapter pages and any account or cost for the database step not checked'}

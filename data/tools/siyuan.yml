@@ -1,0 +1,13 @@
+name: SiYuan
+url: https://github.com/siyuan-note/siyuan
+category: tool
+areas: [study-skills]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Open-source, self-hostable personal knowledge-management app with block-level references and a Markdown WYSIWYG editor.
+pros: ['AGPL-3.0, can be self-hosted (Docker)', 'Apps for desktop, iOS, Android']
+cons: [Some features need a paid membership (official pricing page lists local storage as free at $0 while third-party S3/WebDAV sync is a one-time PRO purchase and official 8 GB cloud sync is a separate subscription), Docker deployments are browser-only and lack some export/import features (per README)]
+verified: {date: '2026-10-21', method: github-repo, notes: 'GitHub: siyuan-note/siyuan, ~46.9k stars, AGPL-3.0, last push 2026-10-21. README: most features free incl. commercial use, some features need paid membership; pricing page read 2026-10-21 (b3log.org/siyuan/en/pricing.html): Free = local storage, completely free $0; PRO Features one-time (third-party S3 and WebDAV sync and backup; no storage included), page shows $64 with $96 alongside; Subscription with 8 GB official cloud storage, official sync and cloud inbox, page shows $148 with $296 alongside (which figure is the current price was not clear from the text); no refunds, trial available in the desktop app. README in en, zh, ja, tr; Docker UI language values include en, zh-CN, zh-TW, ja, pt-BR.'}

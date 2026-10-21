@@ -1,0 +1,13 @@
+name: "CyberDefenders"
+url: https://cyberdefenders.org/blue-team-labs/
+category: practice
+areas: [security]
+price: freemium
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Blue team (defensive security) platform with browser-based DFIR and SOC investigation labs; free signup, with premium labs and certifications sold separately."
+pros: ["Zero setup, labs run in the browser", "Focused on defensive security and SOC skills"]
+cons: ["CyberRange premium labs cost $25 per month; certifications from $599", "Which labs are free was not confirmed"]
+verified: {date: 2026-10-21, method: official-site, notes: "Blue-team-labs page shows 'Get started for Free'; pricing page lists CyberRange premium labs at $25/month and certifications at $599 and $1,499. Exact free lab scope not confirmed."}

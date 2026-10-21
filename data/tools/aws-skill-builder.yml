@@ -1,0 +1,13 @@
+name: "AWS Skill Builder"
+url: https://skillbuilder.aws/
+category: course
+areas: [devops]
+price: freemium
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Amazon Web Services' official learning center with over 1,000 free learning resources plus paid subscription tiers for labs, exam prep and Digital Classrooms."
+pros: ["1,000+ free courses and resources from AWS", "Official exam-prep material for AWS certifications"]
+cons: ["Immersive labs and full exam prep need a subscription ($29/month or $449/year)", "Hands-on work in your own AWS account can cost money beyond the free tier"]
+verified: {date: 2026-10-21, method: official-site, notes: "aws.amazon.com/training/digital page: 'Access 1,000+ learning resources for free'; Individual monthly $29/month, annual $449/year; skillbuilder.aws itself is a JS app, so the price details were read from the aws.amazon.com page."}

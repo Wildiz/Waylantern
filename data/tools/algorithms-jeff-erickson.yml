@@ -1,0 +1,13 @@
+name: "Algorithms by Jeff Erickson"
+url: https://jeffe.cs.illinois.edu/teaching/algorithms/
+category: course
+areas: [cs]
+price: free
+level: advanced
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Free electronic version of Jeff Erickson's algorithms textbook plus lecture notes used in theoretical CS courses at the University of Illinois Urbana-Champaign."
+pros: ["Textbook licensed CC BY 4.0, free PDF", "Includes extra lecture notes and a coursework archive"]
+cons: ["Not a first introduction to data structures: assumes discrete math and basic data structures", "Proof-heavy and theoretical", "No autograder or solutions to exercises"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page read 2026-10-21: states free electronic textbook, Creative Commons Attribution 4.0 license for the book, prerequisites (CS 173 and CS 225 level), last taught Fall 2024."}

@@ -1,0 +1,13 @@
+name: "freeCodeCamp en español"
+url: https://www.freecodecamp.org/espanol/news/
+category: reference
+areas: [web]
+price: free
+level: all
+languages: ["es", "en"]
+structure: self-directed
+focus_friendly: medium
+description: "Spanish edition of the freeCodeCamp publication with translated and original programming tutorials and courses on web development, SQL, React, Git and more."
+pros: ["Free articles and long-form courses in Spanish", "Run by a 501(c)(3) charity"]
+cons: ["Many articles are translations and some are a year or more old", "Whether the interactive curriculum is fully available in Spanish was not confirmed"]
+verified: {date: 2026-10-21, method: official-site, notes: "Site read on 2026-10-21; newest Spanish post about a month old, several posts 6-12+ months old; /espanol/learn responds (HTML shell with Spanish social description Aprende a programar, GRATIS!, client-rendered so the lesson language was not verified) and the Spanish site nav links to Curriculum, the Spanish forum category and Donar (re-checked 2026-10-21); English edition and freecodecamp entry exist separately"}

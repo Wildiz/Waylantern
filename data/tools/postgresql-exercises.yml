@@ -1,0 +1,13 @@
+name: "PostgreSQL Exercises"
+url: https://pgexercises.com/
+category: practice
+areas: [data]
+price: free
+level: beginner
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "A series of SQL questions with explanations on a single small dataset, running in the browser, from basic selects to joins, aggregates, window functions and recursive queries."
+pros: ["Learn by doing with immediate feedback in the browser", "Single simple dataset, so no setup"]
+cons: ["Exercises only, designed to accompany a book or the Postgres docs", "Limited explanation of theory"]
+verified: {date: 2026-10-21, method: official-site, notes: "Site loads with sections Basic, Joins and Subqueries, Modifying data, Aggregates, Date, String, Recursive; no signup wall seen. Free taken from open access, no price mentioned."}

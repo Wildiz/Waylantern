@@ -1,0 +1,13 @@
+name: OpenAI Cookbook
+url: https://cookbook.openai.com
+category: reference
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Open-source collection of example code and guides for common tasks with the OpenAI API (mostly Python notebooks), such as retrieval, function calling, evaluation and fine-tuning.
+pros: [Runnable examples, Actively updated (repo last commit Oct 2026)]
+cons: [Running examples needs an OpenAI account and API key with paid usage, Task-based guides rather than a curriculum]
+verified: {date: 2026-10-21, method: github-repo, notes: "README says examples need an OpenAI API key (create a free account); MIT license; openai/openai-cookbook last commit 2026-10-20; site cookbook.openai.com reachable"}

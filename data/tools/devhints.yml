@@ -1,0 +1,13 @@
+name: "Devhints"
+url: https://devhints.io/
+category: reference
+areas: [software]
+price: free
+level: all
+languages: ["en"]
+structure: self-directed
+focus_friendly: medium
+description: "Collection of developer cheatsheets by Rico Sta. Cruz covering Bash, Git, Docker, JavaScript, React, TypeScript, Vim, Ansible and many other tools."
+pros: ["Dense one-page cheatsheets for quick lookup", "Source repo is active"]
+cons: ["Reference only, no explanations of concepts", "Single-author collection"]
+verified: {date: 2026-10-21, method: official-site, notes: "Site read on 2026-10-21 and lists Bash, Docker, React, TypeScript, Vim and AI-tool sheets; source repo rstacruz/cheatsheets last commit 2026-10-06; English only as far as seen; price not stated on site but all content freely readable"}

@@ -1,0 +1,13 @@
+name: "Google Summer of Code"
+url: https://summerofcode.withgoogle.com/
+category: community
+areas: [software, career]
+price: free
+level: intermediate
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "Global online program in which new open-source contributors work on a 12+ week project with a mentoring organization and receive a stipend."
+pros: ["Mentored project with a stipend (per official FAQ)", "Fully online, no travel", "Good route into a real open-source community"]
+cons: ["Competitive and requires a proposal accepted by an organization", "Contributors must be 18+ at registration, eligible to work in their country, a student or open-source beginner, accepted at most once before, and not in a US-embargoed country", "Annual cycle: organizations apply in Jan-Feb, contributors apply in March-April"]
+verified: {date: 2026-10-21, method: official-site, notes: "Official FAQ read 2026-10-21 for eligibility (18+, student or open source beginner, accepted no more than once previously, non-embargoed country); stipend and 8-22 week flexible timeframe per FAQ; not a recruitment program or internship. Timeline page read for general annual cycle."}

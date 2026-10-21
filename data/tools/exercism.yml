@@ -1,0 +1,13 @@
+name: "Exercism"
+url: https://exercism.org/
+category: practice
+areas: [software]
+price: free
+level: all
+languages: [en, es]
+structure: semi
+focus_friendly: high
+description: "Code-practice platform with exercises in 85 programming languages, automated tests and optional volunteer mentoring."
+pros: ["Small exercises with automated test feedback", "85 language tracks", "Optional human mentoring"]
+cons: ["Exercises assume you already know basic programming (beginners are pointed to the separate Jiki platform)", "Spanish covers the site interface; exercise content is English (per the language selector)"]
+verified: {date: 2026-10-21, method: official-site, notes: "About page: 'fun, effective and 100% free, forever'; 85 languages; interface languages include European and Latin American Spanish. focus high: bite-size exercises with automated tests."}

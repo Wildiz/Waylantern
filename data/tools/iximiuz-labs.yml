@@ -1,0 +1,13 @@
+name: "iximiuz Labs"
+url: https://labs.iximiuz.com/
+category: practice
+areas: [devops]
+price: freemium
+level: intermediate
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "Hands-on platform with playgrounds, tutorials, challenges and paths for Linux, Docker, Kubernetes and networking."
+pros: ["Real servers in the browser", "Free forever Basic plan"]
+cons: ["Basic: 1 playground and 1 hour per day, only some content free", "Bundle is $10 per month billed $120 per year"]
+verified: {date: 2026-10-21, method: official-site, notes: "Pricing page: Basic free forever, $0, no card; Complete Bundle $120 per year."}

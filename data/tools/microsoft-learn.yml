@@ -1,0 +1,13 @@
+name: "Microsoft Learn"
+url: https://learn.microsoft.com/en-us/training/
+category: course
+areas: [devops, general]
+price: free
+level: all
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "Microsoft's free training catalogue of learning paths and modules on Azure, Microsoft 365, Power Platform, security and developer tools, with role-based paths and credentials."
+pros: ["Training is free and open to anyone", "Short modules (15 minutes to an hour) with sandboxes for some labs"]
+cons: ["Microsoft-product focused", "Certification exams cost money; hands-on labs outside sandboxes may need an Azure account"]
+verified: {date: 2026-10-21, method: official-site, notes: "FAQ: 'Microsoft Learn training is free and available to anyone'; signing in gives access to free Azure resources and labs. Other languages not confirmed on the page, so only en listed."}

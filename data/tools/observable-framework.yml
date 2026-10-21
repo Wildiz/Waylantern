@@ -1,0 +1,13 @@
+name: Observable Framework
+url: https://observablehq.com/framework/
+category: reference
+areas: [data]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Free, open-source static site generator from Observable for building data apps, dashboards and reports with JavaScript on the front end and data loaders in any language.
+pros: [Open-source (ISC-style permissive license in the repo), Docs and examples directory in the repo, Good for learning to publish interactive data visualizations]
+cons: [Requires JavaScript and Node.js knowledge, Observable also sells hosted notebook plans; their pricing was not verified]
+verified: {date: '2026-10-21', method: github-repo, notes: 'observablehq.com returns a Vercel security checkpoint (HTTP 429) to automated fetches; claims taken from the README and LICENSE of the observablehq/framework repo read via raw.githubusercontent.com (''free, open-source static site generator''); hosted-notebook pricing and docs site not verified'}

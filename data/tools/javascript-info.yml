@@ -1,0 +1,13 @@
+name: The Modern JavaScript Tutorial (javascript.info)
+url: https://javascript.info/
+category: course
+areas: [web]
+price: free
+level: beginner
+languages: [en, es, fr, ja, ko, ru, zh]
+structure: guided
+focus_friendly: unknown
+description: Open-source tutorial that teaches the JavaScript language from the basics to OOP, then browser topics such as the DOM and events, with tasks at the end of articles.
+pros: ['Three parts: language, browser, additional articles', Free to read online; open source (about 25k GitHub stars shown on the page), 'Kept up to date (page shows last update Oct 20, 2026)']
+cons: [Text-heavy with no built-in project path, EPUB/PDF version is paid (optional), Translation completeness not checked]
+verified: {date: '2026-10-21', method: official-site, notes: 'Site loads, shows ''Last updated on October 20, 2026'', 25511 GitHub stars, language list (en, es, fr, ja, ko, ru, zh and more); ''Buy EPUB/PDF'' is optional; only a subset of the listed languages is recorded here'}

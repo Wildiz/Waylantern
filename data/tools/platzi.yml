@@ -1,0 +1,13 @@
+name: "Platzi"
+url: https://platzi.com/
+category: course
+areas: [software]
+price: freemium
+level: all
+languages: ["es"]
+structure: guided
+focus_friendly: unknown
+description: "Latin American online learning platform with Spanish-language courses and learning paths in programming, data, AI and English, with a few free courses and a paid subscription."
+pros: ["Spanish-language courses and role-based paths", "Some courses are free, for example Programación Básica"]
+cons: ["Most content needs a paid subscription", "Pricing is subscription based; currency of listed prices not confirmed"]
+verified: {date: 2026-10-21, method: official-site, notes: "Pricing page shows Basic $49/month and Expert $249/year (currency not stated); FAQ states some courses are free (e.g. Curso de Programación Básica); which tracks are fully free was not enumerated"}

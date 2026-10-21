@@ -1,0 +1,13 @@
+name: "Introduction to Linux (LFS101, Linux Foundation)"
+url: https://training.linuxfoundation.org/training/introduction-to-linux/
+category: course
+areas: [devops]
+price: free
+level: beginner
+languages: [en, es]
+structure: guided
+focus_friendly: unknown
+description: "Free Linux Foundation course on working with Linux through the graphical interface and command line across the major distribution families, ending with shell scripting and local security basics."
+pros: ["Free course from the Linux Foundation", "Covers command line, Bash scripting and distribution differences"]
+cons: ["Certificates and paid exam/training products are separate", "Self-paced; no feedback from instructors in the free course"]
+verified: {date: 2026-10-21, method: official-site, notes: "Course page calls it a 'free training course' and says it is available in Spanish; chapters up to Local Security Principles listed. Whether the free version issues a certificate not checked."}

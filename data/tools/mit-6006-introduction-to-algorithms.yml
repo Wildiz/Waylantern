@@ -1,0 +1,13 @@
+name: "MIT 6.006 Introduction to Algorithms (Spring 2020)"
+url: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/
+category: course
+areas: [cs]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "MIT OpenCourseWare course covering mathematical modeling of computational problems, common algorithms, paradigms and data structures, with lecture videos, notes, problem sets and exams."
+pros: ["Complete lecture videos, notes, problem sets and exam solutions", "Taught by Erik Demaine, Jason Ku and Justin Solomon"]
+cons: ["Static OCW materials with no grading or feedback", "Spring 2020 offering; undergraduate level with math prerequisites"]
+verified: {date: 2026-10-21, method: official-site, notes: "OCW course page read 2026-10-21: lists lecture videos, notes, problem sets, exams, quizzes; OCW states it freely shares knowledge. Exact prerequisites not captured."}

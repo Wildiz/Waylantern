@@ -1,0 +1,13 @@
+name: "USACO Guide"
+url: https://usaco.guide/
+category: path
+areas: [cs, career]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Free collection of curated competitive programming tutorials and problems that takes learners from USACO Bronze to Platinum and beyond."
+pros: ["Ordered modules by division (Bronze, Silver, Gold, Platinum, Advanced)", "Written by USACO finalists with curated problem lists", "Free to read; includes an editor and graph visualizer"]
+cons: ["Aimed at competitive programming, not general software engineering", "Optional live classes were promoted on the site; their price was not checked"]
+verified: {date: 2026-10-21, method: official-site, notes: "Meta description on 2026-10-21: 'A free collection of curated, high-quality competitive programming resources to take you from USACO Bronze to USACO Platinum'. Site also advertises live Bronze/Silver classes (not evaluated)."}

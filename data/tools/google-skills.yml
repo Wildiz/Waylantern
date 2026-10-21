@@ -1,0 +1,13 @@
+name: "Google Skills (formerly Google Cloud Skills Boost)"
+url: https://www.skills.google/
+category: course
+areas: [devops]
+price: freemium
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Google's learning platform with Google Cloud labs, courses, skill badges and certificates; labs run on credits, with a free GEAR program offering 35 monthly credits."
+pros: ["Hands-on labs in a real Google Cloud console", "GEAR program gives 35 free credits per month"]
+cons: ["Labs consume credits; beyond free credits a paid subscription applies (prices not confirmed)", "Not everything in the catalogue is free"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page: 'Join the GEAR program and fuel your cloud journey with 35 monthly credits for hands-on learning in Google Skills, at no cost to you'; catalogue has a Subscriptions section. Subscription prices and the full free-vs-credit split not confirmed."}

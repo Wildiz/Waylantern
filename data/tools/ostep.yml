@@ -1,0 +1,13 @@
+name: "Operating Systems: Three Easy Pieces"
+url: https://pages.cs.wisc.edu/~remzi/OSTEP/
+category: course
+areas: [cs]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Free online operating-systems textbook organised around virtualization, concurrency and persistence, with homework and projects."
+pros: ["Free chapters online", "Homework and projects provided"]
+cons: ["Dense; long"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page: 'a free online operating systems book', v1.10; hardcover and PDF are optional paid."}

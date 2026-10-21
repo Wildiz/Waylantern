@@ -1,0 +1,13 @@
+name: Learning How to Learn (Coursera)
+url: https://www.coursera.org/learn/learning-how-to-learn
+category: course
+areas: [study-skills]
+price: freemium   # Coursera page data flags the course isCourseFree=true; certificate/graded work are a purchase option; no user-facing 'audit' wording found
+level: beginner
+languages: [en, es]
+structure: guided
+focus_friendly: unknown
+description: Short course by Barbara Oakley and Terrence Sejnowski on focused and diffuse thinking, memory, procrastination and study techniques such as spaced repetition and retrieval practice.
+pros: [Very widely recommended in learning communities, Taught by Barbara Oakley and Terrence Sejnowski, About 2 weeks at 10 hours a week per the course page, Course page lists 25 available languages; Spanish subtitles are among the listed subtitle languages]
+cons: ['The page text never says ''audit''; its FAQ says a purchased Certificate gives access to graded assignments, and some courses offer a ''Full Course, No Certificate'' option, so what exactly is free to a non-paying learner is not spelled out', 'Course is taught in English; other languages are subtitles only', Some assignments are AI-graded, 'Techniques are generic, not specific to programming']
+verified: {date: '2026-10-21', method: official-site, notes: 'Coursera course page re-read 2026-10-21 (raw HTML): 4 modules, ~4.19M enrolled, 11 assignments; page data has isCourseFree=true (the same flag is false on paid courses such as Python and Machine Learning) and isPartOfCourseraPlus=true; primary language en, subtitle languages include es (25 languages shown); FAQ says purchasing the Certificate gives access to graded assignments and that some courses offer a Full Course, No Certificate option, and financial aid is available. The page never uses the word audit, so the exact free experience (video lectures only vs graded work) is not confirmed; price set to freemium on the strength of the isCourseFree flag plus the paid certificate. Category set to course because it is a structured Coursera course about study methods.'}

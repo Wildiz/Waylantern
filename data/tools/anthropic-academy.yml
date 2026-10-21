@@ -1,0 +1,13 @@
+name: Anthropic Academy
+url: https://anthropic.skilljar.com
+category: course
+areas: [ai]
+price: free
+level: all
+languages: [en]
+structure: guided
+focus_friendly: medium   # video courses with sections
+description: Anthropic's learning platform with courses on Claude, Claude Code, the Claude API, Model Context Protocol, AI Fluency and cloud deployments (Amazon Bedrock, Google Cloud).
+pros: [Official content from the model maker, Platform mentions completion certificates (cost not confirmed)]
+cons: [Requires a free account to register, Focused on Claude products]
+verified: {date: 2026-10-21, method: official-site, notes: "Course 'Building with the Claude API' shows 'Register | FREE'; catalogue lists ~15 courses; free status of each other course not individually checked; certificate cost not stated"}

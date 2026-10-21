@@ -1,0 +1,13 @@
+name: free-programming-books
+url: https://github.com/EbookFoundation/free-programming-books
+category: reference
+areas: [cs, software, general]
+price: free
+level: all
+languages: [en, es]   # 40+ languages for courses lists
+structure: self-directed
+focus_friendly: low
+description: Very large community-maintained list of free books, courses, interactive tutorials, playgrounds and problem sets, split by language.
+pros: [Huge, Strict contribution rules and CI linting, Many languages]
+cons: [Too large to browse without a goal, Quality varies]
+verified: {date: 2026-10-21, method: github-repo, notes: "CC BY 4.0; ~400k stars"}

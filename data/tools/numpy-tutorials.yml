@@ -1,0 +1,13 @@
+name: NumPy Tutorials
+url: https://numpy.org/numpy-tutorials/
+category: reference
+areas: [data]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Community-developed NumPy project tutorials in notebook form for self-learning and teaching, covering applications such as image processing, linear algebra and neural networks from scratch.
+pros: [Run live on Binder or download notebooks, Official NumPy project resource]
+cons: [Applied tutorials rather than a beginner path, Content freshness varies per tutorial]
+verified: {date: 2026-10-21, method: official-site, notes: "Site states tutorials are developed in the numpy-tutorials repository, not part of the NumPy source tree; individual tutorial dates not checked"}

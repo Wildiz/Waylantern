@@ -1,0 +1,13 @@
+name: FSRS (Free Spaced Repetition Scheduler)
+url: https://github.com/open-spaced-repetition/fsrs4anki
+category: tool
+areas: [study-skills]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Open-source, machine-learning-based spaced-repetition scheduling algorithm that fits review intervals to your own review history; available built into Anki and as an add-on for older versions.
+pros: [MIT license, Optimizes intervals from your own review history to hit a chosen retention target, Built into current Anki (Deck Options > FSRS)]
+cons: [Every Anki client you sync with must support FSRS (warned in the Anki manual), The repo is the legacy Anki add-on/optimizer project; for current Anki use the built-in option]
+verified: {date: '2026-10-21', method: github-repo, notes: 'GitHub: open-spaced-repetition/fsrs4anki, ~4.1k stars, MIT, last push 2026-08-14. Anki manual (docs.ankiweb.net, deck options) documents FSRS as an alternative to SM-2 with a Desired Retention setting.'}

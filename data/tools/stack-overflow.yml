@@ -1,0 +1,13 @@
+name: Stack Overflow
+url: https://stackoverflow.com/
+category: community
+areas: [cs, software, career]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: low
+description: Public Q&A site for programming questions with a published help center on asking good questions.
+pros: [Huge archive of answered questions, Help center guides how to ask]
+cons: [Strict question standards can be discouraging for beginners, Not suited to open-ended learning questions]
+verified: {date: '2026-10-21', method: official-site, notes: Help center page read (how to ask a good question). Homepage returned 403 to our automated checks but the help pages loaded. No paid tier seen on the free Q&A site.}

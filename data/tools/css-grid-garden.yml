@@ -1,0 +1,13 @@
+name: Grid Garden
+url: https://cssgridgarden.com/
+category: practice
+areas: [web]
+price: free
+level: beginner
+languages: [en, es, fr, de, ja, zh]
+structure: guided
+focus_friendly: high
+description: Browser game by Codepip where you write CSS grid properties to water a garden, level by level.
+pros: [Short levels with immediate visual feedback, No setup or account, Many interface languages]
+cons: [Covers only CSS grid, Not a replacement for learning HTML/CSS broadly]
+verified: {date: '2026-10-21', method: official-site, notes: 'Site loads; level selector shown; language list includes English, Spanish, French, German, Japanese, Chinese and others (subset recorded); no price or login seen. focus high: short single-puzzle levels with instant visual feedback'}

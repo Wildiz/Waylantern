@@ -1,0 +1,13 @@
+name: "Pro Git"
+url: https://git-scm.com/book/en/v2
+category: course
+areas: [software]
+price: free
+level: beginner
+languages: [en, es]
+structure: guided
+focus_friendly: unknown
+description: "Official free book on Git covering basics, branching, collaboration and internals."
+pros: ["Free online, source on GitHub", "Full Spanish translation"]
+cons: ["Reading only"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page lists full translations including Espanol; free to read online."}

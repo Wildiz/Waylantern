@@ -1,0 +1,13 @@
+name: Khanmigo
+url: https://www.khanmigo.ai/
+category: tool
+areas: [study-skills]
+price: paid-cheap
+level: all
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: Khan Academy's AI tutor that guides learners with questions instead of giving answers, integrated with Khan Academy content and a code reviewer for JS, HTML, Python and SQL.
+pros: [Designed not to hand out answers directly, Built into Khan Academy exercises and videos, Free for teachers; learner plan costs US$4/month]
+cons: ['Learner access requires living in the United States with a U.S. billing address; under-18s need a parent or guardian to sign up (khanmigo.ai/learners)', 'Learner plan is paid (US$4/month or US$44/year per the learners page, excluding sales tax)', 'Uses a GPT-4-class model, so it can still make mistakes', 'Coverage is school and intro-level, not advanced IT']
+verified: {date: '2026-10-21', method: official-site, notes: 'khanmigo.ai and /learners read: ''Now just $4/month*'', Khanmigo for you $4/month or $44/year, sales tax excluded; sign-up free for teachers. Page states Khanmigo uses GPT-4. No Spanish or other language option found on the pages read (languages stay en). Re-checked 2026-10-21: learner page says to access Khanmigo as a parent or learner you must pay monthly or annually, be 18 or older, live in the United States and have a U.S. billing address (under 18: parent or guardian signs up); free Khanmigo for Teachers is offered to educators in a listed set of countries and territories.'}

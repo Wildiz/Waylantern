@@ -1,0 +1,13 @@
+name: "freeCodeCamp YouTube channel"
+url: https://www.youtube.com/@freecodecamp
+category: course
+areas: [web]
+price: free
+level: all
+languages: ["en"]
+structure: self-directed
+focus_friendly: medium
+description: "Free long-form video courses on programming, data science, AI and computer science from the freeCodeCamp charity."
+pros: ["Full-length courses at no cost", "Updated frequently"]
+cons: ["Video-only, unguided library", "Quality and length vary"]
+verified: {date: 2026-10-21, method: official-site, notes: "Channel description: learn math, programming and computer science for free; 501(c)(3); latest upload via RSS 2026-10-21"}

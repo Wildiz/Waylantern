@@ -1,0 +1,13 @@
+name: Khan Academy Math (linear algebra, statistics, calculus)
+url: https://www.khanacademy.org/math
+category: course
+areas: [data, math, general]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Khan Academy's math library, including linear algebra, statistics and probability, and calculus courses with videos, articles and practice exercises.
+pros: [Run by a nonprofit that states its education is free, Covers school-level math up to introductory university topics, Practice exercises with instant feedback]
+cons: ['Linear algebra and statistics courses are introductory, not a full university treatment', Course contents were not confirmed from the live site, Spanish and other language availability not confirmed]
+verified: {date: '2026-10-21', method: search-only, notes: 'khanacademy.org math pages (linear-algebra, statistics-probability) return a JavaScript ''Client Challenge'' to automated fetches, so course pages could not be read; the official Khan Academy blog (blog.khanacademy.org) loads and states the nonprofit provides a free education; individual course lists and languages not confirmed, re-verify manually'}

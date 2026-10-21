@@ -1,0 +1,19 @@
+name: "CS50's Introduction to Artificial Intelligence with Python"
+url: https://cs50.harvard.edu/ai/
+category: course
+areas: [ai]
+price: free   # OpenCourseWare
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Harvard's free course on the ideas behind modern AI in Python: search, knowledge, uncertainty, optimization, machine learning, neural networks and language, with hands-on projects."
+pros:
+  - "Hands-on projects in Python"
+  - "Includes a lecture on language models"
+  - "Free lectures and notes"
+  - "Free CS50 Certificate for at least 70% on every project (course certificate page)"
+cons:
+  - "Needs prior Python knowledge (prerequisite on the course page)"
+  - "Classic AI emphasis rather than current LLM engineering"
+verified: {date: 2026-10-21, method: official-site, notes: "Course page and /ai/certificate/ re-read 2026-10-21: free to take via OpenCourseWare; free CS50 Certificate at 70% on each project; edX verified certificate (cs50.edx.org/ai) is a separate paid option, amount not stated on CS50 pages; topic list (Search ... Language) read from page"}

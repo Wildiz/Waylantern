@@ -1,0 +1,13 @@
+name: "pwn.college"
+url: https://pwn.college/
+category: path
+areas: [security]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Arizona State University's free cybersecurity education platform with ordered dojos of challenges (belt system) and lecture videos and slides, for practice in the provided legal environments only."
+pros: ["Free and open to everyone, run by a university", "Lecture videos and slides free for non-commercial use"]
+cons: ["Challenge solutions are asked not to be posted online", "Steep for total beginners: assumes you are comfortable with a terminal"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page: platform maintained by ASU, 'open, for free, to participation for interested people around the world'; videos and slides usable freely for non-commercial purposes; a Start Here dojo is listed."}

@@ -1,0 +1,13 @@
+name: Super Productivity
+url: https://super-productivity.com/
+category: tool
+areas: [focus]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: Free open-source to-do and time-tracking app with timeboxing, a Pomodoro timer and calendar/Jira/GitHub task import, with a web app and desktop downloads.
+pros: [MIT-licensed and works offline without an account, 'Combines tasks, timer and time tracking in one place', Has dedicated pages on ADHD and developer productivity]
+cons: ['More features than a bare timer, which can feel like a lot to set up', Other interface languages not confirmed]
+verified: {date: '2026-10-21', method: official-site, notes: 'Official site and GitHub README read: free, open source, no account needed, works offline; LICENSE file is MIT.'}

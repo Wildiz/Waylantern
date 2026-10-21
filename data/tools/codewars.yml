@@ -1,0 +1,13 @@
+name: "Codewars"
+url: https://www.codewars.com/
+category: practice
+areas: [software]
+price: freemium   # signup free; optional Codewars Red subscription ($5/month, $24 per 6 months, $40/year per codewars.com/subscription)
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: "Community-written coding challenges ('kata') solved in the browser against test cases in 55+ languages, ranked from beginner to expert."
+pros: ["Small exercises with instant test feedback", "55+ languages", "See other users' solutions after solving"]
+cons: ["Quality varies since kata are user-authored", "Optional Codewars Red subscription adds enhanced statistics, ad-free experience, peer comparison, beta features and a badge; ads are shown without it (inferred from the Red feature list)"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page read: small kata, instant test feedback, 55+ languages, nav shows 'Codewars Red'. codewars.com/subscription (found via the nav link, 2026-10-21) lists Codewars Red at $5 monthly, $24 every 6 months, $40 annually with extras (enhanced statistics, ad-free, compare progress with peers, beta access, profile badge); none of the listed extras is core kata solving, and the docs sign-up guide has no payment step. No page states in words that kata solving is free, so freemium rests on that evidence. focus high: small tasks with instant tests."}

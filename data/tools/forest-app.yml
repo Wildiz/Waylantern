@@ -1,0 +1,13 @@
+name: Forest
+url: https://www.forestapp.cc/
+category: tool
+areas: [focus]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Pomodoro-style focus timer in which a virtual tree grows while you stay off your phone and dies if you leave, with apps and a Chrome/Firefox extension.
+pros: [Simple gamified loop for short focus intervals, Core focus experience is free, Browser extension for desktop]
+cons: [Plus subscription adds further features and price varies by store and region, 'Gamification can lose its pull over time (user reports, not verified)']
+verified: {date: '2026-10-21', method: official-site, notes: 'Official FAQ: Free tier covers core focus experience; Plus is a subscription billed via App Store/Google Play with price varying by region; works on iPhone, iPad, Android and as Chrome/Firefox extension. Re-checked 2026-10-21: homepage ends with the line Start free. No credit card, no expiration. and says the core focus experience works offline; site offers EN and Chinese (the in-app language list was not itemised, so languages stay en). Plus prices are not shown on the pages read (they vary by store and region).'}

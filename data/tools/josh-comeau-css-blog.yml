@@ -1,0 +1,13 @@
+name: Josh W. Comeau's CSS articles
+url: https://www.joshwcomeau.com/css/
+category: reference
+areas: [web]
+price: freemium
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Josh W. Comeau's free, interactive blog tutorials on CSS (31 articles listed), alongside his separate paid course CSS for JavaScript Developers.
+pros: [Free articles with interactive demos on modern CSS topics, Explains the mental model behind CSS layout]
+cons: [The structured course (css-for-js.dev) is paid and has no free tier that was visible; price not captured, Articles are not a sequenced beginner path]
+verified: {date: '2026-10-21', method: official-site, notes: CSS articles page loads and lists 31 articles; css-for-js.dev and courses.joshwcomeau.com load and describe a paid course (price figure not read); the free portion is the blog articles only}

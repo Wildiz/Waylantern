@@ -1,0 +1,19 @@
+name: "Open Source Society University - Math"
+url: https://github.com/ossu/math
+category: path
+areas: [math]
+price: free   # some courses may charge for graded assignments (per README)
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Free self-taught undergraduate-style math curriculum (core mathematics plus advanced topics) built from open online courses, estimated at about 2 years at 18-22 hours per week."
+pros:
+  - "Useful math base for data science and ML"
+  - "Courses chosen by published criteria"
+  - "Active Discord community"
+cons:
+  - "Heavy time commitment"
+  - "Some graded work may cost money"
+  - "Math rather than programming"
+verified: {date: 2026-10-21, method: github-repo, notes: "README read via raw.githubusercontent.com (github.com was not reachable); duration and cost statements quoted from README. Repo activity date not checked."}

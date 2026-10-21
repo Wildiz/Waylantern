@@ -1,0 +1,13 @@
+name: "Netlify (Free plan)"
+url: https://www.netlify.com/pricing/
+category: tool
+areas: [web, devops, career]
+price: freemium
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Web hosting and deployment platform whose Free plan ($0 forever per its pricing page) includes deploys from Git, deploy previews, custom domains with SSL and serverless functions within a monthly credit limit."
+pros: ["Free plan with Git-based deploys and custom domains", "Deploy previews for every change"]
+cons: ["Free plan is limited to a monthly credit allowance (300 credits per month on the page read)", "Pricing changes over time; recheck before relying on limits"]
+verified: {date: 2026-10-21, method: official-site, notes: "Pricing page read 2026-10-21: Free $0 forever, 300 credit limit/month; Personal $9/month; Pro $20/month."}

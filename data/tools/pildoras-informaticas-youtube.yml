@@ -1,0 +1,13 @@
+name: "Píldoras Informáticas (YouTube)"
+url: https://www.youtube.com/@Pildorasinformaticas
+category: course
+areas: [software]
+price: free
+level: beginner
+languages: ["es"]
+structure: guided
+focus_friendly: unknown
+description: "Spanish-language channel with numbered video courses on programming (Python, React, Rust and more) alongside office software and web design."
+pros: ["Numbered video series that form complete courses", "Active in 2026"]
+cons: ["Video-only; no exercises", "Older series may be dated"]
+verified: {date: 2026-10-21, method: official-site, notes: "Channel description and RSS read on 2026-10-21; latest upload 2026-10-15 (Python automation, React and Rust course series)"}

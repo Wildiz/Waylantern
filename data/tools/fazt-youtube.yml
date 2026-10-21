@@ -1,0 +1,13 @@
+name: "Fazt (YouTube)"
+url: https://www.youtube.com/@fazttech
+category: course
+areas: [web, software]
+price: free
+level: all
+languages: ["es"]
+structure: self-directed
+focus_friendly: unknown
+description: "Spanish-language channel with videos on programming, web development, deployment and software news, from language basics to publishing a web app."
+pros: ["Covers fundamentals through deployment", "Very active"]
+cons: ["Mix of tutorials and news", "Video-only"]
+verified: {date: 2026-10-21, method: official-site, notes: "Channel description read on 2026-10-21; latest upload 2026-10-21"}

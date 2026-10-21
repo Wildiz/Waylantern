@@ -1,0 +1,13 @@
+name: TomatoBar
+url: https://github.com/ivoronin/TomatoBar
+category: tool
+areas: [focus]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: Open-source Pomodoro timer that lives in the macOS menu bar.
+pros: [MIT license, Minimal; sits in the menu bar]
+cons: [macOS only, Timer only; no task tracking or blocking]
+verified: {date: '2026-10-21', method: github-repo, notes: 'GitHub ivoronin/TomatoBar: ~3.6k stars, MIT, last push 2026-05-29, described as macOS menu-bar Pomodoro timer. focus_friendly=high because fixed short work/break cycles are built in (reasoning).'}

@@ -1,0 +1,13 @@
+name: "Project Euler"
+url: https://projecteuler.net/
+category: practice
+areas: [cs, software, math]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Archive of challenging mathematical and programming problems with numeric answers, solvable in any language."
+pros: ["Combines math and programming", "Language-agnostic"]
+cons: ["Needs math comfort", "Not a tutorial: no teaching material"]
+verified: {date: 2026-10-21, method: official-site, notes: "About page: registration 'completely free'; 114 languages used by members. Page works."}

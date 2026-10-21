@@ -1,0 +1,13 @@
+name: "CS50's Introduction to 2D Game Development"
+url: https://cs50.harvard.edu/games/
+category: course
+areas: [games-mobile]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Harvard OpenCourseWare course on 2D games using Lua and LOVE2D, recreating Pong, Flappy Bird, Breakout, Match 3, Super Mario Bros., Zelda, Angry Birds and Pokemon."
+pros: ["Free via OpenCourseWare with weekly lectures and projects", "Builds on CS50x"]
+cons: ["Prerequisite is CS50x or experience in any programming language", "Uses Lua and LOVE2D, not a mainstream engine like Unity or Godot"]
+verified: {date: 2026-10-21, method: official-site, notes: "Course page read 2026-10-21: states anyone can take the course for free via OpenCourseWare through eight weeks of material and a final project; prerequisite CS50x or prior programming."}

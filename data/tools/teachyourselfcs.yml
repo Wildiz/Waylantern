@@ -1,0 +1,19 @@
+name: "Teach Yourself Computer Science"
+url: https://teachyourselfcs.com/
+category: roadmap
+areas: [cs]
+price: free   # the guide is free; some recommended books are paid, many lectures are free
+level: intermediate
+languages: [en, es]   # community translation "Traduccion en Espanol (Latinoamerica)" linked on the page
+structure: semi
+focus_friendly: unknown
+description: "A guide recommending one book and one video lecture series for each of nine core CS subjects (programming, architecture, algorithms, math, OS, networking, databases, languages, distributed systems), with a suggested 100-200 hours per subject."
+pros:
+  - "Opinionated and short - tells you what to study and in what order"
+  - "Pairs a book and a video series per subject"
+  - "Many community translations"
+cons:
+  - "Is a reading list, not a platform - no exercises or feedback of its own"
+  - "Some recommended books must be bought"
+  - "Last major update was May 2020 per the page"
+verified: {date: 2026-10-21, method: official-site, notes: "Page loads; TL;DR and translation list read. Individual resources not re-checked."}

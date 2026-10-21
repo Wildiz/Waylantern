@@ -1,0 +1,13 @@
+name: "Awesome-Selfhosted"
+url: https://awesome-selfhosted.net/
+category: reference
+areas: [devops]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "A curated list of free software network services and web applications that you can host on your own servers, organised by category; a practical source of home-lab learning projects."
+pros: ["Hundreds of free-software projects grouped by use case", "Good way to learn Linux, Docker and networking by running real services"]
+cons: ["A list, not a course", "You need your own hardware or server and time to maintain it"]
+verified: {date: 2026-10-21, method: official-site, notes: "Site loads: defines self-hosting and lists free software services by category; non-free software is on a separate page. Use as a project idea source; no learning path."}

@@ -1,0 +1,13 @@
+name: 3Blue1Brown - Neural Networks series
+url: https://www.3blue1brown.com/topics/neural-networks
+category: course
+areas: [ai]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: high   # short videos building intuition one concept at a time
+description: Visual video lessons explaining what neural networks are, gradient descent, backpropagation and the transformer architecture, with text adaptations on the site.
+pros: [Strong visual intuition, Short standalone lessons, Text versions with interactive demo on the site]
+cons: [Conceptual rather than hands-on coding, No exercises]
+verified: {date: 2026-10-21, method: official-site, notes: "Lesson page 'But what is a neural network?' (Chapter 1) readable without login; site asks for optional supporter donations; other languages not confirmed for this series. 3blue1brown.com/faq (2026-10-21) says community subtitles are contributed via Criblate and published as official YouTube subtitles, and that paid dubs are being worked on for Spanish, French, Hindi, Portuguese, Russian, Japanese, Arabic and Korean; which of these exist for the neural-network videos was not checked, so languages stay en"}

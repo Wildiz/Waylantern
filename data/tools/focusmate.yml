@@ -1,0 +1,13 @@
+name: Focusmate
+url: https://www.focusmate.com/
+category: tool
+areas: [focus]
+price: freemium
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: Virtual coworking service that pairs you on video with another member for a silent, timed work session in which you each state your goal.
+pros: [Free plan with no credit card, 'Session starts and ends with a stated goal, which gives a clear start and finish', Sessions can be booked at many times of day]
+cons: [Free plan is capped at 3 sessions per week; unlimited sessions need Plus, 'Requires being on camera with a stranger, which some people find uncomfortable', Evidence that body doubling helps ADHD specifically is limited and mixed; the vendor cites general social-facilitation research]
+verified: {date: '2026-10-21', method: official-site, notes: 'Live pricing page: Free = 3 sessions/week, no card; Plus = unlimited sessions, $8/mo billed annually or $12/mo billed monthly. FAQ confirms camera requirement. Vendor science page cites general social-pressure research, not ADHD trials. Site showed a third-party outage banner on fetch day.'}

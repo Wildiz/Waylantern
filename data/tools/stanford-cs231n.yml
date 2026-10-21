@@ -1,0 +1,13 @@
+name: Stanford CS231n - Deep Learning for Computer Vision
+url: https://cs231n.stanford.edu
+category: course
+areas: [ai]
+price: free
+level: advanced
+languages: [en]
+structure: guided
+focus_friendly: low   # university-level lectures and assignments
+description: Stanford course on deep learning for visual recognition with public course notes and assignments; recordings of previous years are available online.
+pros: [Widely used public course notes at cs231n.github.io, Assignments built around NumPy and PyTorch]
+cons: [Current-term lecture videos are limited to enrolled Stanford students, Requires Python, calculus and linear algebra]
+verified: {date: 2026-10-21, method: official-site, notes: "Site shows Spring 2026; states current videos are on Canvas for enrolled students and recordings from previous offerings are available; links to cs231n.github.io notes; exact public video availability per year not checked"}

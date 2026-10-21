@@ -1,0 +1,13 @@
+name: "midudev (YouTube)"
+url: https://www.youtube.com/@midudev
+category: course
+areas: [web, software]
+price: free
+level: beginner
+languages: ["es"]
+structure: self-directed
+focus_friendly: unknown
+description: "Spanish-language channel with tutorials on JavaScript, TypeScript, React, Node.js, AI and developer tools."
+pros: ["Practical web development focus", "Very active"]
+cons: ["Mix of tutorials and tech news", "Video-only"]
+verified: {date: 2026-10-21, method: official-site, notes: "Channel description read on 2026-10-21; latest upload 2026-10-21; any paid courses by the author were not checked"}

@@ -1,0 +1,13 @@
+name: "GitHub Pages"
+url: https://pages.github.com/
+category: tool
+areas: [web, software, devops, career]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Static website hosting from a GitHub repository, with one user or organization site per account and unlimited project sites, suitable for a beginner portfolio."
+pros: ["Free hosting for public repositories on GitHub Free", "Step-by-step quickstart on the landing page", "Publishes straight from a repo"]
+cons: ["Static sites only (HTML, CSS, JavaScript)", "Private-repository publishing needs a paid GitHub plan"]
+verified: {date: 2026-10-21, method: official-site, notes: "pages.github.com read 2026-10-21 ('one site per GitHub account and organization, and unlimited project sites'); GitHub Docs state Pages is available in public repositories with GitHub Free and in private repositories with paid plans."}

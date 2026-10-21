@@ -1,0 +1,13 @@
+name: "OverTheWire Wargames"
+url: https://overthewire.org/wargames/
+category: practice
+areas: [devops, security]
+price: free
+level: beginner
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "Security wargames played over SSH (Bandit for Linux command-line basics, Natas for web security, and others) that teach security concepts as puzzle levels."
+pros: ["Bandit is a gentle intro to the Linux shell", "No installation beyond an SSH client"]
+cons: ["Hints are minimal by design", "Community-run, little hand-holding"]
+verified: {date: 2026-10-21, method: official-site, notes: "Wargames page re-read 2026-10-21: Bandit, Natas, Leviathan, Krypton, Narnia, Behemoth and others online, with a suggested play order starting at Bandit; page has no fees or signup. Donate page (overthewire.org/information/donate.html): 'We gladly accept donations to keep our infrastructure running' via Patreon (sponsor perks) or PayPal, i.e. funded by optional donations, not by charging players. Free rests on that plus the absence of any price or account requirement; no explicit statement that play is free of charge was found."}

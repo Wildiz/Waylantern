@@ -1,0 +1,13 @@
+name: "Up For Grabs"
+url: https://up-for-grabs.net/
+category: reference
+areas: [software, career]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Community-maintained directory of open-source projects that curate tasks specifically for new contributors."
+pros: ["Projects opt in with a label for beginner tasks", "Open-source listing on GitHub"]
+cons: ["Quality and activity of individual projects vary", "Site relies on JavaScript for filtering"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page read 2026-10-21 (meta description: projects with curated tasks for new contributors; site has a 'View on GitHub' link)."}

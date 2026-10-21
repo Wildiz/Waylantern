@@ -1,0 +1,19 @@
+name: "Codecademy"
+url: https://www.codecademy.com/
+category: practice
+areas: [software]
+price: freemium   # Basic plan $0; Plus $14.99/mo billed annually ($29.99 monthly); Pro $19.99/mo billed annually ($39.99 monthly) per pricing page
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Interactive coding platform whose Basic plan is free with limited courses, while skill paths, career paths and certification paths need Plus or Pro."
+pros:
+  - "Free Basic plan"
+  - "Guided paths from beginner level"
+  - "In-browser lessons"
+cons:
+  - "Skill, career and certification paths are not available on Basic (pricing page)"
+  - "Free content is limited"
+  - "Prices may change"
+verified: {date: 2026-10-21, method: official-site, notes: "Pricing page read: Basic $0, Plus $14.99/mo billed annually, Pro $19.99/mo billed annually; paths locked on Basic. Language availability beyond English not checked."}

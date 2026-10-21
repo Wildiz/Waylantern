@@ -1,0 +1,13 @@
+name: "Código Facilito (YouTube)"
+url: https://www.youtube.com/@codigofacilito
+category: course
+areas: [software]
+price: free
+level: all
+languages: ["es"]
+structure: self-directed
+focus_friendly: unknown
+description: "Spanish-language developer education channel with free video courses on software development, cloud, DevOps and AI engineering."
+pros: ["Active, Spanish-language developer content", "Free courses announced on the channel"]
+cons: ["Main platform site could not be checked, so paid offerings are unconfirmed", "Mix of news and course videos"]
+verified: {date: 2026-10-21, method: official-site, notes: "YouTube channel and RSS read on 2026-10-21 (uploads same day, incl. a free product engineer with AI course announcement); codigofacilito.com returned 403 to automated fetch so platform pricing was not verified"}

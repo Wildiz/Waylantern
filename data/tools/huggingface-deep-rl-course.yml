@@ -1,0 +1,13 @@
+name: Hugging Face Deep Reinforcement Learning Course
+url: https://huggingface.co/learn/deep-rl-course
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Free course on deep reinforcement learning covering Q-learning, policy gradients, PPO, actor-critic and multi-agent settings with hands-on environments.
+pros: [Hands-on units with Atari, Unity ML-Agents and robotics environments]
+cons: [Assumes Python and deep learning basics, Only an English version found]
+verified: {date: 2026-10-21, method: official-site, notes: "Syllabus units 0-8 plus bonus units readable without login; only 'en' hreflang found; repo huggingface/deep-rl-class last commit 2026-10-06; explicit 'free' wording not seen on the intro page, content is open without sign-in"}

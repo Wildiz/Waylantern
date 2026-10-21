@@ -1,0 +1,13 @@
+name: "Big-O Cheat Sheet"
+url: https://www.bigocheatsheet.com/
+category: reference
+areas: [cs]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "One-page reference of best, average and worst-case time and space complexities for common data structures and sorting and searching algorithms."
+pros: ["Quick lookup before interviews", "Single page, downloadable as PDF"]
+cons: ["Reference only: does not explain how algorithms work", "Single author's page; no visible update log checked"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page read 2026-10-21: describes itself as covering space and time Big-O complexities of common algorithms, written for interview prep; offers a PDF download. Free to read with no login."}

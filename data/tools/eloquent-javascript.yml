@@ -1,0 +1,13 @@
+name: "Eloquent JavaScript"
+url: https://eloquentjavascript.net/
+category: course
+areas: [web]
+price: free
+level: beginner
+languages: [en, es]
+structure: guided
+focus_friendly: unknown
+description: "Free online book (4th edition, 2024) on JavaScript and programming with an in-page code sandbox, covering the language, the browser and Node.js."
+pros: ["Interactive code sandbox", "Project chapters"]
+cons: ["Dense in later chapters"]
+verified: {date: 2026-10-21, method: official-site, notes: "Page: CC BY-NC license; fourth-edition translations listed include Spanish."}

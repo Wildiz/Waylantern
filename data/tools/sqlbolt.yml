@@ -1,0 +1,13 @@
+name: "SQLBolt"
+url: https://sqlbolt.com/
+category: practice
+areas: [data]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: high
+description: "Short interactive SQL lessons and exercises from SELECT to JOINs, aggregates and table changes, run in the browser."
+pros: ["18 short lessons with instant checks", "No setup"]
+cons: ["Beginner-level only"]
+verified: {date: 2026-10-21, method: official-site, notes: "Lesson list read (Lessons 1-18 plus extra topics); no sign-up or price on page. focus high: short lessons with instant feedback."}

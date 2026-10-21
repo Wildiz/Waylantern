@@ -1,0 +1,13 @@
+name: "Codeforces"
+url: https://codeforces.com/
+category: practice
+areas: [cs, career]
+price: unverified
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Competitive programming platform with regular timed contests (including Educational Rounds), a large problemset and an open community blog."
+pros: ["Frequent rated contests", "Huge archive of problems with tags and difficulty ratings", "Active community with editorials and blog posts"]
+cons: ["Contest problems are hard for beginners", "Not a structured curriculum", "Official site sits behind bot protection (could not be read automatically)"]
+verified: {date: 2026-10-21, method: search-only, notes: "codeforces.com returned a bot-protection challenge (403) to automated access. Facts (maintained by ITMO University group led by Mike Mirzayanov; Educational Rounds series since 2015 meant to teach standard techniques) come from web search of Codeforces blog and Wikipedia. Cost not stated on any page we could read (a directory lists it as free), so price left unverified."}

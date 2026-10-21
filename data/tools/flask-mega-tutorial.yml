@@ -1,0 +1,13 @@
+name: The Flask Mega-Tutorial (Miguel Grinberg)
+url: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+category: course
+areas: [web]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Free online tutorial (2024 edition) that builds a complete Flask web app over about 23 chapters covering templates, forms, databases, logins, testing and deployment.
+pros: [Complete project built step by step, Free to read online as articles, Covers deployment topics]
+cons: [Requires basic Python, E-book and paperback versions are paid (optional), Only the first page was read; chapter list as shown there]
+verified: {date: '2026-10-21', method: official-site, notes: 'Chapter 1 loads and shows the 2024 edition chapter list starting with Hello, World!, Templates, Web Forms, Database, User Logins and continuing through deployment; page states the e-book and paperback are sold separately; exact chapter count not verified beyond the list shown'}

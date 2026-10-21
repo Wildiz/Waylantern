@@ -1,0 +1,13 @@
+name: draw.io (diagrams.net)
+url: https://www.drawio.com/
+category: tool
+areas: [study-skills]
+price: free
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Free diagramming tool for flowcharts, UML, architecture and network diagrams that runs in the browser or as a desktop app, with no sign-up required.
+pros: [Free forever and no sign-up per the official site, Apache-2.0 licensed source code, 'Saves to local disk, Google Drive, GitHub and others', Desktop apps and VS Code extension]
+cons: [More effort per diagram than text-based tools like Mermaid, UI-language coverage not verified]
+verified: {date: '2026-10-21', method: official-site, notes: 'drawio.com home page read: ''Free forever, no sign-up required'', Apache 2.0 source, desktop app, integrations incl. GitHub and VS Code; GitHub jgraph/drawio-desktop ~63.6k stars, last push 2026-10-18.'}

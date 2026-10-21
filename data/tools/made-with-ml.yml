@@ -1,0 +1,13 @@
+name: Made With ML
+url: https://madewithml.com
+category: course
+areas: [ai]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: Free lessons on combining machine learning with software engineering, covering design, development, testing, reproducibility, deployment and CI/CD for production ML, plus foundations in NumPy, pandas and PyTorch.
+pros: [Covers MLOps topics often skipped in ML courses, Lessons and code repo are open]
+cons: [Now part of Anyscale and the set-up leans on Ray and Anyscale clusters, Repo last updated March 2026]
+verified: {date: 2026-10-21, method: official-site, notes: "Site lists full lesson tree readable without login; GokuMohandas/Made-With-ML last commit 2026-03-04; explicit 'free' wording not seen, content is open without sign-in"}

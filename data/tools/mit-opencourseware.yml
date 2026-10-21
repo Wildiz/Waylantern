@@ -1,0 +1,18 @@
+name: "MIT OpenCourseWare"
+url: https://ocw.mit.edu/
+category: path
+areas: [cs, general]
+price: free   # no registration required; no credit or certification
+level: all
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "MIT's free collection of lecture notes, exams, problem sets and videos from over 2,500 MIT courses across the whole curriculum, including EECS."
+pros:
+  - "No account or enrollment needed"
+  - "Real MIT problem sets and exams"
+  - "Downloadable materials under an open license"
+cons:
+  - "No credit, certificate or instructor feedback"
+  - "Courses are archived snapshots - you must assemble your own path"
+verified: {date: 2026-10-21, method: official-site, notes: "Home and About pages read: 2500+ courses, free, no registration, MIT does not offer credit or certification"}

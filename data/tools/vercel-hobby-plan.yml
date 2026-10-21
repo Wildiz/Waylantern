@@ -1,0 +1,13 @@
+name: "Vercel (Hobby plan)"
+url: https://vercel.com/pricing
+category: tool
+areas: [web, devops, career]
+price: freemium
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Frontend hosting platform whose free Hobby plan is aimed at personal projects and includes Git-based deploys, a global CDN and monthly usage allowances."
+pros: ["Import a repo and deploy in seconds", "Free Hobby plan with automatic CI/CD and CDN"]
+cons: ["Hobby is meant for personal projects with fixed included usage", "Pricing and limits change over time"]
+verified: {date: 2026-10-21, method: official-site, notes: "Pricing page and Hobby plan docs read 2026-10-21: Hobby $0/mo; docs say it is free and aimed at personal projects and small-scale applications, with included usage (for example 100 GB fast data transfer, 1,000,000 function invocations)."}

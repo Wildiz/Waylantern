@@ -1,0 +1,13 @@
+name: Open Source Society University - Computer Science
+url: https://github.com/ossu/computer-science
+category: path
+areas: [cs, software]
+price: free   # nearly all free; some graded assignments cost money (per README)
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Free self-paced undergraduate-level CS curriculum built from existing online courses (Intro, Core, Advanced, Final project).
+pros: [Published inclusion criteria, Active community on Discord, Fork-and-checklist progress tracking]
+cons: [Needs strong self-discipline, Some graded work is paid, Assumes high-school math]
+verified: {date: 2026-10-21, method: github-repo, notes: "README read; org page shows repo updated Jul 2026"}

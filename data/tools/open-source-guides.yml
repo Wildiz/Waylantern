@@ -1,0 +1,13 @@
+name: "Open Source Guides"
+url: https://opensource.guide/
+category: reference
+areas: [software, career]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "GitHub's collection of short guides on how to contribute to, launch and maintain open-source projects, including security and accessibility best practices."
+pros: ["Authoritative, readable guides from GitHub", "Site menu offers many translations"]
+cons: ["Conceptual guidance, no hands-on exercises", "Which guides are translated was not checked"]
+verified: {date: 2026-10-21, method: official-site, notes: "Home page read 2026-10-21 ('Learn how to launch and grow your project'); language menu lists many languages, but only English was verified."}

@@ -1,0 +1,19 @@
+name: "From Nand to Tetris"
+url: https://www.nand2tetris.org/
+category: path
+areas: [cs]
+price: free   # free and open-source for non-profit use; the Coursera version requires payment
+level: all
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Project-based course that builds a general-purpose computer from logic gates up to a high-level language, compiler, operating system and applications, with all lectures, projects and tools online."
+pros:
+  - "Ties hardware to software end to end"
+  - "All lectures, projects and software tools on the site"
+  - "Taught at 400+ institutions"
+cons:
+  - "Coursera version (with certificate) is paid"
+  - "Projects take considerable time"
+  - "Non-profit use license only"
+verified: {date: 2026-10-21, method: official-site, notes: "Home page read: everything free and open-source in non-profit setting; Coursera courses require payment"}
