@@ -2,7 +2,7 @@
 
 _Interview practice, your first open-source contributions and portfolio hosting._
 
-26 resources. [Back to the start](../README.md)
+27 resources. [Back to the start](../README.md)
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
@@ -25,6 +25,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [AtCoder](https://atcoder.jp/) | Price not confirmed yet | all | self-directed | - | en, ja | Japanese competitive programming site that holds weekly online contests for beginners to experts, with an English interface and permanent practice contests. |
 | [Codeforces](https://codeforces.com/) | Price not confirmed yet | all | self-directed | - | en | Competitive programming platform with regular timed contests (including Educational Rounds), a large problemset and an open community blog. |
 | [Codility Lessons](https://app.codility.com/programmers/lessons/1-iterations/) | Price not confirmed yet | intermediate | guided | - | en | Candidate-side training area of Codility with 17 numbered lessons (iterations, arrays, time complexity, sorting, dynamic programming and more) each paired with coding tasks. |
+| [GitHub Skills: Introduction to GitHub](https://github.com/skills/introduction-to-github) | Free | beginner | guided | high | en | Guided beginner exercise that uses a profile README to teach GitHub repositories, branches, commits and pull requests. |
 | [HackerRank](https://www.hackerrank.com/) | Price not confirmed yet | all | semi | - | en | Coding practice platform for developers with problem tracks, role-based Prep Kits (practice, mock tests, AI mock interviews) and skill certifications, alongside its employer hiring-assessment products. |
 | [LeetCode](https://leetcode.com/) | Free + paid extras | all | self-directed | - | en | Online judge with a large library of coding problems, contests and company-tagged interview questions in many programming languages. |
 | [NeetCode](https://neetcode.io/) | Free + paid extras | intermediate | semi | - | en | Coding-interview preparation site with structured courses, a curated problem list (1,000+ problems), head-to-head Versus mode and AI-assisted assessments. |

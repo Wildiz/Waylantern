@@ -2,7 +2,7 @@
 
 _Containers, Kubernetes, cloud platforms, infrastructure and Linux administration._
 
-23 resources. [Back to the start](../README.md)
+24 resources. [Back to the start](../README.md)
 
 Jump to: [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps)
 
@@ -28,6 +28,7 @@ Jump to: [Courses and books](#courses-and-books) | [Practice by doing](#practice
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
 | [Cisco Packet Tracer](https://www.netacad.com/cisco-packet-tracer) | Free | beginner | self-directed | - | en | Cisco's network simulation software for building and testing virtual networks (routers, switches, IoT, basic cybersecurity) without hardware, with free training from Cisco Networking Academy. |
+| [GitHub Skills: Introduction to Git](https://github.com/skills/introduction-to-git) | Free | beginner | guided | high | en | Guided command-line Git exercise covering repository creation, commits, history, comparisons and branches while working on a sample game. |
 | [iximiuz Labs](https://labs.iximiuz.com/) | Free + paid extras | intermediate | semi | - | en | Hands-on platform with playgrounds, tutorials, challenges and paths for Linux, Docker, Kubernetes and networking. |
 | [Killercoda](https://killercoda.com/) | Free + paid extras | intermediate | semi | - | en | Browser-based interactive scenarios for Linux, Kubernetes and DevOps tools with free sessions and paid exam-prep courses. |
 | [KodeKloud](https://kodekloud.com/) | Free + paid extras | beginner | guided | - | en | DevOps and cloud training platform with video courses and hands-on browser labs (Linux, Docker, Kubernetes, AWS, Azure), with some free labs and free challenge programs such as 100 Days of Cloud. |

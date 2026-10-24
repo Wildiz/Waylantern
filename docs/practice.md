@@ -16,6 +16,8 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [Flexbox Froggy](https://flexboxfroggy.com/) | Free | beginner | guided | high | en, es, fr, de, ja, zh | Browser game by Codepip where you write CSS flexbox properties to move frogs onto lily pads, level by level. |
 | [freeCodeCamp](https://www.freecodecamp.org/) | Free | beginner | guided | - | en, es | Free self-paced curriculum with interactive coding challenges, projects and certifications (web, JavaScript, Python, databases, APIs, machine learning). |
 | [Frontend Mentor](https://www.frontendmentor.io/) | Free + paid extras | beginner | self-directed | - | en | Build real front-end and full-stack projects from professional designs and briefs, with community code review and AI code reviews. |
+| [GitHub Skills: Introduction to Git](https://github.com/skills/introduction-to-git) | Free | beginner | guided | high | en | Guided command-line Git exercise covering repository creation, commits, history, comparisons and branches while working on a sample game. |
+| [GitHub Skills: Introduction to GitHub](https://github.com/skills/introduction-to-github) | Free | beginner | guided | high | en | Guided beginner exercise that uses a profile README to teach GitHub repositories, branches, commits and pull requests. |
 | [Grid Garden](https://cssgridgarden.com/) | Free | beginner | guided | high | en, es, fr, de, ja, zh | Browser game by Codepip where you write CSS grid properties to water a garden, level by level. |
 | [Kaggle Learn](https://www.kaggle.com/learn) | Free | beginner | guided | high | en | Short, no-cost interactive micro-courses with in-browser notebooks on Python, pandas, SQL, data visualization, machine learning, deep learning, computer vision, NLP and more. |
 | [KodeKloud](https://kodekloud.com/) | Free + paid extras | beginner | guided | - | en | DevOps and cloud training platform with video courses and hands-on browser labs (Linux, Docker, Kubernetes, AWS, Azure), with some free labs and free challenge programs such as 100 Days of Cloud. |
@@ -175,6 +177,20 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Real-world project briefs
 - Good: Free members can use challenges and get one AI review per month
 - Watch out: Pro plan needed for a review on every submission and extra content
+
+**GitHub Skills: Introduction to Git**
+
+- Good: No previous Git or version control experience required
+- Good: A small project gives the commands a concrete purpose
+- Watch out: Basic command-line and VS Code familiarity recommended
+- Watch out: Requires a GitHub account; private exercise repositories consume Actions minutes
+
+**GitHub Skills: Introduction to GitHub**
+
+- Good: No previous GitHub experience required
+- Good: Four steps with a concrete file to create
+- Watch out: Requires a GitHub account and copying the exercise into a repository
+- Watch out: Private exercise repositories consume GitHub Actions minutes
 
 **Grid Garden**
 

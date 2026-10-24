@@ -15,10 +15,10 @@ Follow **[Path 0: fundamentals](docs/path-0-fundamentals.md)**: a few small step
 
 | Step | What you do | Pick |
 |---|---|---|
-| All along | Stay focused and remember what you learn | [Focusmate](https://www.focusmate.com/), [Anki](https://apps.ankiweb.net/) |
+| Optional helpers | Stay focused and remember what you learn | [Focusmate](https://www.focusmate.com/), [Anki](https://apps.ankiweb.net/) |
 | 1 | Basics and first code | [CS50x - Harvard's Introduction to Computer Science](https://cs50.harvard.edu/x/) or [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) |
 | 2 | Daily practice | [Exercism](https://exercism.org/) |
-| 3 | Terminal and Git | [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) |
+| 3 | Terminal, Git and optional GitHub | [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) → [GitHub Skills: Introduction to Git](https://github.com/skills/introduction-to-git) → [GitHub Skills: Introduction to GitHub](https://github.com/skills/introduction-to-github) |
 | 4 | Choose a direction | [roadmap.sh](https://roadmap.sh/) |
 | 5 | A full path (optional) | [freeCodeCamp](https://www.freecodecamp.org/) or [The Odin Project](https://www.theodinproject.com/) or [Open Source Society University - Computer Science](https://github.com/ossu/computer-science) |
 
@@ -29,15 +29,15 @@ The [full page](docs/path-0-fundamentals.md) explains why each resource is there
 | Area | What is inside | Resources |
 |---|---|---|
 | [Computer science and algorithms](docs/area-cs.md) | How computers work, data structures, algorithms and the theory behind them. | 46 |
-| [Programming and software engineering](docs/area-software.md) | Learn languages, Git, the command line and how to build software well. | 54 |
+| [Programming and software engineering](docs/area-software.md) | Learn languages, Git, the command line and how to build software well. | 56 |
 | [Web development](docs/area-web.md) | HTML, CSS, JavaScript, frameworks and everything for building websites and web apps. | 37 |
 | [Data, databases and statistics](docs/area-data.md) | SQL, data analysis, data engineering, visualization and statistics. | 36 |
 | [AI, machine learning and LLMs](docs/area-ai.md) | Machine learning, deep learning, language models and AI agents. | 40 |
-| [DevOps, cloud and Linux](docs/area-devops.md) | Containers, Kubernetes, cloud platforms, infrastructure and Linux administration. | 23 |
+| [DevOps, cloud and Linux](docs/area-devops.md) | Containers, Kubernetes, cloud platforms, infrastructure and Linux administration. | 24 |
 | [Cybersecurity](docs/area-security.md) | Legal, authorized practice to learn how systems are attacked and defended. | 13 |
 | [Math for tech](docs/area-math.md) | Linear algebra, calculus, discrete math and probability for CS, data and AI. | 17 |
 | [Games and mobile apps](docs/area-games-mobile.md) | Game engines and mobile app development. | 9 |
-| [Career, interviews and open source](docs/area-career.md) | Interview practice, your first open-source contributions and portfolio hosting. | 26 |
+| [Career, interviews and open source](docs/area-career.md) | Interview practice, your first open-source contributions and portfolio hosting. | 27 |
 | [Study skills and memory](docs/area-study-skills.md) | How to learn, take notes and remember what you study, including AI study helpers. | 37 |
 | [Focus and ADHD-friendly tools](docs/area-focus.md) | Tools and techniques to start, stay focused and finish. Not medical advice. | 21 |
 | [General platforms (any topic)](docs/area-general.md) | Big platforms and directories that cover many areas. | 12 |
@@ -59,13 +59,13 @@ The [full page](docs/path-0-fundamentals.md) explains why each resource is there
 |---|---|---|
 | [Full paths (a free university)](docs/path.md) | A complete road from zero, in order. Best if you want structure and do not want to decide what to study next. | 16 |
 | [Courses and books](docs/course.md) | Individual courses and books on one topic. Good once you know roughly what you want to learn. | 104 |
-| [Practice by doing](docs/practice.md) | You write code or solve problems and get instant feedback. Best for staying engaged. | 34 |
+| [Practice by doing](docs/practice.md) | You write code or solve problems and get instant feedback. Best for staying engaged. | 36 |
 | [Roadmaps](docs/roadmap.md) | Maps that show what to learn and in what order. Use one to see the big picture. | 6 |
 | [Lists, docs and articles](docs/reference.md) | Big collections of links, documentation and guides. Great to browse or look things up, overwhelming if you start here. | 48 |
 | [Tools and apps](docs/tool.md) | Apps and software for taking notes, remembering, staying focused or building your own projects. | 43 |
 | [Communities](docs/community.md) | Places to ask for help and find people learning alongside you. | 18 |
 
-**269 entries in total**, 43 of them with Spanish available.
+**271 entries in total**, 43 of them with Spanish available.
 
 **Optional:** 10 more resources that are only available in other languages (Spanish) are in [Resources in other languages](docs/other-languages.md).
 

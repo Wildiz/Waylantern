@@ -2,7 +2,7 @@
 
 _Learn languages, Git, the command line and how to build software well._
 
-54 resources. [Back to the start](../README.md)
+56 resources. [Back to the start](../README.md)
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
@@ -46,6 +46,8 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Codewars](https://www.codewars.com/) | Free + paid extras | all | self-directed | high | en | Community-written coding challenges ('kata') solved in the browser against test cases in 55+ languages, ranked from beginner to expert. |
 | [Exercism](https://exercism.org/) | Free | all | semi | high | en, es | Code-practice platform with exercises in 85 programming languages, automated tests and optional volunteer mentoring. |
 | [freeCodeCamp](https://www.freecodecamp.org/) | Free | beginner | guided | - | en, es | Free self-paced curriculum with interactive coding challenges, projects and certifications (web, JavaScript, Python, databases, APIs, machine learning). |
+| [GitHub Skills: Introduction to Git](https://github.com/skills/introduction-to-git) | Free | beginner | guided | high | en | Guided command-line Git exercise covering repository creation, commits, history, comparisons and branches while working on a sample game. |
+| [GitHub Skills: Introduction to GitHub](https://github.com/skills/introduction-to-github) | Free | beginner | guided | high | en | Guided beginner exercise that uses a profile README to teach GitHub repositories, branches, commits and pull requests. |
 | [Learn Git Branching](https://learngitbranching.js.org/) | Free | beginner | guided | high | en, es, fr, de, pt, ru, zh, ja, ko, uk, vi, it, pl, tr, ro, bg, sl, hu, hi, ta, te, fa, ar, az | Visual, interactive sandbox and level series that teaches Git commands and branching in the browser. |
 | [Project Euler](https://projecteuler.net/) | Free | intermediate | self-directed | - | en | Archive of challenging mathematical and programming problems with numeric answers, solvable in any language. |
 | [Rustlings](https://rustlings.rust-lang.org/) | Free | beginner | guided | high | en | Official small exercises that you fix locally with compiler feedback to get used to reading and writing Rust. |

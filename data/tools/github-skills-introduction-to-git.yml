@@ -1,0 +1,20 @@
+name: "GitHub Skills: Introduction to Git"
+url: https://github.com/skills/introduction-to-git
+category: practice
+areas: [software, devops]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: high
+description: Guided command-line Git exercise covering repository creation, commits, history, comparisons and branches while working on a sample game.
+pros:
+  - No previous Git or version control experience required
+  - A small project gives the commands a concrete purpose
+cons:
+  - Basic command-line and VS Code familiarity recommended
+  - Requires a GitHub account; private exercise repositories consume Actions minutes
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read the official skills/introduction-to-git README via raw.githubusercontent.com. It lists the learning topics, recommended CLI and VS Code familiarity and a duration under 60 minutes. The authors recommend a public exercise repository because private repositories use Actions minutes. English README checked; focus rating reflects the short guided sequence. The exercise itself was not completed."

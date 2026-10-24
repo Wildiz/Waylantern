@@ -2,32 +2,39 @@ title: "Path 0: fundamentals"
 intro: >
   A general, no-deadline order for someone starting IT from zero. Do one step at a time.
   Move on when you can do the "advance when" check, not when a calendar says so.
+  When a step offers alternatives, choose one main resource; you do not need to finish every linked course.
+  At the end of each study session, save what you made and write down the next small action.
+  If a check is too hard, revisit just that topic and try a smaller example before moving on.
 helpers:
-  why: Two habits that make every step easier. Start them early and keep them all along. Free content has plenty of material and little structure, so decide how you will stay focused and how you will remember things.
+  why: Two optional helpers for focus and memory. Try one only if it solves a problem you have; setting up apps is not a prerequisite for learning. A timer and a notebook are enough to start. Use short sessions and write down questions to revisit instead of opening a new course every time you get stuck.
   tools: [focusmate, anki]
 steps:
   - title: Learn the basics of computing and write your first code
     short: Basics and first code
     tools: [cs50x, automate-the-boring-stuff]
-    why: Pick one. CS50x is a university-style intro to computer science, and Automate the Boring Stuff is a gentler Python book if you prefer something lighter.
+    why: Pick one. Choose CS50x for a university-style introduction to computer science, or Automate the Boring Stuff for practical Python automation. Start with the opening lesson, follow its setup instructions and run the examples yourself. Change one small thing in an example and explain the result before continuing.
     advance_when: You can write a small program that takes input, makes decisions and repeats something, and explain what it does.
   - title: Practice with small exercises
     short: Daily practice
     tools: [exercism]
-    why: Instant feedback on small problems builds the habit of writing code every day.
-    advance_when: You solve easy exercises without looking up the solution.
+    why: Choose exercises in the same language you started in Step 1. Try a small problem, run the tests and use the feedback to revise your answer. If you need a hint, use it, then solve a similar problem on your own. You can keep practising alongside the later steps.
+    advance_when: You can solve a few easy exercises, explain your answers and use a failing test to find and fix a mistake.
   - title: Learn the terminal and Git
-    short: Terminal and Git
-    tools: [missing-semester]
-    why: Every software, data and AI job uses the command line and version control.
-    advance_when: You can move around in a terminal, and create and push a Git repository.
+    short: Terminal, Git and optional GitHub
+    sequence: true
+    tools: [missing-semester, github-skills-introduction-to-git, github-skills-introduction-to-github]
+    why: |-
+      Start with the shell lessons in The Missing Semester to learn how to navigate files and run commands; you do not need the entire course yet. Then use Introduction to Git for local commits and branches. Introduction to GitHub is an optional next exercise for sharing changes through a pull request.
+
+      Git tracks changes; GitHub hosts repositories and supports collaboration. The GitHub Skills exercises need an account, and private exercise repositories consume Actions minutes. Keep passwords and API keys out of practice repositories.
+    advance_when: You can find a project in the terminal, create a Git repository, commit a file and inspect its history. If you use GitHub, you can also explain what a branch and pull request do.
   - title: See the big picture and choose a direction
     short: Choose a direction
     tools: [roadmap-sh]
-    why: Now that you know the basics, a roadmap shows what exists (web, data, AI...). Change direction freely, nothing you learned so far is wasted.
+    why: Use a roadmap to compare directions such as web development, data and AI. Treat it as a map, not a checklist to finish. Pick one area and a tiny project you would like to make, then identify just the next skill needed for that project. You can change direction later.
     advance_when: You can name the area you want to try next and the first thing to learn there.
   - title: Follow a full path (optional)
     short: A full path (optional)
     tools: [freecodecamp, the-odin-project, ossu-computer-science]
-    why: If you want a complete ordered curriculum, pick one of these and follow it.
-    advance_when: You finished a project of your own, not just a course.
+    why: This step is optional. For a web-focused path, compare freeCodeCamp and The Odin Project; for broader computer science, look at OSSU and its prerequisites. Choose one curriculum that fits your goal instead of studying all three in parallel. If you already have a project in mind, use the relevant area page to fill gaps as you build it.
+    advance_when: You have built a small project of your own, can explain how it works and can name one improvement you would make next. This is a checkpoint, not a requirement to finish an entire curriculum.

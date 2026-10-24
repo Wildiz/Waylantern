@@ -114,9 +114,10 @@ def render_category(cat, items):
 def path0_readme_table(data, by_slug):
     rows = ["| Step | What you do | Pick |", "|---|---|---|"]
     h = data["helpers"]
-    rows.append("| All along | Stay focused and remember what you learn | " + ", ".join(link(by_slug[t]) for t in h["tools"]) + " |")
+    rows.append("| Optional helpers | Stay focused and remember what you learn | " + ", ".join(link(by_slug[t]) for t in h["tools"]) + " |")
     for i, step in enumerate(data["steps"], 1):
-        rows.append(f"| {i} | {step['short']} | " + " or ".join(link(by_slug[t]) for t in step["tools"]) + " |")
+        separator = " → " if step.get("sequence", False) else " or "
+        rows.append(f"| {i} | {step['short']} | " + separator.join(link(by_slug[t]) for t in step["tools"]) + " |")
     return rows
 
 
@@ -233,7 +234,7 @@ def render_path(path_file, by_slug):
     data = yaml.safe_load(path_file.read_text())
     out = [f"# {data['title']}", "", data["intro"].strip(), "", "[Back to the start](../README.md)", ""]
     helpers = data["helpers"]
-    out += ["## Helpers: use them all along", "", helpers["why"], ""]
+    out += ["## Optional helpers for focus and memory", "", helpers["why"], ""]
     out += [f"- {link(by_slug[slug])} ({PRICE_LABEL[by_slug[slug]['price']]}): {by_slug[slug]['description']}" for slug in helpers["tools"]]
     out += [""]
     for i, step in enumerate(data["steps"], 1):
