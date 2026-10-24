@@ -15,6 +15,7 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [GitHub Pages](https://pages.github.com/) | Free | beginner | guided | - | en | Static website hosting from a GitHub repository, with one user or organization site per account and unlimited project sites, suitable for a beginner portfolio. |
 | [Netlify (Free plan)](https://www.netlify.com/pricing/) | Free + paid extras | beginner | self-directed | - | en | Web hosting and deployment platform whose Free plan ($0 forever per its pricing page) includes deploys from Git, deploy previews, custom domains with SSL and serverless functions within a monthly credit limit. |
 | [Orange Data Mining](https://github.com/biolab/orange3) | Free | beginner | self-directed | - | en | Visual data mining and machine learning toolbox for exploring data through connected workflows without requiring programming or in-depth mathematical knowledge. |
+| [Penpot](https://github.com/penpot/penpot) | Free + paid extras | beginner | self-directed | - | en | An open-source interface design and prototyping platform for practising layouts, reusable components and design systems with SVG and CSS-based workflows. |
 | [Vercel (Hobby plan)](https://vercel.com/pricing) | Free + paid extras | beginner | self-directed | - | en | Frontend hosting platform whose free Hobby plan is aimed at personal projects and includes Git-based deploys, a global CDN and monthly usage allowances. |
 | [VisuAlgo](https://visualgo.net/) | Free | beginner | self-directed | - | en | Animated visualizations of data structures and algorithms created at the National University of Singapore, where you can run each algorithm on your own input. |
 
@@ -25,9 +26,11 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [Datasette](https://github.com/simonw/datasette) | Free | intermediate | self-directed | - | en | Open-source tool for exploring SQLite databases and publishing data as an interactive website with an accompanying API. |
 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | Free | intermediate | self-directed | - | en, zh, de, fr, uk | Open-source, self-hosted agent-based learning workspace that combines tutoring chat, problem solving, quiz generation, research and a knowledge base over your own documents. |
 | [FSRS (Free Spaced Repetition Scheduler)](https://github.com/open-spaced-repetition/fsrs4anki) | Free | intermediate | self-directed | - | en | Open-source, machine-learning-based spaced-repetition scheduling algorithm that fits review intervals to your own review history; available built into Anki and as an add-on for older versions. |
+| [GLPI](https://github.com/glpi-project/glpi) | Free | intermediate | self-directed | - | en | An open-source IT asset and service-desk application for practising ticket handling, incident and problem management, inventory and knowledge-base workflows in a test installation. |
 | [Manim Community](https://github.com/ManimCommunity/manim) | Free | intermediate | self-directed | - | en | Python animation engine for creating explanatory mathematics videos with programmable scenes, example code and a gallery. |
 | [marimo](https://github.com/marimo-team/marimo) | Free | intermediate | self-directed | - | en | Reactive Python notebook environment with SQL support, interactive controls and notebooks stored as Python files that can also run as scripts or apps. |
 | [SymPy](https://github.com/sympy/sympy) | Free | intermediate | self-directed | - | en | Python library for symbolic mathematics that lets you manipulate mathematical expressions interactively or in programs, with documentation and code examples. |
+| [Wireshark](https://www.wireshark.org/) | Free | intermediate | self-directed | - | en | Network traffic analyzer for inspecting packet captures and filtering protocol traffic, with a graphical application, TShark command-line tools and official documentation. |
 
 ## Any level
 
@@ -250,6 +253,14 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Static sites only (HTML, CSS, JavaScript)
 - Watch out: Private-repository publishing needs a paid GitHub plan
 
+**GLPI**
+
+- Good: GPL-3.0 software with official administrator and installation documentation
+- Good: Combines helpdesk workflows, asset tracking and a knowledge base in one application
+- Watch out: A working service-desk application rather than a guided IT support course
+- Watch out: Self-hosting needs a web server, PHP with required extensions and MariaDB or MySQL
+- Watch out: Use synthetic tickets and assets for practice rather than real personal or workplace information
+
 **Goblin Tools**
 
 - Good: Web tools are free, stated to stay ad-free and paywall-free
@@ -380,6 +391,14 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Linux installation requires preparing an environment; pip installation may need a compiler
 - Watch out: Individual add-ons and their requirements were not checked
 
+**Penpot**
+
+- Good: MPL-2.0 source code with a self-hosting option
+- Good: Official README links a learning centre and UI design course
+- Good: Connects interface design with familiar web standards
+- Watch out: The application is a practice tool, not a complete design curriculum
+- Watch out: Self-hosting requires installation and server resources; enterprise features are a separate paid plan
+
 **Pomofocus**
 
 - Good: No install needed
@@ -481,6 +500,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Visual aid only, not a full course
 - Watch out: Translations lag behind the English version
 
+**Wireshark**
+
+- Good: Open-source software distributed under the GNU GPLv2
+- Good: Inspect saved captures as well as live traffic
+- Good: Available for Windows, macOS and Linux
+- Watch out: Understanding captures requires networking knowledge
+- Watch out: Live capture needs appropriate permissions; the authors advise against running the main application as root
+- Watch out: Capture only traffic you are authorized to inspect and avoid sharing captures containing private data
+
 **Zotero**
 
 - Good: Free software from a non-profit
@@ -494,4 +522,3 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 
 ---
 Entries marked 'Price not confirmed yet' have a detail we could not verify from an official source. Help us confirm it: see [CONTRIBUTING](../CONTRIBUTING.md).
-

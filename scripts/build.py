@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate data/tools/*.yml against data/schema.json and generate README.md and docs/*.md."""
+"""Validate resource and learning-path data, then generate README.md and docs/*.md."""
 import json
 import re
 import sys
@@ -33,9 +33,15 @@ AREAS = {
     "cs": ("Computer science and algorithms", "How computers work, data structures, algorithms and the theory behind them."),
     "software": ("Programming and software engineering", "Learn languages, Git, the command line and how to build software well."),
     "web": ("Web development", "HTML, CSS, JavaScript, frameworks and everything for building websites and web apps."),
+    "networking": ("Computer networks", "Protocols, packet analysis, network simulation and how computers communicate."),
+    "architecture": ("Software and systems architecture", "Design decisions, system structure, scalability and examples of how applications are built."),
+    "testing": ("Software testing and QA", "Automated tests, browser testing and techniques for checking software quality."),
+    "embedded": ("Embedded systems and firmware", "Microcontrollers, hardware programming and software that interacts with physical devices."),
+    "design-product": ("UX, UI and product design", "Interface design, design systems, prototyping and tools for exploring user experiences."),
     "data": ("Data, databases and statistics", "SQL, data analysis, data engineering, visualization and statistics."),
     "ai": ("AI, machine learning and LLMs", "Machine learning, deep learning, language models and AI agents."),
     "devops": ("DevOps, cloud and Linux", "Containers, Kubernetes, cloud platforms, infrastructure and Linux administration."),
+    "it-support": ("IT support and service management", "System troubleshooting, technical support, help desks and managing IT services."),
     "security": ("Cybersecurity", "Legal, authorized practice to learn how systems are attacked and defended."),
     "math": ("Math for tech", "Linear algebra, calculus, discrete math and probability for CS, data and AI."),
     "games-mobile": ("Games and mobile apps", "Game engines and mobile app development."),
@@ -62,6 +68,38 @@ def load_entries():
             errors.append(f"{path.name}: file name must be lowercase")
         entries.append((path.stem, entry))
     return entries, errors
+
+
+def load_paths(entries):
+    schema = json.loads((ROOT / "data" / "path-schema.json").read_text())
+    validator = Draft202012Validator(schema)
+    resources = {slug for slug, _ in entries}
+    paths, errors = [], []
+    for path in sorted((ROOT / "data" / "paths").glob("*.yml")):
+        try:
+            data = yaml.safe_load(path.read_text())
+        except yaml.YAMLError as exc:
+            errors.append(f"{path.name}: invalid YAML: {exc}")
+            continue
+        problems = list(validator.iter_errors(data))
+        for err in problems:
+            errors.append(f"{path.name}: {'/'.join(map(str, err.path)) or '<root>'}: {err.message}")
+        if problems:
+            continue
+        for area in data["areas"]:
+            if area not in AREAS:
+                errors.append(f"{path.name}: unknown area '{area}'")
+        sections = [(f"steps/{i}", step) for i, step in enumerate(data["steps"])]
+        if "helpers" in data:
+            sections.append(("helpers", data["helpers"]))
+        for location, section in sections:
+            for slug in section["tools"]:
+                if slug not in resources:
+                    errors.append(f"{path.name}: {location}/tools: unknown resource '{slug}'")
+        paths.append((path.stem, data))
+    if not any(slug == "path-0-fundamentals" for slug, _ in paths):
+        errors.append("path-0-fundamentals.yml: a valid fundamentals path is required")
+    return paths, errors
 
 
 def link(e):
@@ -113,15 +151,16 @@ def render_category(cat, items):
 
 def path0_readme_table(data, by_slug):
     rows = ["| Step | What you do | Pick |", "|---|---|---|"]
-    h = data["helpers"]
-    rows.append("| Optional helpers | Stay focused and remember what you learn | " + ", ".join(link(by_slug[t]) for t in h["tools"]) + " |")
+    if "helpers" in data:
+        h = data["helpers"]
+        rows.append("| Optional helpers | Stay focused and remember what you learn | " + ", ".join(link(by_slug[t]) for t in h["tools"]) + " |")
     for i, step in enumerate(data["steps"], 1):
         separator = " → " if step.get("sequence", False) else " or "
         rows.append(f"| {i} | {step['short']} | " + separator.join(link(by_slug[t]) for t in step["tools"]) + " |")
     return rows
 
 
-def render_readme(entries, groups, n_other=0, path0=None, by_slug=None):
+def render_readme(entries, groups, n_other=0, path0=None, by_slug=None, paths=()):
     main_entries = [e for _, e in entries]
     es = [e for _, e in entries if "es" in e["languages"]]
     out = [
@@ -129,8 +168,9 @@ def render_readme(entries, groups, n_other=0, path0=None, by_slug=None):
         "",
         "_A lantern for your first steps in IT._",
         "",
-        "**A free, community-style guide to the best tools for learning IT** (software, data, AI and LLMs).",
-        "Courses, free \"universities\", practice sites, study tools and focus tools: all checked against their official pages.",
+        "**A free, community-style guide to resources for learning IT** (software, data, AI, networks, hardware and IT operations).",
+        "Courses, books, practice labs, open-source projects and study tools, organized by topic and format.",
+        "Not sure what a role involves or what to do next? Choose a short learning path with a first project and checkpoints, then use the catalogue to explore further.",
         "",
         "[Español](README.es.md)",
         "",
@@ -145,6 +185,16 @@ def render_readme(entries, groups, n_other=0, path0=None, by_slug=None):
     out += [
         "",
         "The [full page](docs/path-0-fundamentals.md) explains why each resource is there and when to move on.",
+        "",
+        "## Choose a learning path",
+        "",
+        "Each path explains what a related role does, the knowledge you need first and a small project to build. Choose one and follow its checkpoints. If you are unsure, begin with Path 0. You can change direction later.",
+        "",
+        "| Path | What you will try |",
+        "|---|---|",
+    ]
+    out += [f"| [{data['title']}](docs/{slug}.md) | {data['summary']} |" for slug, data in paths]
+    out += [
         "",
         "## Looking for one specific area?",
         "",
@@ -210,7 +260,7 @@ def render_readme(entries, groups, n_other=0, path0=None, by_slug=None):
         "",
         "[CC BY 4.0](LICENSE): copy it, adapt it, share it, just give credit.",
         "",
-        "> README and `docs/` are generated from `data/tools/*.yml` by `scripts/build.py`. Edit the data files, not the generated pages.",
+        "> README and `docs/` are generated from `data/tools/*.yml` and `data/paths/*.yml` by `scripts/build.py`. Edit the data files, not the generated pages.",
         "",
     ]
     return "\n".join(out)
@@ -230,26 +280,35 @@ def render_other_languages(items):
     return "\n".join(out)
 
 
-def render_path(path_file, by_slug):
-    data = yaml.safe_load(path_file.read_text())
+def render_path(data, by_slug, path_slug):
     out = [f"# {data['title']}", "", data["intro"].strip(), "", "[Back to the start](../README.md)", ""]
-    helpers = data["helpers"]
-    out += ["## Optional helpers for focus and memory", "", helpers["why"], ""]
-    out += [f"- {link(by_slug[slug])} ({PRICE_LABEL[by_slug[slug]['price']]}): {by_slug[slug]['description']}" for slug in helpers["tools"]]
-    out += [""]
+    if path_slug != "path-0-fundamentals":
+        out += ["If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.", ""]
+    if "helpers" in data:
+        helpers = data["helpers"]
+        out += ["## Optional helpers for focus and memory", "", helpers["why"], ""]
+        out += [f"- {link(by_slug[slug])} ({PRICE_LABEL[by_slug[slug]['price']]}): {by_slug[slug]['description']}" for slug in helpers["tools"]]
+        out += [""]
     for i, step in enumerate(data["steps"], 1):
         out += [f"## Step {i}: {step['title']}", "", step["why"], ""]
         for slug in step["tools"]:
             e = by_slug[slug]
             out.append(f"- {link(e)} ({PRICE_LABEL[e['price']]}): {e['description']}")
         out += ["", f"**Advance when:** {step['advance_when']}", ""]
-    out += ["---", "This path is a general suggestion built from the community's most recommended free resources. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).", ""]
+    out += ["## Where to go next", "", "After the last checkpoint, improve your project or browse the related areas for a specific gap:", ""]
+    out += [f"- [{AREAS[area][0]}](area-{area}.md)" for area in data["areas"]]
+    out += ["", "[Compare the learning paths](../README.md#choose-a-learning-path)", "", "---", "This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).", ""]
     return "\n".join(out)
 
 
-def render_area(area, items):
+def render_area(area, items, paths=()):
     title, blurb = AREAS[area]
     out = [f"# {title}", "", f"_{blurb}_", "", f"{len(items)} resources. [Back to the start](../README.md)", ""]
+    related = [(slug, data) for slug, data in paths if area in data["areas"]]
+    if related:
+        out += ["## Not sure where to start?", ""]
+        out += [f"- [{data['title']}]({slug}.md): {data['summary']}" for slug, data in related]
+        out += [""]
     present = [c for c in CATEGORIES if any(e["category"] == c for e in items)]
     out += ["Jump to: " + " | ".join(f"[{CATEGORIES[c][0]}](#{anchor(CATEGORIES[c][0])})" for c in present), ""]
     for c in present:
@@ -257,27 +316,26 @@ def render_area(area, items):
     return "\n".join(out)
 
 
-def render_all(entries):
+def render_all(entries, paths):
     main = [(s, e) for s, e in entries if "en" in e["languages"]]
     other = [e for _, e in entries if "en" not in e["languages"]]
     groups = defaultdict(list)
     for _, e in main:
         groups[e["category"]].append(e)
     by_slug = {s: e for s, e in entries}
-    path0 = yaml.safe_load((ROOT / "data" / "paths" / "path-0-fundamentals.yml").read_text())
-    files = {"README.md": render_readme(main, groups, len(other), path0, by_slug)}
+    path0 = dict(paths)["path-0-fundamentals"]
+    files = {"README.md": render_readme(main, groups, len(other), path0, by_slug, paths)}
     for cat, items in groups.items():
         files[f"docs/{cat}.md"] = render_category(cat, items)
     for area in AREAS:
         items = [e for _, e in main if area in e["areas"]]
         if items:
-            files[f"docs/area-{area}.md"] = render_area(area, items)
-    by_slug = {s: e for s, e in entries}
-    for pf in sorted((ROOT / "data" / "paths").glob("*.yml")):
-        files[f"docs/{pf.stem}.md"] = render_path(pf, by_slug)
+            files[f"docs/area-{area}.md"] = render_area(area, items, paths)
+    for slug, data in paths:
+        files[f"docs/{slug}.md"] = render_path(data, by_slug, slug)
     if other:
         files["docs/other-languages.md"] = render_other_languages(other)
-    return files
+    return {name: body.rstrip() for name, body in files.items()}
 
 
 def main():
@@ -285,7 +343,11 @@ def main():
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
-    files = render_all(entries)
+    paths, errors = load_paths(entries)
+    if errors:
+        print("\n".join(errors), file=sys.stderr)
+        return 1
+    files = render_all(entries, paths)
     if "--check" in sys.argv:
         stale = [name for name, text in files.items() if not (ROOT / name).exists() or (ROOT / name).read_text() != text + "\n"]
         stale += [f"docs/{p.name} (obsolete)" for p in (ROOT / "docs").glob("*.md") if f"docs/{p.name}" not in files]

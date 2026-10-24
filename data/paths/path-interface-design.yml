@@ -1,0 +1,40 @@
+title: "Path: interface and product design"
+summary: "Observe one user task, sketch an interface and test a small clickable prototype."
+areas: [design-product]
+intro: >
+  UX and UI designers study how people use a product and make its interfaces understandable;
+  product designers may also connect those decisions with broader product goals.
+  This short route introduces observation, layout, prototyping and feedback through one small project.
+  It does not cover the whole profession or promise job readiness.
+  Penpot is a design tool, not a complete design course, and Carbon is a reference system rather than a curriculum.
+  You can use their documentation while practising without installing their source code.
+steps:
+  - title: Understand one task before drawing screens
+    short: Observe and sketch
+    tools: [penpot]
+    why: >
+      Pick a small task, such as finding and saving a learning resource. Write down who needs to do it,
+      what they are trying to achieve and where an existing interface makes it difficult.
+      If possible, ask a willing person to describe how they would approach the task; otherwise mark
+      your assumptions clearly. Sketch two or three screens on paper or in Penpot before adding visual detail.
+      Use fictional content rather than collecting personal information.
+    advance_when: You can explain the user's goal, identify one obstacle and show a sketch that addresses it.
+  - title: Build a readable prototype for the task
+    short: Make a prototype
+    tools: [penpot, carbon-design-system]
+    why: >
+      Turn the sketch into a small clickable Penpot prototype. Consult Carbon for examples of buttons,
+      form labels, spacing and component states; you do not need to implement its code or copy its branding.
+      Keep labels clear, make text readable and avoid relying on colour alone to explain a state.
+      Include a success screen and one error or empty state so the flow has a clear outcome.
+    advance_when: Someone can click through the prototype from its starting screen to a visible result, and you can explain the labels and states you chose.
+  - title: Try the prototype and improve one confusing part
+    short: Test and revise
+    tools: [penpot]
+    why: >
+      Ask a willing person to try the original task without telling them which button to press.
+      Observe where they hesitate, ask what they expected and record brief anonymous notes with their agreement.
+      If nobody is available, walk through it yourself and label that as a self-review rather than user testing.
+      Revise one confusing part and keep before-and-after screenshots. This is a small practice test,
+      not evidence that the interface is accessible to every user or validated for production.
+    advance_when: You have a short problem statement, a clickable prototype and a note explaining one observation or self-review finding and the change it led to.

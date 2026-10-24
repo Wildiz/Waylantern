@@ -78,4 +78,3 @@ _Maps that show what to learn and in what order. Use one to see the big picture.
 
 ---
 Entries marked 'Price not confirmed yet' have a detail we could not verify from an official source. Help us confirm it: see [CONTRIBUTING](../CONTRIBUTING.md).
-

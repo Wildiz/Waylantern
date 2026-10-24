@@ -1,0 +1,21 @@
+name: "GLPI"
+url: https://github.com/glpi-project/glpi
+category: tool
+areas: [it-support]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "An open-source IT asset and service-desk application for practising ticket handling, incident and problem management, inventory and knowledge-base workflows in a test installation."
+pros:
+  - "GPL-3.0 software with official administrator and installation documentation"
+  - "Combines helpdesk workflows, asset tracking and a knowledge base in one application"
+cons:
+  - "A working service-desk application rather than a guided IT support course"
+  - "Self-hosting needs a web server, PHP with required extensions and MariaDB or MySQL"
+  - "Use synthetic tickets and assets for practice rather than real personal or workplace information"
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read glpi-project/glpi main README.md and LICENSE via raw.githubusercontent.com. README calls GLPI free asset and IT management software and describes service desk, incidents/problems, knowledge management and software/license tracking. LICENSE contains GPL version 3. README lists web server, PHP and database requirements and links administrator/installation documentation and a separate cloud demonstration. Free refers to self-hosted software; hosting, professional support and cloud service prices were not verified. English README checked; no deployment, ticket workflow or translations were tested."

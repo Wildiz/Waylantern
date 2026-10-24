@@ -2,7 +2,12 @@
 
 _Learn languages, Git, the command line and how to build software well._
 
-62 resources. [Back to the start](../README.md)
+68 resources. [Back to the start](../README.md)
+
+## Not sure where to start?
+
+- [Path 0: fundamentals](path-0-fundamentals.md): Start from zero, write your first programs and choose a direction.
+- [Path: web development](path-web-development.md): Build a small, accessible website with HTML, CSS and JavaScript.
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
@@ -19,6 +24,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [500 Lines or Less](https://github.com/aosabook/500lines) | Free | intermediate | self-directed | - | en | Architecture of Open Source Applications book explaining design decisions and tradeoffs through walkthroughs of programs implemented in at most 500 source lines each. |
 | [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course) | Free | beginner | guided | - | en | Google's self-paced online course on building Android apps with Kotlin and Jetpack Compose, organized into eight units of codelabs and videos. |
 | [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) | Free | beginner | guided | - | en | Beginner Python book on practical automation (files, spreadsheets, web scraping, email) that is free to read online under a Creative Commons license. |
 | [Beej's Guides](https://beej.us/guide/) | Free | intermediate | self-directed | - | en | Free online guides to C programming, network (socket) programming, Git, Unix IPC and related topics by Brian 'Beej' Hall. |
@@ -30,6 +36,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Khan Academy Computing](https://www.khanacademy.org/computing) | Free | beginner | guided | - | en | Khan Academy's computing section with beginner programming and computer science courses, including an Intro to Computer Science course in Python released for the 2024-25 school year. |
 | [MIT 6.100L - Introduction to CS and Programming using Python](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/) | Free | beginner | guided | - | en | MIT OpenCourseWare's Fall 2022 Python course for people with little or no programming experience, with lecture videos, notes, finger exercises, problem sets and recitations. |
 | [Pro Git](https://git-scm.com/book/en/v2) | Free | beginner | guided | - | en, es | Official free book on Git covering basics, branching, collaboration and internals. |
+| [System Design (Karan Pratap Singh)](https://github.com/karanpratapsingh/system-design) | Free | intermediate | guided | - | en | Written system design course covering networking, databases, architecture patterns, reliability and worked design discussions for services such as a URL shortener. |
 | [The Linux Command Line (William Shotts)](https://linuxcommand.org/tlcl.php) | Free | beginner | guided | - | en, es | A 596-page book that teaches the Linux command line and shell scripting from scratch, free to download as a PDF under a Creative Commons license. |
 | [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | Free | beginner | semi | - | en | MIT course teaching practical tooling: the command line, a text editor, version control, packaging and shipping code, code quality and AI-assisted coding workflows, with lecture videos and notes. |
 | [The Python Tutorial (official)](https://docs.python.org/3/tutorial/) | Free | beginner | guided | - | en, es | Official tutorial introducing Python's syntax, data structures, modules, classes and standard library. |
@@ -63,6 +70,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [Arduino Built-in Examples - Blink](https://github.com/arduino/docs-content/blob/main/content/built-in-examples/01.basics/Blink/Blink.md) | Free | beginner | guided | - | en | Official beginner Arduino tutorial explaining how to blink an onboard LED, with hardware requirements, circuit guidance and annotated code. |
 | [Awesome (sindresorhus/awesome)](https://github.com/sindresorhus/awesome) | Free | all | self-directed | low | en | Curated index of community "awesome" lists organised into about 27 categories such as programming languages, computer science, databases and learning. |
 | [Awesome Python](https://github.com/vinta/awesome-python) | Free | all | self-directed | low | en | Opinionated curated list of Python frameworks, libraries and tools grouped by area such as web, data science, AI and ML, DevOps and security. |
 | [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) | Free | intermediate | self-directed | - | en | Curated list of step-by-step tutorials for re-creating technologies such as databases, Git, shells, interpreters and browsers from scratch. |
@@ -72,8 +80,11 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Good First Issue](https://goodfirstissue.dev/) | Free | beginner | self-directed | - | en | Curated list of open-source projects with issues labelled as easy for newcomers, browsable by programming language and run by DeepSource. |
 | [Learn X in Y Minutes](https://learnxinyminutes.com/) | Free | beginner | self-directed | medium | en, es | Community-written, code-first whirlwind tours of many programming languages and tools, each on a single page with translations. |
 | [Open Source Guides](https://opensource.guide/) | Free | beginner | self-directed | - | en | GitHub's collection of short guides on how to contribute to, launch and maintain open-source projects, including security and accessibility best practices. |
+| [Playwright - Getting Started](https://github.com/microsoft/playwright) | Free | intermediate | semi | - | en | Official Playwright introduction with installation commands and sample end-to-end web tests using browser automation, locators and assertions. |
 | [Project Based Learning](https://github.com/practical-tutorials/project-based-learning) | Free | intermediate | self-directed | low | en | Curated list of project-based programming tutorials grouped by language such as Python, JavaScript, Go, C/C++ and Rust. |
 | [Public APIs](https://github.com/public-apis/public-apis) | Free | all | self-directed | low | en | Community-maintained list of free public APIs grouped by category (for example weather, science, machine learning, open data) for use in practice projects. |
+| [pytest - Get Started](https://github.com/pytest-dev/pytest/blob/main/doc/en/getting-started.rst) | Free | beginner | guided | - | en | Official introductory guide to installing pytest, writing a first Python test and interpreting assertion failures before progressing to multiple tests. |
+| [Raspberry Pi Pico SDK Examples](https://github.com/raspberrypi/pico-examples) | Free | intermediate | self-directed | - | en | Official C/C++ examples for Raspberry Pi Pico-series microcontrollers covering serial output, LEDs, analog inputs and other peripherals. |
 | [The Algorithms - Python](https://github.com/TheAlgorithms/Python) | Free | intermediate | self-directed | - | en | Collection of Python algorithm implementations for reading, experimenting and learning, with a directory for browsing the examples. |
 | [tldr pages](https://tldr.sh/) | Free | all | self-directed | medium | en, es | Community-maintained simplified man pages that show practical examples for common command-line tools, usable via web, PDF or command-line clients. |
 | [Up For Grabs](https://up-for-grabs.net/) | Free | beginner | self-directed | - | en | Community-maintained directory of open-source projects that curate tasks specifically for new contributors. |
@@ -102,4 +113,3 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/) | Free | all | self-directed | low | en | Large Reddit community for questions about CS degrees and software careers, with a daily chat thread and a weekday thread rotation (interview, resume, rant). |
 | [r/learnprogramming (with wiki)](https://www.reddit.com/r/learnprogramming/) | Free | beginner | self-directed | medium | en | Large Reddit community for beginner programming questions whose wiki includes an FAQ with a Getting started section and rules for asking questions. |
 | [Stack Overflow](https://stackoverflow.com/) | Free | all | self-directed | low | en | Public Q&A site for programming questions with a published help center on asking good questions. |
-

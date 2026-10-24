@@ -4,6 +4,10 @@ _Machine learning, deep learning, language models and AI agents._
 
 41 resources. [Back to the start](../README.md)
 
+## Not sure where to start?
+
+- [Path: AI and machine learning](path-ai-machine-learning.md): Train and evaluate a small machine-learning model on tutorial data.
+
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
 ## Full paths (a free university)
@@ -81,4 +85,3 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 |---|---|---|---|---|---|---|
 | [Hugging Face Discord](https://discord.com/invite/hugging-face-879548962464493619) | Free | all | self-directed | medium | en | Official Hugging Face Discord server for questions about machine learning, models and the Hugging Face courses. |
 | [Kaggle Competitions](https://www.kaggle.com/competitions) | Price not confirmed yet | intermediate | self-directed | - | en | Machine-learning competitions on Kaggle, including Getting Started competitions (such as Titanic) designed as tutorial-heavy practice for newcomers. |
-

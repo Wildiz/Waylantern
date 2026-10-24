@@ -16,4 +16,3 @@ _The main directory is in English. These resources are **not available in Englis
 | [Platzi](https://platzi.com/) | Free + paid extras | all | guided | - | es | Latin American online learning platform with Spanish-language courses and learning paths in programming, data, AI and English, with a few free courses and a paid subscription. |
 | [Píldoras Informáticas (YouTube)](https://www.youtube.com/@Pildorasinformaticas) | Free | beginner | guided | - | es | Spanish-language channel with numbered video courses on programming (Python, React, Rust and more) alongside office software and web design. |
 | [Stack Overflow en espanol](https://es.stackoverflow.com/) | Free | all | self-directed | low | es | Spanish-language Stack Overflow site with questions and answers for programmers and IT professionals. |
-

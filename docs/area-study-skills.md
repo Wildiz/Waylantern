@@ -62,4 +62,3 @@ Jump to: [Courses and books](#courses-and-books) | [Lists, docs and articles](#l
 | [OSSU Discord](https://github.com/ossu/computer-science) | Free | beginner | self-directed | medium | en | Discord server of Open Source Society University for people working through its free computer science curriculum, linked from the README. |
 | [r/learnprogramming (with wiki)](https://www.reddit.com/r/learnprogramming/) | Free | beginner | self-directed | medium | en | Large Reddit community for beginner programming questions whose wiki includes an FAQ with a Getting started section and rules for asking questions. |
 | [The Odin Project Discord](https://www.theodinproject.com/community) | Free | beginner | self-directed | medium | en | Official Discord server of The Odin Project, where learners following its free web development curriculum ask for help and study together. |
-

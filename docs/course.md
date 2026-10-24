@@ -38,6 +38,7 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [Khan Academy Computing](https://www.khanacademy.org/computing) | Free | beginner | guided | - | en | Khan Academy's computing section with beginner programming and computer science courses, including an Intro to Computer Science course in Python released for the 2024-25 school year. |
 | [Khan Academy Math (linear algebra, statistics, calculus)](https://www.khanacademy.org/math) | Free | beginner | guided | - | en | Khan Academy's math library, including linear algebra, statistics and probability, and calculus courses with videos, articles and practice exercises. |
 | [Learning How to Learn (Coursera)](https://www.coursera.org/learn/learning-how-to-learn) | Free + paid extras | beginner | guided | - | en, es | Short course by Barbara Oakley and Terrence Sejnowski on focused and diffuse thinking, memory, procrastination and study techniques such as spaced repetition and retrieval practice. |
+| [Linux Upskill Challenge](https://github.com/livialima/linuxupskillchallenge) | Free | beginner | guided | - | en | A sequenced hands-on Linux administration course covering server access, command-line navigation, packages, services, logs, networking, users and permissions. |
 | [Machine Learning Crash Course (Google)](https://developers.google.com/machine-learning/crash-course) | Free | beginner | guided | high | en, es, de, fr, it, pt, tr, ru, vi, zh, ja, ko | Google's fast-paced introduction to machine learning with animated videos, interactive visualizations and exercises, refreshed to cover embeddings, large language models and production ML. |
 | [Machine Learning for Beginners (Microsoft)](https://github.com/microsoft/ML-For-Beginners) | Free | beginner | guided | medium | en, es, fr, de, pt, zh, ja, ko | Microsoft's 12-week, 26-lesson curriculum on classic machine learning with Scikit-learn, with pre- and post-lesson quizzes, assignments and projects (Python and R). |
 | [Machine Learning Specialization (Andrew Ng)](https://www.deeplearning.ai/courses/machine-learning-specialization/) | Free + paid extras | beginner | guided | medium | en | Beginner-friendly three-course program by DeepLearning.AI and Stanford Online covering supervised and unsupervised learning, neural networks, trees, recommenders and reinforcement learning in Python. |
@@ -70,9 +71,11 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [500 Lines or Less](https://github.com/aosabook/500lines) | Free | intermediate | self-directed | - | en | Architecture of Open Source Applications book explaining design decisions and tradeoffs through walkthroughs of programs implemented in at most 500 source lines each. |
 | [Algorithms, 4th Edition (Princeton booksite and Coursera courses)](https://algs4.cs.princeton.edu/home/) | Free | intermediate | guided | - | en | Sedgewick and Wayne's Algorithms booksite (fundamentals, sorting, searching, graphs, strings) with lectures, code and data in Java, plus links to the Algorithms Part I and II Coursera courses. |
 | [Apache Airflow Tutorials](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html) | Free | intermediate | guided | - | en | Official Apache Airflow tutorials covering building a first workflow, the TaskFlow API, a simple data pipeline, object storage and human-in-the-loop operators. |
 | [Beej's Guides](https://beej.us/guide/) | Free | intermediate | self-directed | - | en | Free online guides to C programming, network (socket) programming, Git, Unix IPC and related topics by Brian 'Beej' Hall. |
+| [Computer Networks: A Systems Approach](https://github.com/SystemsApproach/book) | Free | intermediate | guided | - | en | Open textbook by Larry Peterson and Bruce Davie covering network foundations, internetworking, scaling, end-to-end protocols, congestion, security and applications. |
 | [Crafting Interpreters](https://craftinginterpreters.com/) | Free | intermediate | guided | - | en | Book that walks you through building two complete interpreters for a scripting language (tree-walk and bytecode VM); readable in full on the web. |
 | [CS50's Introduction to 2D Game Development](https://cs50.harvard.edu/games/) | Free | intermediate | guided | - | en | Harvard OpenCourseWare course on 2D games using Lua and LOVE2D, recreating Pong, Flappy Bird, Breakout, Match 3, Super Mario Bros., Zelda, Angry Birds and Pokemon. |
 | [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/) | Free | intermediate | guided | - | en | Harvard's free course on the ideas behind modern AI in Python: search, knowledge, uncertainty, optimization, machine learning, neural networks and language, with hands-on projects. |
@@ -100,6 +103,7 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [Neural Networks - Zero to Hero (Andrej Karpathy)](https://github.com/karpathy/nn-zero-to-hero) | Free | intermediate | guided | - | en | Video series building neural networks from scratch, from micrograd and makemore up to GPT and the GPT tokenizer. |
 | [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) | Free | intermediate | guided | - | en | Free online operating-systems textbook organised around virtualization, concurrency and persistence, with homework and projects. |
 | [Practical Deep Learning for Coders (fast.ai)](https://course.fast.ai) | Free | intermediate | guided | medium | en | Free video course (2022 Part 1, 2023 Part 2) teaching deep learning top-down with fastai and PyTorch, from image classification and NLP to Stable Diffusion from scratch. |
+| [System Design (Karan Pratap Singh)](https://github.com/karanpratapsingh/system-design) | Free | intermediate | guided | - | en | Written system design course covering networking, databases, architecture patterns, reliability and worked design discussions for services such as a URL shortener. |
 | [Terraform Tutorials (HashiCorp Developer)](https://developer.hashicorp.com/terraform/tutorials) | Free | intermediate | guided | - | en | Official HashiCorp step-by-step tutorials for Terraform, from getting started with Docker, AWS, Azure and GCP to modules, state and HCP Terraform. |
 | [The Flask Mega-Tutorial (Miguel Grinberg)](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) | Free | intermediate | guided | - | en | Free online tutorial (2024 edition) that builds a complete Flask web app over about 23 chapters covering templates, forms, databases, logins, testing and deployment. |
 | [The Full Stack (Full Stack Deep Learning and LLM Bootcamp)](https://fullstackdeeplearning.com) | Free | intermediate | guided | low | en | Open lecture series on building and shipping ML-powered products, including the FSDL 2022 course and the 2023 LLM Bootcamp, with lab notebooks. |
@@ -157,6 +161,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Free on the author site and YouTube
 - Watch out: No exercises or problem sets
 - Watch out: Builds intuition but does not teach computational fluency by itself
+
+**500 Lines or Less**
+
+- Good: Small implementations make architectural choices easier to inspect
+- Good: Written material is CC BY 3.0 and example software is MIT licensed
+- Good: Chapters connect module boundaries and interfaces to concrete programs
+- Watch out: Requires programming experience to follow the implementations
+- Watch out: A collection of case studies rather than a complete architecture curriculum
+- Watch out: Paid book versions are separate from the freely accessible repository
 
 **AI for Beginners (Microsoft)**
 
@@ -251,6 +264,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Hands-on C++ projects (for example a buffer pool manager)
 - Watch out: Needs systems programming (C++) experience
 - Watch out: Grading and support are for enrolled students only; check the current policy on AI coding tools for the projects
+
+**Computer Networks: A Systems Approach**
+
+- Good: Online textbook source available under CC BY 4.0
+- Good: Chapters build from network foundations to applications
+- Good: Authors invite corrections and improvements through the source repository
+- Watch out: A substantial textbook rather than short interactive lessons
+- Watch out: Print and other book editions are separate from reading the online source
+- Watch out: Local rendering of the book needs additional build tools
 
 **Coursera**
 
@@ -552,6 +574,14 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Some assignments are AI-graded
 - Watch out: Techniques are generic, not specific to programming
 
+**Linux Upskill Challenge**
+
+- Good: Free CC BY 4.0 learning material available year-round without registration
+- Good: Numbered lessons practise tasks used in Linux support and administration
+- Good: Setup lesson includes a local server option as well as cloud providers
+- Watch out: Requires a Linux practice server and time to perform the exercises
+- Watch out: Cloud servers can incur provider charges; use a disposable practice system for administrative changes
+
 **LLM Zoomcamp (DataTalks.Club)**
 
 - Good: Hands-on and open source
@@ -810,6 +840,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: so you need practice material elsewhere
 - Watch out: Not a linear curriculum
 
+**System Design (Karan Pratap Singh)**
+
+- Good: Readable course organized into chapters with a detailed table of contents
+- Good: Connects network and storage foundations with architecture patterns
+- Good: Includes concrete system design examples
+- Watch out: CC BY-NC-ND 4.0 restricts commercial reuse and distribution of adaptations; this is not an open-source license
+- Watch out: Reading material rather than an interactive implementation lab
+- Watch out: Separate website and ebook editions may have different terms
+
 **Tableau Desktop: Get Started tutorial**
 
 - Good: Official walkthrough with a sample retail data set (Superstore)
@@ -949,4 +988,3 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 
 ---
 Entries marked 'Price not confirmed yet' have a detail we could not verify from an official source. Help us confirm it: see [CONTRIBUTING](../CONTRIBUTING.md).
-

@@ -2,9 +2,13 @@
 
 _Legal, authorized practice to learn how systems are attacked and defended._
 
-15 resources. [Back to the start](../README.md)
+16 resources. [Back to the start](../README.md)
 
-Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Lists, docs and articles](#lists-docs-and-articles)
+## Not sure where to start?
+
+- [Path: cybersecurity](path-cybersecurity.md): Learn security fundamentals through authorized labs and clear reports.
+
+Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps)
 
 ## Full paths (a free university)
 
@@ -41,3 +45,8 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 |---|---|---|---|---|---|---|
 | [OWASP Top 10](https://owasp.org/www-project-top-ten/) | Free | beginner | self-directed | - | en | The OWASP reference document listing the ten most critical web application security risks, currently the 2025 edition, with earlier editions kept available. |
 
+## Tools and apps
+
+| Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
+|---|---|---|---|---|---|---|
+| [Wireshark](https://www.wireshark.org/) | Free | intermediate | self-directed | - | en | Network traffic analyzer for inspecting packet captures and filtering protocol traffic, with a graphical application, TShark command-line tools and official documentation. |

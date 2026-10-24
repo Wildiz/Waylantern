@@ -1,7 +1,7 @@
 name: "Teach Yourself Computer Science"
 url: https://teachyourselfcs.com/
 category: roadmap
-areas: [cs]
+areas: [cs, networking]
 price: free   # the guide is free; some recommended books are paid, many lectures are free
 level: intermediate
 languages: [en, es]   # community translation "Traduccion en Espanol (Latinoamerica)" linked on the page

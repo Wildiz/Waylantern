@@ -1,0 +1,29 @@
+name: Wireshark
+url: https://www.wireshark.org/
+category: tool
+areas: [networking, security, devops]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Network traffic analyzer for inspecting packet captures and filtering protocol traffic, with a graphical application, TShark command-line tools and official documentation.
+pros:
+  - Open-source software distributed under the GNU GPLv2
+  - Inspect saved captures as well as live traffic
+  - Available for Windows, macOS and Linux
+cons:
+  - Understanding captures requires networking knowledge
+  - Live capture needs appropriate permissions; the authors advise against running the main application as root
+  - Capture only traffic you are authorized to inspect and avoid sharing captures containing private data
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read the official README at https://raw.githubusercontent.com/wireshark/wireshark/master/README.md
+    and license at https://raw.githubusercontent.com/wireshark/wireshark/master/COPYING.
+    The README identifies wireshark.org as the official home, describes supported platforms,
+    packet-file handling, TShark, capture permissions and documentation. It states that Wireshark
+    is distributed under GPLv2, with most parts GPL version 2 or later and some components
+    under other licenses. Free refers to the open-source software. English README checked;
+    installation, packet capture, documentation exercises and recent maintenance were not tested.

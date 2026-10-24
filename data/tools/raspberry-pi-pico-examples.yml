@@ -1,0 +1,22 @@
+name: Raspberry Pi Pico SDK Examples
+url: https://github.com/raspberrypi/pico-examples
+category: reference
+areas: [embedded, software]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Official C/C++ examples for Raspberry Pi Pico-series microcontrollers covering serial output, LEDs, analog inputs and other peripherals.
+pros:
+  - Repository code is distributed under a BSD-3-Clause license
+  - Includes small Hello World and LED examples before more specialized topics
+  - README lists examples and links official getting-started and SDK documentation
+cons:
+  - Requires a compatible board, a development toolchain and the Pico SDK for hands-on use
+  - Some examples require a specific chip, board or wireless capability
+  - Free example code does not include hardware or additional electronic components
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read raspberrypi/pico-examples master README.md and LICENSE.TXT via raw.githubusercontent.com. README lists hello_serial, hello_usb, blink and ADC examples, links official getting-started and C/C++ SDK resources, and explains RP2040/RP2350 and wireless-board compatibility constraints. LICENSE.TXT contains the three-clause BSD redistribution terms. Free refers to the source examples and documentation, not required hardware. English checked; SDK setup, compilation and hardware behavior were not tested."

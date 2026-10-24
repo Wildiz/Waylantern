@@ -10,6 +10,7 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [Arduino Built-in Examples - Blink](https://github.com/arduino/docs-content/blob/main/content/built-in-examples/01.basics/Blink/Blink.md) | Free | beginner | guided | - | en | Official beginner Arduino tutorial explaining how to blink an onboard LED, with hardware requirements, circuit guidance and annotated code. |
 | [Awesome Data Science](https://github.com/academic/awesome-datascience) | Free | beginner | self-directed | low | en | Curated data science repository with a beginner roadmap and lists of free courses, books, tools, datasets, podcasts and communities. |
 | [Big-O Cheat Sheet](https://www.bigocheatsheet.com/) | Free | beginner | self-directed | - | en | One-page reference of best, average and worst-case time and space complexities for common data structures and sorting and searching algorithms. |
 | [From Data to Viz](https://www.data-to-viz.com/) | Free | beginner | self-directed | - | en | Decision-tree website that guides you from your data type to an appropriate chart, with links to R and Python code and a catalog of common chart caveats. |
@@ -20,6 +21,7 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [OWASP Top 10](https://owasp.org/www-project-top-ten/) | Free | beginner | self-directed | - | en | The OWASP reference document listing the ten most critical web application security risks, currently the 2025 edition, with earlier editions kept available. |
 | [pandas Getting Started Tutorials](https://pandas.pydata.org/docs/getting_started/index.html) | Free | beginner | semi | high | en | Official pandas getting-started guide with short tutorials on reading and writing data, selecting, filtering, plotting, reshaping, merging and time series. |
 | [Paul's Online Math Notes](https://tutorial.math.lamar.edu/) | Free | beginner | self-directed | - | en | Lamar University notes by Paul Dawkins on algebra, calculus I-III and differential equations, with worked examples and practice problems. |
+| [pytest - Get Started](https://github.com/pytest-dev/pytest/blob/main/doc/en/getting-started.rst) | Free | beginner | guided | - | en | Official introductory guide to installing pytest, writing a first Python test and interpreting assertion failures before progressing to multiple tests. |
 | [storytelling with data: free resources](https://www.storytellingwithdata.com/resources) | Free + paid extras | beginner | self-directed | - | en | Free blog, chart guide, podcast and video resources from storytelling with data on communicating with charts and presenting data, next to paid workshops, an 8-week course and books. |
 | [Up For Grabs](https://up-for-grabs.net/) | Free | beginner | self-directed | - | en | Community-maintained directory of open-source projects that curate tasks specifically for new contributors. |
 | [Wizard Zines (Julia Evans)](https://wizardzines.com/zines/) | Free + paid extras | beginner | self-directed | - | en | Illustrated programming zines by Julia Evans on Linux, networking, debugging and tools; the black-and-white-cover zines (for example tcpdump, strace, perf, Networking! ACK!) are free and the colour ones are paid. |
@@ -34,12 +36,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [Get Me In The Groove: ADHD programmers study (ICSE 2025)](https://conf.researchr.org/details/icse-2025/icse-2025-research-track/200/-Get-Me-In-The-Groove-A-Mixed-Methods-Study-on-Supporting-ADHD-Professional-Program) | Free | intermediate | self-directed | - | en | Peer-reviewed ICSE 2025 study of strategies and challenges of ADHD programmers, based on r/ADHD_Programmers threads and a survey of 239 ADHD and 254 non-ADHD programmers. |
 | [How to write good prompts (Andy Matuschak)](https://andymatuschak.org/prompts/) | Free | intermediate | self-directed | - | en | Long essay on writing effective spaced-repetition (flashcard) prompts for factual, procedural and conceptual knowledge. |
 | [htmx Documentation](https://htmx.org/docs/) | Free | intermediate | self-directed | - | en | Official documentation for htmx, a library that adds AJAX, SSE and WebSockets behavior to HTML through attributes, covering triggers, targets, swapping and events. |
+| [IBM Carbon Design System](https://github.com/carbon-design-system/carbon) | Free | intermediate | self-directed | - | en | IBM's open-source design system with interface components, design tokens, styles and documentation for studying how a reusable product interface is built. |
 | [Josh W. Comeau's CSS articles](https://www.joshwcomeau.com/css/) | Free + paid extras | intermediate | self-directed | - | en | Josh W. Comeau's free, interactive blog tutorials on CSS (31 articles listed), alongside his separate paid course CSS for JavaScript Developers. |
 | [NumPy Tutorials](https://numpy.org/numpy-tutorials/) | Free | intermediate | self-directed | medium | en | Community-developed NumPy project tutorials in notebook form for self-learning and teaching, covering applications such as image processing, linear algebra and neural networks from scratch. |
 | [Observable Framework](https://observablehq.com/framework/) | Free | intermediate | self-directed | - | en | Free, open-source static site generator from Observable for building data apps, dashboards and reports with JavaScript on the front end and data loaders in any language. |
 | [OpenAI Cookbook](https://cookbook.openai.com) | Free | intermediate | self-directed | medium | en | Open-source collection of example code and guides for common tasks with the OpenAI API (mostly Python notebooks), such as retrieval, function calling, evaluation and fine-tuning. |
+| [Playwright - Getting Started](https://github.com/microsoft/playwright) | Free | intermediate | semi | - | en | Official Playwright introduction with installation commands and sample end-to-end web tests using browser automation, locators and assertions. |
 | [Polars User Guide](https://docs.pola.rs/) | Free | intermediate | self-directed | - | en | Official user guide for the Polars DataFrame library covering expressions, the lazy API, joins, time series, IO and streaming. |
 | [Project Based Learning](https://github.com/practical-tutorials/project-based-learning) | Free | intermediate | self-directed | low | en | Curated list of project-based programming tutorials grouped by language such as Python, JavaScript, Go, C/C++ and Rust. |
+| [Raspberry Pi Pico SDK Examples](https://github.com/raspberrypi/pico-examples) | Free | intermediate | self-directed | - | en | Official C/C++ examples for Raspberry Pi Pico-series microcontrollers covering serial output, LEDs, analog inputs and other peripherals. |
 | [The Algorithms - Python](https://github.com/TheAlgorithms/Python) | Free | intermediate | self-directed | - | en | Collection of Python algorithm implementations for reading, experimenting and learning, with a directory for browsing the examples. |
 | [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | Free | intermediate | semi | - | en | Official TypeScript documentation with a Handbook (basics, narrowing, generics, classes, modules) and start guides such as TypeScript for JavaScript programmers. |
 
@@ -86,6 +91,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Commercial publication with sponsored content
 - Watch out: General information only, not medical advice
 - Watch out: Not specific to learning to code
+
+**Arduino Built-in Examples - Blink**
+
+- Good: A small physical output makes the program's behavior visible
+- Good: Explains LED_BUILTIN, digital output and timing
+- Good: Documentation source is openly licensed under CC BY-SA 4.0
+- Watch out: Requires a compatible Arduino board and a computer to run the example
+- Watch out: Hardware and any additional components are not included in the free documentation
+- Watch out: Pin assignments and electrical details depend on the board; follow the tutorial's circuit guidance
 
 **Awesome (sindresorhus/awesome)**
 
@@ -270,6 +284,13 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Course level and language coverage differ per course
 - Watch out: Hub only; see separate entry for the LLM course
 
+**IBM Carbon Design System**
+
+- Good: Apache-2.0 source code with links to designer and developer documentation
+- Good: Includes React and web components, Sass styles and interactive component examples
+- Watch out: A design-system reference rather than a beginner course in visual design
+- Watch out: Using the code in a project requires web development knowledge and a suitable toolchain
+
 **Josh W. Comeau's CSS articles**
 
 - Good: Free articles with interactive demos on modern CSS topics
@@ -351,6 +372,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Does not cover linear algebra or statistics in depth
 - Watch out: Reading-based with no interactive checking
 
+**Playwright - Getting Started**
+
+- Good: Open-source framework under Apache-2.0
+- Good: README includes a small test and commands to run it
+- Good: Supports Chromium, Firefox and WebKit through one API
+- Watch out: Assumes basic web development and JavaScript or TypeScript knowledge
+- Watch out: Running the examples requires Node.js and browser installation
+- Watch out: External CI or hosted testing services can have separate costs
+
 **Polars User Guide**
 
 - Good: Official docs with concept pages on expressions and lazy evaluation
@@ -372,6 +402,24 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Very active repo
 - Watch out: A project-ideas source rather than a teaching resource
 - Watch out: Individual APIs may change auth or pricing; not every listed API is free in the long term
+
+**pytest - Get Started**
+
+- Good: Framework and accompanying documentation use the MIT license
+- Good: Starts with a small test and explains its deliberate failure
+- Good: Shows how ordinary Python assertions produce useful failure reports
+- Watch out: Assumes basic Python knowledge and command-line use
+- Watch out: Requires installing Python and pytest to run examples
+- Watch out: Introduces a testing tool rather than a complete software testing curriculum
+
+**Raspberry Pi Pico SDK Examples**
+
+- Good: Repository code is distributed under a BSD-3-Clause license
+- Good: Includes small Hello World and LED examples before more specialized topics
+- Good: README lists examples and links official getting-started and SDK documentation
+- Watch out: Requires a compatible board, a development toolchain and the Pico SDK for hands-on use
+- Watch out: Some examples require a specific chip, board or wireless capability
+- Watch out: Free example code does not include hardware or additional electronic components
 
 **RetrievalPractice.org (Pooja Agarwal)**
 
@@ -446,4 +494,3 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 
 ---
 Entries marked 'Price not confirmed yet' have a detail we could not verify from an official source. Help us confirm it: see [CONTRIBUTING](../CONTRIBUTING.md).
-

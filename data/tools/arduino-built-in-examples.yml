@@ -1,0 +1,22 @@
+name: Arduino Built-in Examples - Blink
+url: https://github.com/arduino/docs-content/blob/main/content/built-in-examples/01.basics/Blink/Blink.md
+category: reference
+areas: [embedded, software]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Official beginner Arduino tutorial explaining how to blink an onboard LED, with hardware requirements, circuit guidance and annotated code.
+pros:
+  - A small physical output makes the program's behavior visible
+  - Explains LED_BUILTIN, digital output and timing
+  - Documentation source is openly licensed under CC BY-SA 4.0
+cons:
+  - Requires a compatible Arduino board and a computer to run the example
+  - Hardware and any additional components are not included in the free documentation
+  - Pin assignments and electrical details depend on the board; follow the tutorial's circuit guidance
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read arduino/docs-content main README.md, LICENSE.md and content/built-in-examples/01.basics/Blink/Blink.md via raw.githubusercontent.com. The tutorial marks difficulty beginner, lists an Arduino board as required hardware, and explains the onboard LED, optional external LED and resistor, LED_BUILTIN, digitalWrite and delay. README and the full LICENSE.md identify CC BY-SA 4.0; the license file's introductory link label omits ShareAlike, but its linked target and full text include it. Hosted docs.arduino.cc access returned a proxy denial, so this entry links the verified source. Free refers to reading the tutorial, not hardware. English checked; no circuit was built or code executed."

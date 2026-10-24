@@ -348,4 +348,3 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 
 ---
 Entries marked 'Price not confirmed yet' have a detail we could not verify from an official source. Help us confirm it: see [CONTRIBUTING](../CONTRIBUTING.md).
-

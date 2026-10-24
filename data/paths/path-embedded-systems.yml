@@ -1,0 +1,51 @@
+title: "Path: embedded systems"
+summary: Choose Arduino or Raspberry Pi Pico and build a small, explainable LED firmware project.
+areas: [embedded]
+intro: >
+  Embedded and firmware engineers write software that controls hardware and communicates with
+  physical devices. This route introduces that work through an observable LED project, not a
+  complete engineering curriculum or a promise of employment. You need a computer, basic programming
+  concepts, a compatible board and its connection cable. Choose one route: Arduino with the Blink
+  tutorial, or Raspberry Pi Pico with its C/C++ SDK examples. Keep that choice throughout; the
+  resources shown together are alternatives. Documentation and example code are free to read,
+  but hardware and additional components are not included. Follow the selected board's official
+  setup and circuit instructions; do not assume pin assignments or example compatibility transfer
+  unchanged to a different board. Start with the onboard LED so no extra circuit is needed.
+steps:
+  - title: Identify the board and run its matching LED example
+    short: Get one output working
+    tools: [arduino-built-in-examples, raspberry-pi-pico-examples]
+    why: >
+      For Arduino, follow the Blink tutorial and the setup instructions for your exact board.
+      For Pico, follow the getting-started documentation linked from the examples repository,
+      then choose the blink example matching your board; Pico W LED handling differs from some
+      other Pico boards. Set up only the chosen toolchain. Note the board model, selected example
+      and command or IDE action used to build and upload it.
+    advance_when: >
+      The correct onboard LED blinks, you can rebuild and upload the example again, and you
+      can explain which board and example you used without guessing the pin number.
+  - title: Change one timing value and predict the visible result
+    short: Connect code to behavior
+    tools: [arduino-built-in-examples, raspberry-pi-pico-examples]
+    why: >
+      Stay with the same board and example. Find the timing value or delay that controls the
+      blink interval. Before editing it, write down whether you expect the light to blink
+      faster or slower. Change one value, rebuild and upload, then compare the observed behavior
+      with your prediction. Restore the original value and repeat to distinguish a code change
+      from an upload or connection problem.
+    advance_when: >
+      You can demonstrate both timing settings, explain the unit used by the chosen API and
+      trace the code that turns the LED on and off.
+  - title: Build and explain a small repeating signal
+    short: Make a firmware mini project
+    tools: [arduino-built-in-examples, raspberry-pi-pico-examples]
+    why: >
+      Extend the same program into a repeating signal such as two short flashes, one longer
+      flash and a pause. Use a small helper function or named timing values so the pattern is
+      readable. Keep it on the onboard LED rather than adding unfamiliar wiring. Write down
+      the expected sequence, then check the output after a fresh upload and after restarting
+      the board. Document the board, toolchain setup, build or upload steps and the one limitation
+      you would investigate next, such as how blocking delays affect other tasks.
+    advance_when: >
+      The signal matches your written sequence after upload and restart, and you can explain
+      each part of the program and reproduce the build using your notes.

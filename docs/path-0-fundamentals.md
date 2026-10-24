@@ -58,6 +58,14 @@ This step is optional. For a web-focused path, compare freeCodeCamp and The Odin
 
 **Advance when:** You have built a small project of your own, can explain how it works and can name one improvement you would make next. This is a checkpoint, not a requirement to finish an entire curriculum.
 
----
-This path is a general suggestion built from the community's most recommended free resources. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+## Where to go next
 
+After the last checkpoint, improve your project or browse the related areas for a specific gap:
+
+- [Computer science and algorithms](area-cs.md)
+- [Programming and software engineering](area-software.md)
+
+[Compare the learning paths](../README.md#choose-a-learning-path)
+
+---
+This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).

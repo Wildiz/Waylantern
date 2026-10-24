@@ -41,4 +41,3 @@ Jump to: [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps]
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
 | [r/ADHD_Programmers](https://www.reddit.com/r/ADHD_Programmers/) | Free | all | self-directed | - | en | Reddit community for programmers with ADHD, described in a 2025 ICSE paper as the largest public forum for that group. |
-

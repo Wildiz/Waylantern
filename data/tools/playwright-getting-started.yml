@@ -1,0 +1,22 @@
+name: Playwright - Getting Started
+url: https://github.com/microsoft/playwright
+category: reference
+areas: [testing, web, software]
+price: free
+level: intermediate
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: Official Playwright introduction with installation commands and sample end-to-end web tests using browser automation, locators and assertions.
+pros:
+  - Open-source framework under Apache-2.0
+  - README includes a small test and commands to run it
+  - Supports Chromium, Firefox and WebKit through one API
+cons:
+  - Assumes basic web development and JavaScript or TypeScript knowledge
+  - Running the examples requires Node.js and browser installation
+  - External CI or hosted testing services can have separate costs
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read microsoft/playwright main README.md and LICENSE via raw.githubusercontent.com. README documents installation, an end-to-end test, browser isolation, locators, auto-waiting and Chromium, Firefox and WebKit support; LICENSE is Apache-2.0. The README links playwright.dev documentation, but the hosted introduction returned a proxy access denial, so claims here rely on the repository source. Free refers to the documentation and open-source framework, not external infrastructure. English checked; not installed or executed."

@@ -67,4 +67,3 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Kaggle Competitions](https://www.kaggle.com/competitions) | Price not confirmed yet | intermediate | self-directed | - | en | Machine-learning competitions on Kaggle, including Getting Started competitions (such as Titanic) designed as tutorial-heavy practice for newcomers. |
 | [r/cscareerquestions](https://www.reddit.com/r/cscareerquestions/) | Free | all | self-directed | low | en | Large Reddit community for questions about CS degrees and software careers, with a daily chat thread and a weekday thread rotation (interview, resume, rant). |
 | [Stack Overflow](https://stackoverflow.com/) | Free | all | self-directed | low | en | Public Q&A site for programming questions with a published help center on asking good questions. |
-

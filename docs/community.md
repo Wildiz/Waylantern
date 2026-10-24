@@ -177,4 +177,3 @@ _Places to ask for help and find people learning alongside you._
 
 ---
 Entries marked 'Price not confirmed yet' have a detail we could not verify from an official source. Help us confirm it: see [CONTRIBUTING](../CONTRIBUTING.md).
-

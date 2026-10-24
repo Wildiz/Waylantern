@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["title", "summary", "areas", "intro", "steps"],
+  "additionalProperties": false,
+  "properties": {
+    "title": {"$ref": "#/$defs/text"},
+    "summary": {"$ref": "#/$defs/text"},
+    "intro": {"$ref": "#/$defs/text"},
+    "areas": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
+    "helpers": {
+      "type": "object", "required": ["why", "tools"], "additionalProperties": false,
+      "properties": {"why": {"$ref": "#/$defs/text"}, "tools": {"$ref": "#/$defs/tools"}}
+    },
+    "steps": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["title", "short", "tools", "why", "advance_when"],
+        "properties": {
+          "title": {"$ref": "#/$defs/text"}, "short": {"$ref": "#/$defs/text"},
+          "tools": {"$ref": "#/$defs/tools"}, "why": {"$ref": "#/$defs/text"},
+          "advance_when": {"$ref": "#/$defs/text"}, "sequence": {"type": "boolean"}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "text": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "tools": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/text"}}
+  }
+}

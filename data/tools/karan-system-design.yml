@@ -1,0 +1,29 @@
+name: System Design (Karan Pratap Singh)
+url: https://github.com/karanpratapsingh/system-design
+category: course
+areas: [architecture, software, networking, data]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Written system design course covering networking, databases, architecture patterns, reliability and worked design discussions for services such as a URL shortener.
+pros:
+  - Readable course organized into chapters with a detailed table of contents
+  - Connects network and storage foundations with architecture patterns
+  - Includes concrete system design examples
+cons:
+  - CC BY-NC-ND 4.0 restricts commercial reuse and distribution of adaptations; this is not an open-source license
+  - Reading material rather than an interactive implementation lab
+  - Separate website and ebook editions may have different terms
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read the author's README course at https://raw.githubusercontent.com/karanpratapsingh/system-design/main/README.md
+    and license at https://raw.githubusercontent.com/karanpratapsingh/system-design/main/LICENSE.
+    The table of contents covers IP, TCP/UDP, DNS, scaling, databases, distributed transactions,
+    architecture patterns, reliability and example systems. The LICENSE is CC BY-NC-ND 4.0,
+    so the material must not be described as open-source software. Free refers only to reading
+    the public repository; website and ebook pricing were not verified. English course checked.
+    Implementation exercises and recent maintenance were not independently tested.

@@ -1,7 +1,7 @@
 name: "Cisco Packet Tracer"
 url: https://www.netacad.com/cisco-packet-tracer
 category: practice
-areas: [devops, security]
+areas: [devops, security, networking]
 price: free
 level: beginner
 languages: [en]

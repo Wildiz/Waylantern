@@ -2,7 +2,11 @@
 
 _SQL, data analysis, data engineering, visualization and statistics._
 
-41 resources. [Back to the start](../README.md)
+42 resources. [Back to the start](../README.md)
+
+## Not sure where to start?
+
+- [Path: data analysis](path-data-analysis.md): Turn a small dataset into checked answers and a clear chart.
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
@@ -29,6 +33,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [PostgreSQL Tutorial](https://neon.com/postgresql/tutorial) | Free | beginner | guided | - | en | A step-by-step PostgreSQL tutorial covering installing Postgres, querying, joins, grouping, CTEs, modifying data, transactions and managing tables. |
 | [Seeing Theory](https://seeing-theory.brown.edu/) | Free | beginner | self-directed | - | en, zh, es | Brown University's interactive visual introduction to probability and statistics, from basic probability and distributions to Bayesian inference and regression. |
 | [StatQuest with Josh Starmer](https://statquest.org) | Free | beginner | self-directed | high | en | Video explanations of statistics, machine learning, and neural networks, from linear regression to attention, with the author's book and store as optional paid extras. |
+| [System Design (Karan Pratap Singh)](https://github.com/karanpratapsingh/system-design) | Free | intermediate | guided | - | en | Written system design course covering networking, databases, architecture patterns, reliability and worked design discussions for services such as a URL shortener. |
 | [Tableau Desktop: Get Started tutorial](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm) | Price not confirmed yet | beginner | guided | - | en | Tableau's official step-by-step tutorial for Tableau Desktop that connects to data, builds views, stories and dashboards and shares them, taking an estimated one to three hours. |
 | [Think Bayes (2nd edition)](https://allendowney.github.io/ThinkBayes2/) | Free | intermediate | guided | medium | en | Free online introduction to Bayesian statistics using computational methods in Python, from Bayes's theorem through MCMC and approximate Bayesian computation, with Colab notebooks. |
 | [Think Stats (3rd edition)](https://allendowney.github.io/ThinkStats/) | Free | beginner | guided | medium | en | Free online book introducing probability and statistics to Python programmers through exploratory data analysis, distributions, estimation, hypothesis testing and regression, with runnable notebooks. |
@@ -81,4 +86,3 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [DataTalks.Club Slack](https://datatalks.club/slack.html) | Free | all | self-directed | medium | en | Free Slack community for data scientists, ML engineers and AI practitioners, with channels for courses, career questions and weekly events. |
 | [Kaggle Competitions](https://www.kaggle.com/competitions) | Price not confirmed yet | intermediate | self-directed | - | en | Machine-learning competitions on Kaggle, including Getting Started competitions (such as Titanic) designed as tutorial-heavy practice for newcomers. |
 | [Kaggle Discussions](https://www.kaggle.com/discussions) | Price not confirmed yet | all | self-directed | medium | en | Kaggle forums for discussing AI research, competitions, benchmarks and techniques with other practitioners. |
-

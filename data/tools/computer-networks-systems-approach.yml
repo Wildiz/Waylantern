@@ -1,0 +1,29 @@
+name: "Computer Networks: A Systems Approach"
+url: https://github.com/SystemsApproach/book
+category: course
+areas: [networking, cs]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Open textbook by Larry Peterson and Bruce Davie covering network foundations, internetworking, scaling, end-to-end protocols, congestion, security and applications.
+pros:
+  - Online textbook source available under CC BY 4.0
+  - Chapters build from network foundations to applications
+  - Authors invite corrections and improvements through the source repository
+cons:
+  - A substantial textbook rather than short interactive lessons
+  - Print and other book editions are separate from reading the online source
+  - Local rendering of the book needs additional build tools
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read the official README at https://raw.githubusercontent.com/SystemsApproach/book/master/README.rst,
+    table of contents at https://raw.githubusercontent.com/SystemsApproach/book/master/index.rst,
+    print information at https://raw.githubusercontent.com/SystemsApproach/book/master/print.rst
+    and CC BY 4.0 license at https://raw.githubusercontent.com/SystemsApproach/book/master/LICENSE.
+    The README names the authors and links the online book at book.systemsapproach.org.
+    Free refers to reading the online source; print and ebook pricing was not checked.
+    English text checked. Exercises, local builds and recent maintenance were not tested.

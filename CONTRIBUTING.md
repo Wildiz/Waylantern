@@ -14,6 +14,10 @@ Open an issue with the tool name and what is wrong (dead link, price changed, no
 2. Run `make install` once, then `make build`. This checks your file and regenerates the README and `docs/`.
 3. Open a pull request. CI re-checks everything.
 
+## Improve a learning path
+
+Learning paths in `data/paths/*.yml` help people choose a direction and know what to do next. Explain the role or activity in plain language, state prerequisites, and choose a few existing resources for a small project. Each step needs a concrete action and an observable completion check. Follow `data/SCHEMA.md`, then run `make build` and `make check` to validate the references and regenerate navigation and pages. Never edit generated pages by hand.
+
 ## What gets in
 - Free first. A cheap option is fine if the community clearly recommends it. Say honestly what it costs.
 - It must work today and be maintained (or clearly marked as an archive).

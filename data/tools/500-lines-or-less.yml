@@ -1,0 +1,29 @@
+name: 500 Lines or Less
+url: https://github.com/aosabook/500lines
+category: course
+areas: [architecture, software, cs]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Architecture of Open Source Applications book explaining design decisions and tradeoffs through walkthroughs of programs implemented in at most 500 source lines each.
+pros:
+  - Small implementations make architectural choices easier to inspect
+  - Written material is CC BY 3.0 and example software is MIT licensed
+  - Chapters connect module boundaries and interfaces to concrete programs
+cons:
+  - Requires programming experience to follow the implementations
+  - A collection of case studies rather than a complete architecture curriculum
+  - Paid book versions are separate from the freely accessible repository
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read the official README at https://raw.githubusercontent.com/aosabook/500lines/master/README.md
+    and license description at https://raw.githubusercontent.com/aosabook/500lines/master/LICENSE.md.
+    The README identifies this as the fourth Architecture of Open Source Applications book,
+    describes the 500-source-line chapter format, and notes paid versions. LICENSE.md links
+    CC BY 3.0 for written material and grants MIT terms for example software. Free refers
+    to the accessible repository; paid edition prices were not checked. English README checked.
+    Chapter code, build instructions and recent maintenance were not tested.

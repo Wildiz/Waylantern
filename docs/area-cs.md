@@ -2,7 +2,11 @@
 
 _How computers work, data structures, algorithms and the theory behind them._
 
-47 resources. [Back to the start](../README.md)
+49 resources. [Back to the start](../README.md)
+
+## Not sure where to start?
+
+- [Path 0: fundamentals](path-0-fundamentals.md): Start from zero, write your first programs and choose a direction.
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
@@ -22,10 +26,12 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [500 Lines or Less](https://github.com/aosabook/500lines) | Free | intermediate | self-directed | - | en | Architecture of Open Source Applications book explaining design decisions and tradeoffs through walkthroughs of programs implemented in at most 500 source lines each. |
 | [Algorithms by Jeff Erickson](https://jeffe.cs.illinois.edu/teaching/algorithms/) | Free | advanced | self-directed | - | en | Free electronic version of Jeff Erickson's algorithms textbook plus lecture notes used in theoretical CS courses at the University of Illinois Urbana-Champaign. |
 | [Algorithms, 4th Edition (Princeton booksite and Coursera courses)](https://algs4.cs.princeton.edu/home/) | Free | intermediate | guided | - | en | Sedgewick and Wayne's Algorithms booksite (fundamentals, sorting, searching, graphs, strings) with lectures, code and data in Java, plus links to the Algorithms Part I and II Coursera courses. |
 | [Beej's Guides](https://beej.us/guide/) | Free | intermediate | self-directed | - | en | Free online guides to C programming, network (socket) programming, Git, Unix IPC and related topics by Brian 'Beej' Hall. |
 | [CMU 15-445/645 Intro to Database Systems](https://15445.courses.cs.cmu.edu/) | Free | advanced | guided | - | en | Carnegie Mellon's database systems course on storage, indexes, query processing, transactions and recovery, with public lecture slides, notes, videos and project assignments. |
+| [Computer Networks: A Systems Approach](https://github.com/SystemsApproach/book) | Free | intermediate | guided | - | en | Open textbook by Larry Peterson and Bruce Davie covering network foundations, internetworking, scaling, end-to-end protocols, congestion, security and applications. |
 | [Crafting Interpreters](https://craftinginterpreters.com/) | Free | intermediate | guided | - | en | Book that walks you through building two complete interpreters for a scripting language (tree-walk and bytecode VM); readable in full on the web. |
 | [CS Unplugged](https://www.csunplugged.org/en/) | Free | beginner | semi | - | en, es | Free collection of games and puzzles that teach computer-science ideas with cards, string and paper, with no computer needed. |
 | [CS50's Introduction to Programming with Python](https://cs50.harvard.edu/python/) | Free | beginner | guided | - | en | Harvard's free Python course with weekly lectures and problem sets covering functions, conditionals, loops, exceptions, libraries, unit tests, file I/O, regular expressions and object-oriented programming. |
@@ -87,4 +93,3 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 |---|---|---|---|---|---|---|
 | [OSSU Discord](https://github.com/ossu/computer-science) | Free | beginner | self-directed | medium | en | Discord server of Open Source Society University for people working through its free computer science curriculum, linked from the README. |
 | [Stack Overflow](https://stackoverflow.com/) | Free | all | self-directed | low | en | Public Q&A site for programming questions with a published help center on asking good questions. |
-

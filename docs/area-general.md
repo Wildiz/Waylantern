@@ -42,4 +42,3 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Awesome (sindresorhus/awesome)](https://github.com/sindresorhus/awesome) | Free | all | self-directed | low | en | Curated index of community "awesome" lists organised into about 27 categories such as programming languages, computer science, databases and learning. |
 | [free-programming-books](https://github.com/EbookFoundation/free-programming-books) | Free | all | self-directed | low | en, es | Very large community-maintained list of free books, courses, interactive tutorials, playgrounds and problem sets, split by language. |
 | [GitHub Student Developer Pack](https://education.github.com/pack) | Free | all | self-directed | - | en | Bundle of free developer tools, cloud credits and learning offers from GitHub and partners for verified students. |
-

@@ -2,7 +2,7 @@
 
 _Containers, Kubernetes, cloud platforms, infrastructure and Linux administration._
 
-25 resources. [Back to the start](../README.md)
+27 resources. [Back to the start](../README.md)
 
 Jump to: [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps)
 
@@ -17,6 +17,7 @@ Jump to: [Courses and books](#courses-and-books) | [Practice by doing](#practice
 | [Google Skills (formerly Google Cloud Skills Boost)](https://www.skills.google/) | Free + paid extras | beginner | guided | - | en | Google's learning platform with Google Cloud labs, courses, skill badges and certificates; labs run on credits, with a free GEAR program offering 35 monthly credits. |
 | [Introduction to Linux (LFS101, Linux Foundation)](https://training.linuxfoundation.org/training/introduction-to-linux/) | Free | beginner | guided | - | en, es | Free Linux Foundation course on working with Linux through the graphical interface and command line across the major distribution families, ending with shell scripting and local security basics. |
 | [Kubernetes Tutorials (official docs)](https://kubernetes.io/docs/tutorials/) | Free | intermediate | semi | - | en, es | Official Kubernetes tutorials, including a hands-on basics module you can follow with a browser-based or local cluster. |
+| [Linux Upskill Challenge](https://github.com/livialima/linuxupskillchallenge) | Free | beginner | guided | - | en | A sequenced hands-on Linux administration course covering server access, command-line navigation, packages, services, logs, networking, users and permissions. |
 | [Microsoft Learn](https://learn.microsoft.com/en-us/training/) | Free | all | semi | - | en | Microsoft's free training catalogue of learning paths and modules on Azure, Microsoft 365, Power Platform, security and developer tools, with role-based paths and credentials. |
 | [Professor Messer (CompTIA Network+ and Security+ videos)](https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/) | Free | beginner | guided | - | en | Free video training courses for the CompTIA Security+ (SY0-701), Network+ (N10-009) and A+ exams, with optional paid course notes and practice exams. |
 | [Terraform Tutorials (HashiCorp Developer)](https://developer.hashicorp.com/terraform/tutorials) | Free | intermediate | guided | - | en | Official HashiCorp step-by-step tutorials for Terraform, from getting started with Docker, AWS, Azure and GCP to modules, state and HCP Terraform. |
@@ -50,4 +51,4 @@ Jump to: [Courses and books](#courses-and-books) | [Practice by doing](#practice
 | [GitHub Pages](https://pages.github.com/) | Free | beginner | guided | - | en | Static website hosting from a GitHub repository, with one user or organization site per account and unlimited project sites, suitable for a beginner portfolio. |
 | [Netlify (Free plan)](https://www.netlify.com/pricing/) | Free + paid extras | beginner | self-directed | - | en | Web hosting and deployment platform whose Free plan ($0 forever per its pricing page) includes deploys from Git, deploy previews, custom domains with SSL and serverless functions within a monthly credit limit. |
 | [Vercel (Hobby plan)](https://vercel.com/pricing) | Free + paid extras | beginner | self-directed | - | en | Frontend hosting platform whose free Hobby plan is aimed at personal projects and includes Git-based deploys, a global CDN and monthly usage allowances. |
-
+| [Wireshark](https://www.wireshark.org/) | Free | intermediate | self-directed | - | en | Network traffic analyzer for inspecting packet captures and filtering protocol traffic, with a graphical application, TShark command-line tools and official documentation. |

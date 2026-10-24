@@ -1,7 +1,7 @@
 name: "Beej's Guides"
 url: https://beej.us/guide/
 category: course
-areas: [cs, software, devops]
+areas: [cs, software, devops, networking]
 price: free
 level: intermediate
 languages: [en]

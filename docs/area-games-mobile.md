@@ -24,4 +24,3 @@ Jump to: [Courses and books](#courses-and-books) | [Lists, docs and articles](#l
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
 | [Godot Engine Documentation](https://docs.godotengine.org/en/stable/) | Free | beginner | guided | - | en | Official documentation and tutorials for the free and open-source Godot 2D and 3D game engine, with entry points for people who have never made a game. |
-

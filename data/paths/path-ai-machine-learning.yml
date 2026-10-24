@@ -1,0 +1,27 @@
+title: "Path: AI and machine learning"
+summary: Train and evaluate a small machine-learning model on tutorial data.
+areas: [ai]
+intro: >
+  Machine-learning practitioners use data to build models, test predictions on examples the
+  model has not seen and explain where the results can fail. This route is for beginners
+  exploring that work, not a promise of professional readiness. You need basic Python,
+  including functions and lists, plus comfort with tables, averages and simple algebra.
+  Complete the relevant parts of Path 0 first if needed. Start with small public tutorial
+  datasets and classic models; no paid API or large model is required. Never upload personal,
+  confidential or sensitive data to a hosted notebook.
+steps:
+  - title: Understand a prediction task
+    short: Learn the basic concepts
+    tools: [google-machine-learning-crash-course]
+    why: Start with the introductory regression and classification material. Use a small tutorial example to identify the input features and the target being predicted. Write down whether the task predicts a number or a category, what information is available at prediction time and what a wrong prediction would mean. Review the recommended prerequisites when a topic is unfamiliar.
+    advance_when: You can explain features, labels, training and evaluation in your own words and identify one feature that would leak the answer into the inputs.
+  - title: Train a simple baseline model
+    short: Make and check predictions
+    tools: [kaggle-learn]
+    why: Take the introductory machine-learning exercises with their supplied dataset. A free Kaggle account is needed for the hosted notebooks. Separate training and validation data before fitting, compare the model with a simple constant prediction and record the validation metric. Keep the dataset small and do not use a GPU or paid service for this exercise.
+    advance_when: You can rerun the notebook from the beginning, show predictions on held-out examples and explain whether the model improves on the constant baseline using the same metric.
+  - title: Turn one example into a reproducible mini-project
+    short: Compare and explain results
+    tools: [microsoft-ml-for-beginners]
+    why: Choose a beginner lesson matching the kind of prediction you just practised and work through its sample-data project. Record the data source, feature choices, split and evaluation metric. Compare two simple configurations while keeping the evaluation method fixed. Write a short report about the result, a mistake you inspected and a limitation. Leave any final test set untouched while choosing between configurations.
+    advance_when: Your saved instructions reproduce the analysis, the report compares the models with a baseline and you can explain why a good score on tutorial data does not establish that the model is safe or useful in a real application.

@@ -2,7 +2,11 @@
 
 _HTML, CSS, JavaScript, frameworks and everything for building websites and web apps._
 
-38 resources. [Back to the start](../README.md)
+41 resources. [Back to the start](../README.md)
+
+## Not sure where to start?
+
+- [Path: web development](path-web-development.md): Build a small, accessible website with HTML, CSS and JavaScript.
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
@@ -57,9 +61,11 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [DevDocs](https://devdocs.io/) | Free | all | self-directed | medium | en | Fast, searchable, offline-capable documentation browser that combines API docs for 100+ languages and libraries in one web app. |
 | [freeCodeCamp en español](https://www.freecodecamp.org/espanol/news/) | Free | all | self-directed | medium | es, en | Spanish edition of the freeCodeCamp publication with translated and original programming tutorials and courses on web development, SQL, React, Git and more. |
 | [htmx Documentation](https://htmx.org/docs/) | Free | intermediate | self-directed | - | en | Official documentation for htmx, a library that adds AJAX, SSE and WebSockets behavior to HTML through attributes, covering triggers, targets, swapping and events. |
+| [IBM Carbon Design System](https://github.com/carbon-design-system/carbon) | Free | intermediate | self-directed | - | en | IBM's open-source design system with interface components, design tokens, styles and documentation for studying how a reusable product interface is built. |
 | [Josh W. Comeau's CSS articles](https://www.joshwcomeau.com/css/) | Free + paid extras | intermediate | self-directed | - | en | Josh W. Comeau's free, interactive blog tutorials on CSS (31 articles listed), alongside his separate paid course CSS for JavaScript Developers. |
 | [MDN Web Docs](https://developer.mozilla.org/) | Free | all | self-directed | medium | en, es | Mozilla-run documentation hub for HTML, CSS, JavaScript, Web APIs and HTTP, with reference pages, guides and a Learn web development section. |
 | [OWASP Top 10](https://owasp.org/www-project-top-ten/) | Free | beginner | self-directed | - | en | The OWASP reference document listing the ten most critical web application security risks, currently the 2025 edition, with earlier editions kept available. |
+| [Playwright - Getting Started](https://github.com/microsoft/playwright) | Free | intermediate | semi | - | en | Official Playwright introduction with installation commands and sample end-to-end web tests using browser automation, locators and assertions. |
 | [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | Free | intermediate | semi | - | en | Official TypeScript documentation with a Handbook (basics, narrowing, generics, classes, modules) and start guides such as TypeScript for JavaScript programmers. |
 
 ## Tools and apps
@@ -68,6 +74,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 |---|---|---|---|---|---|---|
 | [GitHub Pages](https://pages.github.com/) | Free | beginner | guided | - | en | Static website hosting from a GitHub repository, with one user or organization site per account and unlimited project sites, suitable for a beginner portfolio. |
 | [Netlify (Free plan)](https://www.netlify.com/pricing/) | Free + paid extras | beginner | self-directed | - | en | Web hosting and deployment platform whose Free plan ($0 forever per its pricing page) includes deploys from Git, deploy previews, custom domains with SSL and serverless functions within a monthly credit limit. |
+| [Penpot](https://github.com/penpot/penpot) | Free + paid extras | beginner | self-directed | - | en | An open-source interface design and prototyping platform for practising layouts, reusable components and design systems with SVG and CSS-based workflows. |
 | [Vercel (Hobby plan)](https://vercel.com/pricing) | Free + paid extras | beginner | self-directed | - | en | Frontend hosting platform whose free Hobby plan is aimed at personal projects and includes Git-based deploys, a global CDN and monthly usage allowances. |
 
 ## Communities
@@ -78,4 +85,3 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [freeCodeCamp Forum](https://forum.freecodecamp.org/) | Free | beginner | self-directed | medium | en | Discourse forum for freeCodeCamp learners with curriculum help, platform support, project showcase and career categories. |
 | [Hashnode](https://hashnode.com/) | Free + paid extras | all | self-directed | medium | en | Developer blogging platform where you can start a blog on your own domain and read and follow other developers. |
 | [The Odin Project Discord](https://www.theodinproject.com/community) | Free | beginner | self-directed | medium | en | Official Discord server of The Odin Project, where learners following its free web development curriculum ask for help and study together. |
-

@@ -1,7 +1,7 @@
 name: "Introduction to Linux (LFS101, Linux Foundation)"
 url: https://training.linuxfoundation.org/training/introduction-to-linux/
 category: course
-areas: [devops]
+areas: [devops, it-support]
 price: free
 level: beginner
 languages: [en, es]

@@ -2,8 +2,9 @@
 
 _A lantern for your first steps in IT._
 
-**A free, community-style guide to the best tools for learning IT** (software, data, AI and LLMs).
-Courses, free "universities", practice sites, study tools and focus tools: all checked against their official pages.
+**A free, community-style guide to resources for learning IT** (software, data, AI, networks, hardware and IT operations).
+Courses, books, practice labs, open-source projects and study tools, organized by topic and format.
+Not sure what a role involves or what to do next? Choose a short learning path with a first project and checkpoints, then use the catalogue to explore further.
 
 [Español](README.es.md)
 
@@ -24,17 +25,41 @@ Follow **[Path 0: fundamentals](docs/path-0-fundamentals.md)**: a few small step
 
 The [full page](docs/path-0-fundamentals.md) explains why each resource is there and when to move on.
 
+## Choose a learning path
+
+Each path explains what a related role does, the knowledge you need first and a small project to build. Choose one and follow its checkpoints. If you are unsure, begin with Path 0. You can change direction later.
+
+| Path | What you will try |
+|---|---|
+| [Path 0: fundamentals](docs/path-0-fundamentals.md) | Start from zero, write your first programs and choose a direction. |
+| [Path: AI and machine learning](docs/path-ai-machine-learning.md) | Train and evaluate a small machine-learning model on tutorial data. |
+| [Path: cybersecurity](docs/path-cybersecurity.md) | Learn security fundamentals through authorized labs and clear reports. |
+| [Path: data analysis](docs/path-data-analysis.md) | Turn a small dataset into checked answers and a clear chart. |
+| [Path: embedded systems](docs/path-embedded-systems.md) | Choose Arduino or Raspberry Pi Pico and build a small, explainable LED firmware project. |
+| [Path: interface and product design](docs/path-interface-design.md) | Observe one user task, sketch an interface and test a small clickable prototype. |
+| [Path: IT support and help desk](docs/path-it-support.md) | Practise basic Linux diagnosis and document a simulated support case in a ticket lab. |
+| [Path: networking](docs/path-networking.md) | Understand connections, build a small network and diagnose a broken link. |
+| [Path: software architecture](docs/path-software-architecture.md) | Turn a small application's requirements into a design you can explain and revise. |
+| [Path: software testing and QA](docs/path-software-testing.md) | Learn to describe expected behavior, automate checks and investigate failures in one small project. |
+| [Path: web development](docs/path-web-development.md) | Build a small, accessible website with HTML, CSS and JavaScript. |
+
 ## Looking for one specific area?
 
 | Area | What is inside | Resources |
 |---|---|---|
-| [Computer science and algorithms](docs/area-cs.md) | How computers work, data structures, algorithms and the theory behind them. | 47 |
-| [Programming and software engineering](docs/area-software.md) | Learn languages, Git, the command line and how to build software well. | 62 |
-| [Web development](docs/area-web.md) | HTML, CSS, JavaScript, frameworks and everything for building websites and web apps. | 38 |
-| [Data, databases and statistics](docs/area-data.md) | SQL, data analysis, data engineering, visualization and statistics. | 41 |
+| [Computer science and algorithms](docs/area-cs.md) | How computers work, data structures, algorithms and the theory behind them. | 49 |
+| [Programming and software engineering](docs/area-software.md) | Learn languages, Git, the command line and how to build software well. | 68 |
+| [Web development](docs/area-web.md) | HTML, CSS, JavaScript, frameworks and everything for building websites and web apps. | 41 |
+| [Computer networks](docs/area-networking.md) | Protocols, packet analysis, network simulation and how computers communicate. | 8 |
+| [Software and systems architecture](docs/area-architecture.md) | Design decisions, system structure, scalability and examples of how applications are built. | 3 |
+| [Software testing and QA](docs/area-testing.md) | Automated tests, browser testing and techniques for checking software quality. | 2 |
+| [Embedded systems and firmware](docs/area-embedded.md) | Microcontrollers, hardware programming and software that interacts with physical devices. | 2 |
+| [UX, UI and product design](docs/area-design-product.md) | Interface design, design systems, prototyping and tools for exploring user experiences. | 2 |
+| [Data, databases and statistics](docs/area-data.md) | SQL, data analysis, data engineering, visualization and statistics. | 42 |
 | [AI, machine learning and LLMs](docs/area-ai.md) | Machine learning, deep learning, language models and AI agents. | 41 |
-| [DevOps, cloud and Linux](docs/area-devops.md) | Containers, Kubernetes, cloud platforms, infrastructure and Linux administration. | 25 |
-| [Cybersecurity](docs/area-security.md) | Legal, authorized practice to learn how systems are attacked and defended. | 15 |
+| [DevOps, cloud and Linux](docs/area-devops.md) | Containers, Kubernetes, cloud platforms, infrastructure and Linux administration. | 27 |
+| [IT support and service management](docs/area-it-support.md) | System troubleshooting, technical support, help desks and managing IT services. | 5 |
+| [Cybersecurity](docs/area-security.md) | Legal, authorized practice to learn how systems are attacked and defended. | 16 |
 | [Math for tech](docs/area-math.md) | Linear algebra, calculus, discrete math and probability for CS, data and AI. | 19 |
 | [Games and mobile apps](docs/area-games-mobile.md) | Game engines and mobile app development. | 9 |
 | [Career, interviews and open source](docs/area-career.md) | Interview practice, your first open-source contributions and portfolio hosting. | 27 |
@@ -58,14 +83,14 @@ The [full page](docs/path-0-fundamentals.md) explains why each resource is there
 | Format | What is inside | Entries |
 |---|---|---|
 | [Full paths (a free university)](docs/path.md) | A complete road from zero, in order. Best if you want structure and do not want to decide what to study next. | 16 |
-| [Courses and books](docs/course.md) | Individual courses and books on one topic. Good once you know roughly what you want to learn. | 104 |
+| [Courses and books](docs/course.md) | Individual courses and books on one topic. Good once you know roughly what you want to learn. | 108 |
 | [Practice by doing](docs/practice.md) | You write code or solve problems and get instant feedback. Best for staying engaged. | 38 |
 | [Roadmaps](docs/roadmap.md) | Maps that show what to learn and in what order. Use one to see the big picture. | 6 |
-| [Lists, docs and articles](docs/reference.md) | Big collections of links, documentation and guides. Great to browse or look things up, overwhelming if you start here. | 49 |
-| [Tools and apps](docs/tool.md) | Apps and software for taking notes, remembering, staying focused or building your own projects. | 49 |
+| [Lists, docs and articles](docs/reference.md) | Big collections of links, documentation and guides. Great to browse or look things up, overwhelming if you start here. | 54 |
+| [Tools and apps](docs/tool.md) | Apps and software for taking notes, remembering, staying focused or building your own projects. | 52 |
 | [Communities](docs/community.md) | Places to ask for help and find people learning alongside you. | 18 |
 
-**280 entries in total**, 43 of them with Spanish available.
+**292 entries in total**, 43 of them with Spanish available.
 
 **Optional:** 10 more resources that are only available in other languages (Spanish) are in [Resources in other languages](docs/other-languages.md).
 
@@ -90,5 +115,4 @@ Found a tool that is missing, or a wrong detail? You do **not** need to know Git
 
 [CC BY 4.0](LICENSE): copy it, adapt it, share it, just give credit.
 
-> README and `docs/` are generated from `data/tools/*.yml` by `scripts/build.py`. Edit the data files, not the generated pages.
-
+> README and `docs/` are generated from `data/tools/*.yml` and `data/paths/*.yml` by `scripts/build.py`. Edit the data files, not the generated pages.

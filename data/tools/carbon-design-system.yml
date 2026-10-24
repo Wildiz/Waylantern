@@ -1,0 +1,20 @@
+name: "IBM Carbon Design System"
+url: https://github.com/carbon-design-system/carbon
+category: reference
+areas: [design-product, web]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "IBM's open-source design system with interface components, design tokens, styles and documentation for studying how a reusable product interface is built."
+pros:
+  - "Apache-2.0 source code with links to designer and developer documentation"
+  - "Includes React and web components, Sass styles and interactive component examples"
+cons:
+  - "A design-system reference rather than a beginner course in visual design"
+  - "Using the code in a project requires web development knowledge and a suitable toolchain"
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read carbon-design-system/carbon main README.md and LICENSE via raw.githubusercontent.com. README identifies IBM's design system and links design/development guidance, React and web-component libraries, Sass styles, tokens and Storybook. README and LICENSE confirm Apache-2.0. Free refers to the repository and its documentation, not any hosting or unrelated IBM services. English README verified; component execution, documentation completeness and translations were not tested."

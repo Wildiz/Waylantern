@@ -171,4 +171,3 @@ _A complete road from zero, in order. Best if you want structure and do not want
 
 ---
 Entries marked 'Price not confirmed yet' have a detail we could not verify from an official source. Help us confirm it: see [CONTRIBUTING](../CONTRIBUTING.md).
-

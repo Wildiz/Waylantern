@@ -49,4 +49,3 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 |---|---|---|---|---|---|---|
 | [Manim Community](https://github.com/ManimCommunity/manim) | Free | intermediate | self-directed | - | en | Python animation engine for creating explanatory mathematics videos with programmable scenes, example code and a gallery. |
 | [SymPy](https://github.com/sympy/sympy) | Free | intermediate | self-directed | - | en | Python library for symbolic mathematics that lets you manipulate mathematical expressions interactively or in programs, with documentation and code examples. |
-

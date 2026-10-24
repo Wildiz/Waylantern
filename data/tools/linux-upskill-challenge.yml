@@ -1,0 +1,21 @@
+name: "Linux Upskill Challenge"
+url: https://github.com/livialima/linuxupskillchallenge
+category: course
+areas: [it-support, devops]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "A sequenced hands-on Linux administration course covering server access, command-line navigation, packages, services, logs, networking, users and permissions."
+pros:
+  - "Free CC BY 4.0 learning material available year-round without registration"
+  - "Numbered lessons practise tasks used in Linux support and administration"
+  - "Setup lesson includes a local server option as well as cloud providers"
+cons:
+  - "Requires a Linux practice server and time to perform the exercises"
+  - "Cloud servers can incur provider charges; use a disposable practice system for administrative changes"
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read livialima/linuxupskillchallenge master README.md and LICENSE via raw.githubusercontent.com. README explicitly states free learning materials, year-round access and no registration; its numbered lesson list covers server setup, SSH, navigation, apt, services, logs, networking, users, permissions and scripting. Day 0 lists cloud and local server setup. LICENSE identifies Creative Commons Attribution 4.0 International, which applies to the learning content rather than being a software license. English README verified. No server was provisioned and exercises were not executed; provider costs were not priced."

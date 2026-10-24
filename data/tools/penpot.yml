@@ -1,0 +1,21 @@
+name: "Penpot"
+url: https://github.com/penpot/penpot
+category: tool
+areas: [design-product, web]
+price: freemium
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "An open-source interface design and prototyping platform for practising layouts, reusable components and design systems with SVG and CSS-based workflows."
+pros:
+  - "MPL-2.0 source code with a self-hosting option"
+  - "Official README links a learning centre and UI design course"
+  - "Connects interface design with familiar web standards"
+cons:
+  - "The application is a practice tool, not a complete design curriculum"
+  - "Self-hosting requires installation and server resources; enterprise features are a separate paid plan"
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read penpot/penpot develop README.md and LICENSE via raw.githubusercontent.com. The README describes interface design, prototyping, components, design tokens, SVG/CSS standards, browser and self-hosted use, and links official learning resources. LICENSE is MPL-2.0. The README explicitly identifies Penpot Enterprise as paid for cloud and self-hosted deployments; freemium reflects that distinction, not a verified hosted price or quota. English README checked; learning course contents, translations and application operation were not tested."
