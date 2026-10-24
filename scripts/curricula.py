@@ -84,8 +84,9 @@ def render_curricula(curricula, professions, entries, sources):
         group, role = roles[curriculum["role"]]
         stages = curriculum["stages"]
         missing = sum(bool(stage.get("gap")) for stage in stages)
+        page_kind = "Editorial practice plan" if group["id"] == "software" else "Learning curriculum"
         body = [
-            f"# Learning curriculum: {role['title']}", "", curriculum["summary"], "",
+            f"# {page_kind}: {role['title']}", "", curriculum["summary"], "",
             f"[Home](../README.md) / [Curricula](curricula.md) / [{group['title']}](professions-{group['id']}.md#roles-in-this-group)", "",
             f"**Target profile:** [{role['title']}](professions-{group['id']}.md#{role['id']})", "",
             f"**Starting point:** {ENTRY_LABELS[curriculum['entry_level']]}", "",
@@ -97,6 +98,8 @@ def render_curricula(curricula, professions, entries, sources):
             "Resource access labels refer to the material or software. Open a resource's details to check prerequisites, hardware, APIs and other running costs before using it.", "",
             "## Your sequence", "",
         ]
+        if group["id"] == "software":
+            body[6:6] = ["[Academic-plan work and resource-matching preview](software-study-preview.md). This page is an existing editorial practice plan; it is not derived from an inspected university curriculum.", ""]
         body += [f"{i}. [{stage['title']}](#stage-{i})" for i, stage in enumerate(stages, 1)]
         for i, stage in enumerate(stages, 1):
             body += ["", f'<a id="stage-{i}"></a>', f"## {i}. {stage['title']}", "", "**Learn:**", ""]

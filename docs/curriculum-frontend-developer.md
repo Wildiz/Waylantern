@@ -1,8 +1,10 @@
-# Learning curriculum: Frontend Developer
+# Editorial practice plan: Frontend Developer
 
 Build an accessible browser interface before introducing frameworks.
 
 [Home](../README.md) / [Curricula](curricula.md) / [Software, interfaces and embedded systems](professions-software.md#roles-in-this-group)
+
+[Academic-plan work and resource-matching preview](software-study-preview.md). This page is an existing editorial practice plan; it is not derived from an inspected university curriculum.
 
 **Target profile:** [Frontend Developer](professions-software.md#frontend-developer)
 

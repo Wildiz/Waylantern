@@ -1,8 +1,10 @@
-# Learning curriculum: Integration Developer
+# Editorial practice plan: Integration Developer
 
 Transfer synthetic records between systems without losing meaning or recoverability.
 
 [Home](../README.md) / [Curricula](curricula.md) / [Software, interfaces and embedded systems](professions-software.md#roles-in-this-group)
+
+[Academic-plan work and resource-matching preview](software-study-preview.md). This page is an existing editorial practice plan; it is not derived from an inspected university curriculum.
 
 **Target profile:** [Integration Developer](professions-software.md#integration-developer)
 

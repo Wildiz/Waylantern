@@ -143,8 +143,14 @@ def render_professions(groups, guidelines, areas, paths, curricula=()):
             "## Roles in this group", "",
             "| Role | What they do | Study recipe |", "|---|---|---|",
         ]
+        if group["id"] == "software":
+            content[-2] = "| Role | What they do | Editorial practice |"
+            content[6:6] = ["## Academic study plan: work in progress", "",
+                             "[See the simple example: academic topic → study resource → practice](software-study-preview.md). University programme requirements are still awaiting verification.", "",
+                             "The plans linked in the role table are existing editorial practice plans. They are separate from the academic curriculum under investigation.", ""]
         for role in group["roles"]:
-            recipe = f"[Curriculum](curriculum-{role['id']}.md) — {entry_labels.get(recipes[role['id']].get('entry_level'), 'Check prerequisites')}" if role["id"] in recipes else "Not added yet"
+            label = "Practice plan" if group["id"] == "software" else "Curriculum"
+            recipe = f"[{label}](curriculum-{role['id']}.md) — {entry_labels.get(recipes[role['id']].get('entry_level'), 'Check prerequisites')}" if role["id"] in recipes else "Not added yet"
             content.append(f"| [{role['title']}](#{role['id']}) | {_table_cell(role['description'])} | {recipe} |")
         content += [""]
         for role in group["roles"]:
@@ -153,7 +159,8 @@ def render_professions(groups, guidelines, areas, paths, curricula=()):
                 content += ["Title variants: " + ", ".join(role["aliases"]), ""]
             content += ["Related areas: " + _area_links(role["areas"], areas), ""]
             if role["id"] in recipes:
-                content += [f"Study recipe: [Curriculum for {role['title']}](curriculum-{role['id']}.md)", ""]
+                label = "Editorial practice" if group["id"] == "software" else "Curriculum"
+                content += [f"Study recipe: [{label} for {role['title']}](curriculum-{role['id']}.md)", ""]
             else:
                 content += ["Study recipe: not added yet.", ""]
             if role["paths"]:

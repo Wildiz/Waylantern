@@ -1,8 +1,10 @@
-# Learning curriculum: Product Designer
+# Editorial practice plan: Product Designer
 
 Connect a product problem, a usable concept and a measurable learning question.
 
 [Home](../README.md) / [Curricula](curricula.md) / [Software, interfaces and embedded systems](professions-software.md#roles-in-this-group)
+
+[Academic-plan work and resource-matching preview](software-study-preview.md). This page is an existing editorial practice plan; it is not derived from an inspected university curriculum.
 
 **Target profile:** [Product Designer](professions-software.md#product-designer)
 

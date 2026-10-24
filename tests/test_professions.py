@@ -104,8 +104,8 @@ class ProfessionCatalogueTests(unittest.TestCase):
         curricula = [{"role": "software-engineer", "title": "Software Engineer", "entry_level": "after-basics"}]
         pages = profession_catalog.render_professions(groups, sources, self.areas, self.paths, curricula)
         profile = pages["docs/professions-software.md"]
-        self.assertIn("[Curriculum](curriculum-software-engineer.md)", profile)
-        self.assertIn("Study recipe: [Curriculum for Software Engineer](curriculum-software-engineer.md)", profile)
+        self.assertIn("[Practice plan](curriculum-software-engineer.md)", profile)
+        self.assertIn("Study recipe: [Editorial practice for Software Engineer](curriculum-software-engineer.md)", profile)
         self.assertNotIn("Study recipe: not added yet.", profile)
         self.assertNotIn("curriculum-software-engineer.md", pages["docs/professions.md"])
 

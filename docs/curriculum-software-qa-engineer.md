@@ -1,8 +1,10 @@
-# Learning curriculum: Software QA Engineer
+# Editorial practice plan: Software QA Engineer
 
 Engineer maintainable automated checks around a small application's risks.
 
 [Home](../README.md) / [Curricula](curricula.md) / [Software, interfaces and embedded systems](professions-software.md#roles-in-this-group)
+
+[Academic-plan work and resource-matching preview](software-study-preview.md). This page is an existing editorial practice plan; it is not derived from an inspected university curriculum.
 
 **Target profile:** [Software QA Engineer](professions-software.md#software-qa-engineer)
 

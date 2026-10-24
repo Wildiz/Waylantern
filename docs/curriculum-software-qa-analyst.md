@@ -1,8 +1,10 @@
-# Learning curriculum: Software Quality Assurance Analyst
+# Editorial practice plan: Software Quality Assurance Analyst
 
 Turn requirements and risks into a traceable software test strategy.
 
 [Home](../README.md) / [Curricula](curricula.md) / [Software, interfaces and embedded systems](professions-software.md#roles-in-this-group)
+
+[Academic-plan work and resource-matching preview](software-study-preview.md). This page is an existing editorial practice plan; it is not derived from an inspected university curriculum.
 
 **Target profile:** [Software Quality Assurance Analyst](professions-software.md#software-qa-analyst)
 

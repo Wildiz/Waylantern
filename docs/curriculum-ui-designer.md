@@ -1,8 +1,10 @@
-# Learning curriculum: UI Designer
+# Editorial practice plan: UI Designer
 
 Create consistent visual components with clear states and readable layouts.
 
 [Home](../README.md) / [Curricula](curricula.md) / [Software, interfaces and embedded systems](professions-software.md#roles-in-this-group)
+
+[Academic-plan work and resource-matching preview](software-study-preview.md). This page is an existing editorial practice plan; it is not derived from an inspected university curriculum.
 
 **Target profile:** [UI Designer](professions-software.md#ui-designer)
 

@@ -14,11 +14,11 @@ from jsonschema import Draft202012Validator
 if __package__:
     from .profession_catalog import load_professions, render_professions
     from .curricula import load_curricula, render_curricula
-    from .navigation import render_home, render_catalogue, render_path_index
+    from .navigation import render_home, render_catalogue, render_path_index, render_software_study_preview
 else:
     from profession_catalog import load_professions, render_professions
     from curricula import load_curricula, render_curricula
-    from navigation import render_home, render_catalogue, render_path_index
+    from navigation import render_home, render_catalogue, render_path_index, render_software_study_preview
 
 ROOT = Path(__file__).resolve().parent.parent
 REPO = "Wildiz/Waylantern"  # GitHub owner/name, used in generated links
@@ -309,6 +309,7 @@ def render_all(entries, paths, selections=None, professions=None, guidelines=Non
         "README.es.md": render_home(len(entries), len(main), len(other), role_count, spanish=True),
         "docs/catalogue.md": render_catalogue(entries, AREAS, CATEGORIES),
         "docs/learning-paths.md": render_path_index(paths),
+        "docs/software-study-preview.md": render_software_study_preview(entries),
     }
     for cat, items in groups.items():
         files[f"docs/{cat}.md"] = render_category(cat, items)

@@ -1,8 +1,10 @@
-# Learning curriculum: Game Developer
+# Editorial practice plan: Game Developer
 
 Build a complete small playable loop before increasing game scope.
 
 [Home](../README.md) / [Curricula](curricula.md) / [Software, interfaces and embedded systems](professions-software.md#roles-in-this-group)
+
+[Academic-plan work and resource-matching preview](software-study-preview.md). This page is an existing editorial practice plan; it is not derived from an inspected university curriculum.
 
 **Target profile:** [Game Developer](professions-software.md#game-developer)
 

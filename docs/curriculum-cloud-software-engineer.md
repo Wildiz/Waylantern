@@ -1,8 +1,10 @@
-# Learning curriculum: Cloud Software Engineer
+# Editorial practice plan: Cloud Software Engineer
 
 Make an application portable and observable in a local cloud-style lab.
 
 [Home](../README.md) / [Curricula](curricula.md) / [Software, interfaces and embedded systems](professions-software.md#roles-in-this-group)
+
+[Academic-plan work and resource-matching preview](software-study-preview.md). This page is an existing editorial practice plan; it is not derived from an inspected university curriculum.
 
 **Target profile:** [Cloud Software Engineer](professions-software.md#cloud-software-engineer)
 

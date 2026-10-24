@@ -1,8 +1,10 @@
-# Learning curriculum: Android Developer
+# Editorial practice plan: Android Developer
 
 Build a small Android application with Kotlin, Compose and persistent state.
 
 [Home](../README.md) / [Curricula](curricula.md) / [Software, interfaces and embedded systems](professions-software.md#roles-in-this-group)
+
+[Academic-plan work and resource-matching preview](software-study-preview.md). This page is an existing editorial practice plan; it is not derived from an inspected university curriculum.
 
 **Target profile:** [Android Developer](professions-software.md#android-developer)
 

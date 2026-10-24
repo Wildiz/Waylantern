@@ -1,8 +1,10 @@
-# Learning curriculum: Robotics Engineer
+# Editorial practice plan: Robotics Engineer
 
 Model sensing and motion before operating a physical robot.
 
 [Home](../README.md) / [Curricula](curricula.md) / [Software, interfaces and embedded systems](professions-software.md#roles-in-this-group)
+
+[Academic-plan work and resource-matching preview](software-study-preview.md). This page is an existing editorial practice plan; it is not derived from an inspected university curriculum.
 
 **Target profile:** [Robotics Engineer](professions-software.md#robotics-engineer)
 
