@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$ref": "#/$defs/group",
+  "$defs": {
+    "text": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "references": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+    "areas": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+    "role": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "title", "description", "areas", "paths", "guidance"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "title": {"$ref": "#/$defs/text"},
+        "description": {"$ref": "#/$defs/text"}, "areas": {"$ref": "#/$defs/areas"},
+        "paths": {"$ref": "#/$defs/references"},
+        "guidance": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+        "aliases": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/text"}}
+      }
+    },
+    "group": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "title", "description", "areas", "roles"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "title": {"$ref": "#/$defs/text"},
+        "description": {"$ref": "#/$defs/text"}, "areas": {"$ref": "#/$defs/areas"},
+        "roles": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/role"}}
+      }
+    },
+    "guideline": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "title", "publisher", "type", "url", "verification", "checked", "scope", "notes"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"}, "title": {"$ref": "#/$defs/text"},
+        "publisher": {"$ref": "#/$defs/text"}, "scope": {"$ref": "#/$defs/text"},
+        "notes": {"$ref": "#/$defs/text"},
+        "type": {"enum": ["academic_curriculum", "curriculum_directory", "competency_framework", "body_of_knowledge", "vendor_curriculum", "certification_objectives", "professional_guide"]},
+        "url": {"type": "string", "pattern": "^https://[^\\s/]+(?:/[^\\s]*)?$"},
+        "verification": {"enum": ["verified", "link_only"]},
+        "checked": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"}
+      }
+    }
+  }
+}

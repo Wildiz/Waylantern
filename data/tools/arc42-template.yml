@@ -1,0 +1,31 @@
+name: arc42 Architecture Documentation Template
+url: https://github.com/arc42/arc42-template
+category: reference
+areas: [architecture, software]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Architecture documentation template with explanations for recording requirements, quality goals, system building blocks and interfaces in a consistent structure.
+pros:
+  - CC BY-SA 4.0 template and documentation
+  - Guidance connects architectural views with the information readers need
+  - Source templates are readable without building a documentation site
+cons:
+  - A documentation framework rather than a complete architecture course
+  - The full template can be more detail than a small project needs
+  - Generating other output formats uses a separate generator project
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read https://raw.githubusercontent.com/arc42/arc42-template/master/README.adoc,
+    https://raw.githubusercontent.com/arc42/arc42-template/master/LICENSE.txt,
+    https://raw.githubusercontent.com/arc42/arc42-template/master/EN/adoc/01_introduction_and_goals.adoc
+    and https://raw.githubusercontent.com/arc42/arc42-template/master/EN/adoc/05_building_block_view.adoc.
+    The English sections explain stakeholders, quality goals, module decomposition and interfaces.
+    LICENSE.txt states CC BY-SA 4.0 for the template and documentation, and clarifies that users'
+    own architecture content is not automatically placed under that license. Free refers to the
+    accessible templates. Only English content was checked, although the README lists translations.
+    Generator output and recent maintenance were not independently tested.

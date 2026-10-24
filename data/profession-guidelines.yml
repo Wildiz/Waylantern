@@ -1,0 +1,108 @@
+- id: acm-curricula
+  title: ACM Computing Curricula Recommendations
+  publisher: Association for Computing Machinery
+  type: curriculum_directory
+  url: https://www.acm.org/education/curricula-recommendations
+  verification: link_only
+  checked: '2026-10-24'
+  scope: A starting point for locating academic computing curriculum recommendations by discipline; not a curriculum for every job title.
+  notes: The official-domain link was attempted, but the environment proxy denied access. The directory contents, individual reports and current editions were not read. Do not interpret a profile's link as a verified equivalence between a job and a degree programme.
+- id: cs2023
+  title: Computer Science curriculum recommendations project
+  publisher: ACM, IEEE Computer Society and AAAI
+  type: academic_curriculum
+  url: https://csed.acm.org/
+  verification: link_only
+  checked: '2026-10-24'
+  scope: Academic computer science curriculum recommendations relevant to foundational study, rather than a job-specific qualification.
+  notes: The project website was blocked by the environment proxy. Report contents, version details and a profile-by-profile mapping were not independently verified. The link is supplied for further checking, not as evidence of material read in this research.
+- id: swebok
+  title: Software Engineering Body of Knowledge
+  publisher: IEEE Computer Society
+  type: body_of_knowledge
+  url: https://www.computer.org/education/bodies-of-knowledge/software-engineering
+  verification: link_only
+  checked: '2026-10-24'
+  scope: A software-engineering body of knowledge; distinguish it from a prescribed learning sequence or curriculum for a particular job.
+  notes: The official website was blocked by the environment proxy. No edition or chapter coverage was verified during this research; profile references indicate related subject matter, not an official role endorsement.
+- id: sfia
+  title: Skills Framework for the Information Age
+  publisher: SFIA Foundation
+  type: competency_framework
+  url: https://sfia-online.org/en/sfia-9
+  verification: link_only
+  checked: '2026-10-24'
+  scope: A framework of professional skills and responsibility, to be consulted alongside educational resources; not a course syllabus for each job title.
+  notes: Access to the official-domain link was denied by the environment proxy. Framework text, current release details and exact role mappings were not read or validated. A related link does not mean that SFIA prescribes the profile used in this directory.
+- id: nice
+  title: NICE Workforce Framework for Cybersecurity
+  publisher: US National Institute of Standards and Technology
+  type: competency_framework
+  url: https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center
+  verification: link_only
+  checked: '2026-10-24'
+  scope: A cybersecurity workforce framework, distinct from an academic curriculum or a complete training programme.
+  notes: The NIST website was blocked by the environment proxy. Proposed repository locations could not be verified and were not substituted as evidence. Current work-role definitions and a mapping to the directory's profiles remain unverified.
+- id: cncf
+  title: CNCF certification exam objectives
+  publisher: Cloud Native Computing Foundation
+  type: certification_objectives
+  url: https://github.com/cncf/curriculum
+  verification: verified
+  checked: '2026-10-24'
+  scope: Exam-specific Kubernetes knowledge, skills and abilities; useful for checking topics in platform, administration and security study, not an entire professional curriculum.
+  notes: Read the official repository README and extracted the text of its CKA v1.37 and CKS v1.34 PDFs in memory. CKA includes cluster networking, storage and troubleshooting; CKS includes hardening, supply-chain security and runtime protection. This verifies those documents' scope, not that they are the latest versions or that passing an exam qualifies someone for every related role. Exam fees and preparation infrastructure are separate from reading the objectives.
+- id: microsoft-learn
+  title: Microsoft Learn training directory
+  publisher: Microsoft
+  type: curriculum_directory
+  url: https://learn.microsoft.com/en-us/training/
+  verification: link_only
+  checked: '2026-10-24'
+  scope: Vendor learning paths and modules; the relevant technology and prerequisites must be checked for the chosen profile.
+  notes: This directory link is a starting point, not a reviewed job-specific curriculum. Current modules, credentials and paid-service requirements were not revalidated during this research. Separately verified Microsoft courses are listed below with their narrower scopes.
+- id: w3c-wai
+  title: W3C Web Accessibility Initiative tutorials
+  publisher: World Wide Web Consortium
+  type: professional_guide
+  url: https://www.w3.org/WAI/tutorials/
+  verification: link_only
+  checked: '2026-10-24'
+  scope: Technical accessibility guidance related to interface design and web implementation; not a general UX profession curriculum.
+  notes: The official tutorial source repository was considered during resource research, but the complete published tutorials and their current status were not reviewed. This link is provided for follow-up reading. Do not infer a job qualification or an endorsement of this directory from it.
+- id: microsoft-data-science
+  title: Data Science for Beginners
+  publisher: Microsoft
+  type: vendor_curriculum
+  url: https://github.com/microsoft/Data-Science-For-Beginners
+  verification: verified
+  checked: '2026-10-24'
+  scope: An introductory twenty-lesson curriculum covering data, statistics, SQL, preparation, visualisation and communication, including some Azure material.
+  notes: Read the official README, MIT LICENSE, introductory lesson and a pandas lesson with its assignment. This is a vendor-published educational curriculum, not an academic accreditation or complete occupational competency standard. Learning material is free; cloud use can cost money. Exercises were not executed.
+- id: microsoft-ai
+  title: AI for Beginners
+  publisher: Microsoft
+  type: vendor_curriculum
+  url: https://github.com/microsoft/AI-For-Beginners
+  verification: verified
+  checked: '2026-10-24'
+  scope: A twenty-four-lesson introduction to AI with labs and quizzes, including knowledge representation, neural networks, vision, language and ethics.
+  notes: Read the official repository README and its lesson outline. The README distinguishes its scope from classic machine learning and chatbots, so it must not be presented as complete preparation for every AI or ML job. The course is already catalogued; profile links are related study suggestions rather than professional-standard mappings. Labs were not executed.
+- id: microsoft-iot
+  title: IoT for Beginners
+  publisher: Microsoft
+  type: vendor_curriculum
+  url: https://github.com/microsoft/IoT-For-Beginners
+  verification: verified
+  checked: '2026-10-24'
+  scope: A twenty-four-lesson course connecting devices, sensors, messaging and cloud services through progressive projects, with a virtual-hardware option.
+  notes: Read the official README, MIT LICENSE, hardware guidance and representative introductory, MQTT and cloud-migration lesson material. This is an educational course, not a standard for all embedded, firmware or IoT positions. Hardware and cloud services can incur costs. No device or virtual lab was deployed.
+- id: cisco-network-programmability
+  title: Network Programmability Basics course material
+  publisher: Cisco DevNet
+  type: vendor_curriculum
+  url: https://github.com/CiscoDevNet/netprog_basics
+  verification: verified
+  checked: '2026-10-24'
+  scope: Course examples for Python, REST, YANG, NETCONF, RESTCONF and network automation; related to automation skills rather than all network-engineering work.
+  notes: Read the official README and programming_fundamentals/python_part_3/README.md. The material itself notes differences between older video APIs and newer Python-library examples; no claim is made that the complete course matches current tools. It is vendor training rather than a neutral occupational or academic standard. Examples were not executed.

@@ -1,0 +1,21 @@
+name: "Microsoft Windows Troubleshooting Documentation"
+url: https://github.com/MicrosoftDocs/SupportArticles-docs/tree/main/support/windows-client
+category: reference
+areas: [it-support]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "Microsoft's Windows support reference with issue-specific diagnostic articles for learning to compare symptoms, logs and expected system behaviour."
+pros:
+  - "Public article source and topic index cover concrete Windows support scenarios"
+  - "Domain-join guidance demonstrates comparison with an annotated successful Netsetup.log sample"
+cons:
+  - "Not a beginner help-desk course; articles assume the relevant Windows and network environment"
+  - "Check each article's product and version applicability before using its advice"
+  - "Practise changes in a lab and remove personal information from logs before sharing them"
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read MicrosoftDocs/SupportArticles-docs main README.md, LICENSE, support/windows-client/toc.yml and support/windows-server/active-directory/domain-join-log-analysis.md via raw.githubusercontent.com. The Windows Client index links this domain-join article, which explains client logs, network traces and comparison with a successful annotated Netsetup.log sample; its stated applicability is supported Windows Server versions. The repository LICENSE is CC BY 4.0. Reading documentation is free, not a licence to Windows or an entitlement to paid support. English source checked; fixes were not executed and the full article collection was not audited."

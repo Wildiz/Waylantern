@@ -1,0 +1,29 @@
+name: Markdown Architectural Decision Records (MADR)
+url: https://github.com/adr/madr
+category: reference
+areas: [architecture, software]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Markdown templates and guidance for recording the context, considered options, outcome and consequences of an architectural decision, with examples from the project itself.
+pros:
+  - Templates can be read and adapted without running a service
+  - Minimal and full versions help choose an appropriate level of detail
+  - The project declares MIT OR CC0-1.0 licensing
+cons:
+  - Helps document decisions rather than teaching every architecture concept
+  - Useful records still require a real problem and justified tradeoffs
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read https://raw.githubusercontent.com/adr/madr/main/README.md,
+    https://raw.githubusercontent.com/adr/madr/main/LICENSE,
+    https://raw.githubusercontent.com/adr/madr/main/template/adr-template-minimal.md
+    and https://raw.githubusercontent.com/adr/madr/main/docs/decisions/0000-use-markdown-architectural-decision-records.md.
+    The minimal template covers context, options, decision outcome and consequences; the project's
+    own decision explains its choice of MADR. LICENSE declares MIT OR CC0-1.0. Free refers to the
+    repository material; no hosted service is needed to use the templates. English files checked.
+    Local documentation builds and recent maintenance were not independently tested.

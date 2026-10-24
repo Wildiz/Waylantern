@@ -1,0 +1,22 @@
+name: Pytudes
+url: https://github.com/norvig/pytudes
+category: practice
+areas: [cs, software, math]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: medium
+description: Peter Norvig's collection of Python programming studies in Jupyter notebooks, exploring algorithms, puzzles, mathematics and problem-solving techniques.
+pros:
+  - Worked programs connect a problem-solving plan with Python code and tests
+  - MIT-licensed notebooks can be read on GitHub or downloaded
+  - Includes focused studies such as prime factorization and writing an interpreter
+cons:
+  - A collection of worked studies rather than a beginner curriculum
+  - Prerequisites and dependencies vary between notebooks
+  - Some AI-related studies involve external models; inspect requirements before choosing one
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read norvig/pytudes README.md, LICENSE and ipynb/Euler3.ipynb on main via raw.githubusercontent.com. LICENSE is MIT; README describes Python programs for practising programming skills and indexes notebooks by topic. Euler3 explains largest-prime-factor algorithms, supplies test cases and compares implementations; that inspected example uses ordinary Python and math without paid APIs or a GPU. Other notebooks have different dependencies and costs were not audited. English sources checked; focus rating reflects individual studies with worked reasoning. Did not execute notebooks or verify hosted execution; no maintenance claim made."

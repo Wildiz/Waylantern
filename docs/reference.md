@@ -30,29 +30,39 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [arc42 Architecture Documentation Template](https://github.com/arc42/arc42-template) | Free | intermediate | self-directed | - | en | Architecture documentation template with explanations for recording requirements, quality goals, system building blocks and interfaces in a consistent structure. |
 | [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) | Free | intermediate | self-directed | low | en | Curated list of machine learning frameworks, libraries and software grouped by programming language, with a section on educational tools. |
 | [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) | Free | intermediate | self-directed | - | en | Curated list of step-by-step tutorials for re-creating technologies such as databases, Git, shells, interpreters and browsers from scratch. |
+| [Deep Learning with PyTorch Step-by-Step - Companion Notebooks](https://github.com/dvgodoy/PyTorchStepByStep) | Free | intermediate | semi | medium | en | Daniel Voigt Godoy's chapter-by-chapter companion notebooks demonstrating gradient descent, regression, classification, computer vision and sequence models with PyTorch. |
 | [DuckDB Documentation](https://duckdb.org/docs/stable/) | Free | intermediate | self-directed | - | en | Official documentation for DuckDB, an embedded analytical SQL database, including guides for CSV, JSON and Parquet import, client APIs and the CLI. |
 | [Get Me In The Groove: ADHD programmers study (ICSE 2025)](https://conf.researchr.org/details/icse-2025/icse-2025-research-track/200/-Get-Me-In-The-Groove-A-Mixed-Methods-Study-on-Supporting-ADHD-Professional-Program) | Free | intermediate | self-directed | - | en | Peer-reviewed ICSE 2025 study of strategies and challenges of ADHD programmers, based on r/ADHD_Programmers threads and a survey of 239 ADHD and 254 non-ADHD programmers. |
+| [GOV.UK Design System](https://github.com/alphagov/govuk-design-system) | Free | intermediate | self-directed | - | en | A public design-system reference with component examples and usage guidance for learning how to make consistent, understandable service interfaces. |
 | [How to write good prompts (Andy Matuschak)](https://andymatuschak.org/prompts/) | Free | intermediate | self-directed | - | en | Long essay on writing effective spaced-repetition (flashcard) prompts for factual, procedural and conceptual knowledge. |
 | [htmx Documentation](https://htmx.org/docs/) | Free | intermediate | self-directed | - | en | Official documentation for htmx, a library that adds AJAX, SSE and WebSockets behavior to HTML through attributes, covering triggers, targets, swapping and events. |
 | [IBM Carbon Design System](https://github.com/carbon-design-system/carbon) | Free | intermediate | self-directed | - | en | IBM's open-source design system with interface components, design tokens, styles and documentation for studying how a reusable product interface is built. |
 | [Josh W. Comeau's CSS articles](https://www.joshwcomeau.com/css/) | Free + paid extras | intermediate | self-directed | - | en | Josh W. Comeau's free, interactive blog tutorials on CSS (31 articles listed), alongside his separate paid course CSS for JavaScript Developers. |
+| [Markdown Architectural Decision Records (MADR)](https://github.com/adr/madr) | Free | intermediate | self-directed | - | en | Markdown templates and guidance for recording the context, considered options, outcome and consequences of an architectural decision, with examples from the project itself. |
+| [Microsoft Windows Troubleshooting Documentation](https://github.com/MicrosoftDocs/SupportArticles-docs/tree/main/support/windows-client) | Free | intermediate | self-directed | - | en | Microsoft's Windows support reference with issue-specific diagnostic articles for learning to compare symptoms, logs and expected system behaviour. |
 | [NumPy Tutorials](https://numpy.org/numpy-tutorials/) | Free | intermediate | self-directed | medium | en | Community-developed NumPy project tutorials in notebook form for self-learning and teaching, covering applications such as image processing, linear algebra and neural networks from scratch. |
 | [Observable Framework](https://observablehq.com/framework/) | Free | intermediate | self-directed | - | en | Free, open-source static site generator from Observable for building data apps, dashboards and reports with JavaScript on the front end and data loaders in any language. |
+| [Open Practice Library](https://github.com/openpracticelibrary/openpracticelibrary) | Free | intermediate | self-directed | - | en | A collaborative collection of product discovery and team practices with explanations and facilitation guidance, including empathy mapping to explore user needs. |
 | [OpenAI Cookbook](https://cookbook.openai.com) | Free | intermediate | self-directed | medium | en | Open-source collection of example code and guides for common tasks with the OpenAI API (mostly Python notebooks), such as retrieval, function calling, evaluation and fine-tuning. |
 | [Playwright - Getting Started](https://github.com/microsoft/playwright) | Free | intermediate | semi | - | en | Official Playwright introduction with installation commands and sample end-to-end web tests using browser automation, locators and assertions. |
 | [Polars User Guide](https://docs.pola.rs/) | Free | intermediate | self-directed | - | en | Official user guide for the Polars DataFrame library covering expressions, the lazy API, joins, time series, IO and streaming. |
 | [Project Based Learning](https://github.com/practical-tutorials/project-based-learning) | Free | intermediate | self-directed | low | en | Curated list of project-based programming tutorials grouped by language such as Python, JavaScript, Go, C/C++ and Rust. |
 | [Raspberry Pi Pico SDK Examples](https://github.com/raspberrypi/pico-examples) | Free | intermediate | self-directed | - | en | Official C/C++ examples for Raspberry Pi Pico-series microcontrollers covering serial output, LEDs, analog inputs and other peripherals. |
+| [React Testing Library - Examples](https://github.com/testing-library/react-testing-library#examples) | Free | intermediate | semi | - | en | Official React component testing examples that query rendered elements and simulate user interactions instead of relying on component implementation details. |
 | [The Algorithms - Python](https://github.com/TheAlgorithms/Python) | Free | intermediate | self-directed | - | en | Collection of Python algorithm implementations for reading, experimenting and learning, with a directory for browsing the examples. |
 | [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | Free | intermediate | semi | - | en | Official TypeScript documentation with a Handbook (basics, narrowing, generics, classes, modules) and start guides such as TypeScript for JavaScript programmers. |
+| [Zephyr - Basic Synchronization Sample](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/synchronization) | Free | intermediate | semi | - | en | Official real-time operating system example demonstrating two threads coordinating console greetings with semaphores and timing, with instructions for running in QEMU. |
 
 ## Advanced
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [FuzzTest - CMake Quickstart](https://github.com/google/fuzztest/blob/main/doc/quickstart-cmake.md) | Free | advanced | guided | - | en | Official C++ tutorial introducing property-based fuzz testing with a small CMake project, a property test and separate unit-test and coverage-guided fuzzing modes. |
 | [Papers We Love](https://github.com/papers-we-love/papers-we-love) | Free | advanced | self-directed | low | en | Community repository of computer science research papers organised by topic, with reading guides and links to local chapters. |
+| [PyProbML Notebooks](https://github.com/probml/pyprobml) | Free | advanced | self-directed | - | en | Python companion notebooks for the Probabilistic Machine Learning books, reproducing figures about probability, statistical models and machine learning. |
 
 ## Any level
 
@@ -91,6 +101,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Commercial publication with sponsored content
 - Watch out: General information only, not medical advice
 - Watch out: Not specific to learning to code
+
+**arc42 Architecture Documentation Template**
+
+- Good: CC BY-SA 4.0 template and documentation
+- Good: Guidance connects architectural views with the information readers need
+- Good: Source templates are readable without building a documentation site
+- Watch out: A documentation framework rather than a complete architecture course
+- Watch out: The full template can be more detail than a small project needs
+- Watch out: Generating other output formats uses a separate generator project
 
 **Arduino Built-in Examples - Blink**
 
@@ -174,6 +193,16 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Article collection rather than a structured course
 - Watch out: Quality and depth vary by author
 
+**Deep Learning with PyTorch Step-by-Step - Companion Notebooks**
+
+- Good: Ordered chapter notebooks make it possible to inspect intermediate calculations
+- Good: Includes synthetic-data examples and visual explanations of gradient descent
+- Good: Repository code is MIT-licensed and supports local CPU installation
+- Watch out: Full book text is not included; this listing covers companion notebooks rather than the complete book
+- Watch out: Requires Python and numerical-library familiarity
+- Watch out: Later image and sequence examples have different compute needs; hosted GPU availability is not guaranteed
+- Watch out: Setup and notebook compatibility were not tested
+
 **DevDocs**
 
 - Good: Single search across many docs
@@ -233,6 +262,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Examples are mainly in R
 - Watch out: Reference tool, not a course
 
+**FuzzTest - CMake Quickstart**
+
+- Good: Contrasts a specific unit test with a property evaluated across generated inputs
+- Good: Includes CMake configuration and commands for building and running a sample
+- Good: Framework is Apache-2.0 licensed with additional third-party notices
+- Watch out: Requires C++ and build-system familiarity
+- Watch out: The verified quickstart requires Linux, Clang and CMake; it does not claim general GCC support
+- Watch out: Fuzzing mode can run indefinitely unless stopped or given a time limit
+
 **Get Me In The Groove: ADHD programmers study (ICSE 2025)**
 
 - Good: Research-based view of what ADHD programmers report struggling with and what they do about it
@@ -261,6 +299,13 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Shows number of open easy issues and recent project activity
 - Watch out: Only projects that were added to the list
 - Watch out: Curated list does not guarantee maintainers respond quickly
+
+**GOV.UK Design System**
+
+- Good: Component guidance explains when to use a pattern and how to word its controls
+- Good: Includes concrete HTML examples and links to the reusable GOV.UK Frontend code
+- Watch out: Written for UK government services; adapt the reasoning rather than copying its branding
+- Watch out: A reference rather than a full design course; implementing examples needs web development knowledge
 
 **How to write good prompts (Andy Matuschak)**
 
@@ -305,6 +350,14 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Syntax tour, not a course
 - Watch out: Depth and translation coverage vary per language
 
+**Markdown Architectural Decision Records (MADR)**
+
+- Good: Templates can be read and adapted without running a service
+- Good: Minimal and full versions help choose an appropriate level of detail
+- Good: The project declares MIT OR CC0-1.0 licensing
+- Watch out: Helps document decisions rather than teaching every architecture concept
+- Watch out: Useful records still require a real problem and justified tradeoffs
+
 **MDN Web Docs**
 
 - Good: Authoritative web platform reference
@@ -312,6 +365,14 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Actively maintained
 - Watch out: Reference is dense for absolute beginners
 - Watch out: Non-English locales may lag behind English
+
+**Microsoft Windows Troubleshooting Documentation**
+
+- Good: Public article source and topic index cover concrete Windows support scenarios
+- Good: Domain-join guidance demonstrates comparison with an annotated successful Netsetup.log sample
+- Watch out: Not a beginner help-desk course; articles assume the relevant Windows and network environment
+- Watch out: Check each article's product and version applicability before using its advice
+- Watch out: Practise changes in a lab and remove personal information from logs before sharing them
 
 **NumPy Tutorials**
 
@@ -327,6 +388,13 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Good for learning to publish interactive data visualizations
 - Watch out: Requires JavaScript and Node.js knowledge
 - Watch out: Observable also sells hosted notebook plans; their pricing was not verified
+
+**Open Practice Library**
+
+- Good: Practice descriptions make collaborative discovery activities concrete
+- Good: The empathy-mapping example identifies participants, duration and ways to collect observations
+- Watch out: Some activities need a facilitator and other participants; it is not a solo course
+- Watch out: Assumptions from a workshop are not a substitute for evidence from users
 
 **Open Source Guides**
 
@@ -403,6 +471,16 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: A project-ideas source rather than a teaching resource
 - Watch out: Individual APIs may change auth or pricing; not every listed API is free in the long term
 
+**PyProbML Notebooks**
+
+- Good: Connects mathematical concepts with editable numerical examples
+- Good: Notebooks are indexed by book and chapter
+- Good: Repository code is MIT-licensed
+- Watch out: Assumes probability, linear algebra and Python rather than teaching them from zero
+- Watch out: Dependencies span JAX, TensorFlow and PyTorch and may need version adjustments
+- Watch out: README states the code has been in maintenance mode since September 2022
+- Watch out: Hardware and hosted-compute requirements vary; no universal free GPU access is guaranteed
+
 **pytest - Get Started**
 
 - Good: Framework and accompanying documentation use the MIT license
@@ -420,6 +498,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Requires a compatible board, a development toolchain and the Pico SDK for hands-on use
 - Watch out: Some examples require a specific chip, board or wireless capability
 - Watch out: Free example code does not include hardware or additional electronic components
+
+**React Testing Library - Examples**
+
+- Good: MIT-licensed library and examples
+- Good: Basic example pairs a checkbox-controlled message component with a test
+- Good: Explains testing through observable user behavior
+- Watch out: Assumes React, JavaScript or JSX and a configured test environment
+- Watch out: Examples are illustrations rather than a complete testing curriculum
+- Watch out: README includes historical compatibility sections; select setup instructions matching your React version
 
 **RetrievalPractice.org (Pooja Agarwal)**
 
@@ -489,6 +576,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Free zines plus free quizzes and playgrounds
 - Watch out: Most zines cost $10-$12 each
 - Watch out: Overviews, not step-by-step courses
+
+**Zephyr - Basic Synchronization Sample**
+
+- Good: Sample source explicitly uses Apache-2.0
+- Good: Demonstrates kernel synchronization beyond a single LED program
+- Good: Documented qemu_x86 emulation route allows studying this sample without purchasing a board
+- Watch out: Assumes C knowledge and requires setting up the Zephyr build environment and QEMU
+- Watch out: An emulator demonstration does not validate behavior on a physical board
+- Watch out: This is one sample rather than a complete embedded systems course
 
 </details>
 

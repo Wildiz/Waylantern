@@ -1,0 +1,31 @@
+name: P4-Learning (ETH Zurich)
+url: https://github.com/nsg-ethz/p4-learning
+category: practice
+areas: [networking, software]
+price: free
+level: advanced
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: Data-plane programming exercises, examples and lecture material for writing P4-16 programs and testing virtual network switches, including packet reflection, forwarding and load balancing.
+pros:
+  - Exercises include descriptions, program skeletons and solutions
+  - A packet reflector provides a concrete first experiment in the environment
+  - GPLv3 source repository with material from an ETH Zurich networking lecture
+cons:
+  - Assumes networking and programming knowledge; not a first networking course
+  - Requires P4-Utils, Mininet, a compiler and software-switch dependencies in a suitable local or virtual environment
+  - The authors warn that older environments and configuration formats can be incompatible
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read https://raw.githubusercontent.com/nsg-ethz/p4-learning/master/README.md,
+    https://raw.githubusercontent.com/nsg-ethz/p4-learning/master/LICENSE,
+    https://raw.githubusercontent.com/nsg-ethz/p4-learning/master/exercises/README.md
+    and https://raw.githubusercontent.com/nsg-ethz/p4-learning/master/exercises/01-Reflector/README.md.
+    The reflector exercise provides a topology, Python packet sender and P4 skeleton to complete,
+    and launches an emulated host and switch through P4-Utils. The main README lists dependencies
+    and compatibility warnings; LICENSE contains GPLv3. Free refers to the public material
+    and local software, not a supplied hosted lab or machine. English files checked.
+    No VM, dependency installation, exercise execution or recent maintenance check was performed.

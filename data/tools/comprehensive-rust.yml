@@ -1,0 +1,20 @@
+name: "Comprehensive Rust"
+url: https://github.com/google/comprehensive-rust
+category: course
+areas: [software, embedded]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: "Google's Rust course for experienced programmers, combining language lessons and exercises with specialist material on Android, Chromium, bare-metal systems and concurrency."
+pros:
+  - Ordered topics with exercises such as implementing Fibonacci
+  - Freely licensed code examples and course documentation
+cons:
+  - Assumes programming experience, typically in languages such as C++ or Java
+  - Designed for classroom teaching; the authors say self-study misses discussions
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read the official README.md, LICENSE, LICENSE-CC-BY, src/SUMMARY.md and src/types-and-values/exercise.md via raw.githubusercontent.com. README describes experienced engineers as the audience and explicitly warns about classroom versus self-study limitations. The Fibonacci exercise asks learners to implement a function and consider panics, with instructor discussion notes. Code is Apache-2.0 and documentation CC-BY-4.0. Free refers to these course materials; English checked. Focus rating reflects sequenced lessons and small exercises. The course and code were not run."

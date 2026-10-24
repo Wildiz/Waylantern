@@ -4,6 +4,13 @@ _Big platforms and directories that cover many areas._
 
 12 resources. [Back to the start](../README.md)
 
+## Selected repositories
+
+- [free-programming-books](https://github.com/EbookFoundation/free-programming-books): Very large community-maintained list of free books, courses, interactive tutorials, playgrounds and problem sets, split by language. (all; Free)
+- [Awesome (sindresorhus/awesome)](https://github.com/sindresorhus/awesome): Curated index of community "awesome" lists organised into about 27 categories such as programming languages, computer science, databases and learning. (all; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
+
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles)
 
 ## Full paths (a free university)

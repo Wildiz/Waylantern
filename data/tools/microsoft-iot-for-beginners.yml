@@ -1,0 +1,32 @@
+name: Microsoft IoT for Beginners
+url: https://github.com/microsoft/IoT-For-Beginners
+category: course
+areas: [embedded, networking]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Microsoft's 24-lesson project-based IoT curriculum covering device code, sensors, actuators, MQTT messaging, cloud connectivity and telemetry, with physical or virtual hardware options.
+pros:
+  - MIT-licensed lesson material with quizzes, assignments and solutions
+  - A virtual hardware option lets learners start without buying a board
+  - Projects connect device programming with messages and observable outputs
+cons:
+  - Physical boards and sensors must be obtained separately if using that option
+  - Cloud lessons require Azure setup and may incur usage costs; current free allowances were not checked
+  - A Microsoft educational course rather than a professional-role standard or job qualification
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read the official README at https://raw.githubusercontent.com/microsoft/IoT-For-Beginners/main/README.md,
+    MIT license at https://raw.githubusercontent.com/microsoft/IoT-For-Beginners/main/LICENSE,
+    hardware guidance at https://raw.githubusercontent.com/microsoft/IoT-For-Beginners/main/hardware.md,
+    introductory assignment at https://raw.githubusercontent.com/microsoft/IoT-For-Beginners/main/1-getting-started/lessons/1-introduction-to-iot/assignment.md,
+    MQTT lesson at https://raw.githubusercontent.com/microsoft/IoT-For-Beginners/main/1-getting-started/lessons/4-connect-internet/README.md
+    and cloud migration lesson at https://raw.githubusercontent.com/microsoft/IoT-For-Beginners/main/2-farm/lessons/4-migrate-your-plant-to-the-cloud/README.md.
+    The README describes 12 weeks and 24 lessons; hardware.md explicitly allows virtual hardware
+    for assignments. The MQTT lesson connects a nightlight to messaging and local server code.
+    Free refers to reading and using the course material, not supplied hardware or unrestricted
+    cloud services. English content checked; no device, simulator, cloud service or exercise was run.

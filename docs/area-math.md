@@ -2,7 +2,14 @@
 
 _Linear algebra, calculus, discrete math and probability for CS, data and AI._
 
-19 resources. [Back to the start](../README.md)
+23 resources. [Back to the start](../README.md)
+
+## Selected repositories
+
+- [Open Source Society University - Math](https://github.com/ossu/math): Free self-taught undergraduate-style math curriculum (core mathematics plus advanced topics) built from open online courses, estimated at about 2 years at 18-22 hours per week. (intermediate; Free)
+- [SymPy](https://github.com/sympy/sympy): Python library for symbolic mathematics that lets you manipulate mathematical expressions interactively or in programs, with documentation and code examples. (intermediate; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps)
 
@@ -35,13 +42,17 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [100 NumPy Exercises](https://github.com/rougier/numpy-100) | Free | intermediate | self-directed | high | en | Collection of 100 short NumPy problems covering arrays, indexing, numerical operations and matrix manipulation, available as Markdown and notebooks. |
 | [Project Euler](https://projecteuler.net/) | Free | intermediate | self-directed | - | en | Archive of challenging mathematical and programming problems with numeric answers, solvable in any language. |
+| [Pytudes](https://github.com/norvig/pytudes) | Free | intermediate | self-directed | medium | en | Peter Norvig's collection of Python programming studies in Jupyter notebooks, exploring algorithms, puzzles, mathematics and problem-solving techniques. |
 
 ## Lists, docs and articles
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [Deep Learning with PyTorch Step-by-Step - Companion Notebooks](https://github.com/dvgodoy/PyTorchStepByStep) | Free | intermediate | semi | medium | en | Daniel Voigt Godoy's chapter-by-chapter companion notebooks demonstrating gradient descent, regression, classification, computer vision and sequence models with PyTorch. |
 | [Paul's Online Math Notes](https://tutorial.math.lamar.edu/) | Free | beginner | self-directed | - | en | Lamar University notes by Paul Dawkins on algebra, calculus I-III and differential equations, with worked examples and practice problems. |
+| [PyProbML Notebooks](https://github.com/probml/pyprobml) | Free | advanced | self-directed | - | en | Python companion notebooks for the Probabilistic Machine Learning books, reproducing figures about probability, statistical models and machine learning. |
 
 ## Tools and apps
 

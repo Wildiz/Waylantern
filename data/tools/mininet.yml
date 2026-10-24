@@ -1,0 +1,31 @@
+name: Mininet
+url: https://github.com/mininet/mininet
+category: tool
+areas: [networking, devops]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Linux network emulator with Python examples for building virtual hosts, switches and links and experimenting with connectivity, bandwidth, delay and packet loss on one machine.
+pros:
+  - BSD 3-Clause open-source software
+  - Python examples make small network experiments inspectable and modifiable
+  - Emulated networks avoid requiring a rack of physical switches
+cons:
+  - Needs Linux network features, installation and administrative privileges
+  - Requires networking basics and some Python to modify the examples
+  - Emulated behavior and performance do not establish real hardware performance
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read https://raw.githubusercontent.com/mininet/mininet/master/README.md,
+    https://raw.githubusercontent.com/mininet/mininet/master/LICENSE
+    and https://raw.githubusercontent.com/mininet/mininet/master/examples/simpleperf.py.
+    The README describes Linux namespace-based networks, the Python API, diagnostic commands
+    and examples. The inspected example creates a switch topology and configures bandwidth,
+    delay and loss; its comments warn that loss can make ping or throughput tests fail or hang.
+    LICENSE is BSD 3-Clause. Free refers to the local software; a suitable machine or VM is
+    still needed and any hosted infrastructure may cost money. English files checked.
+    No network experiment, installation or maintenance assessment was performed.

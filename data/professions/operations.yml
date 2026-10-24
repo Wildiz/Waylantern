@@ -1,0 +1,334 @@
+id: operations
+title: Operations, platforms and IT support
+description: Roles that run technology platforms, manage service changes and help users diagnose operational
+  problems.
+areas:
+- devops
+- networking
+- it-support
+- security
+- data
+- ai
+- software
+roles:
+- id: devops-engineer
+  title: DevOps Engineer
+  description: Improves software delivery and operations through shared workflows, automation and feedback.
+  areas:
+  - devops
+  - software
+  paths: []
+  guidance:
+  - cncf
+  - sfia
+  aliases:
+  - DevOps
+- id: devsecops-engineer
+  title: DevSecOps Engineer
+  description: Integrates security checks and controls into software delivery and operational workflows.
+  areas:
+  - devops
+  - security
+  paths:
+  - path-cybersecurity
+  guidance:
+  - nice
+  - cncf
+  aliases:
+  - DevSecOps
+- id: mlops-engineer
+  title: MLOps Engineer
+  description: Builds deployment, monitoring and maintenance workflows for machine-learning models.
+  areas:
+  - devops
+  - ai
+  paths: []
+  guidance:
+  - cncf
+  - sfia
+  aliases:
+  - MLOps
+  - ML Operations Engineer
+- id: aiops-engineer
+  title: AIOps Engineer
+  description: Applies data analysis and machine-learning techniques to operational monitoring and incident
+    detection.
+  areas:
+  - devops
+  - ai
+  paths: []
+  guidance:
+  - sfia
+  aliases:
+  - AIOps
+- id: cloudops-engineer
+  title: CloudOps Engineer
+  description: Operates cloud resources and monitors their availability, configuration and resource use.
+  areas:
+  - devops
+  paths: []
+  guidance:
+  - cncf
+  - microsoft-learn
+  aliases:
+  - CloudOps
+  - Cloud Operations Engineer
+- id: gitops-engineer
+  title: GitOps Engineer
+  description: Maintains declarative infrastructure and deployment workflows with version-controlled desired
+    state.
+  areas:
+  - devops
+  paths: []
+  guidance:
+  - cncf
+  aliases:
+  - GitOps
+- id: dataops-engineer
+  title: DataOps Engineer
+  description: Automates and monitors data delivery workflows so changes and failures can be traced.
+  areas:
+  - data
+  - devops
+  paths: []
+  guidance:
+  - sfia
+  aliases:
+  - DataOps
+  - Data Operations Engineer
+- id: finops-practitioner
+  title: FinOps Practitioner
+  description: Helps engineering, finance and business teams understand and manage cloud spending.
+  areas:
+  - devops
+  paths: []
+  guidance:
+  - sfia
+- id: site-reliability-engineer
+  title: Site Reliability Engineer
+  description: Uses software engineering and service measurements to improve operational reliability.
+  areas:
+  - devops
+  - software
+  paths: []
+  guidance:
+  - cncf
+  - sfia
+  aliases:
+  - SRE
+  - Site Reliability Engineer (SRE)
+- id: cloud-site-reliability-engineer
+  title: Cloud Site Reliability Engineer
+  description: Improves the reliability of cloud services through automation, monitoring and incident learning.
+  areas:
+  - devops
+  paths: []
+  guidance:
+  - cncf
+  - microsoft-learn
+- id: platform-engineer
+  title: Platform Engineer
+  description: Builds shared internal capabilities that help development teams deliver and operate software.
+  areas:
+  - devops
+  - software
+  paths: []
+  guidance:
+  - cncf
+  - sfia
+- id: cloud-engineer
+  title: Cloud Engineer
+  description: Implements and maintains cloud infrastructure and the automation used to manage it.
+  areas:
+  - devops
+  paths: []
+  guidance:
+  - cncf
+  - microsoft-learn
+- id: network-engineer
+  title: Network Engineer
+  description: Implements and troubleshoots the connections and equipment that carry an organisation's traffic.
+  areas:
+  - networking
+  paths:
+  - path-networking
+  guidance:
+  - sfia
+  - cisco-network-programmability
+- id: systems-administrator
+  title: Systems Administrator
+  description: Configures and maintains operating systems, accounts and services used by an organisation.
+  areas:
+  - it-support
+  - devops
+  paths:
+  - path-it-support
+  guidance:
+  - sfia
+  - microsoft-learn
+  aliases:
+  - System Administrator
+  - Sysadmin
+- id: network-computer-systems-administrator
+  title: Network and Computer Systems Administrator
+  description: Maintains both network connectivity and the computer systems that depend on it.
+  areas:
+  - networking
+  - it-support
+  paths:
+  - path-networking
+  - path-it-support
+  guidance:
+  - sfia
+- id: telecommunications-engineering-specialist
+  title: Telecommunications Engineering Specialist
+  description: Plans and evaluates telecommunications systems and their technical performance.
+  areas:
+  - networking
+  paths:
+  - path-networking
+  guidance:
+  - sfia
+- id: telecommunications-specialist
+  title: Telecommunications Specialist
+  description: Installs, maintains and troubleshoots voice or data communications services.
+  areas:
+  - networking
+  - it-support
+  paths:
+  - path-networking
+  guidance:
+  - sfia
+- id: configuration-manager
+  title: Configuration Manager
+  description: Keeps service configuration records and baselines consistent with the systems actually in use.
+  areas:
+  - devops
+  - it-support
+  paths: []
+  guidance:
+  - sfia
+- id: change-control-manager
+  title: Change Control Manager
+  description: Coordinates the assessment and approval of service changes to manage operational risk.
+  areas:
+  - devops
+  - it-support
+  paths: []
+  guidance:
+  - sfia
+- id: incident-manager
+  title: Incident Manager
+  description: Coordinates the response to service interruptions and tracks restoration of normal service.
+  areas:
+  - it-support
+  paths: []
+  guidance:
+  - sfia
+- id: major-incident-manager
+  title: Major Incident Manager
+  description: Coordinates communication and recovery during incidents with significant service impact.
+  areas:
+  - it-support
+  paths: []
+  guidance:
+  - sfia
+- id: lead-incident-manager
+  title: Lead Incident Manager
+  description: Leads incident-response coordination and improves the processes used across incident teams.
+  areas:
+  - it-support
+  paths: []
+  guidance:
+  - sfia
+- id: cyber-incident-manager
+  title: Cyber Incident Manager
+  description: Coordinates containment, recovery and stakeholder communication during a security incident.
+  areas:
+  - security
+  - it-support
+  paths: []
+  guidance:
+  - nice
+  - sfia
+- id: release-train-engineer
+  title: Release Train Engineer
+  description: Facilitates coordination, planning and delivery across teams using a release-train operating
+    model.
+  areas:
+  - software
+  - devops
+  paths: []
+  guidance:
+  - sfia
+- id: incident-analyst
+  title: Incident Analyst
+  description: Examines incident reports and evidence to support diagnosis, categorisation and escalation.
+  areas:
+  - it-support
+  paths:
+  - path-it-support
+  guidance:
+  - sfia
+- id: it-support-technician
+  title: IT Support Technician
+  description: Diagnoses user technology problems and records the steps taken to resolve or escalate them.
+  areas:
+  - it-support
+  paths:
+  - path-it-support
+  guidance:
+  - sfia
+  - microsoft-learn
+- id: help-desk-analyst
+  title: Help Desk Analyst
+  description: Handles support requests, gathers diagnostic information and communicates their progress to
+    users.
+  areas:
+  - it-support
+  paths:
+  - path-it-support
+  guidance:
+  - sfia
+  aliases:
+  - Helpdesk Analyst
+  - Service Desk Analyst
+- id: computer-technician
+  title: Computer Technician
+  description: Installs, diagnoses and repairs computers and their connected equipment.
+  areas:
+  - it-support
+  paths: []
+  guidance:
+  - sfia
+- id: computer-network-support-specialist
+  title: Computer Network Support Specialist
+  description: Diagnoses user connectivity problems and helps maintain working network access.
+  areas:
+  - networking
+  - it-support
+  paths:
+  - path-networking
+  - path-it-support
+  guidance:
+  - sfia
+- id: operations-support-analyst
+  title: Operations Support Analyst
+  description: Monitors operational work and investigates service issues using runbooks and system evidence.
+  areas:
+  - it-support
+  - devops
+  paths:
+  - path-it-support
+  guidance:
+  - sfia
+- id: infrastructure-specialist
+  title: Infrastructure Specialist
+  description: Implements and maintains the compute, storage or networking components that support IT services.
+  areas:
+  - devops
+  - networking
+  paths:
+  - path-networking
+  guidance:
+  - sfia

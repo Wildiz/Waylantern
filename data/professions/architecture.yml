@@ -1,0 +1,142 @@
+id: architecture
+title: Architecture and systems design
+description: Roles that define system structures, integration boundaries and technical trade-offs across an
+  organisation.
+areas:
+- architecture
+- software
+- networking
+- data
+- security
+- devops
+roles:
+- id: software-architect
+  title: Software Architect
+  description: Defines the structure of software systems and explains trade-offs among quality requirements.
+  areas:
+  - architecture
+  - software
+  paths:
+  - path-software-architecture
+  guidance:
+  - swebok
+  - sfia
+- id: enterprise-architect
+  title: Enterprise Architect
+  description: Aligns an organisation's technology landscape with its business capabilities and long-term priorities.
+  areas:
+  - architecture
+  paths: []
+  guidance:
+  - sfia
+- id: solutions-architect
+  title: Solutions Architect
+  description: Designs an end-to-end technical solution that meets a specific set of stakeholder needs.
+  areas:
+  - architecture
+  - software
+  paths:
+  - path-software-architecture
+  guidance:
+  - sfia
+  - swebok
+  aliases:
+  - Solution Architect
+- id: cloud-architect
+  title: Cloud Architect
+  description: Designs cloud deployments by balancing service choices, security, reliability and cost.
+  areas:
+  - architecture
+  - devops
+  paths: []
+  guidance:
+  - cncf
+  - sfia
+- id: infrastructure-architect
+  title: Infrastructure Architect
+  description: Plans the compute, storage and operational foundations needed to run an organisation's systems.
+  areas:
+  - architecture
+  - devops
+  paths: []
+  guidance:
+  - sfia
+- id: network-architect
+  title: Network Architect
+  description: Designs network topology, connectivity and resilience for the systems an organisation needs.
+  areas:
+  - architecture
+  - networking
+  paths:
+  - path-networking
+  guidance:
+  - sfia
+  - cisco-network-programmability
+- id: data-architect
+  title: Data Architect
+  description: Defines how data is modelled, shared and governed across systems.
+  areas:
+  - architecture
+  - data
+  paths: []
+  guidance:
+  - sfia
+  - acm-curricula
+- id: security-architect
+  title: Security Architect
+  description: Designs security controls and trust boundaries that address a system's risks.
+  areas:
+  - architecture
+  - security
+  paths:
+  - path-cybersecurity
+  guidance:
+  - nice
+  - sfia
+- id: applications-architect
+  title: Applications Architect
+  description: Defines how an application portfolio is structured and how its applications interact.
+  areas:
+  - architecture
+  - software
+  paths:
+  - path-software-architecture
+  guidance:
+  - sfia
+  - swebok
+  aliases:
+  - Application Architect
+- id: integration-architect
+  title: Integration Architect
+  description: Designs the interfaces and data flows that connect applications and external services.
+  areas:
+  - architecture
+  - software
+  paths:
+  - path-software-architecture
+  guidance:
+  - swebok
+  - sfia
+- id: database-architect
+  title: Database Architect
+  description: Designs database structures and storage choices to meet an application's data requirements.
+  areas:
+  - architecture
+  - data
+  paths: []
+  guidance:
+  - sfia
+  - acm-curricula
+- id: technical-lead
+  title: Technical Lead
+  description: Guides a team's technical decisions and helps its members deliver coherent software changes.
+  areas:
+  - architecture
+  - software
+  paths:
+  - path-software-architecture
+  guidance:
+  - swebok
+  - sfia
+  aliases:
+  - Tech Lead

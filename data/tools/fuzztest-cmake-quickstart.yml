@@ -1,0 +1,22 @@
+name: FuzzTest - CMake Quickstart
+url: https://github.com/google/fuzztest/blob/main/doc/quickstart-cmake.md
+category: reference
+areas: [testing, software, security]
+price: free
+level: advanced
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Official C++ tutorial introducing property-based fuzz testing with a small CMake project, a property test and separate unit-test and coverage-guided fuzzing modes.
+pros:
+  - Contrasts a specific unit test with a property evaluated across generated inputs
+  - Includes CMake configuration and commands for building and running a sample
+  - Framework is Apache-2.0 licensed with additional third-party notices
+cons:
+  - Requires C++ and build-system familiarity
+  - The verified quickstart requires Linux, Clang and CMake; it does not claim general GCC support
+  - Fuzzing mode can run indefinitely unless stopped or given a time limit
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read google/fuzztest main README.md, LICENSE, doc/quickstart-cmake.md and doc/overview.md via raw.githubusercontent.com. The quickstart provides IntegerAdditionCommutes with FUZZ_TEST, C++17 CMake configuration, Linux/Clang/CMake prerequisites, and unit versus fuzzing execution modes. Overview demonstrates input domains with a string-parsing property. LICENSE applies Apache-2.0 generally and lists Lucent and BSD notices for particular files. The README's separate doc/tutorial.md codelab link returned 404, so this entry links the verified CMake quickstart instead. Free refers to source and tutorial; external compute is not included. English checked; no code compiled or executed and current maintenance activity was not verified."

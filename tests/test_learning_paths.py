@@ -1,6 +1,5 @@
 """Learning-path validation and safe documentation generation."""
 import copy
-import importlib.util
 import io
 import shutil
 import tempfile
@@ -12,10 +11,9 @@ from unittest.mock import patch
 import yaml
 
 
+from scripts import build
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
-SPEC = importlib.util.spec_from_file_location("waylantern_build", REPO_ROOT / "scripts" / "build.py")
-build = importlib.util.module_from_spec(SPEC)
-SPEC.loader.exec_module(build)
 
 
 class LearningPathTests(unittest.TestCase):

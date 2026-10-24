@@ -1,0 +1,276 @@
+id: data-ai
+title: Data, analytics and artificial intelligence
+description: Roles that analyze data, develop models or maintain analytical and database systems; Lead is a
+  level rather than a separate discipline, while MLOps Engineer and DataOps Engineer are listed once in operations
+  and infrastructure.
+areas:
+- data
+- ai
+- math
+- cs
+roles:
+- id: data-analyst
+  title: Data Analyst
+  description: Uses queries, calculations and visualizations to answer questions about data.
+  areas:
+  - data
+  paths:
+  - path-data-analysis
+  guidance:
+  - sfia
+  - cs2023
+  - microsoft-data-science
+- id: data-scientist
+  title: Data Scientist
+  description: Uses statistics and computational models to investigate data and evaluate predictive hypotheses.
+  areas:
+  - data
+  - ai
+  - math
+  paths:
+  - path-data-analysis
+  - path-ai-machine-learning
+  guidance:
+  - sfia
+  - cs2023
+  - microsoft-data-science
+  aliases:
+  - AI and Data Scientist
+  - Lead Data Scientist
+- id: quantitative-analyst
+  title: Quantitative Analyst
+  description: Builds mathematical and statistical analyses for quantitative decision-making, often in financial
+    contexts.
+  areas:
+  - math
+  - data
+  paths: []
+  guidance:
+  - sfia
+  - acm-curricula
+- id: statistician
+  title: Statistician
+  description: Designs statistical studies and analyzes uncertainty in measurements and conclusions.
+  areas:
+  - math
+  - data
+  paths: []
+  guidance:
+  - acm-curricula
+  - sfia
+- id: computer-and-information-research-scientist
+  title: Computer and Information Research Scientist
+  description: Investigates computing problems and develops new computational methods or systems.
+  areas:
+  - cs
+  - math
+  paths: []
+  guidance:
+  - acm-curricula
+  - cs2023
+- id: bioinformatics-scientist
+  title: Bioinformatics Scientist
+  description: Develops computational analyses that help investigate biological data and questions.
+  areas:
+  - data
+  - cs
+  - math
+  paths: []
+  guidance:
+  - acm-curricula
+- id: bioinformatics-technician
+  title: Bioinformatics Technician
+  description: Prepares biological datasets and operates computational workflows supporting bioinformatics
+    research.
+  areas:
+  - data
+  - software
+  paths: []
+  guidance:
+  - acm-curricula
+  - sfia
+- id: remote-sensing-scientist
+  title: Remote Sensing Scientist
+  description: Analyzes observations from satellite or airborne sensors to investigate physical or environmental
+    questions.
+  areas:
+  - data
+  - math
+  paths: []
+  guidance:
+  - acm-curricula
+- id: ai-engineer
+  title: AI Engineer
+  description: Builds application features that use artificial-intelligence models and evaluates their behavior.
+  areas:
+  - ai
+  - software
+  paths:
+  - path-ai-machine-learning
+  guidance:
+  - cs2023
+  - sfia
+  - microsoft-ai
+- id: machine-learning-engineer
+  title: Machine Learning Engineer
+  description: Develops and evaluates machine-learning models and the software needed to use their predictions.
+  areas:
+  - ai
+  - software
+  - data
+  paths:
+  - path-ai-machine-learning
+  guidance:
+  - cs2023
+  - sfia
+  aliases:
+  - Machine Learning
+- id: inference-engineer
+  title: Inference Engineer
+  description: Optimizes how trained models serve predictions under latency, throughput and resource constraints.
+  areas:
+  - ai
+  - software
+  - devops
+  paths: []
+  guidance:
+  - cs2023
+  - sfia
+  aliases:
+  - Inference Engineering
+- id: ai-researcher
+  title: AI Researcher
+  description: Investigates artificial-intelligence methods through experiments and analysis.
+  areas:
+  - ai
+  - cs
+  - math
+  paths: []
+  guidance:
+  - cs2023
+  - acm-curricula
+  - microsoft-ai
+- id: nlp-specialist
+  title: Natural Language Processing Specialist
+  description: Develops and evaluates computational methods for processing human language.
+  areas:
+  - ai
+  - data
+  paths: []
+  guidance:
+  - cs2023
+  - sfia
+  - microsoft-ai
+  aliases:
+  - NLP Specialist
+  - Natural Language Processing (NLP) Specialist
+- id: data-engineer
+  title: Data Engineer
+  description: Builds data ingestion, transformation and storage systems that support downstream use.
+  areas:
+  - data
+  - software
+  - devops
+  paths: []
+  guidance:
+  - sfia
+  - cs2023
+- id: postgresql-specialist
+  title: PostgreSQL Specialist
+  description: Develops or administers PostgreSQL databases, with responsibilities varying between application
+    and operations teams.
+  areas:
+  - data
+  paths: []
+  guidance:
+  - sfia
+  aliases:
+  - PostgreSQL
+- id: database-administrator
+  title: Database Administrator
+  description: Maintains database availability, access controls, backups and operational performance.
+  areas:
+  - data
+  - devops
+  paths: []
+  guidance:
+  - sfia
+  aliases:
+  - DBA
+- id: cloud-database-administrator
+  title: Cloud Database Administrator
+  description: Operates cloud-hosted databases and manages their access, recovery and service configuration.
+  areas:
+  - data
+  - devops
+  paths: []
+  guidance:
+  - sfia
+- id: data-production-engineer
+  title: Data Production Engineer
+  description: Maintains production data processing workflows and investigates failures affecting their outputs.
+  areas:
+  - data
+  - devops
+  paths: []
+  guidance:
+  - sfia
+- id: analytics-engineer
+  title: Analytics Engineer
+  description: Builds tested and documented analytical data models for reporting and analysis.
+  areas:
+  - data
+  - software
+  - testing
+  paths: []
+  guidance:
+  - sfia
+- id: bi-developer
+  title: BI Developer
+  description: Builds business-intelligence datasets, reports and dashboards.
+  areas:
+  - data
+  paths: []
+  guidance:
+  - sfia
+  - microsoft-learn
+  aliases:
+  - Business Intelligence Developer
+- id: etl-developer
+  title: ETL Developer
+  description: Implements extraction, transformation and loading workflows that move data between systems.
+  areas:
+  - data
+  - software
+  paths: []
+  guidance:
+  - sfia
+- id: data-warehousing-specialist
+  title: Data Warehousing Specialist
+  description: Designs and maintains warehouse structures that consolidate data for analytical use.
+  areas:
+  - data
+  - architecture
+  paths: []
+  guidance:
+  - sfia
+- id: bi-analyst
+  title: Business Intelligence Analyst
+  description: Interprets business metrics and reporting data to support operational decisions.
+  areas:
+  - data
+  paths:
+  - path-data-analysis
+  guidance:
+  - sfia
+  aliases:
+  - BI Analyst
+- id: business-analyst
+  title: Business Analyst
+  description: Investigates business needs and translates them into agreed process or system requirements.
+  areas:
+  - design-product
+  - architecture
+  paths: []
+  guidance:
+  - sfia

@@ -35,14 +35,18 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [100 NumPy Exercises](https://github.com/rougier/numpy-100) | Free | intermediate | self-directed | high | en | Collection of 100 short NumPy problems covering arrays, indexing, numerical operations and matrix manipulation, available as Markdown and notebooks. |
 | [Codility Lessons](https://app.codility.com/programmers/lessons/1-iterations/) | Price not confirmed yet | intermediate | guided | - | en | Candidate-side training area of Codility with 17 numbered lessons (iterations, arrays, time complexity, sorting, dynamic programming and more) each paired with coding tasks. |
 | [CSES Problem Set](https://cses.fi/problemset/) | Free | intermediate | guided | medium | en | Curated set of algorithm practice problems grouped by topic with an online judge, from introductory to advanced. |
 | [CyberDefenders](https://cyberdefenders.org/blue-team-labs/) | Free + paid extras | intermediate | self-directed | - | en | Blue team (defensive security) platform with browser-based DFIR and SOC investigation labs; free signup, with premium labs and certifications sold separately. |
+| [Cypress Real World App](https://github.com/cypress-io/cypress-realworld-app) | Free | intermediate | self-directed | - | en | Educational full-stack payment demo with example data and Cypress tests for practising application testing patterns, authentication flows and test setup. |
 | [iximiuz Labs](https://labs.iximiuz.com/) | Free + paid extras | intermediate | semi | - | en | Hands-on platform with playgrounds, tutorials, challenges and paths for Linux, Docker, Kubernetes and networking. |
 | [Killercoda](https://killercoda.com/) | Free + paid extras | intermediate | semi | - | en | Browser-based interactive scenarios for Linux, Kubernetes and DevOps tools with free sessions and paid exam-prep courses. |
 | [NeetCode](https://neetcode.io/) | Free + paid extras | intermediate | semi | - | en | Coding-interview preparation site with structured courses, a curated problem list (1,000+ problems), head-to-head Versus mode and AI-assisted assessments. |
 | [OWASP crAPI](https://github.com/OWASP/crAPI) | Free | intermediate | semi | - | en | A deliberately vulnerable microservices application for practising API security through challenges based on common API risks. |
 | [Project Euler](https://projecteuler.net/) | Free | intermediate | self-directed | - | en | Archive of challenging mathematical and programming problems with numeric answers, solvable in any language. |
+| [Pytudes](https://github.com/norvig/pytudes) | Free | intermediate | self-directed | medium | en | Peter Norvig's collection of Python programming studies in Jupyter notebooks, exploring algorithms, puzzles, mathematics and problem-solving techniques. |
+| [Type Challenges](https://github.com/type-challenges/type-challenges) | Free | intermediate | self-directed | high | en | Collection of TypeScript type-system exercises with difficulty levels, browser Playground links and compile-time test cases. |
 | [Vulhub](https://github.com/vulhub/vulhub) | Free | intermediate | self-directed | - | en, zh | An open-source collection of deliberately vulnerable Docker environments with per-environment instructions for reproducing and understanding security flaws. |
 
 ## Advanced
@@ -50,6 +54,7 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
 | [CodeCrafters](https://codecrafters.io/) | Free + paid extras | advanced | guided | - | en | Step-by-step challenges to rebuild tools such as Redis, Git, SQLite, an HTTP server or a shell from scratch in your own editor, with automated test feedback. |
+| [P4-Learning (ETH Zurich)](https://github.com/nsg-ethz/p4-learning) | Free | advanced | semi | - | en | Data-plane programming exercises, examples and lecture material for writing P4-16 programs and testing virtual network switches, including packet reflection, forwarding and load balancing. |
 
 ## Any level
 
@@ -67,6 +72,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 ## Pros and cons
 
 <details><summary>Show pros and cons for each entry</summary>
+
+**100 NumPy Exercises**
+
+- Good: Small numbered problems with difficulty markers make it easy to choose one task
+- Good: MIT-licensed repository that can be studied locally
+- Good: Complements long tutorials with targeted array practice
+- Watch out: Assumes basic Python and some NumPy knowledge
+- Watch out: No guided learning path or automatic grading service
+- Watch out: Linked Binder sessions were not tested
 
 **A Tour of Go**
 
@@ -150,6 +164,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Focused on defensive security and SOC skills
 - Watch out: CyberRange premium labs cost $25 per month; certifications from $599
 - Watch out: Which labs are free was not confirmed
+
+**Cypress Real World App**
+
+- Good: MIT-licensed demonstration application with tests to inspect and modify
+- Good: Includes seeded local data rather than requiring a separate database service
+- Good: Authentication test source demonstrates sign-up, login, redirects and session checks
+- Watch out: Requires web development knowledge, the repository's Node.js version and Yarn Classic
+- Watch out: Maintainers explicitly describe it as educational rather than a production payment system
+- Watch out: Optional Cypress Cloud and other external services have terms and costs not verified here
 
 **Exercism**
 
@@ -299,6 +322,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Needs local setup and the machine is vulnerable while it runs
 - Watch out: Java-focused examples
 
+**P4-Learning (ETH Zurich)**
+
+- Good: Exercises include descriptions, program skeletons and solutions
+- Good: A packet reflector provides a concrete first experiment in the environment
+- Good: GPLv3 source repository with material from an ETH Zurich networking lecture
+- Watch out: Assumes networking and programming knowledge; not a first networking course
+- Watch out: Requires P4-Utils, Mininet, a compiler and software-switch dependencies in a suitable local or virtual environment
+- Watch out: The authors warn that older environments and configuration formats can be incompatible
+
 **picoCTF (CyLab Security Academy)**
 
 - Good: Beginner-friendly CTF challenges
@@ -319,6 +351,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Needs math comfort
 - Watch out: Not a tutorial: no teaching material
 
+**Pytudes**
+
+- Good: Worked programs connect a problem-solving plan with Python code and tests
+- Good: MIT-licensed notebooks can be read on GitHub or downloaded
+- Good: Includes focused studies such as prime factorization and writing an interpreter
+- Watch out: A collection of worked studies rather than a beginner curriculum
+- Watch out: Prerequisites and dependencies vary between notebooks
+- Watch out: Some AI-related studies involve external models; inspect requirements before choosing one
+
 **Rustlings**
 
 - Good: Tiny exercises with immediate compiler feedback
@@ -336,6 +377,13 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Many practice queries
 - Good: No setup
 - Watch out: Dated interface
+
+**Type Challenges**
+
+- Good: Small challenges with explicit expected types
+- Good: Exercises range from a warm-up to advanced type manipulation
+- Watch out: Requires TypeScript fundamentals; it is not an introduction to programming
+- Watch out: Focuses on type-level programming rather than building complete applications
 
 **Vulhub**
 

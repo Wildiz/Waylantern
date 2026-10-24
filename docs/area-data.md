@@ -2,7 +2,14 @@
 
 _SQL, data analysis, data engineering, visualization and statistics._
 
-42 resources. [Back to the start](../README.md)
+45 resources. [Back to the start](../README.md)
+
+## Selected repositories
+
+- [Microsoft Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners): Microsoft's 20-lesson data science curriculum covering ethics, data preparation, Python and pandas, visualization, analysis and cloud examples through lessons, quizzes and assignments. (beginner; Free)
+- [100 NumPy Exercises](https://github.com/rougier/numpy-100): Collection of 100 short NumPy problems covering arrays, indexing, numerical operations and matrix manipulation, available as Markdown and notebooks. (intermediate; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
 
 ## Not sure where to start?
 
@@ -27,6 +34,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [dbt Learn (free courses)](https://learn.getdbt.com/catalog) | Free | beginner | guided | - | en | dbt Labs' on-demand courses, including dbt Fundamentals (about 5 hours), that teach modeling, sources, testing, documentation and deployment with dbt. |
 | [Khan Academy Math (linear algebra, statistics, calculus)](https://www.khanacademy.org/math) | Free | beginner | guided | - | en | Khan Academy's math library, including linear algebra, statistics and probability, and calculus courses with videos, articles and practice exercises. |
 | [Machine Learning Zoomcamp (DataTalks.Club)](https://github.com/DataTalksClub/machine-learning-zoomcamp) | Free | beginner | guided | medium | en | Free hands-on course on building, evaluating and deploying machine learning systems, offered as a cohort (2026 cohort started Sep 14, 2026) with videos and materials open on GitHub. |
+| [Microsoft Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners) | Free | beginner | guided | - | en | Microsoft's 20-lesson data science curriculum covering ethics, data preparation, Python and pandas, visualization, analysis and cloud examples through lessons, quizzes and assignments. |
 | [Microsoft Learn: Power BI training](https://learn.microsoft.com/en-us/training/powerplatform/power-bi) | Free + paid extras | beginner | guided | - | en | Microsoft Learn's free learning paths for Power BI covering connecting to data, cleaning with Power Query, modeling and building reports. |
 | [MongoDB University](https://learn.mongodb.com/) | Free | beginner | guided | - | en | MongoDB's official training site with free self-paced courses, hands-on labs and free skill badges on data modeling, performance and security. |
 | [OpenIntro Statistics](https://www.openintro.org/book/os/) | Free | beginner | guided | - | en | Open-license introductory statistics textbook from OpenIntro with free PDF, video lectures, slides, labs and data sets. |
@@ -43,6 +51,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [100 NumPy Exercises](https://github.com/rougier/numpy-100) | Free | intermediate | self-directed | high | en | Collection of 100 short NumPy problems covering arrays, indexing, numerical operations and matrix manipulation, available as Markdown and notebooks. |
 | [Kaggle Learn](https://www.kaggle.com/learn) | Free | beginner | guided | high | en | Short, no-cost interactive micro-courses with in-browser notebooks on Python, pandas, SQL, data visualization, machine learning, deep learning, computer vision, NLP and more. |
 | [PostgreSQL Exercises](https://pgexercises.com/) | Free | beginner | semi | - | en | A series of SQL questions with explanations on a single small dataset, running in the browser, from basic selects to joins, aggregates, window functions and recursive queries. |
 | [SQLBolt](https://sqlbolt.com/) | Free | beginner | guided | high | en | Short interactive SQL lessons and exercises from SELECT to JOINs, aggregates and table changes, run in the browser. |
@@ -65,6 +74,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Observable Framework](https://observablehq.com/framework/) | Free | intermediate | self-directed | - | en | Free, open-source static site generator from Observable for building data apps, dashboards and reports with JavaScript on the front end and data loaders in any language. |
 | [pandas Getting Started Tutorials](https://pandas.pydata.org/docs/getting_started/index.html) | Free | beginner | semi | high | en | Official pandas getting-started guide with short tutorials on reading and writing data, selecting, filtering, plotting, reshaping, merging and time series. |
 | [Polars User Guide](https://docs.pola.rs/) | Free | intermediate | self-directed | - | en | Official user guide for the Polars DataFrame library covering expressions, the lazy API, joins, time series, IO and streaming. |
+| [PyProbML Notebooks](https://github.com/probml/pyprobml) | Free | advanced | self-directed | - | en | Python companion notebooks for the Probabilistic Machine Learning books, reproducing figures about probability, statistical models and machine learning. |
 | [storytelling with data: free resources](https://www.storytellingwithdata.com/resources) | Free + paid extras | beginner | self-directed | - | en | Free blog, chart guide, podcast and video resources from storytelling with data on communicating with charts and presenting data, next to paid workshops, an 8-week course and books. |
 
 ## Tools and apps

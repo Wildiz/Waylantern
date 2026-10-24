@@ -1,0 +1,379 @@
+id: software
+title: Software, interfaces and embedded systems
+description: Roles that build software, physical computing systems, games and user interfaces or assess software
+  quality; titles overlap across employers, and Senior or Principal denotes a level rather than a separate
+  discipline.
+areas:
+- software
+- web
+- embedded
+- games-mobile
+- design-product
+- testing
+roles:
+- id: software-engineer
+  title: Software Engineer
+  description: Designs, implements and maintains software; Senior and Principal are employer-dependent levels
+    rather than separate disciplines.
+  areas:
+  - software
+  - cs
+  paths: []
+  guidance:
+  - swebok
+  - cs2023
+  - sfia
+  aliases:
+  - Computer Programmer
+  - Software Development Engineer
+  - SDE
+  - Senior Software Engineer
+  - Principal Software Engineer
+- id: frontend-developer
+  title: Frontend Developer
+  description: Builds the browser interface that people interact with on websites and web applications.
+  areas:
+  - web
+  - software
+  paths:
+  - path-web-development
+  guidance:
+  - cs2023
+  - sfia
+  - w3c-wai
+  aliases:
+  - Frontend
+- id: backend-developer
+  title: Backend Developer
+  description: Builds server-side application logic, services and the interfaces that connect them to data.
+  areas:
+  - software
+  - web
+  - data
+  paths: []
+  guidance:
+  - swebok
+  - sfia
+  aliases:
+  - Backend
+- id: full-stack-developer
+  title: Full Stack Developer
+  description: Builds features across browser interfaces and the server-side services supporting them.
+  areas:
+  - web
+  - software
+  - data
+  paths:
+  - path-web-development
+  guidance:
+  - swebok
+  - sfia
+  aliases:
+  - Full Stack
+- id: desktop-application-developer
+  title: Desktop Application Developer
+  description: Builds applications that run on desktop operating systems.
+  areas:
+  - software
+  paths: []
+  guidance:
+  - swebok
+  - sfia
+- id: forward-deployed-engineer
+  title: Forward Deployed Engineer
+  description: Adapts and integrates a software product within a customer environment to solve specific operational
+    problems.
+  areas:
+  - software
+  - architecture
+  paths: []
+  guidance:
+  - swebok
+  - sfia
+- id: cloud-software-engineer
+  title: Cloud Software Engineer
+  description: Builds application software that uses cloud services and deployment environments.
+  areas:
+  - software
+  - devops
+  paths: []
+  guidance:
+  - swebok
+  - sfia
+  - cncf
+- id: integration-developer
+  title: Integration Developer
+  description: Builds interfaces and data exchanges that let separate applications work together.
+  areas:
+  - software
+  - architecture
+  - data
+  paths: []
+  guidance:
+  - swebok
+  - sfia
+- id: embedded-software-engineer
+  title: Embedded Software Engineer
+  description: Builds software that runs within devices and interacts with hardware.
+  areas:
+  - embedded
+  - software
+  paths:
+  - path-embedded-systems
+  guidance:
+  - acm-curricula
+  - cs2023
+  - sfia
+  - microsoft-iot
+- id: firmware-engineer
+  title: Firmware Engineer
+  description: Develops low-level software that initializes and controls device hardware.
+  areas:
+  - embedded
+  - software
+  paths:
+  - path-embedded-systems
+  guidance:
+  - acm-curricula
+  - sfia
+  - microsoft-iot
+- id: robotics-engineer
+  title: Robotics Engineer
+  description: Combines sensing, control and software to make robotic systems perform physical tasks.
+  areas:
+  - embedded
+  - software
+  - math
+  paths:
+  - path-embedded-systems
+  guidance:
+  - acm-curricula
+  - cs2023
+- id: hardware-engineer
+  title: Hardware Engineer
+  description: Designs and tests electronic components and computer hardware systems.
+  areas:
+  - embedded
+  - cs
+  paths: []
+  guidance:
+  - acm-curricula
+- id: iot-engineer
+  title: IoT Engineer
+  description: Builds connected-device systems that collect measurements and exchange information with other
+    services.
+  areas:
+  - embedded
+  - networking
+  - software
+  paths:
+  - path-embedded-systems
+  - path-networking
+  guidance:
+  - acm-curricula
+  - sfia
+  - microsoft-iot
+- id: mechatronics-engineer
+  title: Mechatronics Engineer
+  description: Integrates mechanical systems, electronics and control software into functioning machines.
+  areas:
+  - embedded
+  - math
+  paths: []
+  guidance:
+  - acm-curricula
+- id: microsystems-engineer
+  title: Microsystems Engineer
+  description: Designs and tests miniaturized systems that combine microelectronic or micromechanical components.
+  areas:
+  - embedded
+  paths: []
+  guidance:
+  - acm-curricula
+- id: android-developer
+  title: Android Developer
+  description: Builds and maintains applications for Android devices.
+  areas:
+  - games-mobile
+  - software
+  paths: []
+  guidance:
+  - swebok
+  - sfia
+  aliases:
+  - Android
+- id: ios-developer
+  title: iOS Developer
+  description: Builds and maintains applications for Apple mobile devices.
+  areas:
+  - games-mobile
+  - software
+  paths: []
+  guidance:
+  - swebok
+  - sfia
+  aliases:
+  - iOS
+- id: mobile-app-developer
+  title: Mobile App Developer
+  description: Builds applications for mobile devices using platform-specific or cross-platform tools.
+  areas:
+  - games-mobile
+  - software
+  paths: []
+  guidance:
+  - swebok
+  - sfia
+- id: ar-vr-developer
+  title: AR/VR Developer
+  description: Builds interactive augmented-reality or virtual-reality experiences.
+  areas:
+  - games-mobile
+  - software
+  - design-product
+  paths: []
+  guidance:
+  - cs2023
+  - sfia
+- id: crm-developer
+  title: CRM Developer
+  description: Customizes customer-relationship-management platforms through application code and integrations.
+  areas:
+  - software
+  - data
+  paths: []
+  guidance:
+  - sfia
+  aliases:
+  - Salesforce Developer
+- id: game-developer
+  title: Game Developer
+  description: Implements the software systems and interactions that make a video game run.
+  areas:
+  - games-mobile
+  - software
+  paths: []
+  guidance:
+  - cs2023
+  - sfia
+- id: server-side-game-developer
+  title: Server Side Game Developer
+  description: Builds the server software that coordinates multiplayer sessions and shared game state.
+  areas:
+  - games-mobile
+  - software
+  - networking
+  paths: []
+  guidance:
+  - swebok
+  - sfia
+- id: video-game-designer
+  title: Video Game Designer
+  description: Defines game mechanics, rules and player experiences and tests them through prototypes.
+  areas:
+  - games-mobile
+  - design-product
+  paths: []
+  guidance:
+  - cs2023
+  - sfia
+- id: video-game-tester
+  title: Video Game Tester
+  description: Tests game behavior and records reproducible problems affecting gameplay or compatibility.
+  areas:
+  - games-mobile
+  - testing
+  paths: []
+  guidance:
+  - swebok
+  - sfia
+- id: ux-designer
+  title: UX Designer
+  description: Investigates user needs and designs interactions that help people complete tasks.
+  areas:
+  - design-product
+  paths:
+  - path-interface-design
+  guidance:
+  - sfia
+  - w3c-wai
+  aliases:
+  - UX Design
+- id: product-designer
+  title: Product Designer
+  description: Shapes a digital product experience by connecting user research, interaction design and interface
+    decisions.
+  areas:
+  - design-product
+  paths:
+  - path-interface-design
+  guidance:
+  - sfia
+  - w3c-wai
+  aliases:
+  - Product Design
+- id: ui-designer
+  title: UI Designer
+  description: Designs the visual components and interaction states of a digital interface.
+  areas:
+  - design-product
+  - web
+  paths:
+  - path-interface-design
+  guidance:
+  - sfia
+  - w3c-wai
+- id: web-developer
+  title: Web Developer
+  description: Builds and maintains websites and their browser-based features.
+  areas:
+  - web
+  - software
+  paths:
+  - path-web-development
+  guidance:
+  - swebok
+  - sfia
+  - w3c-wai
+- id: software-qa-engineer
+  title: Software QA Engineer
+  description: Develops software testing approaches and automation that help a team detect quality problems.
+  areas:
+  - testing
+  - software
+  paths:
+  - path-software-testing
+  guidance:
+  - swebok
+  - sfia
+  aliases:
+  - QA
+  - QA Engineer
+  - Software Quality Assurance Engineer
+- id: software-qa-analyst
+  title: Software Quality Assurance Analyst
+  description: Analyzes requirements and product risks to plan tests and assess software quality.
+  areas:
+  - testing
+  - software
+  paths:
+  - path-software-testing
+  guidance:
+  - swebok
+  - sfia
+  aliases:
+  - QA Analyst
+- id: software-qa-tester
+  title: Software Quality Assurance Tester
+  description: Executes software tests and documents failures with steps that other people can reproduce.
+  areas:
+  - testing
+  - software
+  paths:
+  - path-software-testing
+  guidance:
+  - swebok
+  - sfia
+  aliases:
+  - QA Tester
+  - Software Tester

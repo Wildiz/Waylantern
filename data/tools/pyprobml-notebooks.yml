@@ -1,0 +1,23 @@
+name: PyProbML Notebooks
+url: https://github.com/probml/pyprobml
+category: reference
+areas: [ai, math, data]
+price: free
+level: advanced
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Python companion notebooks for the Probabilistic Machine Learning books, reproducing figures about probability, statistical models and machine learning.
+pros:
+  - Connects mathematical concepts with editable numerical examples
+  - Notebooks are indexed by book and chapter
+  - Repository code is MIT-licensed
+cons:
+  - Assumes probability, linear algebra and Python rather than teaching them from zero
+  - Dependencies span JAX, TensorFlow and PyTorch and may need version adjustments
+  - README states the code has been in maintenance mode since September 2022
+  - Hardware and hosted-compute requirements vary; no universal free GPU access is guaranteed
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read probml/pyprobml README.md, LICENSE.txt and notebooks/book1/03/gauss_plot_2d.ipynb on master via raw.githubusercontent.com. README identifies figure-reproduction code for both Probabilistic Machine Learning books, notebook indexes, local framework requirements and maintenance-mode status. LICENSE.txt is MIT. The inspected notebook plots full, diagonal and spherical two-dimensional Gaussian densities with JAX and plotting libraries; it may install probml-utils if absent. Free applies to repository code, not a guarantee about books or hosted hardware pricing; book access and current cloud tiers were not verified. No paid API appears in the inspected example. English sources checked; not installed or executed, and notebook compatibility was not tested."

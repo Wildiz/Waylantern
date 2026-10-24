@@ -2,7 +2,14 @@
 
 _Learn languages, Git, the command line and how to build software well._
 
-68 resources. [Back to the start](../README.md)
+81 resources. [Back to the start](../README.md)
+
+## Selected repositories
+
+- [Comprehensive Rust](https://github.com/google/comprehensive-rust): Google's Rust course for experienced programmers, combining language lessons and exercises with specialist material on Android, Chromium, bare-metal systems and concurrency. (intermediate; Free)
+- [GitHub Skills: Introduction to Git](https://github.com/skills/introduction-to-git): Guided command-line Git exercise covering repository creation, commits, history, comparisons and branches while working on a sample game. (beginner; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
 
 ## Not sure where to start?
 
@@ -29,6 +36,8 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) | Free | beginner | guided | - | en | Beginner Python book on practical automation (files, spreadsheets, web scraping, email) that is free to read online under a Creative Commons license. |
 | [Beej's Guides](https://beej.us/guide/) | Free | intermediate | self-directed | - | en | Free online guides to C programming, network (socket) programming, Git, Unix IPC and related topics by Brian 'Beej' Hall. |
 | [Boot.dev](https://www.boot.dev/) | Free + paid extras | beginner | guided | - | en | Gamified backend development curriculum (Python, Go, JavaScript, SQL, DevOps and more) with in-browser interactive lessons and projects. |
+| [Comprehensive Rust](https://github.com/google/comprehensive-rust) | Free | intermediate | guided | medium | en | Google's Rust course for experienced programmers, combining language lessons and exercises with specialist material on Android, Chromium, bare-metal systems and concurrency. |
+| [Container Training](https://github.com/jpetazzo/container.training) | Free | intermediate | guided | medium | en | Hands-on Docker and container-orchestration workshop materials that use a sample DockerCoins application to teach deployment, scaling and operations. |
 | [Crafting Interpreters](https://craftinginterpreters.com/) | Free | intermediate | guided | - | en | Book that walks you through building two complete interpreters for a scripting language (tree-walk and bytecode VM); readable in full on the web. |
 | [CS50's Introduction to Programming with Python](https://cs50.harvard.edu/python/) | Free | beginner | guided | - | en | Harvard's free Python course with weekly lectures and problem sets covering functions, conditionals, loops, exceptions, libraries, unit tests, file I/O, regular expressions and object-oriented programming. |
 | [Develop in Swift Tutorials](https://developer.apple.com/tutorials/develop-in-swift/) | Free | beginner | guided | - | en | Apple's tutorials introducing app development with Swift, SwiftUI and Xcode, from first project through data persistence, intelligent features and publishing. |
@@ -36,6 +45,8 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Khan Academy Computing](https://www.khanacademy.org/computing) | Free | beginner | guided | - | en | Khan Academy's computing section with beginner programming and computer science courses, including an Intro to Computer Science course in Python released for the 2024-25 school year. |
 | [MIT 6.100L - Introduction to CS and Programming using Python](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/) | Free | beginner | guided | - | en | MIT OpenCourseWare's Fall 2022 Python course for people with little or no programming experience, with lecture videos, notes, finger exercises, problem sets and recitations. |
 | [Pro Git](https://git-scm.com/book/en/v2) | Free | beginner | guided | - | en, es | Official free book on Git covering basics, branching, collaboration and internals. |
+| [raylib Introduction Course](https://github.com/raysan5/raylib-intro-course) | Free | intermediate | guided | medium | en | Seven-lesson C game-programming course that builds a Blocks game while teaching the game loop, input, collisions, graphics, text and audio with raylib. |
+| [Rust Embedded Discovery - micro:bit v2](https://github.com/rust-embedded/discovery-mb2) | Free | intermediate | guided | - | en | Project-based book introducing microcontrollers through Rust on a BBC micro:bit v2, with setup, debugging and hardware exercises such as LED roulette. |
 | [System Design (Karan Pratap Singh)](https://github.com/karanpratapsingh/system-design) | Free | intermediate | guided | - | en | Written system design course covering networking, databases, architecture patterns, reliability and worked design discussions for services such as a URL shortener. |
 | [The Linux Command Line (William Shotts)](https://linuxcommand.org/tlcl.php) | Free | beginner | guided | - | en, es | A 596-page book that teaches the Linux command line and shell scripting from scratch, free to download as a PDF under a Creative Commons license. |
 | [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) | Free | beginner | semi | - | en | MIT course teaching practical tooling: the command line, a text editor, version control, packaging and shipping code, code quality and AI-assisted coding workflows, with lecture videos and notes. |
@@ -51,13 +62,17 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Codecademy](https://www.codecademy.com/) | Free + paid extras | beginner | guided | - | en | Interactive coding platform whose Basic plan is free with limited courses, while skill paths, career paths and certification paths need Plus or Pro. |
 | [CodeCrafters](https://codecrafters.io/) | Free + paid extras | advanced | guided | - | en | Step-by-step challenges to rebuild tools such as Redis, Git, SQLite, an HTTP server or a shell from scratch in your own editor, with automated test feedback. |
 | [Codewars](https://www.codewars.com/) | Free + paid extras | all | self-directed | high | en | Community-written coding challenges ('kata') solved in the browser against test cases in 55+ languages, ranked from beginner to expert. |
+| [Cypress Real World App](https://github.com/cypress-io/cypress-realworld-app) | Free | intermediate | self-directed | - | en | Educational full-stack payment demo with example data and Cypress tests for practising application testing patterns, authentication flows and test setup. |
 | [Exercism](https://exercism.org/) | Free | all | semi | high | en, es | Code-practice platform with exercises in 85 programming languages, automated tests and optional volunteer mentoring. |
 | [freeCodeCamp](https://www.freecodecamp.org/) | Free | beginner | guided | - | en, es | Free self-paced curriculum with interactive coding challenges, projects and certifications (web, JavaScript, Python, databases, APIs, machine learning). |
 | [GitHub Skills: Introduction to Git](https://github.com/skills/introduction-to-git) | Free | beginner | guided | high | en | Guided command-line Git exercise covering repository creation, commits, history, comparisons and branches while working on a sample game. |
 | [GitHub Skills: Introduction to GitHub](https://github.com/skills/introduction-to-github) | Free | beginner | guided | high | en | Guided beginner exercise that uses a profile README to teach GitHub repositories, branches, commits and pull requests. |
 | [Learn Git Branching](https://learngitbranching.js.org/) | Free | beginner | guided | high | en, es, fr, de, pt, ru, zh, ja, ko, uk, vi, it, pl, tr, ro, bg, sl, hu, hi, ta, te, fa, ar, az | Visual, interactive sandbox and level series that teaches Git commands and branching in the browser. |
+| [P4-Learning (ETH Zurich)](https://github.com/nsg-ethz/p4-learning) | Free | advanced | semi | - | en | Data-plane programming exercises, examples and lecture material for writing P4-16 programs and testing virtual network switches, including packet reflection, forwarding and load balancing. |
 | [Project Euler](https://projecteuler.net/) | Free | intermediate | self-directed | - | en | Archive of challenging mathematical and programming problems with numeric answers, solvable in any language. |
+| [Pytudes](https://github.com/norvig/pytudes) | Free | intermediate | self-directed | medium | en | Peter Norvig's collection of Python programming studies in Jupyter notebooks, exploring algorithms, puzzles, mathematics and problem-solving techniques. |
 | [Rustlings](https://rustlings.rust-lang.org/) | Free | beginner | guided | high | en | Official small exercises that you fix locally with compiler feedback to get used to reading and writing Rust. |
+| [Type Challenges](https://github.com/type-challenges/type-challenges) | Free | intermediate | self-directed | high | en | Collection of TypeScript type-system exercises with difficulty levels, browser Playground links and compile-time test cases. |
 
 ## Roadmaps
 
@@ -70,24 +85,29 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [arc42 Architecture Documentation Template](https://github.com/arc42/arc42-template) | Free | intermediate | self-directed | - | en | Architecture documentation template with explanations for recording requirements, quality goals, system building blocks and interfaces in a consistent structure. |
 | [Arduino Built-in Examples - Blink](https://github.com/arduino/docs-content/blob/main/content/built-in-examples/01.basics/Blink/Blink.md) | Free | beginner | guided | - | en | Official beginner Arduino tutorial explaining how to blink an onboard LED, with hardware requirements, circuit guidance and annotated code. |
 | [Awesome (sindresorhus/awesome)](https://github.com/sindresorhus/awesome) | Free | all | self-directed | low | en | Curated index of community "awesome" lists organised into about 27 categories such as programming languages, computer science, databases and learning. |
 | [Awesome Python](https://github.com/vinta/awesome-python) | Free | all | self-directed | low | en | Opinionated curated list of Python frameworks, libraries and tools grouped by area such as web, data science, AI and ML, DevOps and security. |
 | [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) | Free | intermediate | self-directed | - | en | Curated list of step-by-step tutorials for re-creating technologies such as databases, Git, shells, interpreters and browsers from scratch. |
 | [Devhints](https://devhints.io/) | Free | all | self-directed | medium | en | Collection of developer cheatsheets by Rico Sta. Cruz covering Bash, Git, Docker, JavaScript, React, TypeScript, Vim, Ansible and many other tools. |
 | [free-programming-books](https://github.com/EbookFoundation/free-programming-books) | Free | all | self-directed | low | en, es | Very large community-maintained list of free books, courses, interactive tutorials, playgrounds and problem sets, split by language. |
+| [FuzzTest - CMake Quickstart](https://github.com/google/fuzztest/blob/main/doc/quickstart-cmake.md) | Free | advanced | guided | - | en | Official C++ tutorial introducing property-based fuzz testing with a small CMake project, a property test and separate unit-test and coverage-guided fuzzing modes. |
 | [GitHub Student Developer Pack](https://education.github.com/pack) | Free | all | self-directed | - | en | Bundle of free developer tools, cloud credits and learning offers from GitHub and partners for verified students. |
 | [Good First Issue](https://goodfirstissue.dev/) | Free | beginner | self-directed | - | en | Curated list of open-source projects with issues labelled as easy for newcomers, browsable by programming language and run by DeepSource. |
 | [Learn X in Y Minutes](https://learnxinyminutes.com/) | Free | beginner | self-directed | medium | en, es | Community-written, code-first whirlwind tours of many programming languages and tools, each on a single page with translations. |
+| [Markdown Architectural Decision Records (MADR)](https://github.com/adr/madr) | Free | intermediate | self-directed | - | en | Markdown templates and guidance for recording the context, considered options, outcome and consequences of an architectural decision, with examples from the project itself. |
 | [Open Source Guides](https://opensource.guide/) | Free | beginner | self-directed | - | en | GitHub's collection of short guides on how to contribute to, launch and maintain open-source projects, including security and accessibility best practices. |
 | [Playwright - Getting Started](https://github.com/microsoft/playwright) | Free | intermediate | semi | - | en | Official Playwright introduction with installation commands and sample end-to-end web tests using browser automation, locators and assertions. |
 | [Project Based Learning](https://github.com/practical-tutorials/project-based-learning) | Free | intermediate | self-directed | low | en | Curated list of project-based programming tutorials grouped by language such as Python, JavaScript, Go, C/C++ and Rust. |
 | [Public APIs](https://github.com/public-apis/public-apis) | Free | all | self-directed | low | en | Community-maintained list of free public APIs grouped by category (for example weather, science, machine learning, open data) for use in practice projects. |
 | [pytest - Get Started](https://github.com/pytest-dev/pytest/blob/main/doc/en/getting-started.rst) | Free | beginner | guided | - | en | Official introductory guide to installing pytest, writing a first Python test and interpreting assertion failures before progressing to multiple tests. |
 | [Raspberry Pi Pico SDK Examples](https://github.com/raspberrypi/pico-examples) | Free | intermediate | self-directed | - | en | Official C/C++ examples for Raspberry Pi Pico-series microcontrollers covering serial output, LEDs, analog inputs and other peripherals. |
+| [React Testing Library - Examples](https://github.com/testing-library/react-testing-library#examples) | Free | intermediate | semi | - | en | Official React component testing examples that query rendered elements and simulate user interactions instead of relying on component implementation details. |
 | [The Algorithms - Python](https://github.com/TheAlgorithms/Python) | Free | intermediate | self-directed | - | en | Collection of Python algorithm implementations for reading, experimenting and learning, with a directory for browsing the examples. |
 | [tldr pages](https://tldr.sh/) | Free | all | self-directed | medium | en, es | Community-maintained simplified man pages that show practical examples for common command-line tools, usable via web, PDF or command-line clients. |
 | [Up For Grabs](https://up-for-grabs.net/) | Free | beginner | self-directed | - | en | Community-maintained directory of open-source projects that curate tasks specifically for new contributors. |
+| [Zephyr - Basic Synchronization Sample](https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/synchronization) | Free | intermediate | semi | - | en | Official real-time operating system example demonstrating two threads coordinating console greetings with semaphores and timing, with instructions for running in QEMU. |
 
 ## Tools and apps
 

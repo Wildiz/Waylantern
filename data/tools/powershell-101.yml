@@ -1,0 +1,20 @@
+name: "PowerShell 101 (Microsoft)"
+url: https://github.com/MicrosoftDocs/PowerShell-Docs/tree/main/reference/docs-conceptual/learn/ps101
+category: course
+areas: [it-support, devops]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: "Microsoft's introductory PowerShell learning material for practising command-line administration, starting with finding and launching PowerShell in a Windows lab."
+pros:
+  - "Part of the official PowerShell documentation with a numbered getting-started chapter"
+  - "Separates Windows PowerShell 5.1 and its ISE from newer PowerShell versions"
+cons:
+  - "The opening chapter is Windows-focused; use an appropriate licensed practice system"
+  - "Administrative commands can change a system, so work through examples in a disposable lab"
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read MicrosoftDocs/PowerShell-Docs main README.md, LICENSE.md, LICENSE-CODE.md and reference/docs-conceptual/learn/ps101/01-getting-started.md via raw.githubusercontent.com. README identifies the official documentation and distinguishes versions; the first chapter invites new users to follow examples in a lab and explains Windows PowerShell launch options and ISE limitations. Documentation is CC BY 4.0 and repository code is MIT. Reading is free; this does not include a Windows licence or paid lab hosting. English checked; examples were not executed and other chapters were not audited individually."

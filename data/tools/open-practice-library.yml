@@ -1,0 +1,20 @@
+name: "Open Practice Library"
+url: https://github.com/openpracticelibrary/openpracticelibrary
+category: reference
+areas: [design-product]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "A collaborative collection of product discovery and team practices with explanations and facilitation guidance, including empathy mapping to explore user needs."
+pros:
+  - "Practice descriptions make collaborative discovery activities concrete"
+  - "The empathy-mapping example identifies participants, duration and ways to collect observations"
+cons:
+  - "Some activities need a facilitator and other participants; it is not a solo course"
+  - "Assumptions from a workshop are not a substitute for evidence from users"
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read openpracticelibrary/openpracticelibrary master README.md, LICENSE and src/pages/practice/empathy-mapping.md via raw.githubusercontent.com. README describes collaborative practices and iterative delivery; the concrete practice lists participants, a suggested duration and sources of user insight, and attributes empathy mapping to Dave Gray of XPLANE. The root repository LICENSE is Apache-2.0; linked third-party resources retain their own terms. Free refers to reading the repository, not workshop facilitation services or infrastructure. English checked; hosted site and practice outcomes were not tested."

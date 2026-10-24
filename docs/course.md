@@ -43,6 +43,8 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [Machine Learning for Beginners (Microsoft)](https://github.com/microsoft/ML-For-Beginners) | Free | beginner | guided | medium | en, es, fr, de, pt, zh, ja, ko | Microsoft's 12-week, 26-lesson curriculum on classic machine learning with Scikit-learn, with pre- and post-lesson quizzes, assignments and projects (Python and R). |
 | [Machine Learning Specialization (Andrew Ng)](https://www.deeplearning.ai/courses/machine-learning-specialization/) | Free + paid extras | beginner | guided | medium | en | Beginner-friendly three-course program by DeepLearning.AI and Stanford Online covering supervised and unsupervised learning, neural networks, trees, recommenders and reinforcement learning in Python. |
 | [Machine Learning Zoomcamp (DataTalks.Club)](https://github.com/DataTalksClub/machine-learning-zoomcamp) | Free | beginner | guided | medium | en | Free hands-on course on building, evaluating and deploying machine learning systems, offered as a cohort (2026 cohort started Sep 14, 2026) with videos and materials open on GitHub. |
+| [Microsoft Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners) | Free | beginner | guided | - | en | Microsoft's 20-lesson data science curriculum covering ethics, data preparation, Python and pandas, visualization, analysis and cloud examples through lessons, quizzes and assignments. |
+| [Microsoft IoT for Beginners](https://github.com/microsoft/IoT-For-Beginners) | Free | beginner | guided | - | en | Microsoft's 24-lesson project-based IoT curriculum covering device code, sensors, actuators, MQTT messaging, cloud connectivity and telemetry, with physical or virtual hardware options. |
 | [Microsoft Learn: Power BI training](https://learn.microsoft.com/en-us/training/powerplatform/power-bi) | Free + paid extras | beginner | guided | - | en | Microsoft Learn's free learning paths for Power BI covering connecting to data, cleaning with Power Query, modeling and building reports. |
 | [MIT 6.100L - Introduction to CS and Programming using Python](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/) | Free | beginner | guided | - | en | MIT OpenCourseWare's Fall 2022 Python course for people with little or no programming experience, with lecture videos, notes, finger exercises, problem sets and recitations. |
 | [MongoDB University](https://learn.mongodb.com/) | Free | beginner | guided | - | en | MongoDB's official training site with free self-paced courses, hands-on labs and free skill badges on data modeling, performance and security. |
@@ -50,6 +52,7 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [OpenIntro Statistics](https://www.openintro.org/book/os/) | Free | beginner | guided | - | en | Open-license introductory statistics textbook from OpenIntro with free PDF, video lectures, slides, labs and data sets. |
 | [OpenLearn (The Open University)](https://www.open.edu/openlearn/) | Free | beginner | semi | - | en | The Open University's free learning platform with short courses including computing and IT topics, offering a free statement of participation after completion. |
 | [PostgreSQL Tutorial](https://neon.com/postgresql/tutorial) | Free | beginner | guided | - | en | A step-by-step PostgreSQL tutorial covering installing Postgres, querying, joins, grouping, CTEs, modifying data, transactions and managing tables. |
+| [PowerShell 101 (Microsoft)](https://github.com/MicrosoftDocs/PowerShell-Docs/tree/main/reference/docs-conceptual/learn/ps101) | Free | beginner | guided | - | en | Microsoft's introductory PowerShell learning material for practising command-line administration, starting with finding and launching PowerShell in a Windows lab. |
 | [Pro Git](https://git-scm.com/book/en/v2) | Free | beginner | guided | - | en, es | Official free book on Git covering basics, branching, collaboration and internals. |
 | [Professor Messer (CompTIA Network+ and Security+ videos)](https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/) | Free | beginner | guided | - | en | Free video training courses for the CompTIA Security+ (SY0-701), Network+ (N10-009) and A+ exams, with optional paid course notes and practice exams. |
 | [React: Learn (react.dev)](https://react.dev/learn) | Free | beginner | guided | - | en | Official React documentation with a quick start, a tic-tac-toe tutorial, Thinking in React, and chapters on describing the UI, state, and escape hatches, with live editable examples. |
@@ -75,7 +78,9 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [Algorithms, 4th Edition (Princeton booksite and Coursera courses)](https://algs4.cs.princeton.edu/home/) | Free | intermediate | guided | - | en | Sedgewick and Wayne's Algorithms booksite (fundamentals, sorting, searching, graphs, strings) with lectures, code and data in Java, plus links to the Algorithms Part I and II Coursera courses. |
 | [Apache Airflow Tutorials](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html) | Free | intermediate | guided | - | en | Official Apache Airflow tutorials covering building a first workflow, the TaskFlow API, a simple data pipeline, object storage and human-in-the-loop operators. |
 | [Beej's Guides](https://beej.us/guide/) | Free | intermediate | self-directed | - | en | Free online guides to C programming, network (socket) programming, Git, Unix IPC and related topics by Brian 'Beej' Hall. |
+| [Comprehensive Rust](https://github.com/google/comprehensive-rust) | Free | intermediate | guided | medium | en | Google's Rust course for experienced programmers, combining language lessons and exercises with specialist material on Android, Chromium, bare-metal systems and concurrency. |
 | [Computer Networks: A Systems Approach](https://github.com/SystemsApproach/book) | Free | intermediate | guided | - | en | Open textbook by Larry Peterson and Bruce Davie covering network foundations, internetworking, scaling, end-to-end protocols, congestion, security and applications. |
+| [Container Training](https://github.com/jpetazzo/container.training) | Free | intermediate | guided | medium | en | Hands-on Docker and container-orchestration workshop materials that use a sample DockerCoins application to teach deployment, scaling and operations. |
 | [Crafting Interpreters](https://craftinginterpreters.com/) | Free | intermediate | guided | - | en | Book that walks you through building two complete interpreters for a scripting language (tree-walk and bytecode VM); readable in full on the web. |
 | [CS50's Introduction to 2D Game Development](https://cs50.harvard.edu/games/) | Free | intermediate | guided | - | en | Harvard OpenCourseWare course on 2D games using Lua and LOVE2D, recreating Pong, Flappy Bird, Breakout, Match 3, Super Mario Bros., Zelda, Angry Birds and Pokemon. |
 | [CS50's Introduction to Artificial Intelligence with Python](https://cs50.harvard.edu/ai/) | Free | intermediate | guided | - | en | Harvard's free course on the ideas behind modern AI in Python: search, knowledge, uncertainty, optimization, machine learning, neural networks and language, with hands-on projects. |
@@ -103,6 +108,8 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [Neural Networks - Zero to Hero (Andrej Karpathy)](https://github.com/karpathy/nn-zero-to-hero) | Free | intermediate | guided | - | en | Video series building neural networks from scratch, from micrograd and makemore up to GPT and the GPT tokenizer. |
 | [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) | Free | intermediate | guided | - | en | Free online operating-systems textbook organised around virtualization, concurrency and persistence, with homework and projects. |
 | [Practical Deep Learning for Coders (fast.ai)](https://course.fast.ai) | Free | intermediate | guided | medium | en | Free video course (2022 Part 1, 2023 Part 2) teaching deep learning top-down with fastai and PyTorch, from image classification and NLP to Stable Diffusion from scratch. |
+| [raylib Introduction Course](https://github.com/raysan5/raylib-intro-course) | Free | intermediate | guided | medium | en | Seven-lesson C game-programming course that builds a Blocks game while teaching the game loop, input, collisions, graphics, text and audio with raylib. |
+| [Rust Embedded Discovery - micro:bit v2](https://github.com/rust-embedded/discovery-mb2) | Free | intermediate | guided | - | en | Project-based book introducing microcontrollers through Rust on a BBC micro:bit v2, with setup, debugging and hardware exercises such as LED roulette. |
 | [System Design (Karan Pratap Singh)](https://github.com/karanpratapsingh/system-design) | Free | intermediate | guided | - | en | Written system design course covering networking, databases, architecture patterns, reliability and worked design discussions for services such as a URL shortener. |
 | [Terraform Tutorials (HashiCorp Developer)](https://developer.hashicorp.com/terraform/tutorials) | Free | intermediate | guided | - | en | Official HashiCorp step-by-step tutorials for Terraform, from getting started with Docker, AWS, Azure and GCP to modules, state and HCP Terraform. |
 | [The Flask Mega-Tutorial (Miguel Grinberg)](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) | Free | intermediate | guided | - | en | Free online tutorial (2024 edition) that builds a complete Flask web app over about 23 chapters covering templates, forms, databases, logins, testing and deployment. |
@@ -265,6 +272,13 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Needs systems programming (C++) experience
 - Watch out: Grading and support are for enrolled students only; check the current policy on AI coding tools for the projects
 
+**Comprehensive Rust**
+
+- Good: Ordered topics with exercises such as implementing Fibonacci
+- Good: Freely licensed code examples and course documentation
+- Watch out: Assumes programming experience, typically in languages such as C++ or Java
+- Watch out: Designed for classroom teaching; the authors say self-study misses discussions
+
 **Computer Networks: A Systems Approach**
 
 - Good: Online textbook source available under CC BY 4.0
@@ -273,6 +287,13 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: A substantial textbook rather than short interactive lessons
 - Watch out: Print and other book editions are separate from reading the online source
 - Watch out: Local rendering of the book needs additional build tools
+
+**Container Training**
+
+- Good: Progressive chapters with examples and exercises for classroom or self-paced use
+- Good: Covers a sample application from Compose to orchestration concepts
+- Watch out: Requires a working container environment; cluster exercises need additional setup
+- Watch out: Cloud infrastructure can cost money, and version-specific examples may need adaptation
 
 **Coursera**
 
@@ -646,6 +667,24 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Printed edition is paid (optional)
 - Watch out: No videos or solutions on the main page
 
+**Microsoft Data Science for Beginners**
+
+- Good: MIT-licensed material with written lessons, assignments and solutions
+- Good: Combines data handling and analysis with ethical considerations
+- Good: Python examples and assignments provide concrete data-processing practice
+- Watch out: The Python data-processing lesson assumes basic familiarity with Python
+- Watch out: Cloud lessons use Azure services; accounts, usage limits and possible charges need checking separately
+- Watch out: A vendor educational curriculum rather than an academic degree or professional-role standard
+
+**Microsoft IoT for Beginners**
+
+- Good: MIT-licensed lesson material with quizzes, assignments and solutions
+- Good: A virtual hardware option lets learners start without buying a board
+- Good: Projects connect device programming with messages and observable outputs
+- Watch out: Physical boards and sensors must be obtained separately if using that option
+- Watch out: Cloud lessons require Azure setup and may incur usage costs; current free allowances were not checked
+- Watch out: A Microsoft educational course rather than a professional-role standard or job qualification
+
 **Microsoft Learn**
 
 - Good: Training is free and open to anyone
@@ -755,6 +794,13 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Hosted by Neon (a Postgres company), which promotes its own product on the pages
 - Watch out: Reads like a reference, with no graded exercises
 
+**PowerShell 101 (Microsoft)**
+
+- Good: Part of the official PowerShell documentation with a numbered getting-started chapter
+- Good: Separates Windows PowerShell 5.1 and its ISE from newer PowerShell versions
+- Watch out: The opening chapter is Windows-focused; use an appropriate licensed practice system
+- Watch out: Administrative commands can change a system, so work through examples in a disposable lab
+
 **Practical Deep Learning for Coders (fast.ai)**
 
 - Good: Code-first approach with a free companion book
@@ -776,6 +822,14 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Course notes (PDF/print) and practice exams are sold separately
 - Watch out: Exam-oriented rather than hands-on
 
+**raylib Introduction Course**
+
+- Good: One concrete game develops across seven lessons
+- Good: Source files include tasks and explanatory comments
+- Watch out: Requires C knowledge and a local compiler with raylib
+- Watch out: Lesson 1 targets raylib 4.2; compatibility with current versions was not tested
+- Watch out: Lecture material has a noncommercial license; lesson code uses a separate license
+
 **React: Learn (react.dev)**
 
 - Good: Official, current docs (React 19.3 shown)
@@ -790,6 +844,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Roblox Studio is a free application on Windows and Mac (per Roblox docs)
 - Watch out: Platform-specific: skills transfer only partly
 - Watch out: Roblox Studio supports Windows and Mac only per the docs
+
+**Rust Embedded Discovery - micro:bit v2**
+
+- Good: Documentation is CC BY 4.0; source code offers a choice of MIT or Apache-2.0
+- Good: Ordered chapters connect tool setup to concrete hardware challenges
+- Good: LED roulette chapter includes a challenge and an optional partially completed solution template
+- Watch out: Requires some Rust, including using closures; generics and traits are helpful
+- Watch out: Requires a micro:bit v2 board and data-capable micro-B USB cable, which are not included
+- Watch out: Using another board makes the instructions harder to follow and may require adaptation
 
 **Scrimba: Learn HTML and CSS (free course)**
 

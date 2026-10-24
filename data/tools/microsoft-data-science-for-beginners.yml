@@ -1,0 +1,31 @@
+name: Microsoft Data Science for Beginners
+url: https://github.com/microsoft/Data-Science-For-Beginners
+category: course
+areas: [data]
+price: free
+level: beginner
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Microsoft's 20-lesson data science curriculum covering ethics, data preparation, Python and pandas, visualization, analysis and cloud examples through lessons, quizzes and assignments.
+pros:
+  - MIT-licensed material with written lessons, assignments and solutions
+  - Combines data handling and analysis with ethical considerations
+  - Python examples and assignments provide concrete data-processing practice
+cons:
+  - The Python data-processing lesson assumes basic familiarity with Python
+  - Cloud lessons use Azure services; accounts, usage limits and possible charges need checking separately
+  - A vendor educational curriculum rather than an academic degree or professional-role standard
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read the official README at https://raw.githubusercontent.com/microsoft/Data-Science-For-Beginners/main/README.md,
+    MIT license at https://raw.githubusercontent.com/microsoft/Data-Science-For-Beginners/main/LICENSE,
+    Python and pandas lesson at https://raw.githubusercontent.com/microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/07-python/README.md
+    and its assignment at https://raw.githubusercontent.com/microsoft/Data-Science-For-Beginners/main/2-Working-With-Data/07-python/assignment.md.
+    The README describes 10 weeks and 20 lessons and includes Azure cloud topics. The inspected
+    lesson assumes basic Python and demonstrates pandas data structures; its assignment asks
+    for comparisons of time-series data and a text co-occurrence visualization. Free refers
+    to the public lesson material, not Azure infrastructure. English content checked; translations,
+    cloud prices, environment setup and exercise execution were not verified.

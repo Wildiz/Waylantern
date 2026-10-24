@@ -8,6 +8,8 @@ Not sure what a role involves or what to do next? Choose a short learning path w
 
 [Español](README.es.md)
 
+[Explore areas and professions](docs/professions.md) · [Compare learning paths](#choose-a-learning-path)
+
 > **Made with AI.** This directory was put together by an AI assistant (Claude) working for its owner, who is a beginner in IT. The goal is to gather in one place the free resources people can use to study. Entries were checked against official pages whenever possible, but mistakes, outdated prices and broken links can still happen. Please confirm details on the official site and [tell us what is wrong](https://github.com/Wildiz/Waylantern/issues/new/choose).
 
 ## Never studied IT before? Start here
@@ -45,27 +47,31 @@ Each path explains what a related role does, the knowledge you need first and a 
 
 ## Looking for one specific area?
 
-| Area | What is inside | Resources |
-|---|---|---|
-| [Computer science and algorithms](docs/area-cs.md) | How computers work, data structures, algorithms and the theory behind them. | 49 |
-| [Programming and software engineering](docs/area-software.md) | Learn languages, Git, the command line and how to build software well. | 68 |
-| [Web development](docs/area-web.md) | HTML, CSS, JavaScript, frameworks and everything for building websites and web apps. | 41 |
-| [Computer networks](docs/area-networking.md) | Protocols, packet analysis, network simulation and how computers communicate. | 8 |
-| [Software and systems architecture](docs/area-architecture.md) | Design decisions, system structure, scalability and examples of how applications are built. | 3 |
-| [Software testing and QA](docs/area-testing.md) | Automated tests, browser testing and techniques for checking software quality. | 2 |
-| [Embedded systems and firmware](docs/area-embedded.md) | Microcontrollers, hardware programming and software that interacts with physical devices. | 2 |
-| [UX, UI and product design](docs/area-design-product.md) | Interface design, design systems, prototyping and tools for exploring user experiences. | 2 |
-| [Data, databases and statistics](docs/area-data.md) | SQL, data analysis, data engineering, visualization and statistics. | 42 |
-| [AI, machine learning and LLMs](docs/area-ai.md) | Machine learning, deep learning, language models and AI agents. | 41 |
-| [DevOps, cloud and Linux](docs/area-devops.md) | Containers, Kubernetes, cloud platforms, infrastructure and Linux administration. | 27 |
-| [IT support and service management](docs/area-it-support.md) | System troubleshooting, technical support, help desks and managing IT services. | 5 |
-| [Cybersecurity](docs/area-security.md) | Legal, authorized practice to learn how systems are attacked and defended. | 16 |
-| [Math for tech](docs/area-math.md) | Linear algebra, calculus, discrete math and probability for CS, data and AI. | 19 |
-| [Games and mobile apps](docs/area-games-mobile.md) | Game engines and mobile app development. | 9 |
-| [Career, interviews and open source](docs/area-career.md) | Interview practice, your first open-source contributions and portfolio hosting. | 27 |
-| [Study skills and memory](docs/area-study-skills.md) | How to learn, take notes and remember what you study, including AI study helpers. | 37 |
-| [Focus and ADHD-friendly tools](docs/area-focus.md) | Tools and techniques to start, stay focused and finish. Not medical advice. | 21 |
-| [General platforms (any topic)](docs/area-general.md) | Big platforms and directories that cover many areas. | 12 |
+Start with a short route or a selected repository. Open the full area for all its courses, books, practice and tools. Repository links include educational materials and applications to explore; each resource's page explains its level and requirements.
+
+| Area | What is inside | Start here | Selected repositories | All resources |
+|---|---|---|---|---|
+| [Computer science and algorithms](docs/area-cs.md) | How computers work, data structures, algorithms and the theory behind them. | [Path 0: fundamentals](docs/path-0-fundamentals.md) | [The Algorithms - Python](https://github.com/TheAlgorithms/Python), [Pytudes](https://github.com/norvig/pytudes) | [50](docs/area-cs.md) |
+| [Programming and software engineering](docs/area-software.md) | Learn languages, Git, the command line and how to build software well. | [Path 0: fundamentals](docs/path-0-fundamentals.md), [Path: web development](docs/path-web-development.md) | [Comprehensive Rust](https://github.com/google/comprehensive-rust), [GitHub Skills: Introduction to Git](https://github.com/skills/introduction-to-git) | [81](docs/area-software.md) |
+| [Web development](docs/area-web.md) | HTML, CSS, JavaScript, frameworks and everything for building websites and web apps. | [Path: web development](docs/path-web-development.md) | [Type Challenges](https://github.com/type-challenges/type-challenges), [Cypress Real World App](https://github.com/cypress-io/cypress-realworld-app) | [45](docs/area-web.md) |
+| [Computer networks](docs/area-networking.md) | Protocols, packet analysis, network simulation and how computers communicate. | [Path: networking](docs/path-networking.md) | [Computer Networks: A Systems Approach](https://github.com/SystemsApproach/book), [Mininet](https://github.com/mininet/mininet) | [11](docs/area-networking.md) |
+| [Software and systems architecture](docs/area-architecture.md) | Design decisions, system structure, scalability and examples of how applications are built. | [Path: software architecture](docs/path-software-architecture.md) | [500 Lines or Less](https://github.com/aosabook/500lines), [Markdown Architectural Decision Records (MADR)](https://github.com/adr/madr) | [5](docs/area-architecture.md) |
+| [Software testing and QA](docs/area-testing.md) | Automated tests, browser testing and techniques for checking software quality. | [Path: software testing and QA](docs/path-software-testing.md) | [pytest - Get Started](https://github.com/pytest-dev/pytest), [Cypress Real World App](https://github.com/cypress-io/cypress-realworld-app) | [5](docs/area-testing.md) |
+| [Embedded systems and firmware](docs/area-embedded.md) | Microcontrollers, hardware programming and software that interacts with physical devices. | [Path: embedded systems](docs/path-embedded-systems.md) | [Microsoft IoT for Beginners](https://github.com/microsoft/IoT-For-Beginners), [Rust Embedded Discovery - micro:bit v2](https://github.com/rust-embedded/discovery-mb2) | [6](docs/area-embedded.md) |
+| [UX, UI and product design](docs/area-design-product.md) | Interface design, design systems, prototyping and tools for exploring user experiences. | [Path: interface and product design](docs/path-interface-design.md) | [GOV.UK Design System](https://github.com/alphagov/govuk-design-system), [Open Practice Library](https://github.com/openpracticelibrary/openpracticelibrary) | [4](docs/area-design-product.md) |
+| [Data, databases and statistics](docs/area-data.md) | SQL, data analysis, data engineering, visualization and statistics. | [Path: data analysis](docs/path-data-analysis.md) | [Microsoft Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners), [100 NumPy Exercises](https://github.com/rougier/numpy-100) | [45](docs/area-data.md) |
+| [AI, machine learning and LLMs](docs/area-ai.md) | Machine learning, deep learning, language models and AI agents. | [Path: AI and machine learning](docs/path-ai-machine-learning.md) | [AI for Beginners (Microsoft)](https://github.com/microsoft/AI-For-Beginners), [Deep Learning with PyTorch Step-by-Step - Companion Notebooks](https://github.com/dvgodoy/PyTorchStepByStep) | [43](docs/area-ai.md) |
+| [DevOps, cloud and Linux](docs/area-devops.md) | Containers, Kubernetes, cloud platforms, infrastructure and Linux administration. | [Browse](docs/area-devops.md) | [Container Training](https://github.com/jpetazzo/container.training), [Linux Upskill Challenge](https://github.com/livialima/linuxupskillchallenge) | [30](docs/area-devops.md) |
+| [IT support and service management](docs/area-it-support.md) | System troubleshooting, technical support, help desks and managing IT services. | [Path: IT support and help desk](docs/path-it-support.md) | [PowerShell 101 (Microsoft)](https://github.com/MicrosoftDocs/PowerShell-Docs), [Microsoft Windows Troubleshooting Documentation](https://github.com/MicrosoftDocs/SupportArticles-docs) | [7](docs/area-it-support.md) |
+| [Cybersecurity](docs/area-security.md) | Legal, authorized practice to learn how systems are attacked and defended. | [Path: cybersecurity](docs/path-cybersecurity.md) | [OWASP crAPI](https://github.com/OWASP/crAPI), [Vulhub](https://github.com/vulhub/vulhub) | [17](docs/area-security.md) |
+| [Math for tech](docs/area-math.md) | Linear algebra, calculus, discrete math and probability for CS, data and AI. | [Browse](docs/area-math.md) | [Open Source Society University - Math](https://github.com/ossu/math), [SymPy](https://github.com/sympy/sympy) | [23](docs/area-math.md) |
+| [Games and mobile apps](docs/area-games-mobile.md) | Game engines and mobile app development. | [Browse](docs/area-games-mobile.md) | [raylib Introduction Course](https://github.com/raysan5/raylib-intro-course) | [10](docs/area-games-mobile.md) |
+| [Career, interviews and open source](docs/area-career.md) | Interview practice, your first open-source contributions and portfolio hosting. | [Browse](docs/area-career.md) | [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook), [GitHub Skills: Introduction to GitHub](https://github.com/skills/introduction-to-github) | [27](docs/area-career.md) |
+| [Study skills and memory](docs/area-study-skills.md) | How to learn, take notes and remember what you study, including AI study helpers. | [Browse](docs/area-study-skills.md) | [FSRS (Free Spaced Repetition Scheduler)](https://github.com/open-spaced-repetition/fsrs4anki), [AnkiDroid](https://github.com/ankidroid/Anki-Android) | [37](docs/area-study-skills.md) |
+| [Focus and ADHD-friendly tools](docs/area-focus.md) | Tools and techniques to start, stay focused and finish. Not medical advice. | [Browse](docs/area-focus.md) | [Pomotroid](https://github.com/Splode/pomotroid) | [21](docs/area-focus.md) |
+| [General platforms (any topic)](docs/area-general.md) | Big platforms and directories that cover many areas. | [Browse](docs/area-general.md) | [free-programming-books](https://github.com/EbookFoundation/free-programming-books), [Awesome (sindresorhus/awesome)](https://github.com/sindresorhus/awesome) | [12](docs/area-general.md) |
+
+[How these repositories were researched](research/2026-10-24-repositories-and-careers.md).
 
 ## What do you need?
 
@@ -83,14 +89,14 @@ Each path explains what a related role does, the knowledge you need first and a 
 | Format | What is inside | Entries |
 |---|---|---|
 | [Full paths (a free university)](docs/path.md) | A complete road from zero, in order. Best if you want structure and do not want to decide what to study next. | 16 |
-| [Courses and books](docs/course.md) | Individual courses and books on one topic. Good once you know roughly what you want to learn. | 108 |
-| [Practice by doing](docs/practice.md) | You write code or solve problems and get instant feedback. Best for staying engaged. | 38 |
+| [Courses and books](docs/course.md) | Individual courses and books on one topic. Good once you know roughly what you want to learn. | 115 |
+| [Practice by doing](docs/practice.md) | You write code or solve problems and get instant feedback. Best for staying engaged. | 43 |
 | [Roadmaps](docs/roadmap.md) | Maps that show what to learn and in what order. Use one to see the big picture. | 6 |
-| [Lists, docs and articles](docs/reference.md) | Big collections of links, documentation and guides. Great to browse or look things up, overwhelming if you start here. | 54 |
-| [Tools and apps](docs/tool.md) | Apps and software for taking notes, remembering, staying focused or building your own projects. | 52 |
+| [Lists, docs and articles](docs/reference.md) | Big collections of links, documentation and guides. Great to browse or look things up, overwhelming if you start here. | 64 |
+| [Tools and apps](docs/tool.md) | Apps and software for taking notes, remembering, staying focused or building your own projects. | 53 |
 | [Communities](docs/community.md) | Places to ask for help and find people learning alongside you. | 18 |
 
-**292 entries in total**, 43 of them with Spanish available.
+**315 entries in total**, 43 of them with Spanish available.
 
 **Optional:** 10 more resources that are only available in other languages (Spanish) are in [Resources in other languages](docs/other-languages.md).
 
@@ -115,4 +121,4 @@ Found a tool that is missing, or a wrong detail? You do **not** need to know Git
 
 [CC BY 4.0](LICENSE): copy it, adapt it, share it, just give credit.
 
-> README and `docs/` are generated from `data/tools/*.yml` and `data/paths/*.yml` by `scripts/build.py`. Edit the data files, not the generated pages.
+> README and `docs/` are generated from the YAML source files in `data/` by `scripts/build.py`. Edit the data files, not the generated pages.

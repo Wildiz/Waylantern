@@ -4,6 +4,12 @@ _Tools and techniques to start, stay focused and finish. Not medical advice._
 
 21 resources. [Back to the start](../README.md)
 
+## Selected repositories
+
+- [Pomotroid](https://github.com/Splode/pomotroid): Open-source desktop Pomodoro timer with configurable intervals, statistics, themes and a WebSocket API, built with Tauri, Rust and Svelte. (all; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
+
 Jump to: [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
 ## Lists, docs and articles

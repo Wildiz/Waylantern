@@ -1,0 +1,209 @@
+id: security
+title: Cybersecurity, audit and risk
+description: Roles that protect systems, investigate threats or assess security governance; Cyber Security
+  is an umbrella term represented by a general practitioner role rather than a single uniform job.
+areas:
+- security
+roles:
+- id: cybersecurity-practitioner
+  title: Cybersecurity Practitioner
+  description: Works on protecting digital systems, with the specific responsibilities depending on the employer
+    and specialization.
+  areas:
+  - security
+  paths:
+  - path-cybersecurity
+  guidance:
+  - nice
+  - sfia
+  aliases:
+  - Cyber Security
+  - Cybersecurity
+- id: penetration-tester
+  title: Penetration Tester
+  description: Tests systems within an explicitly authorized scope to demonstrate exploitable weaknesses.
+  areas:
+  - security
+  paths:
+  - path-cybersecurity
+  guidance:
+  - nice
+  - sfia
+- id: soc-analyst
+  title: Security Operations Center Analyst
+  description: Monitors security alerts and investigates potentially malicious activity.
+  areas:
+  - security
+  - networking
+  paths: []
+  guidance:
+  - nice
+  - sfia
+  aliases:
+  - SOC Analyst
+  - Security Operations Center (SOC) Analyst
+- id: soc-service-desk-analyst
+  title: SOC Service Desk Analyst
+  description: Receives security-related requests and alerts and routes them through documented triage and
+    escalation procedures.
+  areas:
+  - security
+  - it-support
+  paths: []
+  guidance:
+  - nice
+  - sfia
+- id: security-operations-manager
+  title: Security Operations Manager
+  description: Coordinates security monitoring and response work and manages the operating procedures supporting
+    it.
+  areas:
+  - security
+  paths: []
+  guidance:
+  - nice
+  - sfia
+- id: cybersecurity-technician
+  title: Cybersecurity Technician
+  description: Configures and maintains technical security controls and helps investigate routine security
+    problems.
+  areas:
+  - security
+  - it-support
+  paths:
+  - path-cybersecurity
+  - path-it-support
+  guidance:
+  - nice
+  - sfia
+  aliases:
+  - Cyber Security Technician
+- id: information-security-technician
+  title: Information Security Technician
+  description: Maintains information-security controls and records the technical checks needed to support them.
+  areas:
+  - security
+  - it-support
+  paths:
+  - path-cybersecurity
+  - path-it-support
+  guidance:
+  - nice
+  - sfia
+- id: vulnerability-assessor
+  title: Vulnerability Assessor
+  description: Identifies and evaluates security weaknesses so they can be prioritized for remediation.
+  areas:
+  - security
+  paths:
+  - path-cybersecurity
+  guidance:
+  - nice
+  - sfia
+- id: malware-analyst
+  title: Malware Analyst
+  description: Examines suspicious software to understand its behavior and support detection or response.
+  areas:
+  - security
+  - cs
+  paths: []
+  guidance:
+  - nice
+- id: it-auditor
+  title: IT Auditor
+  description: Examines technology controls and evidence against defined audit criteria.
+  areas:
+  - security
+  paths: []
+  guidance:
+  - sfia
+  - nice
+- id: information-security-analyst
+  title: Information Security Analyst
+  description: Assesses information-security risks and recommends or monitors controls addressing them.
+  areas:
+  - security
+  paths:
+  - path-cybersecurity
+  guidance:
+  - nice
+  - sfia
+- id: information-security-compliance-consultant
+  title: Information Security Compliance Consultant
+  description: Helps organizations interpret information-security obligations and assemble evidence of compliance.
+  areas:
+  - security
+  paths: []
+  guidance:
+  - nice
+  - sfia
+  aliases:
+  - Info Sec Compliance Consultant
+- id: security-assessment-auditor
+  title: Security Assessment Auditor
+  description: Evaluates security-control implementation and evidence against an agreed assessment framework.
+  areas:
+  - security
+  paths: []
+  guidance:
+  - nice
+  - sfia
+- id: audit-manager
+  title: Audit Manager
+  description: Plans audit engagements and coordinates the review of findings and supporting evidence.
+  areas:
+  - security
+  paths: []
+  guidance:
+  - sfia
+- id: digital-forensics-examiner
+  title: Digital Forensics Examiner
+  description: Preserves and examines digital evidence using documented methods appropriate to the investigation.
+  areas:
+  - security
+  - cs
+  paths: []
+  guidance:
+  - nice
+  aliases:
+  - Computer Forensics Expert
+- id: compliance-consultant
+  title: Compliance Consultant
+  description: Helps an organization assess its practices against applicable contractual or regulatory requirements.
+  areas:
+  - security
+  paths: []
+  guidance:
+  - sfia
+- id: security-management-specialist
+  title: Security Management Specialist
+  description: Develops and coordinates security policies, risk treatments and control-management processes.
+  areas:
+  - security
+  paths: []
+  guidance:
+  - nice
+  - sfia
+- id: chief-information-security-officer
+  title: Chief Information Security Officer
+  description: Directs an organization's information-security strategy and communicates security risk to its
+    leadership.
+  areas:
+  - security
+  paths: []
+  guidance:
+  - nice
+  - sfia
+  aliases:
+  - CISO
+  - Chief Information Security Officer (CISO)
+- id: security-administrator
+  title: Security Administrator
+  description: Operates security tools and manages access or protection settings under established policies.
+  areas:
+  - security
+  - devops
+  paths: []
+  guidance:
+  - nice
+  - sfia

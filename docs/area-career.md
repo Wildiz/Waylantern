@@ -4,6 +4,13 @@ _Interview practice, your first open-source contributions and portfolio hosting.
 
 27 resources. [Back to the start](../README.md)
 
+## Selected repositories
+
+- [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook): Free curated coding interview preparation material with study plans, algorithm cheatsheets, practice question lists and behavioural interview guidance. (intermediate; Free)
+- [GitHub Skills: Introduction to GitHub](https://github.com/skills/introduction-to-github): Guided beginner exercise that uses a profile README to teach GitHub repositories, branches, commits and pull requests. (beginner; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
+
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
 ## Full paths (a free university)

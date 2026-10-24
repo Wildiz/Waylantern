@@ -1,0 +1,22 @@
+name: Rust Embedded Discovery - micro:bit v2
+url: https://github.com/rust-embedded/discovery-mb2
+category: course
+areas: [embedded, software]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: unknown
+description: Project-based book introducing microcontrollers through Rust on a BBC micro:bit v2, with setup, debugging and hardware exercises such as LED roulette.
+pros:
+  - Documentation is CC BY 4.0; source code offers a choice of MIT or Apache-2.0
+  - Ordered chapters connect tool setup to concrete hardware challenges
+  - LED roulette chapter includes a challenge and an optional partially completed solution template
+cons:
+  - Requires some Rust, including using closures; generics and traits are helpful
+  - Requires a micro:bit v2 board and data-capable micro-B USB cable, which are not included
+  - Using another board makes the instructions harder to follow and may require adaptation
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read rust-embedded/discovery-mb2 main README.md, mdbook/src/SUMMARY.md, mdbook/src/02-requirements/README.md and mdbook/src/07-led-roulette/the-challenge.md via raw.githubusercontent.com. Also read the actual CC-BY, MIT and Apache license files under mdbook/src/appendix/4-licenses-and-attribution/; root license paths are symlink text. Requirements specify prior Rust, micro:bit v2 and a data-capable cable. The challenge points to a partially completed solution template. Chose this version because the older rust-embedded/discovery README marks its micro:bit and F3 editions deprecated and recommends discovery-mb2. Free refers to the book and source, not hardware. English checked; hardware exercises were not executed and maintenance activity was not independently assessed."

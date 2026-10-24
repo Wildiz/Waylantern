@@ -29,6 +29,7 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [GLPI](https://github.com/glpi-project/glpi) | Free | intermediate | self-directed | - | en | An open-source IT asset and service-desk application for practising ticket handling, incident and problem management, inventory and knowledge-base workflows in a test installation. |
 | [Manim Community](https://github.com/ManimCommunity/manim) | Free | intermediate | self-directed | - | en | Python animation engine for creating explanatory mathematics videos with programmable scenes, example code and a gallery. |
 | [marimo](https://github.com/marimo-team/marimo) | Free | intermediate | self-directed | - | en | Reactive Python notebook environment with SQL support, interactive controls and notebooks stored as Python files that can also run as scripts or apps. |
+| [Mininet](https://github.com/mininet/mininet) | Free | intermediate | self-directed | - | en | Linux network emulator with Python examples for building virtual hosts, switches and links and experimenting with connectivity, bandwidth, delay and packet loss on one machine. |
 | [SymPy](https://github.com/sympy/sympy) | Free | intermediate | self-directed | - | en | Python library for symbolic mathematics that lets you manipulate mathematical expressions interactively or in programs, with documentation and code examples. |
 | [Wireshark](https://www.wireshark.org/) | Free | intermediate | self-directed | - | en | Network traffic analyzer for inspecting packet captures and filtering protocol traffic, with a graphical application, TShark command-line tools and official documentation. |
 
@@ -348,6 +349,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Layout is automatic and limited
 - Watch out: The project now points to mermaid.ai for a platform around the library; paid tiers exist there (Basic free with limited diagrams
 - Watch out: Plus $10 and Premium $20 per user per month billed annually)
+
+**Mininet**
+
+- Good: BSD 3-Clause open-source software
+- Good: Python examples make small network experiments inspectable and modifiable
+- Good: Emulated networks avoid requiring a rack of physical switches
+- Watch out: Needs Linux network features, installation and administrative privileges
+- Watch out: Requires networking basics and some Python to modify the examples
+- Watch out: Emulated behavior and performance do not establish real hardware performance
 
 **Mochi Cards**
 

@@ -1,0 +1,22 @@
+name: React Testing Library - Examples
+url: https://github.com/testing-library/react-testing-library#examples
+category: reference
+areas: [testing, web, software]
+price: free
+level: intermediate
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: Official React component testing examples that query rendered elements and simulate user interactions instead of relying on component implementation details.
+pros:
+  - MIT-licensed library and examples
+  - Basic example pairs a checkbox-controlled message component with a test
+  - Explains testing through observable user behavior
+cons:
+  - Assumes React, JavaScript or JSX and a configured test environment
+  - Examples are illustrations rather than a complete testing curriculum
+  - README includes historical compatibility sections; select setup instructions matching your React version
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read testing-library/react-testing-library main README.md and LICENSE via raw.githubusercontent.com. The Examples section supplies HiddenMessage component code and a test using render, screen queries, a checkbox interaction and assertions on visible content; a more complex login example follows. The README explains testing without implementation details, npm installation, optional jest-dom matchers and React-version compatibility notes. LICENSE is MIT. Free refers to the library and examples, not any separately advertised paid course. English checked; examples and setup were not executed, and current maintenance activity was not verified."

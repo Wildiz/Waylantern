@@ -1,0 +1,22 @@
+name: Cypress Real World App
+url: https://github.com/cypress-io/cypress-realworld-app
+category: practice
+areas: [testing, web, software]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Educational full-stack payment demo with example data and Cypress tests for practising application testing patterns, authentication flows and test setup.
+pros:
+  - MIT-licensed demonstration application with tests to inspect and modify
+  - Includes seeded local data rather than requiring a separate database service
+  - Authentication test source demonstrates sign-up, login, redirects and session checks
+cons:
+  - Requires web development knowledge, the repository's Node.js version and Yarn Classic
+  - Maintainers explicitly describe it as educational rather than a production payment system
+  - Optional Cypress Cloud and other external services have terms and costs not verified here
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read cypress-io/cypress-realworld-app develop README.md, LICENSE and cypress/tests/ui/auth.spec.ts via raw.githubusercontent.com. README explicitly invites learning, experimentation and testing practice, describes Express/React with a local JSON database, bundled sample data, Node.js pinned in .node-version and Yarn Classic requirements. Authentication tests show database seeding and concrete user flows. LICENSE is MIT. Free refers to repository code and local practice, not external hosted testing services. Only English checked; dependency installation, tests, service pricing and current maintenance activity were not verified."

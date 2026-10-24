@@ -1,0 +1,22 @@
+name: 100 NumPy Exercises
+url: https://github.com/rougier/numpy-100
+category: practice
+areas: [data, math]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: high
+description: Collection of 100 short NumPy problems covering arrays, indexing, numerical operations and matrix manipulation, available as Markdown and notebooks.
+pros:
+  - Small numbered problems with difficulty markers make it easy to choose one task
+  - MIT-licensed repository that can be studied locally
+  - Complements long tutorials with targeted array practice
+cons:
+  - Assumes basic Python and some NumPy knowledge
+  - No guided learning path or automatic grading service
+  - Linked Binder sessions were not tested
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read rougier/numpy-100 README.md, LICENSE.txt and 100_Numpy_exercises.md on master via raw.githubusercontent.com. README identifies the exercise collection and Markdown/notebook formats; LICENSE.txt is MIT. Inspected concrete tasks including creating an identity matrix, finding nonzero indices and multiplying matrices. Free applies to repository material; these small local array exercises require no paid API or GPU. English material checked; focus rating reflects short numbered tasks. Did not execute exercises or test Binder; no maintenance claim made. Distinct from the existing official NumPy Tutorials entry, which covers applied tutorial notebooks."

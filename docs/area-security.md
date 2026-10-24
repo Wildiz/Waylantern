@@ -2,7 +2,14 @@
 
 _Legal, authorized practice to learn how systems are attacked and defended._
 
-16 resources. [Back to the start](../README.md)
+17 resources. [Back to the start](../README.md)
+
+## Selected repositories
+
+- [OWASP crAPI](https://github.com/OWASP/crAPI): A deliberately vulnerable microservices application for practising API security through challenges based on common API risks. (intermediate; Free)
+- [Vulhub](https://github.com/vulhub/vulhub): An open-source collection of deliberately vulnerable Docker environments with per-environment instructions for reproducing and understanding security flaws. (intermediate; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
 
 ## Not sure where to start?
 
@@ -43,6 +50,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [FuzzTest - CMake Quickstart](https://github.com/google/fuzztest/blob/main/doc/quickstart-cmake.md) | Free | advanced | guided | - | en | Official C++ tutorial introducing property-based fuzz testing with a small CMake project, a property test and separate unit-test and coverage-guided fuzzing modes. |
 | [OWASP Top 10](https://owasp.org/www-project-top-ten/) | Free | beginner | self-directed | - | en | The OWASP reference document listing the ten most critical web application security risks, currently the 2025 edition, with earlier editions kept available. |
 
 ## Tools and apps

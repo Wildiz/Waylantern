@@ -2,7 +2,14 @@
 
 _How computers work, data structures, algorithms and the theory behind them._
 
-49 resources. [Back to the start](../README.md)
+50 resources. [Back to the start](../README.md)
+
+## Selected repositories
+
+- [The Algorithms - Python](https://github.com/TheAlgorithms/Python): Collection of Python algorithm implementations for reading, experimenting and learning, with a directory for browsing the examples. (intermediate; Free)
+- [Pytudes](https://github.com/norvig/pytudes): Peter Norvig's collection of Python programming studies in Jupyter notebooks, exploring algorithms, puzzles, mathematics and problem-solving techniques. (intermediate; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
 
 ## Not sure where to start?
 
@@ -60,6 +67,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [LeetCode](https://leetcode.com/) | Free + paid extras | all | self-directed | - | en | Online judge with a large library of coding problems, contests and company-tagged interview questions in many programming languages. |
 | [NeetCode](https://neetcode.io/) | Free + paid extras | intermediate | semi | - | en | Coding-interview preparation site with structured courses, a curated problem list (1,000+ problems), head-to-head Versus mode and AI-assisted assessments. |
 | [Project Euler](https://projecteuler.net/) | Free | intermediate | self-directed | - | en | Archive of challenging mathematical and programming problems with numeric answers, solvable in any language. |
+| [Pytudes](https://github.com/norvig/pytudes) | Free | intermediate | self-directed | medium | en | Peter Norvig's collection of Python programming studies in Jupyter notebooks, exploring algorithms, puzzles, mathematics and problem-solving techniques. |
 
 ## Roadmaps
 

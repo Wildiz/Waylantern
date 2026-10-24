@@ -1,0 +1,22 @@
+name: Zephyr - Basic Synchronization Sample
+url: https://github.com/zephyrproject-rtos/zephyr/tree/main/samples/synchronization
+category: reference
+areas: [embedded, software]
+price: free
+level: intermediate
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: Official real-time operating system example demonstrating two threads coordinating console greetings with semaphores and timing, with instructions for running in QEMU.
+pros:
+  - Sample source explicitly uses Apache-2.0
+  - Demonstrates kernel synchronization beyond a single LED program
+  - Documented qemu_x86 emulation route allows studying this sample without purchasing a board
+cons:
+  - Assumes C knowledge and requires setting up the Zephyr build environment and QEMU
+  - An emulator demonstration does not validate behavior on a physical board
+  - This is one sample rather than a complete embedded systems course
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read zephyrproject-rtos/zephyr main README.rst, LICENSE, samples/synchronization/README.rst and samples/synchronization/src/main.c via raw.githubusercontent.com. README describes Zephyr as an RTOS and links getting-started documentation and code samples. The sample documentation explains alternating greetings from two threads using sleep and semaphores, supplies a qemu_x86 run example and expected console output. Source contains Apache-2.0 SPDX identification, matching the repository root license. Free refers to sample code and documentation; tool installation, execution and maintenance activity were not verified. English checked. No physical hardware is required for the documented QEMU route, but physical-board use may involve hardware costs."

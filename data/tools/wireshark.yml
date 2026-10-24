@@ -1,5 +1,6 @@
 name: Wireshark
 url: https://www.wireshark.org/
+repository: https://github.com/wireshark/wireshark
 category: tool
 areas: [networking, security, devops]
 price: free

@@ -4,6 +4,13 @@ _How to learn, take notes and remember what you study, including AI study helper
 
 37 resources. [Back to the start](../README.md)
 
+## Selected repositories
+
+- [FSRS (Free Spaced Repetition Scheduler)](https://github.com/open-spaced-repetition/fsrs4anki): Open-source, machine-learning-based spaced-repetition scheduling algorithm that fits review intervals to your own review history; available built into Anki and as an add-on for older versions. (intermediate; Free)
+- [AnkiDroid](https://github.com/ankidroid/Anki-Android): Free, open-source Android flashcard app that is compatible with Anki and syncs through AnkiWeb. (all; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
+
 Jump to: [Courses and books](#courses-and-books) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
 ## Courses and books

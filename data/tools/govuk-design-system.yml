@@ -1,0 +1,20 @@
+name: "GOV.UK Design System"
+url: https://github.com/alphagov/govuk-design-system
+category: reference
+areas: [design-product, web]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: "A public design-system reference with component examples and usage guidance for learning how to make consistent, understandable service interfaces."
+pros:
+  - "Component guidance explains when to use a pattern and how to word its controls"
+  - "Includes concrete HTML examples and links to the reusable GOV.UK Frontend code"
+cons:
+  - "Written for UK government services; adapt the reasoning rather than copying its branding"
+  - "A reference rather than a full design course; implementing examples needs web development knowledge"
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read alphagov/govuk-design-system main README.md, LICENSE and src/components/button/index.md via raw.githubusercontent.com. The button guide explains action labels, when to use a button and avoiding multiple primary actions, with HTML/Nunjucks examples. The root repository LICENSE is MIT; this does not establish permission to reuse government branding or every linked asset. Reading the source guidance is free; running the documentation site needs Git, Node.js and installation. English source checked; hosted site, implementation and translations were not tested."

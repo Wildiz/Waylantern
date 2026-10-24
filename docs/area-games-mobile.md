@@ -2,7 +2,13 @@
 
 _Game engines and mobile app development._
 
-9 resources. [Back to the start](../README.md)
+10 resources. [Back to the start](../README.md)
+
+## Selected repositories
+
+- [raylib Introduction Course](https://github.com/raysan5/raylib-intro-course): Seven-lesson C game-programming course that builds a Blocks game while teaching the game loop, input, collisions, graphics, text and audio with raylib. (intermediate; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
 
 Jump to: [Courses and books](#courses-and-books) | [Lists, docs and articles](#lists-docs-and-articles)
 
@@ -16,6 +22,7 @@ Jump to: [Courses and books](#courses-and-books) | [Lists, docs and articles](#l
 | [Epic Developer Community Learning (Unreal Engine)](https://dev.epicgames.com/community/unreal-engine/learning) | Free | beginner | semi | - | en | Epic Games' learning hub with tutorials, courses and demos for Unreal Engine, created by Epic and the community. |
 | [Flutter Getting Started Pathway](https://docs.flutter.dev/learn/pathway) | Free | beginner | guided | - | en | Official four-step pathway: set up Flutter, complete the Dart tutorial, build three small Flutter apps, then watch a series on how Flutter works. |
 | [GDQuest](https://www.gdquest.com/) | Free + paid extras | beginner | guided | - | en | Godot learning site offering free tutorials, a free in-browser GDScript course and in-editor Godot Tours, plus paid Godot 4 courses. |
+| [raylib Introduction Course](https://github.com/raysan5/raylib-intro-course) | Free | intermediate | guided | medium | en | Seven-lesson C game-programming course that builds a Blocks game while teaching the game loop, input, collisions, graphics, text and audio with raylib. |
 | [Roblox Creator Hub Documentation](https://create.roblox.com/docs) | Free | beginner | guided | - | en | Official Roblox documentation with first-experience tutorials and an introduction to coding in Luau, plus API references for building games in Roblox Studio. |
 | [Unity Learn](https://learn.unity.com/) | Free | beginner | guided | - | en | Unity's official platform of free tutorials, courses and guided pathways for real-time 3D, games, VR and AR development. |
 

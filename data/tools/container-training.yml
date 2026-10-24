@@ -1,0 +1,20 @@
+name: "Container Training"
+url: https://github.com/jpetazzo/container.training
+category: course
+areas: [devops, software]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: "Hands-on Docker and container-orchestration workshop materials that use a sample DockerCoins application to teach deployment, scaling and operations."
+pros:
+  - Progressive chapters with examples and exercises for classroom or self-paced use
+  - Covers a sample application from Compose to orchestration concepts
+cons:
+  - Requires a working container environment; cluster exercises need additional setup
+  - Cloud infrastructure can cost money, and version-specific examples may need adaptation
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read the official README.md and LICENSE via raw.githubusercontent.com. README describes Docker, Swarm and Kubernetes workshops, hands-on progressive chapters, self-paced use and the DockerCoins exercise: run a microservices app with Compose, then deploy and scale it using an orchestrator. It also documents optional EC2 provisioning, so hosting is not classified as free. Code is Apache-2.0; slides and instructions are CC-BY-4.0. English content checked. Intermediate is an editorial rating for the operational setup and orchestration scope; focus medium reflects progressive practical chapters. No scripts, containers or labs were executed."

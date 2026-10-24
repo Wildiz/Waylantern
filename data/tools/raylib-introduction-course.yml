@@ -1,0 +1,21 @@
+name: "raylib Introduction Course"
+url: https://github.com/raysan5/raylib-intro-course
+category: course
+areas: [games-mobile, software]
+price: free
+level: intermediate
+languages: [en]
+structure: guided
+focus_friendly: medium
+description: "Seven-lesson C game-programming course that builds a Blocks game while teaching the game loop, input, collisions, graphics, text and audio with raylib."
+pros:
+  - One concrete game develops across seven lessons
+  - Source files include tasks and explanatory comments
+cons:
+  - Requires C knowledge and a local compiler with raylib
+  - Lesson 1 targets raylib 4.2; compatibility with current versions was not tested
+  - Lecture material has a noncommercial license; lesson code uses a separate license
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read the author's README.md, LICENSE and lessons/01_blocks_game_intro.c via raw.githubusercontent.com. README lists seven lessons and their source files; Lesson 1 contains TODO tasks for game state and logic, compiler examples and a header saying it was last updated for raylib 4.2. Lecture material is CC-BY-NC-4.0 and lesson code is zlib/libpng. Free refers to access to these learning materials, with their respective reuse restrictions. English content checked. Intermediate reflects required C/toolchain skills; focus medium reflects a staged project. No code was compiled or run."

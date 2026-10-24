@@ -1,0 +1,23 @@
+name: Deep Learning with PyTorch Step-by-Step - Companion Notebooks
+url: https://github.com/dvgodoy/PyTorchStepByStep
+category: reference
+areas: [ai, math]
+price: free
+level: intermediate
+languages: [en]
+structure: semi
+focus_friendly: medium
+description: Daniel Voigt Godoy's chapter-by-chapter companion notebooks demonstrating gradient descent, regression, classification, computer vision and sequence models with PyTorch.
+pros:
+  - Ordered chapter notebooks make it possible to inspect intermediate calculations
+  - Includes synthetic-data examples and visual explanations of gradient descent
+  - Repository code is MIT-licensed and supports local CPU installation
+cons:
+  - Full book text is not included; this listing covers companion notebooks rather than the complete book
+  - Requires Python and numerical-library familiarity
+  - Later image and sequence examples have different compute needs; hosted GPU availability is not guaranteed
+  - Setup and notebook compatibility were not tested
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read dvgodoy/PyTorchStepByStep README.md, LICENSE and Chapter00.ipynb on master via raw.githubusercontent.com. README identifies the official book companion code, ordered chapters, Colab/Binder options, a Google-account requirement for Colab and a local CPU-only installation example; LICENSE is MIT. Chapter00 uses synthetic regression data to visualize loss, gradients, learning rates and scaling. Free applies to repository code only; full book availability/pricing and current hosted-compute limits were not verified. No paid API appears in the inspected chapter; other chapters were not audited. English sources checked; focus rating reflects ordered worked notebooks. Nothing was installed or executed and no maintenance claim made."

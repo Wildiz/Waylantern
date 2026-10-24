@@ -2,7 +2,14 @@
 
 _HTML, CSS, JavaScript, frameworks and everything for building websites and web apps._
 
-41 resources. [Back to the start](../README.md)
+45 resources. [Back to the start](../README.md)
+
+## Selected repositories
+
+- [Type Challenges](https://github.com/type-challenges/type-challenges): Collection of TypeScript type-system exercises with difficulty levels, browser Playground links and compile-time test cases. (intermediate; Free)
+- [Cypress Real World App](https://github.com/cypress-io/cypress-realworld-app): Educational full-stack payment demo with example data and Cypress tests for practising application testing patterns, authentication flows and test setup. (intermediate; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
 
 ## Not sure where to start?
 
@@ -39,12 +46,14 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [Cypress Real World App](https://github.com/cypress-io/cypress-realworld-app) | Free | intermediate | self-directed | - | en | Educational full-stack payment demo with example data and Cypress tests for practising application testing patterns, authentication flows and test setup. |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | Free | beginner | guided | high | en, es, fr, de, ja, zh | Browser game by Codepip where you write CSS flexbox properties to move frogs onto lily pads, level by level. |
 | [freeCodeCamp](https://www.freecodecamp.org/) | Free | beginner | guided | - | en, es | Free self-paced curriculum with interactive coding challenges, projects and certifications (web, JavaScript, Python, databases, APIs, machine learning). |
 | [Frontend Mentor](https://www.frontendmentor.io/) | Free + paid extras | beginner | self-directed | - | en | Build real front-end and full-stack projects from professional designs and briefs, with community code review and AI code reviews. |
 | [Grid Garden](https://cssgridgarden.com/) | Free | beginner | guided | high | en, es, fr, de, ja, zh | Browser game by Codepip where you write CSS grid properties to water a garden, level by level. |
 | [OWASP crAPI](https://github.com/OWASP/crAPI) | Free | intermediate | semi | - | en | A deliberately vulnerable microservices application for practising API security through challenges based on common API risks. |
 | [OWASP Juice Shop](https://owasp-juice.shop/) | Free | beginner | self-directed | - | en | An intentionally insecure, open-source web shop with many hacking challenges covering the OWASP Top 10, run locally (Docker, packaged or from source) for legal security training and CTFs. |
+| [Type Challenges](https://github.com/type-challenges/type-challenges) | Free | intermediate | self-directed | high | en | Collection of TypeScript type-system exercises with difficulty levels, browser Playground links and compile-time test cases. |
 
 ## Roadmaps
 
@@ -60,12 +69,14 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [CSS-Tricks](https://css-tricks.com/) | Free | all | self-directed | - | en | Long-running web publication (since 2007) with articles, guides and an Almanac reference on CSS, HTML and JavaScript, now powered by DigitalOcean. |
 | [DevDocs](https://devdocs.io/) | Free | all | self-directed | medium | en | Fast, searchable, offline-capable documentation browser that combines API docs for 100+ languages and libraries in one web app. |
 | [freeCodeCamp en español](https://www.freecodecamp.org/espanol/news/) | Free | all | self-directed | medium | es, en | Spanish edition of the freeCodeCamp publication with translated and original programming tutorials and courses on web development, SQL, React, Git and more. |
+| [GOV.UK Design System](https://github.com/alphagov/govuk-design-system) | Free | intermediate | self-directed | - | en | A public design-system reference with component examples and usage guidance for learning how to make consistent, understandable service interfaces. |
 | [htmx Documentation](https://htmx.org/docs/) | Free | intermediate | self-directed | - | en | Official documentation for htmx, a library that adds AJAX, SSE and WebSockets behavior to HTML through attributes, covering triggers, targets, swapping and events. |
 | [IBM Carbon Design System](https://github.com/carbon-design-system/carbon) | Free | intermediate | self-directed | - | en | IBM's open-source design system with interface components, design tokens, styles and documentation for studying how a reusable product interface is built. |
 | [Josh W. Comeau's CSS articles](https://www.joshwcomeau.com/css/) | Free + paid extras | intermediate | self-directed | - | en | Josh W. Comeau's free, interactive blog tutorials on CSS (31 articles listed), alongside his separate paid course CSS for JavaScript Developers. |
 | [MDN Web Docs](https://developer.mozilla.org/) | Free | all | self-directed | medium | en, es | Mozilla-run documentation hub for HTML, CSS, JavaScript, Web APIs and HTTP, with reference pages, guides and a Learn web development section. |
 | [OWASP Top 10](https://owasp.org/www-project-top-ten/) | Free | beginner | self-directed | - | en | The OWASP reference document listing the ten most critical web application security risks, currently the 2025 edition, with earlier editions kept available. |
 | [Playwright - Getting Started](https://github.com/microsoft/playwright) | Free | intermediate | semi | - | en | Official Playwright introduction with installation commands and sample end-to-end web tests using browser automation, locators and assertions. |
+| [React Testing Library - Examples](https://github.com/testing-library/react-testing-library#examples) | Free | intermediate | semi | - | en | Official React component testing examples that query rendered elements and simulate user interactions instead of relying on component implementation details. |
 | [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | Free | intermediate | semi | - | en | Official TypeScript documentation with a Handbook (basics, narrowing, generics, classes, modules) and start guides such as TypeScript for JavaScript programmers. |
 
 ## Tools and apps

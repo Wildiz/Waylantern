@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
-"""Validate resource and learning-path data, then generate README.md and docs/*.md."""
+"""Validate resource, path and profession data, then generate README.md and docs/*.md."""
 import json
 import re
 import sys
 from collections import defaultdict
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import yaml
 from jsonschema import Draft202012Validator
+
+if __package__:
+    from .profession_catalog import load_professions, render_professions
+else:
+    from profession_catalog import load_professions, render_professions
 
 ROOT = Path(__file__).resolve().parent.parent
 REPO = "Wildiz/Waylantern"  # GitHub owner/name, used in generated links
@@ -106,6 +112,42 @@ def link(e):
     return f"[{e['name']}]({e['url']})"
 
 
+def repository_url(entry):
+    parsed = urlsplit(entry.get("repository", entry["url"]))
+    parts = [part for part in parsed.path.split("/") if part]
+    if (parsed.scheme != "https" or parsed.hostname not in {"github.com", "gitlab.com"}
+            or parsed.username or parsed.password or len(parts) < 2):
+        return None
+    return f"https://{parsed.hostname}/{'/'.join(parts[:2])}"
+
+
+def load_area_repositories(entries):
+    path = ROOT / "data" / "area-repositories.yml"
+    try:
+        selections = yaml.safe_load(path.read_text())
+    except yaml.YAMLError as exc:
+        return {}, [f"{path.name}: invalid YAML: {exc}"]
+    schema = {"type": "object", "additionalProperties": {
+        "type": "array", "minItems": 1, "maxItems": 3, "uniqueItems": True,
+        "items": {"type": "string", "minLength": 1}}}
+    errors = [f"{path.name}: {err.message}" for err in Draft202012Validator(schema).iter_errors(selections)]
+    if errors:
+        return {}, errors
+    resources = dict(entries)
+    for area, slugs in selections.items():
+        if area not in AREAS:
+            errors.append(f"{path.name}: unknown area '{area}'")
+        for slug in slugs:
+            entry = resources.get(slug)
+            if entry is None:
+                errors.append(f"{path.name}: unknown resource '{slug}'")
+            elif area not in entry["areas"] or "en" not in entry["languages"]:
+                errors.append(f"{path.name}: '{slug}' is not in the English catalogue for '{area}'")
+            elif not repository_url(entry):
+                errors.append(f"{path.name}: '{slug}' has no supported repository link")
+    return selections, errors
+
+
 def table(items, detailed):
     items = sorted(items, key=lambda e: e["name"].lower())
     if detailed:
@@ -160,7 +202,7 @@ def path0_readme_table(data, by_slug):
     return rows
 
 
-def render_readme(entries, groups, n_other=0, path0=None, by_slug=None, paths=()):
+def render_readme(entries, groups, n_other=0, path0=None, by_slug=None, paths=(), selections=None):
     main_entries = [e for _, e in entries]
     es = [e for _, e in entries if "es" in e["languages"]]
     out = [
@@ -173,6 +215,8 @@ def render_readme(entries, groups, n_other=0, path0=None, by_slug=None, paths=()
         "Not sure what a role involves or what to do next? Choose a short learning path with a first project and checkpoints, then use the catalogue to explore further.",
         "",
         "[Español](README.es.md)",
+        "",
+        "[Explore areas and professions](docs/professions.md) · [Compare learning paths](#choose-a-learning-path)",
         "",
         f"> **Made with AI.** This directory was put together by an AI assistant (Claude) working for its owner, who is a beginner in IT. The goal is to gather in one place the free resources people can use to study. Entries were checked against official pages whenever possible, but mistakes, outdated prices and broken links can still happen. Please confirm details on the official site and [tell us what is wrong]({ISSUES_URL}).",
         "",
@@ -198,13 +242,19 @@ def render_readme(entries, groups, n_other=0, path0=None, by_slug=None, paths=()
         "",
         "## Looking for one specific area?",
         "",
-        "| Area | What is inside | Resources |",
-        "|---|---|---|",
+        "Start with a short route or a selected repository. Open the full area for all its courses, books, practice and tools. Repository links include educational materials and applications to explore; each resource's page explains its level and requirements.",
+        "",
+        "| Area | What is inside | Start here | Selected repositories | All resources |",
+        "|---|---|---|---|---|",
     ]
     for area, (a_title, a_blurb) in AREAS.items():
         n = sum(1 for e in main_entries if area in e["areas"])
         if n:
-            out.append(f"| [{a_title}](docs/area-{area}.md) | {a_blurb} | {n} |")
+            related = [(slug, data) for slug, data in paths if area in data["areas"]]
+            start = ", ".join(f"[{data['title']}](docs/{slug}.md)" for slug, data in related) or f"[Browse](docs/area-{area}.md)"
+            repos = ", ".join(f"[{by_slug[slug]['name']}]({repository_url(by_slug[slug])})" for slug in (selections or {}).get(area, [])) or "—"
+            out.append(f"| [{a_title}](docs/area-{area}.md) | {a_blurb} | {start} | {repos} | [{n}](docs/area-{area}.md) |")
+    out += ["", "[How these repositories were researched](research/2026-10-24-repositories-and-careers.md)."]
     out += [
         "",
         "## What do you need?",
@@ -260,7 +310,7 @@ def render_readme(entries, groups, n_other=0, path0=None, by_slug=None, paths=()
         "",
         "[CC BY 4.0](LICENSE): copy it, adapt it, share it, just give credit.",
         "",
-        "> README and `docs/` are generated from `data/tools/*.yml` and `data/paths/*.yml` by `scripts/build.py`. Edit the data files, not the generated pages.",
+        "> README and `docs/` are generated from the YAML source files in `data/` by `scripts/build.py`. Edit the data files, not the generated pages.",
         "",
     ]
     return "\n".join(out)
@@ -301,9 +351,13 @@ def render_path(data, by_slug, path_slug):
     return "\n".join(out)
 
 
-def render_area(area, items, paths=()):
+def render_area(area, items, paths=(), selected=()):
     title, blurb = AREAS[area]
     out = [f"# {title}", "", f"_{blurb}_", "", f"{len(items)} resources. [Back to the start](../README.md)", ""]
+    if selected:
+        out += ["## Selected repositories", ""]
+        out += [f"- [{e['name']}]({repository_url(e)}): {e['description']} ({e['level']}; {PRICE_LABEL[e['price']]})" for e in selected]
+        out += ["", "Need to understand a job title first? [Explore areas and professions](professions.md).", ""]
     related = [(slug, data) for slug, data in paths if area in data["areas"]]
     if related:
         out += ["## Not sure where to start?", ""]
@@ -316,7 +370,7 @@ def render_area(area, items, paths=()):
     return "\n".join(out)
 
 
-def render_all(entries, paths):
+def render_all(entries, paths, selections=None, professions=None, guidelines=None):
     main = [(s, e) for s, e in entries if "en" in e["languages"]]
     other = [e for _, e in entries if "en" not in e["languages"]]
     groups = defaultdict(list)
@@ -324,17 +378,20 @@ def render_all(entries, paths):
         groups[e["category"]].append(e)
     by_slug = {s: e for s, e in entries}
     path0 = dict(paths)["path-0-fundamentals"]
-    files = {"README.md": render_readme(main, groups, len(other), path0, by_slug, paths)}
+    files = {"README.md": render_readme(main, groups, len(other), path0, by_slug, paths, selections)}
     for cat, items in groups.items():
         files[f"docs/{cat}.md"] = render_category(cat, items)
     for area in AREAS:
         items = [e for _, e in main if area in e["areas"]]
         if items:
-            files[f"docs/area-{area}.md"] = render_area(area, items, paths)
+            selected = [by_slug[slug] for slug in (selections or {}).get(area, [])]
+            files[f"docs/area-{area}.md"] = render_area(area, items, paths, selected)
     for slug, data in paths:
         files[f"docs/{slug}.md"] = render_path(data, by_slug, slug)
     if other:
         files["docs/other-languages.md"] = render_other_languages(other)
+    if professions is not None:
+        files.update(render_professions(professions, guidelines or [], AREAS, paths))
     return {name: body.rstrip() for name, body in files.items()}
 
 
@@ -347,7 +404,13 @@ def main():
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
-    files = render_all(entries, paths)
+    selections, selection_errors = load_area_repositories(entries)
+    professions, guidelines, profession_errors = load_professions(ROOT, AREAS, paths)
+    errors = selection_errors + profession_errors
+    if errors:
+        print("\n".join(errors), file=sys.stderr)
+        return 1
+    files = render_all(entries, paths, selections, professions, guidelines)
     if "--check" in sys.argv:
         stale = [name for name, text in files.items() if not (ROOT / name).exists() or (ROOT / name).read_text() != text + "\n"]
         stale += [f"docs/{p.name} (obsolete)" for p in (ROOT / "docs").glob("*.md") if f"docs/{p.name}" not in files]

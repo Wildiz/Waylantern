@@ -2,7 +2,14 @@
 
 _Machine learning, deep learning, language models and AI agents._
 
-41 resources. [Back to the start](../README.md)
+43 resources. [Back to the start](../README.md)
+
+## Selected repositories
+
+- [AI for Beginners (Microsoft)](https://github.com/microsoft/AI-For-Beginners): Microsoft's 12-week, 24-lesson open curriculum on AI with lessons, quizzes and labs covering symbolic AI, neural networks, computer vision, NLP and ethics using TensorFlow and PyTorch. (beginner; Free)
+- [Deep Learning with PyTorch Step-by-Step - Companion Notebooks](https://github.com/dvgodoy/PyTorchStepByStep): Daniel Voigt Godoy's chapter-by-chapter companion notebooks demonstrating gradient descent, regression, classification, computer vision and sequence models with PyTorch. (intermediate; Free)
+
+Need to understand a job title first? [Explore areas and professions](professions.md).
 
 ## Not sure where to start?
 
@@ -70,8 +77,10 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
 | [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) | Free | intermediate | self-directed | low | en | Curated list of machine learning frameworks, libraries and software grouped by programming language, with a section on educational tools. |
+| [Deep Learning with PyTorch Step-by-Step - Companion Notebooks](https://github.com/dvgodoy/PyTorchStepByStep) | Free | intermediate | semi | medium | en | Daniel Voigt Godoy's chapter-by-chapter companion notebooks demonstrating gradient descent, regression, classification, computer vision and sequence models with PyTorch. |
 | [Hugging Face Learn](https://huggingface.co/learn) | Free | all | self-directed | - | en | Hub page linking Hugging Face courses and cookbooks, including the LLM, Agents, Deep RL, Audio, Computer Vision, Diffusion and smol courses. |
 | [OpenAI Cookbook](https://cookbook.openai.com) | Free | intermediate | self-directed | medium | en | Open-source collection of example code and guides for common tasks with the OpenAI API (mostly Python notebooks), such as retrieval, function calling, evaluation and fine-tuning. |
+| [PyProbML Notebooks](https://github.com/probml/pyprobml) | Free | advanced | self-directed | - | en | Python companion notebooks for the Probabilistic Machine Learning books, reproducing figures about probability, statistical models and machine learning. |
 
 ## Tools and apps
 

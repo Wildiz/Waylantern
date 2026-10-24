@@ -1,0 +1,172 @@
+id: leadership
+title: Leadership, product and technology relationships
+description: Roles that coordinate technology strategy, product decisions, delivery and relationships
+  with users and teams.
+areas:
+- career
+- design-product
+- software
+- devops
+- architecture
+- it-support
+- web
+roles:
+- id: product-manager
+  title: Product Manager
+  description: Prioritises product outcomes by connecting user needs, business goals and delivery constraints.
+  areas:
+  - design-product
+  paths: []
+  guidance:
+  - sfia
+- id: product-owner
+  title: Product Owner
+  description: Clarifies product priorities and maintains an actionable backlog with the delivery team.
+  areas:
+  - design-product
+  - software
+  paths: []
+  guidance:
+  - sfia
+- id: scrum-master
+  title: Scrum Master
+  description: Helps a Scrum team improve its working process and address impediments to delivery.
+  areas:
+  - software
+  paths: []
+  guidance:
+  - sfia
+- id: agile-coach
+  title: Agile Coach
+  description: Helps teams and organisations improve their collaboration and iterative delivery practices.
+  areas:
+  - software
+  - career
+  paths: []
+  guidance:
+  - sfia
+- id: it-project-manager
+  title: IT Project Manager
+  description: Plans and coordinates the scope, schedule, resources and risks of a technology project.
+  areas:
+  - career
+  paths: []
+  guidance:
+  - sfia
+- id: chief-information-officer
+  title: Chief Information Officer
+  description: Leads an organisation's information systems strategy and its alignment with organisational
+    goals.
+  areas:
+  - career
+  paths: []
+  guidance:
+  - sfia
+  aliases:
+  - CIO
+  - Chief Information Officer (CIO)
+- id: chief-technology-officer
+  title: Chief Technology Officer
+  description: Sets technology direction and guides the technical capabilities needed by an organisation.
+  areas:
+  - career
+  - architecture
+  paths: []
+  guidance:
+  - sfia
+  aliases:
+  - CTO
+  - Chief Technology Officer (CTO)
+- id: computer-information-systems-manager
+  title: Computer and Information Systems Manager
+  description: Plans and coordinates the teams and resources responsible for an organisation's information
+    systems.
+  areas:
+  - career
+  - it-support
+  paths: []
+  guidance:
+  - sfia
+- id: it-infrastructure-manager
+  title: IT Infrastructure Manager
+  description: Coordinates the people, resources and service commitments needed to operate IT infrastructure.
+  areas:
+  - career
+  - devops
+  paths: []
+  guidance:
+  - sfia
+- id: cloud-business-office-lead
+  title: Cloud Business Office Lead
+  description: Coordinates cloud adoption decisions, governance and collaboration between business and
+    technology teams.
+  areas:
+  - career
+  - devops
+  paths: []
+  guidance:
+  - sfia
+- id: engineering-manager
+  title: Engineering Manager
+  description: Supports engineering teams through people management, delivery planning and technical collaboration.
+  areas:
+  - career
+  - software
+  paths: []
+  guidance:
+  - sfia
+  - swebok
+- id: developer-relations-specialist
+  title: Developer Relations Specialist
+  description: Helps developers use a technology through examples, community support and feedback to its
+    creators.
+  areas:
+  - career
+  - software
+  paths: []
+  guidance:
+  - sfia
+  aliases:
+  - Developer Relations
+  - DevRel
+- id: technical-writer
+  title: Technical Writer
+  description: Creates and maintains technical explanations that help a defined audience use or understand
+    a system.
+  areas:
+  - career
+  - software
+  paths: []
+  guidance:
+  - sfia
+- id: technical-seo-specialist
+  title: Technical SEO Specialist
+  description: Investigates the technical factors that affect how search engines discover and understand
+    web content.
+  areas:
+  - web
+  - career
+  paths: []
+  guidance:
+  - sfia
+  aliases:
+  - SEO
+  - SEO Specialist
+- id: technical-recruiter
+  title: Technical Recruiter
+  description: Connects technology teams with candidates by clarifying role requirements and coordinating
+    recruitment.
+  areas:
+  - career
+  paths: []
+  guidance:
+  - sfia
+- id: account-manager
+  title: Account Manager
+  description: Coordinates a technology supplier's relationship with a customer and follows up on their
+    service needs.
+  areas:
+  - career
+  paths: []
+  guidance:
+  - sfia
