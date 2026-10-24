@@ -113,7 +113,7 @@ Study data structures and software design next; Senior and Principal describe re
 These references cover related disciplines or skills; their status describes the source inspection, not an endorsement of this recipe.
 
 - [Software Engineering Body of Knowledge](profession-references.md#reference-swebok)
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023)
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023)
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia)
 
 [Back to roles in this group](professions-software.md#roles-in-this-group) · [Find a specific resource](catalogue.md)

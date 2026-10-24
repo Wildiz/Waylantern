@@ -25,7 +25,7 @@ Choose a group, compare its roles, then open a study recipe to see what to learn
 - [ACM Computing Curricula Recommendations](profession-references.md#reference-acm-curricula)
 
 <a id="reference-cs2023"></a>
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023)
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023)
 
 <a id="reference-swebok"></a>
 - [Software Engineering Body of Knowledge](profession-references.md#reference-swebok)

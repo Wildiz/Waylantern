@@ -110,7 +110,7 @@ Compare a framework only after explaining the state and events in the interface 
 
 These references cover related disciplines or skills; their status describes the source inspection, not an endorsement of this recipe.
 
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023)
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023)
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia)
 - [W3C Web Accessibility Initiative tutorials](profession-references.md#reference-w3c-wai)
 

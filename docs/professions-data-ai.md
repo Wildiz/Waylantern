@@ -49,7 +49,7 @@ Starting paths: [First project: data analysis](path-data-analysis.md)
 <details><summary>Related references</summary>
 
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Data Science for Beginners](profession-references.md#reference-microsoft-data-science) — Vendor curriculum; Source content read.
 
 </details>
@@ -72,7 +72,7 @@ Starting paths: [First project: data analysis](path-data-analysis.md), [First pr
 <details><summary>Related references</summary>
 
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Data Science for Beginners](profession-references.md#reference-microsoft-data-science) — Vendor curriculum; Source content read.
 
 </details>
@@ -133,7 +133,7 @@ Starting path: not added yet.
 <details><summary>Related references</summary>
 
 - [ACM Computing Curricula Recommendations](profession-references.md#reference-acm-curricula) — Curriculum directory; Link only: source content not read.
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 
 </details>
 
@@ -210,7 +210,7 @@ Starting paths: [First project: AI and machine learning](path-ai-machine-learnin
 
 <details><summary>Related references</summary>
 
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
 - [AI for Beginners](profession-references.md#reference-microsoft-ai) — Vendor curriculum; Source content read.
 
@@ -233,7 +233,7 @@ Starting paths: [First project: AI and machine learning](path-ai-machine-learnin
 
 <details><summary>Related references</summary>
 
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
 
 </details>
@@ -255,7 +255,7 @@ Starting path: not added yet.
 
 <details><summary>Related references</summary>
 
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
 
 </details>
@@ -275,7 +275,7 @@ Starting path: not added yet.
 
 <details><summary>Related references</summary>
 
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [ACM Computing Curricula Recommendations](profession-references.md#reference-acm-curricula) — Curriculum directory; Link only: source content not read.
 - [AI for Beginners](profession-references.md#reference-microsoft-ai) — Vendor curriculum; Source content read.
 
@@ -298,7 +298,7 @@ Starting path: not added yet.
 
 <details><summary>Related references</summary>
 
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
 - [AI for Beginners](profession-references.md#reference-microsoft-ai) — Vendor curriculum; Source content read.
 
@@ -320,7 +320,7 @@ Starting path: not added yet.
 <details><summary>Related references</summary>
 
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 
 </details>
 

@@ -24,15 +24,15 @@ A link-only source has not had its content read; this does not mean the source d
 - Verification notes: The official-domain link was attempted, but the environment proxy denied access. The directory contents, individual reports and current editions were not read. Do not interpret a profile's link as a verified equivalence between a job and a degree programme.
 
 <a id="reference-cs2023"></a>
-### Computer Science curriculum recommendations project
+### CS2023 — Computer Science Curricula
 
 - Publisher: ACM, IEEE Computer Society and AAAI
 - Type: Academic curriculum
-- Source: [Computer Science curriculum recommendations project](https://csed.acm.org/)
-- Scope: Academic computer science curriculum recommendations relevant to foundational study, rather than a job-specific qualification.
-- Status: Link only: source content not read
-- Checked: 2026-10-24
-- Verification notes: The project website was blocked by the environment proxy. Report contents, version details and a profile-by-profile mapping were not independently verified. The link is supplied for further checking, not as evidence of material read in this research.
+- Source: [CS2023 — Computer Science Curricula](https://csed.acm.org/)
+- Scope: Academic computer science curriculum guidelines with CS Core, KA Core and non-core topics across seventeen knowledge areas; institutions package these into courses and programmes.
+- Status: Source content read
+- Checked: 2026-10-25
+- Verification notes: Read https://csed.acm.org/, /final-report/ and /knowledge-areas/ plus the primary PDFs 1.1-Executive-Summary.pdf, 1.3-Introduction-to-Knowledge-Model.pdf and 2.2-Characteristics-of-Graduates.pdf under https://csed.acm.org/wp-content/uploads/2024/04/. The site records 2024 endorsements by ACM, IEEE-CS and AAAI. Read sections distinguish common CS foundations, deeper knowledge-area study and illustrative competency areas; they explicitly treat knowledge areas as different from courses and their course packaging as suggestive. This inspection did not cover the entire body-of-knowledge volume or verify alignment of Waylantern profiles, OSSU or individual university degrees. University programme sites remain blocked by network policy in the Block 1 investigation.
 
 <a id="reference-swebok"></a>
 ### Software Engineering Body of Knowledge

@@ -115,6 +115,6 @@ Extend to real source systems, access control and scale only after the local con
 These references cover related disciplines or skills; their status describes the source inspection, not an endorsement of this recipe.
 
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia)
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023)
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023)
 
 [Back to roles in this group](professions-data-ai.md#roles-in-this-group) · [Find a specific resource](catalogue.md)

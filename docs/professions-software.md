@@ -58,7 +58,7 @@ Starting path: not added yet.
 <details><summary>Related references</summary>
 
 - [Software Engineering Body of Knowledge](profession-references.md#reference-swebok) — Body of knowledge; Link only: source content not read.
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
 
 </details>
@@ -80,7 +80,7 @@ Starting paths: [First project: web development](path-web-development.md)
 
 <details><summary>Related references</summary>
 
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
 - [W3C Web Accessibility Initiative tutorials](profession-references.md#reference-w3c-wai) — Professional guide; Link only: source content not read.
 
@@ -227,7 +227,7 @@ Starting paths: [First project: embedded systems](path-embedded-systems.md)
 <details><summary>Related references</summary>
 
 - [ACM Computing Curricula Recommendations](profession-references.md#reference-acm-curricula) — Curriculum directory; Link only: source content not read.
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
 - [IoT for Beginners](profession-references.md#reference-microsoft-iot) — Vendor curriculum; Source content read.
 
@@ -270,7 +270,7 @@ Starting paths: [First project: embedded systems](path-embedded-systems.md)
 <details><summary>Related references</summary>
 
 - [ACM Computing Curricula Recommendations](profession-references.md#reference-acm-curricula) — Curriculum directory; Link only: source content not read.
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 
 </details>
 
@@ -431,7 +431,7 @@ Starting path: not added yet.
 
 <details><summary>Related references</summary>
 
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
 
 </details>
@@ -472,7 +472,7 @@ Starting path: not added yet.
 
 <details><summary>Related references</summary>
 
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
 
 </details>
@@ -512,7 +512,7 @@ Starting path: not added yet.
 
 <details><summary>Related references</summary>
 
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023) — Academic curriculum; Link only: source content not read.
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023) — Academic curriculum; Source content read.
 - [Skills Framework for the Information Age](profession-references.md#reference-sfia) — Competency framework; Link only: source content not read.
 
 </details>

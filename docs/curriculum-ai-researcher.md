@@ -118,7 +118,7 @@ Seek specialist supervision and broader literature review before claiming novelt
 
 These references cover related disciplines or skills; their status describes the source inspection, not an endorsement of this recipe.
 
-- [Computer Science curriculum recommendations project](profession-references.md#reference-cs2023)
+- [CS2023 — Computer Science Curricula](profession-references.md#reference-cs2023)
 - [ACM Computing Curricula Recommendations](profession-references.md#reference-acm-curricula)
 - [AI for Beginners](profession-references.md#reference-microsoft-ai)
 
