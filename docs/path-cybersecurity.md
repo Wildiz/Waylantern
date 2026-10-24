@@ -1,8 +1,14 @@
-# Path: cybersecurity
+# First project: cybersecurity
 
 Cybersecurity practitioners investigate how systems fail and help people reduce the risk. This route is for beginners exploring command-line and web-security work. You need basic file skills and a computer where you are allowed to use an SSH client; Python 3 is used for the local web-server exercise. No prior security experience is required. Practise only on the named training platforms and within their published rules. Owning an account on a real service does not authorize testing that service. Keep practice credentials and challenge answers out of public project reports.
 
 [Back to the start](../README.md)
+
+**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).
+
+## Before you start
+
+Basic file skills and access to an SSH client; Python 3 is used for the local HTTP exercise.
 
 If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.
 
@@ -16,7 +22,7 @@ Start with the Bandit instructions and the first few levels. Learn how to connec
 
 ## Step 2: Understand what a browser sends
 
-Read the introductory HTTP material. Put a simple HTML page in a practice folder, run python3 -m http.server 8000 --bind 127.0.0.1 from that folder and open the page through the local HTTP server in your browser. Inspect it using the browser's network tools; opening a file directly does not provide an HTTP exchange. Identify a request, a response, a method and a status code. Draw the browser and server and explain where user input would enter a web application. Stop the practice server when finished.
+Read the introductory HTTP material. Put a simple HTML page in a practice folder, run python3 -m http.server 8000 --bind 127.0.0.1 from that folder and open the page through the local HTTP server in your browser. Inspect it using the browser's network tools; opening a file directly does not provide an HTTP exchange. Identify a request, a response, a method and a status code. Draw the browser and server and explain where user input would enter a web application. Stop the practice server when finished. In the HTTP overview, distinguish transport protection from application checks: HTTPS protects a connection in transit, while the application must still validate the inputs it receives.
 
 - [MDN Web Docs](https://developer.mozilla.org/) (Free): Mozilla-run documentation hub for HTML, CSS, JavaScript, Web APIs and HTTP, with reference pages, guides and a Learn web development section.
 
@@ -44,7 +50,7 @@ After the last checkpoint, improve your project or browse the related areas for 
 
 - [Cybersecurity](area-security.md)
 
-[Compare the learning paths](../README.md#choose-a-learning-path)
+[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)
 
 ---
-This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).

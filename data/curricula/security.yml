@@ -1,0 +1,1033 @@
+group: security
+curricula:
+- role: cybersecurity-practitioner
+  title: Cybersecurity Practitioner learning recipe
+  summary: An editorial introduction to protecting a small system and choosing a defensive specialization;
+    not a complete occupational qualification.
+  entry_level: from-zero
+  prerequisites:
+  - Basic file handling and a disposable local practice environment.
+  outcome: A documented security review of a small practice system, including assets, controls, test evidence
+    and remaining risks.
+  stages:
+  - title: Learn systems and security language
+    topics:
+    - Accounts, processes and file permissions
+    - IP networking and confidentiality, integrity and availability
+    resources:
+    - the-linux-command-line
+    - professor-messer
+    practice: Draw how a browser, network, server and account connect, then list the information each
+      holds.
+    checkpoint: You can trace one login and identify three assets and their owners.
+  - title: Apply small preventive controls
+    topics:
+    - Least privilege and patching
+    - Backup, recovery and change records
+    resources:
+    - linux-upskill-challenge
+    practice: Create a nonprivileged practice account, document access permissions and restore a harmless
+      test file from a backup.
+    checkpoint: Your evidence shows the account permissions and a successful file restore, with undo steps.
+  - title: Observe and investigate
+    topics:
+    - Authentication events and timestamps
+    - Triage, uncertainty and escalation
+    resources:
+    - wireshark
+    practice: Generate a failed login on your own lab and compare its log record with a short authorized
+      traffic capture.
+    checkpoint: A timeline distinguishes what the records demonstrate from what remains unknown.
+  - title: Complete a scoped security review
+    topics:
+    - Risk prioritization and remediation
+    - Communicating findings and choosing a specialization
+    resources: []
+    practice: Combine the asset list, two control tests and one investigation into a short report; propose
+      a follow-up in monitoring, administration or assurance.
+    checkpoint: The report includes reproducible evidence, prioritized actions, owners and an explicit
+      statement of scope.
+    gap: No complete general-practitioner curriculum or assessment rubric has been verified; this review
+      is an editorial exercise.
+  next_steps: Repeat the review on another authorized lab, seek feedback on your evidence and choose one
+    specialist recipe rather than treating this introduction as professional certification.
+- role: penetration-tester
+  title: Penetration Tester learning recipe
+  summary: A scoped progression from web and network fundamentals to an authorized lab assessment and
+    retest.
+  entry_level: after-basics
+  prerequisites:
+  - Basic HTTP and networking knowledge.
+  - Comfort using a terminal and reading simple code.
+  outcome: A reproducible report for a deliberately vulnerable lab, including boundaries, impact, fixes
+    and a retest.
+  stages:
+  - title: Understand the system and permission boundary
+    topics:
+    - HTTP requests, authentication and sessions
+    - Written scope, test rules and safe stopping conditions
+    resources:
+    - professor-messer
+    - owasp-top-10
+    practice: Diagram a locally hosted practice application and write a test agreement covering only that
+      lab.
+    checkpoint: The agreement names allowed targets, excluded actions and conditions for stopping.
+  - title: Reproduce a guided web weakness
+    topics:
+    - Input handling and access control
+    - Observations versus assumptions
+    resources:
+    - portswigger-web-security-academy
+    practice: Complete an available introductory lab within its authorized environment and record each
+      request and response needed to reproduce the issue.
+    checkpoint: Another learner can reproduce the lab outcome from your notes without guessing missing
+      steps.
+  - title: Assess a small application deliberately
+    topics:
+    - Coverage and repeatable test cases
+    - Impact, remediation and evidence handling
+    resources:
+    - owasp-juice-shop
+    practice: Select two permitted challenges in a private local lab; keep a coverage checklist and avoid
+      collecting unrelated data.
+    checkpoint: Each finding has evidence, a bounded impact explanation and a proposed fix; untested coverage
+      is explicit.
+  - title: Deliver and retest
+    topics:
+    - Clear reporting and residual risk
+    - Verification of remediation
+    resources: []
+    practice: Write an executive summary and technical appendix; apply or simulate one lab remediation
+      and repeat the original test.
+    checkpoint: The final report separates confirmed findings, limitations and retest results, with authorization
+      attached.
+    gap: No comprehensive penetration-testing engagement standard or supervisor-reviewed assessment has
+      been verified in this catalogue.
+  next_steps: Have an experienced tester review your lab report and broaden practice only through systems
+    for which testing is explicitly authorized.
+- role: soc-analyst
+  title: Security Operations Center Analyst learning recipe
+  summary: A defensive monitoring recipe focused on alert triage, evidence correlation and escalation
+    rather than exploitation.
+  entry_level: after-basics
+  prerequisites:
+  - Basic networking and operating-system knowledge.
+  - Ability to read timestamps and simple log records.
+  outcome: A defensible alert investigation with timeline, evidence references, severity reasoning and
+    escalation handoff.
+  stages:
+  - title: Learn telemetry context
+    topics:
+    - Network flows and authentication records
+    - Assets, normal behavior and time zones
+    resources:
+    - professor-messer
+    - wireshark
+    practice: Inspect a capture of your own benign web request and create a glossary of the fields you
+      can explain.
+    checkpoint: You can connect a flow to an endpoint and state what encrypted traffic does not reveal.
+  - title: Triage an alert
+    topics:
+    - False positives and prioritization
+    - Ownership, scope and duplicate events
+    resources: []
+    practice: Use synthetic login events to compare a mistaken password with repeated failures followed
+      by success; fill in a triage worksheet.
+    checkpoint: Your worksheet records supporting and conflicting evidence without labeling every failure
+      an attack.
+    gap: No specific SIEM triage course has been verified; synthetic events provide a local exercise,
+      not product training.
+  - title: Correlate evidence
+    topics:
+    - Event ordering and investigative hypotheses
+    - Host and network evidence limitations
+    resources:
+    - cyberdefenders
+    practice: Choose an accessible defensive investigation lab after checking its current price and availability;
+      otherwise use your synthetic dataset and an authorized capture.
+    checkpoint: The timeline cites original evidence and explains why each hypothesis is supported or
+      rejected.
+  - title: Produce an operational handoff
+    topics:
+    - Severity rationale and containment recommendations
+    - Case notes and analyst review
+    resources: []
+    practice: Create an incident candidate with a timeline, affected assets, confidence, recommended next
+      steps and a handoff checklist.
+    checkpoint: A reviewer can continue the case without reconstructing the investigation; containment
+      recommendations require the appropriate authorization.
+    gap: No end-to-end SOC operating procedure or assessed analyst qualification has been verified; adapt
+      the editorial handoff to a real team under supervision.
+  next_steps: Obtain feedback on a second case, then learn the telemetry and escalation procedures of
+    a supervised SOC environment.
+- role: soc-service-desk-analyst
+  title: SOC Service Desk Analyst learning recipe
+  summary: A security request intake and escalation recipe, emphasizing careful communication and useful
+    tickets.
+  entry_level: from-zero
+  prerequisites:
+  - Basic computer use and clear written communication.
+  outcome: A set of sanitized security intake tickets with correct routing, urgency and handoff details.
+  stages:
+  - title: Recognize requests and security signals
+    topics:
+    - Accounts, phishing reports and suspicious activity
+    - Confidentiality and minimum necessary information
+    resources:
+    - professor-messer
+    practice: Sort six fictional reports into routine support, security review or immediate escalation,
+      explaining each choice.
+    checkpoint: Your classifications distinguish observed events from the reporter's interpretation.
+  - title: Record an actionable ticket
+    topics:
+    - Required fields and asset identification
+    - Timestamps, contact details and sensitive data minimization
+    resources:
+    - glpi
+    practice: Use a disposable ticket lab or a local template to record the reports without passwords
+      or real personal information.
+    checkpoint: Every ticket names the symptom, time, affected asset, source of the report and missing
+      information.
+  - title: Route and communicate
+    topics:
+    - Escalation criteria and ownership
+    - Acknowledgement and user-safe instructions
+    resources: []
+    practice: Create an editorial routing matrix for a locked account, a phishing report and a suspected
+      compromised device; draft acknowledgement messages.
+    checkpoint: Each route has an owner and an urgent fallback; messages do not ask users to transmit
+      credentials or investigate malware.
+    gap: No organization-specific security service-desk procedure has been verified; routing and response
+      expectations here are simulated.
+  - title: Run an intake tabletop
+    topics:
+    - Handover completeness and queue review
+    - Closure evidence and reopening conditions
+    resources: []
+    practice: Role-play intake for three reports, then hand the tickets to another learner and revise
+      fields they cannot understand.
+    checkpoint: The final ticket packet includes complete handoffs, an escalation record and a closure
+      or pending reason for each case.
+    gap: No assessed SOC service-desk curriculum has been verified; this tabletop tests documentation
+      and coordination only.
+  next_steps: Practise under a team's approved intake process, then study SOC investigation if you want
+    responsibility for analyzing the escalated cases.
+- role: security-operations-manager
+  title: Security Operations Manager learning recipe
+  summary: A management-level recipe for coordinating monitoring and response, staffing coverage and measurable
+    service improvement.
+  entry_level: experience-required
+  prerequisites:
+  - Experience handling operational security cases.
+  - Experience with escalation, incident coordination and team handoffs.
+  - Ability to discuss staffing and service responsibilities with stakeholders.
+  outcome: A reviewed operating plan with coverage, decision rights, quality measures and an incident
+    exercise report.
+  stages:
+  - title: Review the operating model
+    topics:
+    - Monitoring scope and dependencies
+    - Decision rights and service expectations
+    resources: []
+    practice: Map a fictional SOC's stakeholders, data dependencies, escalation authority and out-of-hours
+      coverage.
+    checkpoint: The map distinguishes analyst decisions, managerial decisions and actions requiring business
+      approval.
+    gap: No complete security-operations management curriculum has been verified; use an experienced supervisor
+      to review the operating model.
+  - title: Define quality and capacity measures
+    topics:
+    - Alert demand and investigation quality
+    - Workload, coverage and training gaps
+    resources: []
+    practice: Create a synthetic weekly queue and compare workload, case age and review quality; identify
+      misleading metrics.
+    checkpoint: Your analysis proposes capacity changes and explains why raw closure counts cannot establish
+      effectiveness.
+    gap: No verified staffing model or service-level benchmark is provided; all queue data and targets
+      are editorial examples.
+  - title: Coordinate an incident exercise
+    topics:
+    - Incident roles and communication cadence
+    - Evidence preservation and stakeholder decisions
+    resources: []
+    practice: Run a tabletop around a suspected account compromise using fictional logs, a decision log
+      and a communications plan.
+    checkpoint: The exercise records decision owners, escalation times, unresolved risks and an approved
+      communication route.
+    gap: No incident-command curriculum or organization-approved playbook has been verified; this is a
+      simulated coordination exercise.
+  - title: Deliver an improvement plan
+    topics:
+    - Prioritization, resourcing and accountability
+    - Review cycles and lessons learned
+    resources: []
+    practice: Combine the operating model, workload analysis and tabletop findings into a plan with owners
+      and measurable review points.
+    checkpoint: A reviewer can trace each proposed change to evidence, a resource assumption and a way
+      to evaluate its outcome.
+    gap: This editorial capstone does not substitute for supervised security-operations management experience.
+  next_steps: Review the plan with experienced security and operations leaders; validate assumptions against
+    a real team before adopting staffing or response targets.
+- role: cybersecurity-technician
+  title: Cybersecurity Technician learning recipe
+  summary: A hands-on defensive setup recipe for accounts, updates, logs and recovery on a disposable
+    practice system.
+  entry_level: after-basics
+  prerequisites:
+  - Basic operating-system and network concepts.
+  - A disposable local Linux practice system.
+  outcome: A documented baseline configuration with tested controls, log observations and a rollback record.
+  stages:
+  - title: Establish the baseline
+    topics:
+    - Inventory, versions and service exposure
+    - Routine maintenance versus incidents
+    resources:
+    - linux-upskill-challenge
+    - professor-messer
+    practice: Record installed services, account types and pending updates on your own lab before changing
+      anything.
+    checkpoint: The baseline identifies what runs, who administers it and how to restore the initial state.
+  - title: Configure access carefully
+    topics:
+    - Least privilege and permissions
+    - Change approval and rollback
+    resources:
+    - the-linux-command-line
+    practice: Create separate practice accounts, limit a test directory and record before-and-after permissions.
+    checkpoint: A normal account can perform its intended task but cannot read the restricted test file.
+  - title: Verify protection and recovery
+    topics:
+    - Updates and configuration checks
+    - Logs and recoverable backups
+    resources:
+    - linux-upskill-challenge
+    practice: Apply a routine lab update, verify the affected service and restore a harmless file after
+      deletion.
+    checkpoint: The record shows successful service checks and restore evidence, plus the logs consulted.
+  - title: Assemble the maintenance handoff
+    topics:
+    - Repeatable checks and exception records
+    - Incident escalation and ownership
+    resources: []
+    practice: Write a technician runbook for the baseline, execute it on a second disposable instance
+      or reset lab and record an intentional failed check.
+    checkpoint: Another learner can repeat the runbook and route the failed check with sufficient evidence.
+    gap: No product-specific endpoint protection or technician assessment has been verified; the capstone
+      covers foundational local controls only.
+  next_steps: Learn the approved tools and change process of a supervised support or security team before
+    operating production controls.
+- role: information-security-technician
+  title: Information Security Technician learning recipe
+  summary: A control-maintenance recipe that connects practical access checks with evidence records and
+    exception handling.
+  entry_level: after-basics
+  prerequisites:
+  - Basic administration and file-permission knowledge.
+  - Ability to maintain a structured checklist.
+  outcome: A small control evidence register showing test steps, results, ownership and unresolved exceptions.
+  stages:
+  - title: Connect information to control needs
+    topics:
+    - Information classification and ownership
+    - Access, availability and confidentiality
+    resources:
+    - professor-messer
+    practice: Invent a small document-sharing service and identify which information needs restricted
+      access and recovery.
+    checkpoint: Each information type has an owner and a reason for its proposed controls.
+  - title: Test access against the intended policy
+    topics:
+    - Account lifecycle and permissions
+    - Expected versus observed access
+    resources:
+    - the-linux-command-line
+    practice: Create a lab folder with two roles and run permitted and denied access checks using harmless
+      sample files.
+    checkpoint: Your evidence shows both positive and negative test results, including which account ran
+      each check.
+  - title: Maintain evidence and exceptions
+    topics:
+    - Control records and review dates
+    - Exception ownership and expiration
+    resources: []
+    practice: Build a register for access reviews, updates and backups; add a deliberately overdue review
+      and an exception with an owner.
+    checkpoint: Every record cites test evidence and every exception has a rationale and review condition.
+    gap: No verified information-security control register template or specific compliance baseline is
+      supplied; this register is an editorial practice artifact.
+  - title: Handover a control cycle
+    topics:
+    - Retesting and evidence integrity
+    - Escalation and management reporting
+    resources: []
+    practice: Repeat the checks after removing one account, compare results and prepare a short handover
+      of failures and pending actions.
+    checkpoint: A reviewer can trace each reported control status to a dated test and can distinguish
+      untested from failed.
+    gap: No complete occupational qualification has been verified; this capstone tests disciplined control
+      maintenance rather than certification compliance.
+  next_steps: Ask a control owner or experienced technician to review the register and practise with an
+    organization's actual policies under supervision.
+- role: vulnerability-assessor
+  title: Vulnerability Assessor learning recipe
+  summary: A vulnerability-management recipe for validating weaknesses, prioritizing business exposure
+    and checking remediation in authorized labs.
+  entry_level: after-basics
+  prerequisites:
+  - Networking, HTTP and operating-system basics.
+  - Ability to work inside a clearly authorized disposable lab.
+  outcome: A prioritized vulnerability register with verification evidence, remediation owners and retest
+    results.
+  stages:
+  - title: Understand assets and vulnerability context
+    topics:
+    - Asset criticality and exposure
+    - Weakness categories and authorization
+    resources:
+    - professor-messer
+    - owasp-top-10
+    practice: Define a local practice application's assets and permitted assessment scope, then distinguish
+      a weakness from confirmed exploitation.
+    checkpoint: The scope and inventory state what may be examined and why each asset matters.
+  - title: Validate a small set of findings
+    topics:
+    - Evidence quality and false positives
+    - Reproducible non-destructive validation
+    resources:
+    - portswigger-web-security-academy
+    practice: Use an available authorized introductory lab to document one weakness; separately write
+      the evidence that would disprove a mistaken finding.
+    checkpoint: The finding has a repeatable check and the assessor can explain its limitations without
+      claiming broader compromise.
+  - title: Prioritize remediation
+    topics:
+    - Exposure, impact and uncertainty
+    - Ownership, compensating controls and exceptions
+    resources: []
+    practice: Create three synthetic findings with different asset importance and discuss the remediation
+      order with a peer.
+    checkpoint: Each priority includes a rationale beyond a tool score, an owner and a condition for revisiting
+      the decision.
+    gap: No scanner curriculum or organization-approved risk-scoring model has been verified; scoring
+      examples are editorial and must be adapted.
+  - title: Close the assessment loop
+    topics:
+    - Retesting and residual risk
+    - Reporting coverage and overdue action
+    resources: []
+    practice: Produce a register and review report, then demonstrate a fixed lab condition or document
+      a simulated retest separately from real evidence.
+    checkpoint: The final package separates verified fixes, pending actions, accepted exceptions and unassessed
+      scope.
+    gap: No comprehensive vulnerability-management programme has been verified; this recipe provides a
+      bounded assessment exercise.
+  next_steps: Learn an approved assessment tool in a supervised environment and refine prioritization
+    using real asset ownership and remediation processes.
+- role: malware-analyst
+  title: Malware Analyst learning recipe
+  summary: An analysis-method recipe using benign programs and supplied observations before any specialist
+    malware-handling practice.
+  entry_level: after-basics
+  prerequisites:
+  - Programming fundamentals and operating-system process concepts.
+  - Ability to inspect files without executing unknown content.
+  - A disposable, isolated practice environment for your own benign programs.
+  outcome: A reproducible behavioral report about a harmless sample, including provenance, observations
+    and detection hypotheses.
+  stages:
+  - title: Learn program and system behavior
+    topics:
+    - Processes, files and network activity
+    - Source code, compiled artifacts and evidence limits
+    resources:
+    - cs50-python
+    - the-linux-command-line
+    practice: Write a harmless program that creates a local test file, then describe its expected process
+      and file behavior from source.
+    checkpoint: You can distinguish the source's intent, an observed action and an inference about behavior.
+  - title: Record static observations safely
+    topics:
+    - File identity, hashes and readable metadata
+    - Strings, imports and limits of static indicators
+    resources: []
+    practice: Inspect your own harmless program or file without launching it; record its hash, origin
+      and descriptive features.
+    checkpoint: Another learner can identify the exact artifact and reproduce the recorded observations
+      without receiving unknown executables.
+    gap: No dedicated static-malware-analysis course or verified disassembler guide is catalogued; use
+      only benign material you created.
+  - title: Compare expected and observed behavior
+    topics:
+    - Controlled observations and repeatability
+    - Network indicators and alternative explanations
+    resources:
+    - wireshark
+    practice: Observe a benign script you wrote inside your disposable lab; compare its actions with your
+      predictions and inspect only your own traffic.
+    checkpoint: Your record identifies environmental effects and does not treat a string or connection
+      as proof of malicious intent.
+  - title: Build an analysis report
+    topics:
+    - Behavior summaries and confidence
+    - Defensive hypotheses and further questions
+    resources: []
+    practice: Produce a case report for the benign sample with provenance, static notes, controlled observations
+      and proposed detection checks.
+    checkpoint: The report separates measured evidence from hypotheses and explicitly identifies the gap
+      before handling real malware.
+    gap: Specialist malware containment, reverse engineering and legal handling remain unverified training
+      gaps; this capstone does not authorize handling live malware.
+  next_steps: Seek a supervised specialist programme covering safe sample acquisition, containment and
+    reverse engineering before working with real malware.
+- role: it-auditor
+  title: IT Auditor learning recipe
+  summary: An assurance recipe for testing technology controls against explicitly selected criteria and
+    documenting defensible findings.
+  entry_level: after-basics
+  prerequisites:
+  - Basic IT operations and account-management concepts.
+  - Ability to read policies and keep evidence organized.
+  outcome: A mock IT audit workpaper packet with criteria, sampling rationale, evidence and reviewed findings.
+  stages:
+  - title: Understand systems and audit scope
+    topics:
+    - IT processes and control ownership
+    - Audit objectives, independence and criteria
+    resources:
+    - professor-messer
+    practice: Map a fictional user-access process and agree a narrow audit objective with a peer acting
+      as the process owner.
+    checkpoint: The scope identifies the process, period, criteria and exclusions without claiming compliance
+      with an unreviewed standard.
+  - title: Design control tests
+    topics:
+    - Control design versus operation
+    - Population, sample selection and evidence requests
+    resources: []
+    practice: Write an editorial access-approval criterion and test plan, then create synthetic account-request
+      and approval records.
+    checkpoint: The plan explains which evidence would support the conclusion and how the sample was chosen.
+    gap: No verified IT audit methodology or professional auditing standard has been catalogued; criteria
+      and sampling here are practice examples.
+  - title: Evaluate evidence and findings
+    topics:
+    - Traceability and contradictory evidence
+    - Condition, criterion, cause and consequence
+    resources: []
+    practice: Compare the synthetic records with your criterion; document one passing case, one exception
+      and one case with insufficient evidence.
+    checkpoint: Each conclusion cites the exact record and distinguishes a deviation from an inability
+      to test.
+    gap: No formal assurance opinion or standard-specific interpretation is supported by the current catalogue.
+  - title: Deliver an auditable workpaper packet
+    topics:
+    - Finding review and management response
+    - Remediation follow-up and file organization
+    resources: []
+    practice: Assemble the scope, test plan, evidence index and findings, then have a peer challenge the
+      conclusions and revise them.
+    checkpoint: A reviewer can trace findings to tests, see limitations and identify owners for follow-up
+      without reopening undocumented assumptions.
+    gap: This editorial audit simulation is not a professional audit qualification or a real assurance
+      engagement.
+  next_steps: Study the audit methodology and criteria actually used by an employer with a qualified supervisor
+    before performing real assurance work.
+- role: information-security-analyst
+  title: Information Security Analyst learning recipe
+  summary: A risk-analysis recipe linking a small information service to feasible controls, evidence and
+    reassessment.
+  entry_level: after-basics
+  prerequisites:
+  - Basic security and system concepts.
+  - Ability to explain a business process in plain language.
+  outcome: An evidence-based risk assessment for a fictional service with treatment choices and a review
+    plan.
+  stages:
+  - title: Model the information service
+    topics:
+    - Information flows, ownership and dependencies
+    - Threats, weaknesses and consequences
+    resources:
+    - professor-messer
+    - owasp-top-10
+    practice: Diagram a fictional appointment service using only invented information; mark trust boundaries
+      and business dependencies.
+    checkpoint: You can explain how one weakness might affect confidentiality, integrity or availability
+      without treating the risk as a confirmed incident.
+  - title: Assess plausible risks
+    topics:
+    - Likelihood assumptions and impact
+    - Evidence quality and uncertainty
+    resources: []
+    practice: Write three risk scenarios and list what evidence would strengthen or weaken each estimate.
+    checkpoint: Each scenario connects a cause, an event and a business consequence; uncertainty is recorded.
+    gap: No verified organization-specific risk methodology is provided; the risk scenarios and ratings
+      are editorial exercises.
+  - title: Select and test a control
+    topics:
+    - Risk treatment and ownership
+    - Control effectiveness and remaining exposure
+    resources:
+    - linux-upskill-challenge
+    practice: Choose one lab access or backup control related to a scenario and compare its expected protection
+      with a small reproducible test.
+    checkpoint: The control recommendation states what the test demonstrates and what it cannot prevent.
+  - title: Communicate the assessment
+    topics:
+    - Priorities and decision records
+    - Monitoring indicators and reassessment triggers
+    resources: []
+    practice: Create a short assessment with risk scenarios, test evidence, owners, treatment options
+      and a review trigger for each decision.
+    checkpoint: A nontechnical reviewer can identify what decision is requested, its assumptions and the
+      remaining risk.
+    gap: No profession-specific information-security analyst curriculum or assessment has been verified;
+      this is a bounded editorial capstone.
+  next_steps: Have an experienced analyst review your assumptions, then learn the risk and control processes
+    of a supervised organization.
+- role: information-security-compliance-consultant
+  title: Information Security Compliance Consultant learning recipe
+  summary: A security-obligation mapping recipe that separates an actual requirement from a suggested
+    control or an unsupported compliance claim.
+  entry_level: after-basics
+  prerequisites:
+  - Basic security-control knowledge.
+  - Ability to read scoped requirements and distinguish evidence from assertions.
+  outcome: A mock security-obligation matrix with evidence requests, gaps, responsible owners and clearly
+    bounded conclusions.
+  stages:
+  - title: Understand security-control context
+    topics:
+    - Policies, controls and assurance evidence
+    - Requirement scope and applicability
+    resources:
+    - professor-messer
+    practice: Describe a fictional service and its information types, then list which parties would need
+      to decide its obligations.
+    checkpoint: You distinguish a legal question requiring qualified advice from a technical control question.
+  - title: Translate an agreed requirement
+    topics:
+    - Requirement wording and applicability
+    - Control objectives and evidence mapping
+    resources: []
+    practice: Use three explicitly fictional contractual security clauses to create an obligation-to-control
+      matrix.
+    checkpoint: Each row retains the exact practice clause and explains the proposed evidence without
+      inventing a standard citation.
+    gap: Current laws, security standards and jurisdiction-specific interpretations have not been verified;
+      fictional clauses are used only to practise mapping.
+  - title: Review evidence and gaps
+    topics:
+    - Sufficient evidence and limitations
+    - Exceptions, remediation and validation
+    resources: []
+    practice: Review synthetic access-review and backup records against the mock clauses; distinguish
+      absent evidence from proven failure.
+    checkpoint: The gap register identifies the requirement, evidence reviewed, limitation, owner and
+      next verification action.
+    gap: No verified certification or security-compliance audit methodology is provided; do not issue
+      compliance claims from this exercise.
+  - title: Present a bounded advisory report
+    topics:
+    - Stakeholder communication and change monitoring
+    - Action tracking and review decisions
+    resources: []
+    practice: Deliver the mapping and gap register with a plain-language summary, assumptions and a plan
+      for rechecking obligations.
+    checkpoint: A reviewer can identify exactly which fictional clauses were assessed and which conclusions
+      remain unsupported.
+    gap: This editorial consultation simulation is not legal advice, accreditation or an attestation of
+      compliance.
+  next_steps: Select the real contractual, regulatory or standard context with a qualified specialist
+    and verify its current primary sources before advising clients.
+- role: security-assessment-auditor
+  title: Security Assessment Auditor learning recipe
+  summary: An assessment recipe for evaluating whether security controls meet agreed criteria and whether
+    evidence supports the conclusion.
+  entry_level: after-basics
+  prerequisites:
+  - Basic security-control and IT process knowledge.
+  - Familiarity with evidence handling and professional independence.
+  outcome: A mock security assessment containing a test matrix, reproducible checks and a reviewed conclusion
+    with limitations.
+  stages:
+  - title: Define the assessment boundary
+    topics:
+    - System scope and evidence owners
+    - Criteria, independence and permitted tests
+    resources:
+    - professor-messer
+    practice: Define a fictional file-sharing system, the control owners and three editorial assessment
+      criteria.
+    checkpoint: The assessment plan states which claims will be tested and does not substitute a vulnerability
+      scan for an assurance conclusion.
+  - title: Design evidence-based assessment procedures
+    topics:
+    - Design assessment and operational testing
+    - Samples, interviews and technical evidence
+    resources: []
+    practice: Create test steps for account approvals, access removal and backup recovery using invented
+      records.
+    checkpoint: Each procedure states its expected result and the evidence needed to establish it.
+    gap: No particular assessment framework, approved control catalogue or assessor methodology has been
+      verified; the criteria are editorial practice material.
+  - title: Test a control and reconcile evidence
+    topics:
+    - Positive and negative test cases
+    - Exceptions and alternative explanations
+    resources:
+    - the-linux-command-line
+    practice: Test a local practice folder's access restrictions and compare the actual result with a
+      fictional access policy and approval record.
+    checkpoint: The workpaper links policy intent, observed behavior and any contradiction, with the account
+      and test date recorded.
+  - title: Review and report the assessment
+    topics:
+    - Conclusion scope and evidence traceability
+    - Finding validation and follow-up
+    resources: []
+    practice: Assemble the plan, procedures and workpapers; have a peer dispute one finding and record
+      how you resolve the challenge.
+    checkpoint: The conclusion names the criteria and limitations, and every finding can be traced to
+      evidence rather than an unsupported compliance label.
+    gap: No formal assurance opinion or assessor qualification is established by this editorial assessment
+      exercise.
+  next_steps: Obtain supervised experience applying the actual assessment framework required by an engagement
+    and verify its current authoritative criteria.
+- role: audit-manager
+  title: Audit Manager learning recipe
+  summary: An experienced-practitioner recipe for planning assurance engagements, supervising workpapers
+    and managing follow-up quality.
+  entry_level: experience-required
+  prerequisites:
+  - Experience preparing and reviewing audit workpapers.
+  - Knowledge of audit independence, evidence evaluation and stakeholder communication.
+  - Experience coordinating people or an audit engagement under supervision.
+  outcome: A mock engagement-management pack with scope, resource plan, review decisions and a follow-up
+    dashboard.
+  stages:
+  - title: Set the engagement strategy
+    topics:
+    - Risk-based audit objectives
+    - Independence, scope and stakeholder expectations
+    resources: []
+    practice: Draft a fictional technology audit charter and engagement scope, including conflicts of
+      interest and explicit exclusions.
+    checkpoint: The plan distinguishes the audit objective from management's responsibilities and defines
+      who can approve scope changes.
+    gap: No professional audit-management curriculum or governing audit standard has been verified in
+      the catalogue.
+  - title: Plan resources and review gates
+    topics:
+    - Skills coverage, effort and dependencies
+    - Sampling oversight and evidence standards
+    resources: []
+    practice: Build a work plan for three fictional auditors with different skills and schedule review
+      gates before conclusions are issued.
+    checkpoint: The plan identifies expertise gaps, dependencies and how review quality will be checked.
+    gap: No verified staffing benchmark or audit quality framework is provided; the work plan is an editorial
+      simulation.
+  - title: Review and challenge findings
+    topics:
+    - Evidence sufficiency and consistency
+    - Disputed findings and escalation
+    resources: []
+    practice: Review a synthetic packet with a supported finding, an unsupported claim and contradictory
+      records; write review notes and adjudication steps.
+    checkpoint: The review log explains which conclusions can stand, which need more work and how disagreement
+      is handled independently.
+    gap: The current resources do not verify a standard-specific assurance review process; use qualified
+      supervision for real engagements.
+  - title: Deliver and monitor the engagement
+    topics:
+    - Executive reporting and accountable actions
+    - Follow-up, closure and lessons learned
+    resources: []
+    practice: Prepare an audit committee-style summary, tracked remediation actions and a retrospective
+      about missed assumptions.
+    checkpoint: A reviewer can trace priorities to evidence and see closure criteria, owners and unresolved
+      management decisions.
+    gap: This editorial management pack does not confer authority to issue a professional assurance opinion.
+  next_steps: Validate the management pack with an experienced audit leader and learn the organization's
+    governing standards before leading an engagement.
+- role: digital-forensics-examiner
+  title: Digital Forensics Examiner learning recipe
+  summary: A preservation-first recipe using learner-created evidence to practise provenance, repeatability
+    and limited conclusions.
+  entry_level: after-basics
+  prerequisites:
+  - File-system and operating-system fundamentals.
+  - Ability to work with copies and record commands.
+  - A disposable lab and only evidence you own or are authorized to examine.
+  outcome: A reproducible examination report for a benign self-created evidence set with an integrity
+    and handling record.
+  stages:
+  - title: Understand evidence and examination scope
+    topics:
+    - File metadata and timestamps
+    - Authority, privacy and preservation
+    resources:
+    - the-linux-command-line
+    - professor-messer
+    practice: Create harmless sample files in your own lab and write a narrow examination question and
+      a list of authorized sources.
+    checkpoint: The plan states the evidence boundary and why ordinary use could change some metadata.
+  - title: Preserve and document a working copy
+    topics:
+    - Integrity hashes and provenance
+    - Handling records and original versus working copies
+    resources: []
+    practice: Copy the benign files, compute hashes with an appropriate local utility and record every
+      transfer and examination action.
+    checkpoint: The record identifies the original and working copy and detects a deliberate change to
+      one copied file.
+    gap: No verified forensic acquisition, write-blocking or chain-of-custody training is supplied; copying
+      files here is not a forensic disk acquisition.
+  - title: Examine and build a cautious timeline
+    topics:
+    - Metadata interpretation and time zones
+    - Corroboration and alternative explanations
+    resources:
+    - wireshark
+    practice: Use your self-generated files and an authorized saved capture to build a small timeline;
+      compare known actions with recorded timestamps.
+    checkpoint: The timeline cites each source and explains why an isolated timestamp does not prove who
+      performed an action.
+  - title: Report a reproducible examination
+    topics:
+    - Methods, limitations and integrity checks
+    - Clear answers to the examination question
+    resources: []
+    practice: Produce an evidence index, handling log, methods appendix and report answering only the
+      initial benign examination question.
+    checkpoint: A peer can repeat the examination from the working copy and identify every inference and
+      limitation.
+    gap: Specialist device acquisition, deleted-file recovery and legal evidentiary requirements remain
+      unverified gaps; no courtroom admissibility is claimed.
+  next_steps: Pursue supervised specialist training in acquisition and the applicable legal context before
+    examining real case material; confirm defensive lab access and cost separately.
+- role: compliance-consultant
+  title: Compliance Consultant learning recipe
+  summary: A general compliance-advisory recipe for scoping obligations, tracing evidence and communicating
+    limitations in a fictional technology service.
+  entry_level: after-basics
+  prerequisites:
+  - Clear analytical writing and familiarity with basic organizational processes.
+  - Ability to distinguish factual observations from legal or contractual interpretation.
+  outcome: A mock obligation register and advisory report that distinguish verified practice evidence
+    from questions for qualified advice.
+  stages:
+  - title: Map the organization and obligation sources
+    topics:
+    - Business processes and decision owners
+    - Laws, contracts, policies and scope
+    resources: []
+    practice: Create a fictional online service and identify which stakeholders would determine its jurisdictions,
+      contractual duties and internal policies.
+    checkpoint: Your map identifies unknown applicability decisions rather than guessing legal requirements.
+    gap: No jurisdiction-specific compliance course or current legal source has been verified; this role
+      requires context beyond the catalogue.
+  - title: Build an obligation register
+    topics:
+    - Exact requirement wording and interpretation
+    - Responsibility and evidence requests
+    resources: []
+    practice: Invent three clearly labeled practice contract clauses and map each to an owner, process
+      and possible evidence.
+    checkpoint: A peer can trace each proposed test to the original fictional clause without confusing
+      it with a law.
+    gap: The clauses are editorial examples, not actual regulatory requirements or legal advice.
+  - title: Evaluate practice against requirements
+    topics:
+    - Evidence reliability and contradictions
+    - Gap severity, uncertainty and remediation
+    resources: []
+    practice: Review synthetic records for the fictional service, then document compliant-looking cases,
+      gaps and inconclusive cases separately.
+    checkpoint: Every conclusion states the evidence and what remains untested; proposed actions have
+      owners.
+    gap: No compliance assessment or certification methodology has been verified; conclusions apply only
+      to the fictional exercise.
+  - title: Deliver and maintain advice
+    topics:
+    - Plain-language communication
+    - Change tracking and reassessment triggers
+    resources: []
+    practice: Write a bounded advisory report and a process for rechecking applicability when the service
+      or its contracts change.
+    checkpoint: The report names assumptions, open legal questions and follow-up actions without asserting
+      real compliance.
+    gap: A qualified specialist must verify the actual current obligations before this workflow is used
+      for real advice.
+  next_steps: Choose an industry and jurisdiction, obtain qualified supervision and verify current primary
+    sources before making professional compliance recommendations.
+- role: security-management-specialist
+  title: Security Management Specialist learning recipe
+  summary: A governance and coordination recipe connecting policies, accountable risk treatments and measurable
+    control reviews.
+  entry_level: after-basics
+  prerequisites:
+  - Working knowledge of common security controls.
+  - Familiarity with business processes and stakeholder responsibilities.
+  outcome: A small security-management pack with a policy, risk-treatment register and a completed review
+    cycle.
+  stages:
+  - title: Connect security to business needs
+    topics:
+    - Information ownership and business consequences
+    - Policy hierarchy and decision rights
+    resources:
+    - professor-messer
+    practice: Model a fictional service and identify who owns information, operates controls and accepts
+      risk.
+    checkpoint: The responsibility map avoids making the security team the owner of every business decision.
+  - title: Write an implementable policy
+    topics:
+    - Objectives, scope and exceptions
+    - Clear requirements and control ownership
+    resources: []
+    practice: Draft a short editorial access-management policy with measurable requirements and an exception
+      process.
+    checkpoint: Each requirement names an accountable owner and a practical way to check implementation.
+    gap: No verified security-management standard or organization-approved policy framework is supplied;
+      this is a practice policy.
+  - title: Track treatments and control evidence
+    topics:
+    - Risk-treatment decisions and dependencies
+    - Control reviews and overdue exceptions
+    resources: []
+    practice: Create a synthetic register linking three risks to policy requirements, evidence checks,
+      owners and review conditions.
+    checkpoint: The register separates accepted risk, pending treatment and missing evidence rather than
+      reporting all items as resolved.
+    gap: No formal management-system certification criteria have been verified; the register is not proof
+      of conformity.
+  - title: Run a management review
+    topics:
+    - Reporting, decisions and follow-up
+    - Continual improvement and reassessment
+    resources: []
+    practice: Hold a tabletop review of the register and policy; record decisions, resources needed and
+      changes after one failed control check.
+    checkpoint: The final pack connects the failed check to a decision and an owner, with a scheduled
+      verification action.
+    gap: This editorial management review does not replace supervised experience or a verified professional
+      management curriculum.
+  next_steps: Ask risk owners and experienced security managers to review the pack and adapt it to an
+    organization's real policies and obligations.
+- role: chief-information-security-officer
+  title: Chief Information Security Officer learning recipe
+  summary: An experienced-leader recipe for connecting security strategy to business risk, governance,
+    investment and incident decisions.
+  entry_level: experience-required
+  prerequisites:
+  - Substantial experience leading security or risk work.
+  - Experience managing stakeholders, budgets and people.
+  - Familiarity with incident leadership, assurance and business accountability.
+  - Access to experienced executive or security-leadership feedback.
+  outcome: A simulated board-level security strategy with prioritized investments, accountable risk decisions
+    and a crisis exercise review.
+  stages:
+  - title: Understand mandate and business exposure
+    topics:
+    - Business strategy, critical services and dependencies
+    - Governance, accountability and risk ownership
+    resources: []
+    practice: Draft a fictional CISO mandate and map critical services, decision owners and existing assurance
+      evidence.
+    checkpoint: The mandate distinguishes advice, operational responsibility and business risk acceptance
+      without assuming unlimited authority.
+    gap: No verified CISO curriculum or organization-specific governance model is supplied; this recipe
+      presupposes professional experience.
+  - title: Build a risk-informed investment strategy
+    topics:
+    - Portfolio priorities and resource trade-offs
+    - People, technology and measurable outcomes
+    resources: []
+    practice: Propose three competing security investments for a constrained fictional budget and document
+      the consequences of deferring each.
+    checkpoint: The proposal connects each investment to business exposure, ownership, cost assumptions
+      and observable outcomes.
+    gap: No leadership programme, budget benchmark or universal security maturity target has been verified;
+      figures are simulated.
+  - title: Exercise executive incident decisions
+    topics:
+    - Crisis coordination and business continuity
+    - Disclosure dependencies and authorized communication
+    resources: []
+    practice: Run a tabletop for a fictional disruptive incident with a decision log, business-impact
+      estimates and questions for legal and communications specialists.
+    checkpoint: The log records decision rights and evidence limitations; it does not invent notification
+      deadlines or bypass qualified advice.
+    gap: Jurisdiction-specific disclosure duties and crisis-management standards remain unverified and
+      must be checked by qualified specialists.
+  - title: Present strategy and assurance to leadership
+    topics:
+    - Board communication and residual risk
+    - Review cadence and independent challenge
+    resources: []
+    practice: Deliver the mandate, investment proposal and tabletop findings as a short board pack; obtain
+      a critical review from an experienced leader.
+    checkpoint: The pack identifies requested decisions, residual risk, accountable owners, assurance
+      gaps and when progress will be reassessed.
+    gap: An editorial board-pack exercise is not a substitute for CISO experience, an executive appointment
+      or professional qualification.
+  next_steps: Use experienced executive mentoring and real organizational governance to validate the strategy;
+    verify current obligations and source material before adopting any decisions.
+- role: security-administrator
+  title: Security Administrator learning recipe
+  summary: An operational recipe for configuring access, maintaining a secure baseline and verifying changes
+    in a disposable practice system.
+  entry_level: after-basics
+  prerequisites:
+  - Basic Linux administration and networking knowledge.
+  - A disposable system where you can test and roll back configuration changes.
+  outcome: A tested access and configuration runbook with baseline evidence, rollback instructions and
+    incident handoff details.
+  stages:
+  - title: Document system and administration boundaries
+    topics:
+    - Accounts, services and exposure
+    - Administrative authority and baseline configuration
+    resources:
+    - linux-upskill-challenge
+    - professor-messer
+    practice: Inventory a practice server and record service owners, accounts and network-facing services
+      before changing settings.
+    checkpoint: The baseline shows what is authorized, what must remain available and how to recover the
+      initial state.
+  - title: Manage access through a lifecycle
+    topics:
+    - Provisioning, least privilege and removal
+    - Permission testing and change records
+    resources:
+    - the-linux-command-line
+    practice: Create two practice roles, test allowed and denied file access, then remove one account's
+      access.
+    checkpoint: Recorded positive and negative checks demonstrate both provisioning and revocation without
+      relying on a screenshot alone.
+  - title: Maintain and monitor the baseline
+    topics:
+    - Updates, service checks and backups
+    - Log review and exception escalation
+    resources:
+    - linux-upskill-challenge
+    practice: Perform a documented lab maintenance change, verify service health and review the relevant
+      logs; test recovery of a harmless file.
+    checkpoint: The change record contains before-and-after results, a working rollback and a separate
+      record for unresolved checks.
+  - title: Deliver an operational runbook
+    topics:
+    - Repeatability and safe failure handling
+    - Evidence handoff and periodic review
+    resources: []
+    practice: Have another learner follow your runbook on a reset lab, including an intentional permission
+      failure and its escalation ticket.
+    checkpoint: The learner can reproduce the baseline, recognize the failed check and hand it off with
+      logs and a clear rollback decision.
+    gap: No product-specific identity, endpoint or security-appliance administration curriculum has been
+      verified; learn approved vendor procedures before administering such systems.
+  next_steps: Practise with an experienced administrator and learn the organization's approved tools,
+    change controls and recovery requirements before handling production security settings.

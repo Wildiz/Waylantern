@@ -1,24 +1,22 @@
-# Path 0: fundamentals
+# Start from zero: your first steps
 
 A general, no-deadline order for someone starting IT from zero. Do one step at a time. Move on when you can do the "advance when" check, not when a calendar says so. When a step offers alternatives, choose one main resource; you do not need to finish every linked course. At the end of each study session, save what you made and write down the next small action. If a check is too hard, revisit just that topic and try a smaller example before moving on.
 
 [Back to the start](../README.md)
 
-## Optional helpers for focus and memory
+**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).
 
-Two optional helpers for focus and memory. Try one only if it solves a problem you have; setting up apps is not a prerequisite for learning. A timer and a notebook are enough to start. Use short sessions and write down questions to revisit instead of opening a new course every time you get stuck.
+## Before you start
 
-- [Focusmate](https://www.focusmate.com/) (Free + paid extras): Virtual coworking service that pairs you on video with another member for a silent, timed work session in which you each state your goal.
-- [Anki](https://apps.ankiweb.net/) (Free + paid extras): Open-source spaced-repetition flashcard program with add-ons, media support and optional free AnkiWeb sync; desktop and Android are free, the iOS app is paid.
+Basic file and browser skills; no previous programming or terminal experience is required.
 
 ## Step 1: Learn the basics of computing and write your first code
 
-Pick one. Choose CS50x for a university-style introduction to computer science, or Automate the Boring Stuff for practical Python automation. Start with the opening lesson, follow its setup instructions and run the examples yourself. Change one small thing in an example and explain the result before continuing.
+Use the setup and first chapter of Automate the Boring Stuff with Python as the default starting point. Run the first examples yourself, save a small program that asks for a name and prints a greeting, and change one thing to predict its effect. You do not need to choose between several courses before starting.
 
-- [CS50x - Harvard's Introduction to Computer Science](https://cs50.harvard.edu/x/) (Free): Harvard's free introductory CS course covering Scratch, C, algorithms, memory, data structures, Python, SQL, HTML/CSS/JavaScript and Flask, ending in a final project.
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) (Free): Beginner Python book on practical automation (files, spreadsheets, web scraping, email) that is free to read online under a Creative Commons license.
 
-**Advance when:** You can write a small program that takes input, makes decisions and repeats something, and explain what it does.
+**Advance when:** You can run your saved program, explain its input and output, and change the greeting without copying a complete solution.
 
 ## Step 2: Practice with small exercises
 
@@ -58,6 +56,15 @@ This step is optional. For a web-focused path, compare freeCodeCamp and The Odin
 
 **Advance when:** You have built a small project of your own, can explain how it works and can name one improvement you would make next. This is a checkpoint, not a requirement to finish an entire curriculum.
 
+<details><summary>Optional tools for focus and memory</summary>
+
+Two optional helpers for focus and memory. Try one only if it solves a problem you have; setting up apps is not a prerequisite for learning. A timer and a notebook are enough to start. Use short sessions and write down questions to revisit instead of opening a new course every time you get stuck.
+
+- [Focusmate](https://www.focusmate.com/) (Free + paid extras): Virtual coworking service that pairs you on video with another member for a silent, timed work session in which you each state your goal.
+- [Anki](https://apps.ankiweb.net/) (Free + paid extras): Open-source spaced-repetition flashcard program with add-ons, media support and optional free AnkiWeb sync; desktop and Android are free, the iOS app is paid.
+
+</details>
+
 ## Where to go next
 
 After the last checkpoint, improve your project or browse the related areas for a specific gap:
@@ -65,7 +72,7 @@ After the last checkpoint, improve your project or browse the related areas for 
 - [Computer science and algorithms](area-cs.md)
 - [Programming and software engineering](area-software.md)
 
-[Compare the learning paths](../README.md#choose-a-learning-path)
+[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)
 
 ---
-This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).

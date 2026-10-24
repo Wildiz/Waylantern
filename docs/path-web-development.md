@@ -1,8 +1,14 @@
-# Path: web development
+# First project: web development
 
 Web developers build pages and applications people use in a browser. This route is for beginners who want to make their first small website, starting with the visible page rather than a server or framework. You need basic file and folder skills, a browser and a text editor; no previous web programming is required. Basic Git from Path 0 helps with the optional publishing step. Keep the same small project throughout, such as a study-resource page, and use invented example content instead of personal information.
 
 [Back to the start](../README.md)
+
+**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).
+
+## Before you start
+
+Basic file and folder skills, a browser and a text editor; Git is only needed for optional publishing.
 
 If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.
 
@@ -45,7 +51,7 @@ After the last checkpoint, improve your project or browse the related areas for 
 - [Web development](area-web.md)
 - [Programming and software engineering](area-software.md)
 
-[Compare the learning paths](../README.md#choose-a-learning-path)
+[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)
 
 ---
-This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).

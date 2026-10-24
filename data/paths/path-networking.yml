@@ -1,57 +1,53 @@
-title: "Path: networking"
+title: 'First project: networking'
 summary: Understand connections, build a small network and diagnose a broken link.
-areas: [networking]
-intro: >-
-  Network engineers connect devices and services, keep communication working and investigate failures.
+areas:
+- networking
+intro: Network engineers connect devices and services, keep communication working and investigate failures.
   Start here if you can manage files and run basic terminal commands; programming experience is not required.
-  If the terminal is unfamiliar, begin with Path 0. Use one small lab throughout this route instead of
-  trying to finish every course. The textbook is a reference for the topic in front of you, not a
-  prerequisite to complete cover to cover. These checkpoints introduce the work; they do not establish
-  professional readiness or guarantee employment.
+  If the terminal is unfamiliar, begin with Path 0. Use one small lab throughout this route instead of trying
+  to finish every course. The textbook is a reference for the topic in front of you, not a prerequisite to
+  complete cover to cover. These checkpoints introduce the work; they do not establish professional readiness
+  or guarantee employment.
 steps:
-  - title: Explain how one request reaches another device
-    short: Understand the connection
-    tools: [computer-networks-systems-approach]
-    why: >-
-      Read the relevant foundation and internetworking sections to distinguish a local network,
-      an IP address, a router and a name lookup. Draw a laptop, a local router and a remote service.
-      Label which part uses an IP address and where DNS helps translate a name. Leave advanced
-      routing and congestion control for later.
-    advance_when: >-
-      You can use your drawing to explain the difference between reaching another device on the
-      same network and reaching a service through a router, and why a DNS failure can stop a
-      name-based request even when the network connection works.
-  - title: Build a tiny simulated local network
-    short: Connect two devices
-    tools: [cisco-packet-tracer]
-    why: >-
-      Use Packet Tracer to connect two simulated PCs through a switch. Set addresses in the same
-      subnet, test communication and save the lab with a simple diagram and address table. Follow
-      Cisco's setup instructions; a free Networking Academy account may be needed. This is a
-      simulated lab, so you do not need to buy or reconfigure physical network equipment.
-    advance_when: >-
-      Both simulated PCs can reach each other, and you can point to the address and subnet mask
-      of each device and explain why a router is not needed for this particular connection.
-  - title: Inspect a small packet capture
-    short: Read network traffic
-    tools: [wireshark]
-    why: >-
-      Use the official documentation to open an example capture or a capture from your own
-      authorized lab. Begin with one protocol, such as DNS or TCP, and apply a display filter.
-      Identify the source, destination and the order of a few related packets. Opening a saved
-      capture is enough for this checkpoint; live capture is optional. Avoid sharing captures
-      containing private traffic.
-    advance_when: >-
-      You can filter the capture to a relevant conversation, identify its endpoints and explain
-      what at least two packets contribute to the exchange without treating every packet as an error.
-  - title: Break and repair your lab deliberately
-    short: Diagnose one fault
-    tools: [cisco-packet-tracer]
-    why: >-
-      Return to the saved two-PC lab. Record the working addresses, then deliberately give one
-      PC an address in a different subnet and confirm that communication fails. Inspect the
-      configuration, restore a suitable address and test again. Keep a short note with the
-      symptom, your hypothesis, the change and the result; change only one thing at a time.
-    advance_when: >-
-      You have a before-and-after connectivity result and can explain why the changed address
-      caused this failure and why your repair restored communication.
+- title: Explain how one request reaches another device
+  short: Understand the connection
+  tools:
+  - computer-networks-systems-approach
+  why: Read the relevant foundation and internetworking sections to distinguish a local network, an IP address,
+    a router and a name lookup. Draw a laptop, a local router and a remote service. Label which part uses an
+    IP address and where DNS helps translate a name. Leave advanced routing and congestion control for later.
+  advance_when: You can use your drawing to explain the difference between reaching another device on the same
+    network and reaching a service through a router, and why a DNS failure can stop a name-based request even
+    when the network connection works.
+- title: Build a tiny simulated local network
+  short: Connect two devices
+  tools:
+  - cisco-packet-tracer
+  why: Use Packet Tracer to connect two simulated PCs through a switch. Set addresses in the same subnet, test
+    communication and save the lab with a simple diagram and address table. Follow Cisco's setup instructions;
+    a free Networking Academy account may be needed. This is a simulated lab, so you do not need to buy or
+    reconfigure physical network equipment.
+  advance_when: Both simulated PCs can reach each other, and you can point to the address and subnet mask of
+    each device and explain why a router is not needed for this particular connection.
+- title: Inspect a small packet capture
+  short: Read network traffic
+  tools:
+  - wireshark
+  why: Use the official documentation to open an example capture or a capture from your own authorized lab.
+    Begin with one protocol, such as DNS or TCP, and apply a display filter. Identify the source, destination
+    and the order of a few related packets. Opening a saved capture is enough for this checkpoint; live capture
+    is optional. Avoid sharing captures containing private traffic.
+  advance_when: You can filter the capture to a relevant conversation, identify its endpoints and explain what
+    at least two packets contribute to the exchange without treating every packet as an error.
+- title: Break and repair your lab deliberately
+  short: Diagnose one fault
+  tools:
+  - cisco-packet-tracer
+  why: Return to the saved two-PC lab. Record the working addresses, then deliberately give one PC an address
+    in a different subnet and confirm that communication fails. Inspect the configuration, restore a suitable
+    address and test again. Keep a short note with the symptom, your hypothesis, the change and the result;
+    change only one thing at a time.
+  advance_when: You have a before-and-after connectivity result and can explain why the changed address caused
+    this failure and why your repair restored communication.
+entry_level: after-basics
+prerequisites: Basic file management and terminal commands; programming experience is not required.

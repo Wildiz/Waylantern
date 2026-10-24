@@ -7,6 +7,7 @@ One YAML file per tool in `data/tools/<slug>.yml`.
 | `name` | Name as the resource calls itself |
 | `url` | Authoritative link (author/official site or repo) |
 | `repository` | Optional canonical GitHub or GitLab repository URL when `url` links to a separate official website. Add it only after verifying the source repository. |
+| `prerequisites` | Optional list of skills required before using the resource. Topic level is relative to the subject, so a beginner resource may still require Python, JavaScript or other foundations. |
 | `category` | The **format** only: `path` (full ordered curriculum), `course` (course or book), `practice` (interactive exercises), `reference` (lists, docs, articles), `roadmap`, `tool` (apps and software), `community`. The subject goes in `areas`, never in the category. |
 | `price` | `free`, `freemium`, `paid-cheap`, `paid`, `unverified` |
 | `level` | `beginner`, `intermediate`, `advanced`, `all` |
@@ -30,6 +31,8 @@ Areas describe subjects, not job titles, seniority or specific products. For exa
 
 Short learning paths live in `data/paths/*.yml` and are validated against `data/path-schema.json`. Each requires a `title`, a short `summary` for the README, related `areas`, an `intro`, and ordered `steps`. The introduction explains what the learner will try, what a related role does and any prerequisites. Each step has a `title`, a `short` label, existing resource slugs in `tools`, a `why` explaining the next action, and an observable `advance_when` checkpoint. `helpers` is optional; when present it contains `why` and `tools`. A step may set `sequence: true` when resources are complementary rather than alternatives in the fundamentals summary.
 
+These are short **first-project guides**, distinct from the profession curricula below. Every guide also records `entry_level` (`start-here`, `after-basics` or `some-experience`) and a plain-language `prerequisites` sentence. The comparison page groups them by starting point. Optional focus tools appear after the practical steps.
+
 Prefer a small project and a few focused steps over another long list of courses. Describe required accounts, hardware or paid infrastructure when relevant. Do not promise employment, imply that completing the path qualifies someone for a role, or present an editorial path as an official professional standard. `make check` validates the paths and their resource/area references before checking generated pages. The generator links paths from the README and related area pages; edit the YAML instead of generated documentation.
 
 ## Repository selections by area
@@ -43,3 +46,15 @@ Prefer a small project and a few focused steps over another long list of courses
 `data/profession-guidelines.yml` records the issuing organisation, source type, scope, verification status, check date and notes for every related reference. Use `verified` only for content actually read. `link_only` makes an unreviewed source explicit; it is not a claim that the source is missing. Academic curricula, bodies of knowledge, competency frameworks, vendor courses and certification objectives must remain distinct. Related references do not establish a profession-specific curriculum or institutional approval of our editorial role profiles.
 
 `make check` rejects unknown areas, paths or guidance IDs and duplicate role IDs or titles before generating documentation. The generator produces the profession index and group pages; do not edit their Markdown directly.
+
+## Profession learning recipes
+
+`data/curricula/{group}.yml` supplies one editorial learning recipe for every profession in the matching group. It is validated by `data/curriculum-schema.json`; the build rejects missing or duplicated roles, wrong groups and unknown resource slugs.
+
+Each recipe has a role ID, title, summary, entry level (`from-zero`, `after-basics` or `experience-required`), prerequisites, an outcome, four to six ordered stages and next steps. Each stage defines topics, up to three existing resources, a practical task and an observable checkpoint. When no resource is listed, a `gap` is required; an otherwise linked stage may also record incomplete coverage. Never fill such gaps with an unrelated source or present an editorial sequence as institution-issued training. Management and senior profiles must state their practical experience prerequisites.
+
+The generator creates `docs/curricula.md` and `docs/curriculum-{role}.md`, linked from the profession groups. The source status and the learning recipe are distinct: reading a reference does not verify that a recipe provides every qualification for a job. Keep experiments, equipment requirements and practice outputs appropriate to the role.
+
+## Navigation and resource details
+
+The generated home pages share four entry points: first step, professions, curricula and catalogue. `docs/learning-paths.md` compares short first-project guides; `docs/catalogue.md` holds subject and format indexes. Full source inspection metadata, requirements, costs and language notes stay accessible in expandable resource details, linked by stable `resource-{slug}` anchors. Preserve existing page slugs and profession/source anchors when reorganising content.

@@ -1,0 +1,391 @@
+group: architecture
+curricula:
+  - role: software-architect
+    title: "Software Architect: explain and test a system's structure"
+    summary: An editorial practice sequence for turning quality requirements into boundaries and justified design decisions.
+    entry_level: experience-required
+    prerequisites:
+      - Have built and debugged a small application with persistent data.
+      - Can use Git and write an automated test in the application's language.
+      - Can explain one maintenance problem encountered in an existing codebase.
+    outcome: A small application, architecture sketch, tested module boundary and decision records; this is practice, not proof of professional qualification.
+    stages:
+      - title: Turn vague goals into observable requirements
+        topics: [Stakeholders, Quality goals, System context]
+        resources: [arc42-template]
+        practice: Choose a local task tracker and write three functional requirements plus two observable quality scenarios, such as retaining tasks after a restart and rejecting an invalid update.
+        checkpoint: Each scenario names a starting condition, an action and an expected result that another reader can check.
+      - title: Study one manageable decomposition
+        topics: [Module boundaries, Interfaces, Dependency direction]
+        resources: [500-lines-or-less]
+        practice: Read one chapter in a language you know, trace an input through its modules and compare two possible boundaries for your tracker.
+        checkpoint: Your diagram identifies responsibility and data passed at each boundary, and you can state a cost of your preferred decomposition.
+      - title: Implement a boundary and record the tradeoff
+        topics: [Storage interfaces, Architectural decisions, Regression tests]
+        resources: [madr, pytest-getting-started]
+        practice: In a Python practice version, separate task rules from file persistence, test an invalid update and record why you chose that interface; pytest is only relevant to the Python version.
+        checkpoint: A test fails when the rule is deliberately broken, passes after restoration, and storage code can change without rewriting that rule.
+      - title: Deliver a reviewed architecture mini-project
+        topics: [Architecture views, Requirement traceability, Change impact]
+        resources: [arc42-template, madr]
+        practice: Package the tracker, run instructions, diagrams and two decision records; assess a new requirement for shared tasks and revise only the necessary boundaries.
+        checkpoint: A reviewer can run the existing version and trace the proposed change to its requirements, affected modules and unresolved assumptions.
+    next_steps: Apply the same reasoning to a real team project under review; practise revisiting decisions after operational evidence rather than treating the documents as certification.
+
+  - role: enterprise-architect
+    title: "Enterprise Architect: connect a technology landscape to business change"
+    summary: An editorial planning exercise for experienced practitioners, with explicit gaps where verified enterprise-specific learning resources are missing.
+    entry_level: experience-required
+    prerequisites:
+      - Have worked with multiple organisational systems and their operational constraints.
+      - Can discuss stakeholder priorities and distinguish business capabilities from individual applications.
+      - Can document assumptions without presenting invented organisation data as evidence.
+    outcome: A fictional capability-to-system map and a reasoned transition proposal, suitable for discussion with an experienced practitioner rather than a claim of enterprise-architecture competence.
+    stages:
+      - title: Map the business need before the technology estate
+        topics: [Business capabilities, Stakeholder priorities, Current-state inventory]
+        resources: []
+        gap: The catalogue lacks a verified introductory enterprise-architecture resource teaching capability mapping and business-to-technology alignment.
+        practice: For a fictional training organisation, list enrolment, teaching and billing capabilities, their owners and the systems supporting them; label every assumed fact.
+        checkpoint: The map distinguishes a capability from an application and shows a responsible stakeholder for each capability.
+      - title: Describe system boundaries and cross-system dependencies
+        topics: [System context, External dependencies, Quality constraints]
+        resources: [arc42-template]
+        practice: Use context and quality sections to document the enrolment system, its billing interface and a dependency that would disrupt teaching if unavailable.
+        checkpoint: Readers can locate that dependency and explain its business impact; the template is used for documentation, not presented as an enterprise methodology.
+      - title: Plan an incremental transition
+        topics: [Transition states, Portfolio constraints, Retirement criteria]
+        resources: []
+        gap: No verified resource in the catalogue currently teaches enterprise transition architectures, portfolio governance and capability-based migration planning.
+        practice: Compare replacing the enrolment system at once with an incremental migration, identify two intermediate states and define evidence required before retiring the old system.
+        checkpoint: Each transition has an owner, a dependency, an acceptance condition and a fallback; cost and timing estimates are clearly assumptions.
+      - title: Present an enterprise-change mini-project
+        topics: [Decision rationale, Exceptions, Stakeholder review]
+        resources: [madr]
+        practice: Assemble the maps and transition plan, use an ADR to record the preferred migration and obtain a critical review of one competing stakeholder priority.
+        checkpoint: The proposal traces the choice to a business need, records an unresolved objection and states which operational evidence could reverse the decision.
+    next_steps: Fill the explicit enterprise-methodology gaps with verified learning material and supervised work across business and technical teams; document templates alone do not teach enterprise governance.
+
+  - role: solutions-architect
+    title: "Solutions Architect: design one complete solution for a defined need"
+    summary: An editorial sequence for connecting user needs, component choices and an end-to-end proof of concept.
+    entry_level: experience-required
+    prerequisites:
+      - Have implemented or operated an application with an API and persistent storage.
+      - Can interpret HTTP requests and explain basic authentication and failure handling.
+      - Can gather requirements and identify constraints with a stakeholder.
+    outcome: A scoped booking-service solution with a working local slice, acceptance evidence and documented alternatives.
+    stages:
+      - title: Establish the problem and acceptance conditions
+        topics: [Stakeholder needs, Scope boundaries, Quality scenarios]
+        resources: [arc42-template]
+        practice: Specify a fictional room-booking service with create, view and cancel actions, a double-booking constraint and an explicit list of excluded features.
+        checkpoint: Every required action has an example acceptance condition and the scope identifies who may create and cancel a booking.
+      - title: Compare two end-to-end designs
+        topics: [Application boundaries, Storage choices, Integration points]
+        resources: [karan-system-design, madr]
+        practice: Compare a single application with a relational store against separate booking and notification components; record the operational costs of each and choose the simplest justified option.
+        checkpoint: The diagram follows one request through the whole solution and the ADR explains a disadvantage of the chosen design.
+      - title: Validate the riskiest interface
+        topics: [Request validation, Failure responses, Executable API examples]
+        resources: [fastapi-tutorial]
+        practice: Build a small Python API that accepts a booking request, validates its fields and returns a predictable response for an invalid request, using invented data and local storage.
+        checkpoint: Saved example requests demonstrate one successful booking and one rejection with the expected status and body.
+      - title: Deliver the booking-solution mini-project
+        topics: [Acceptance evidence, Deployment assumptions, Operational handover]
+        resources: [arc42-template, madr]
+        practice: Package the local slice with an architecture overview, test requests, run instructions and a list of unresolved production needs such as identity and recovery.
+        checkpoint: Another person can reproduce the local acceptance cases and distinguish demonstrated behavior from proposed production capabilities.
+    next_steps: Review the design with implementation and operations colleagues, then validate one unresolved requirement at a time; a proof of concept is not a production approval.
+
+  - role: cloud-architect
+    title: "Cloud Architect: justify a small workload's deployment choices"
+    summary: An editorial cloud-design exercise that separates workload requirements, provider choices and unverified cost assumptions.
+    entry_level: experience-required
+    prerequisites:
+      - Have deployed and troubleshot a small service and understand networking and access control basics.
+      - Can explain stateless application processes and persistent data.
+      - Understand that cloud accounts and managed services can incur charges; deployment is optional here.
+    outcome: A cloud deployment proposal with a local container demonstration, explicit failure scenarios and a cost-verification checklist.
+    stages:
+      - title: Characterise the workload before choosing services
+        topics: [Traffic assumptions, Persistence, Availability expectations]
+        resources: [arc42-template, karan-system-design]
+        practice: Define an invented document-index service, estimate its small starting workload and state what must survive process failure and what downtime is acceptable.
+        checkpoint: The brief distinguishes measured requirements from assumptions and identifies the data that cannot be lost.
+      - title: Understand provider building blocks
+        topics: [Compute options, Managed storage, Shared responsibility]
+        resources: [aws-skill-builder]
+        practice: Use an introductory cloud module in the provider catalogue to identify compute and storage building blocks relevant to the service; note the exact module used and which responsibility remains yours.
+        checkpoint: The design names the purpose of each proposed service and does not assume that using a managed service transfers all security responsibility to the provider.
+      - title: Model deployment and identify unanswered operating costs
+        topics: [Container deployment, Recovery assumptions, Pricing inputs]
+        resources: [docker-docs-get-started]
+        gap: A verified provider-specific cost-modelling and disaster-recovery curriculum is not currently available in this catalogue; do not treat generic container tutorials as that training.
+        practice: Containerise the service locally, identify the persistent data outside its process and list provider prices, traffic charges and recovery capabilities that need checking before any paid deployment.
+        checkpoint: The local image can be rebuilt and restarted, while the cost sheet clearly marks unknown rates and untested recovery claims.
+      - title: Present a cloud-architecture mini-project
+        topics: [Deployment topology, Failure scenarios, Tradeoff review]
+        resources: [arc42-template, madr]
+        practice: Deliver the workload brief, proposed topology, container instructions and an ADR comparing a simple deployment with a more redundant option; keep cloud execution optional.
+        checkpoint: A reviewer can identify the chosen option's failure exposure and every prerequisite requiring provider documentation, budgeting or a real recovery test before use.
+    next_steps: Validate pricing, identity and recovery using current official provider documentation and supervised lab work with spending limits; this proposal does not qualify a production architecture.
+
+  - role: infrastructure-architect
+    title: "Infrastructure Architect: design reproducible foundations for a service"
+    summary: An editorial lab for relating compute, storage, configuration and recovery to a service's operating requirements.
+    entry_level: experience-required
+    prerequisites:
+      - Have administered Linux systems and diagnosed a service or storage problem.
+      - Can explain network ports, permissions and the difference between process and data persistence.
+      - Have access to an isolated local container environment for the practice work.
+    outcome: A reproducible local service foundation with an inventory, infrastructure definition and tested rebuild evidence.
+    stages:
+      - title: Inventory the foundations and their constraints
+        topics: [Host resources, Service dependencies, Permissions]
+        resources: [linux-upskill-challenge]
+        practice: Document a local web-service lab's host, listening port, process owner, configuration and data locations; record a basic service-status and log check.
+        checkpoint: The inventory distinguishes the service's configuration, executable files and persistent data and identifies the account allowed to change each.
+      - title: Choose an isolation and storage arrangement
+        topics: [Container boundaries, Volumes, Resource assumptions]
+        resources: [docker-docs-get-started]
+        practice: Run the lab service in a container, keep its required data outside the ephemeral process and compare that arrangement with a dedicated host on paper.
+        checkpoint: Restarting or replacing the container leaves the intended data available, and the comparison names a limitation of container isolation.
+      - title: Express the local infrastructure as a repeatable definition
+        topics: [Infrastructure as code, State, Planned changes]
+        resources: [terraform-tutorials]
+        practice: Follow the Docker tutorial track in a disposable environment, save the infrastructure definition and compare a planned change before applying it; do not use a paid cloud track for this exercise.
+        checkpoint: The same definition recreates the expected local resource, and you can explain the role and sensitivity of the state file.
+      - title: Deliver a rebuild-and-recovery mini-project
+        topics: [Rebuild procedure, Data restoration, Operational evidence]
+        resources: [linux-upskill-challenge, arc42-template]
+        practice: Package the inventory and definitions, back up a small invented data file, remove only the disposable service and rebuild it; document manual restoration and remaining single points of failure.
+        checkpoint: A fresh lab instance exposes the expected service and recovered sample data, with recorded commands and checks rather than an untested claim of high availability.
+    next_steps: Expand the design with an operations team to cover real capacity, backup retention and failure testing; a local rebuild does not establish production resilience.
+
+  - role: network-architect
+    title: "Network Architect: design connectivity around requirements and failures"
+    summary: An editorial sequence for experienced networking learners to connect a small topology, test results and a resilience proposal.
+    entry_level: experience-required
+    prerequisites:
+      - Can explain IP addressing, subnets, routing and DNS and diagnose basic connectivity.
+      - Have completed a small simulated network lab or equivalent practical work.
+      - Can read basic Python and use an isolated Linux lab for the emulation track.
+    outcome: A network requirements sheet, annotated topology, controlled failure evidence and a bounded redesign proposal.
+    stages:
+      - title: Translate communication needs into a network brief
+        topics: [Traffic endpoints, Addressing, Reachability constraints]
+        resources: [computer-networks-systems-approach]
+        practice: Describe a fictional office with users and a service, list required communications and assign an address plan with no overlapping subnets.
+        checkpoint: The brief identifies each endpoint, permitted communication and the routing needed between its networks.
+      - title: Draw the topology and its failure domains
+        topics: [Switching and routing, Shared dependencies, Failure boundaries]
+        resources: [computer-networks-systems-approach, arc42-template]
+        practice: Diagram the office connections and mark where a failed device or link disconnects multiple endpoints; explain one proposed change that reduces that dependency.
+        checkpoint: The topology is consistent with the address plan and a reader can trace the effect of one named link failure.
+      - title: Test a constrained topology rather than assuming it works
+        topics: [Network emulation, Connectivity checks, Controlled faults]
+        resources: [mininet]
+        practice: Adapt a small Python topology example in an isolated Linux environment, record host connectivity and deliberately disable one lab link before restoring it.
+        checkpoint: The saved connectivity results show the expected working, failed and restored states and identify which proposed production features were not represented by the emulator.
+      - title: Deliver a network-redesign mini-project
+        topics: [Design rationale, Validation scope, Operational handover]
+        resources: [madr, arc42-template]
+        practice: Assemble the brief, address plan, topology and emulation evidence; compare your original design with one resilience improvement and document operational and cost assumptions.
+        checkpoint: A reviewer can trace the improvement to an observed failure and distinguish tested connectivity from untested throughput or hardware behavior.
+    next_steps: Validate equipment capabilities, routing policies, monitoring and failover with an experienced network team; a small emulation is not a production network design sign-off.
+
+  - role: data-architect
+    title: "Data Architect: define shared meaning and movement of data"
+    summary: An editorial exercise in modelling data across systems while making stewardship and governance gaps visible.
+    entry_level: experience-required
+    prerequisites:
+      - Can query relational data and explain keys, joins and basic integrity constraints.
+      - Have worked with data moving between at least two files, services or databases.
+      - Can use invented data and document uncertain business definitions.
+    outcome: A cross-system data model, glossary, small transformation example and explicit governance questions.
+    stages:
+      - title: Establish shared entities and definitions
+        topics: [Entities, Keys, Relational integrity]
+        resources: [cs50-sql]
+        practice: Model a fictional training organisation's learners, enrolments and invoices; record definitions and show how stable identifiers connect records.
+        checkpoint: The model can represent repeated enrolments without confusing a person with an enrolment or duplicating the definition of an invoice.
+      - title: Trace one transformation across boundaries
+        topics: [Source and target models, Transformations, Data-quality checks]
+        resources: [dbt-learn]
+        practice: Use a small invented enrolment dataset to define a source-to-report transformation, list required fields and add checks for missing identifiers and duplicate records.
+        checkpoint: A sample output is traceable to its input records, and the documented checks detect deliberately introduced missing or duplicate identifiers.
+      - title: Identify ownership and governance requirements
+        topics: [Data stewardship, Retention, Access decisions]
+        resources: []
+        gap: No verified resource currently teaches a complete introductory treatment of data stewardship, retention governance and enterprise data ownership.
+        practice: Assign fictional owners to the three datasets, propose access and retention questions for each and label decisions that need business, privacy or legal review rather than inventing compliance rules.
+        checkpoint: Every dataset has an owner and an unresolved-decision list, and no proposed retention period is presented as a legal requirement without evidence.
+      - title: Deliver a shared-data mini-project
+        topics: [Data contracts, Lineage, Change impact]
+        resources: [arc42-template, madr]
+        practice: Package the glossary, model and transformation evidence, then assess adding a second billing system and record which definitions or interfaces must remain stable.
+        checkpoint: A reviewer can follow one learner record to the report and identify the owner, transformation and likely impact of a changed invoice field.
+    next_steps: Fill the governance gaps with verified material and work with data owners and privacy specialists; a schema and glossary alone do not establish an enterprise data strategy.
+
+  - role: security-architect
+    title: "Security Architect: connect trust boundaries to tested controls"
+    summary: An editorial security-design exercise using a fictional service and authorized training labs rather than unapproved targets.
+    entry_level: experience-required
+    prerequisites:
+      - Have built or operated an application and understand HTTP, identity and network boundaries.
+      - Can distinguish an observed vulnerability from an untested risk hypothesis.
+      - Will use invented data and only authorized local or training environments.
+    outcome: A trust-boundary diagram, risk-to-control table and an authorized lab report with a clear validation scope.
+    stages:
+      - title: Identify assets, trust boundaries and uncertain threats
+        topics: [Assets, Trust boundaries, Threat assumptions]
+        resources: []
+        gap: A verified introductory threat-modelling curriculum is not yet available; architecture templates and vulnerability lists are not substitutes for that instruction.
+        practice: Draw a fictional booking service's users, API and database, mark where trust changes and list valuable data and three threat hypotheses with their assumptions.
+        checkpoint: Each hypothesis names an asset and boundary and is explicitly labelled as a hypothesis, not an exploited weakness.
+      - title: Link relevant risks with concrete controls
+        topics: [Application risks, Access control, Input handling]
+        resources: [owasp-top-10, portswigger-web-security-academy]
+        practice: Select one risk relevant to the service, study its explanation and record a corresponding control, its enforcement point and how a failure could be observed.
+        checkpoint: The control addresses the stated cause, and the proposal does not treat a Top 10 checklist as a complete security architecture.
+      - title: Validate one control in an authorized lab
+        topics: [Lab scope, Reproduction evidence, Mitigation reasoning]
+        resources: [portswigger-web-security-academy]
+        practice: Complete one suitable supplied lab, record the observed behavior and explain the mitigation; restrict activity to that lab and omit credentials or challenge answers from shared evidence.
+        checkpoint: The lab outcome and report support the specific claim, while proposed controls in the fictional service remain marked untested.
+      - title: Deliver a security-design mini-project
+        topics: [Risk-to-control traceability, Residual risk, Review decisions]
+        resources: [arc42-template, madr]
+        practice: Assemble the boundary diagram, risk table and lab report, then document one security-versus-usability tradeoff and a residual risk needing a qualified review.
+        checkpoint: A reviewer can distinguish implemented, lab-tested and merely proposed controls, and every unresolved risk has a next validation action.
+    next_steps: Study verified threat-modelling methods and participate in supervised security reviews; training-lab success does not authorize testing or establish system security.
+
+  - role: applications-architect
+    title: "Applications Architect: organise a portfolio's responsibilities"
+    summary: An editorial portfolio exercise focused on application boundaries, duplicated responsibilities and incremental change.
+    entry_level: experience-required
+    prerequisites:
+      - Have maintained or integrated multiple applications and can describe their dependencies.
+      - Understand API contracts and basic deployment constraints.
+      - Can separate a proposed target landscape from an existing implementation.
+    outcome: A fictional application portfolio map, responsibility matrix and phased consolidation proposal with acceptance conditions.
+    stages:
+      - title: Map applications and the capabilities they expose
+        topics: [Application context, Ownership, External dependencies]
+        resources: [arc42-template]
+        practice: Document a fictional organisation's enrolment, billing and reporting applications, their users, owners and external interfaces.
+        checkpoint: The inventory shows where each user action begins and which application owns its authoritative record.
+      - title: Identify duplicated and misplaced responsibilities
+        topics: [Application boundaries, Coupling, Shared data]
+        resources: [karan-system-design]
+        practice: Find a case where enrolment and billing both maintain a learner address, compare central ownership with duplicated copies and document the effect on updates and failures.
+        checkpoint: The comparison names a benefit and failure mode for each option and does not recommend microservices merely because multiple applications exist.
+      - title: Design a manageable transition
+        topics: [Interface changes, Coexistence, Reversal conditions]
+        resources: [madr, arc42-template]
+        practice: Plan how one application becomes the address owner while the others continue operating; define sample old and new interface payloads and a reversible switch-over condition.
+        checkpoint: The transition identifies affected consumers, a compatibility check and what would trigger a return to the previous arrangement.
+      - title: Deliver an application-portfolio mini-project
+        topics: [Target landscape, Responsibility traceability, Change review]
+        resources: [arc42-template]
+        practice: Present current and proposed landscapes, the address-ownership decision and three example user journeys showing how the proposal changes dependencies.
+        checkpoint: A reviewer can trace all three journeys and distinguish a justified consolidation from an unsupported organisation-wide redesign.
+    next_steps: Test the proposed boundaries with application owners and real change constraints; this fictional portfolio does not replace experience maintaining an organisation's estate.
+
+  - role: integration-architect
+    title: "Integration Architect: make system contracts and failures explicit"
+    summary: An editorial lab for designing an interface, proving failure behavior and recording integration tradeoffs.
+    entry_level: experience-required
+    prerequisites:
+      - Can implement a small Python HTTP API and inspect request and response bodies.
+      - Understand relational identifiers, authentication basics and dependency failures.
+      - Have access to a local development environment and invented test data.
+    outcome: A two-component local integration with an explicit contract, duplicate-request behavior and failure evidence.
+    stages:
+      - title: Describe the exchange before selecting a protocol
+        topics: [Producer and consumer, Contract fields, Error responses]
+        resources: [fastapi-tutorial]
+        practice: Define an enrolment-to-billing request with a stable enrolment identifier, amount and required validation rules, plus one success and two rejection examples.
+        checkpoint: Producer and consumer examples agree on field names, types and response meaning, including the difference between an invalid request and an unavailable dependency.
+      - title: Compare synchronous calls and asynchronous messages
+        topics: [Request-response, Message queues, Duplicate delivery]
+        resources: [karan-system-design, madr]
+        practice: Compare an immediate billing API call with queued billing work, explain when a reply is needed and record a proposed policy for receiving the same enrolment identifier twice.
+        checkpoint: The ADR describes a failure mode of each approach and specifies the intended duplicate behavior without claiming exactly-once delivery.
+      - title: Prove the chosen contract locally
+        topics: [Validation, Duplicate handling, Dependency failure]
+        resources: [fastapi-tutorial, pytest-getting-started]
+        practice: Build two small local Python components using the synchronous option, validate requests and test normal, duplicate and simulated-unavailable responses; no message broker is required.
+        checkpoint: Three named checks demonstrate the specified outcomes, and a duplicate request does not create a second charge in the invented billing store.
+      - title: Deliver an integration mini-project
+        topics: [Sequence diagrams, Contract evolution, Operating instructions]
+        resources: [arc42-template, madr]
+        practice: Package both components, contract examples and tests, draw a request sequence and assess adding a new optional field while an older consumer remains in use.
+        checkpoint: Another person can run the local exchange and failure checks and explain which contract changes preserve compatibility and which need a migration.
+    next_steps: Study a verified messaging implementation before attempting the asynchronous option and validate real identity, retries and monitoring with the owning teams.
+
+  - role: database-architect
+    title: "Database Architect: justify storage design with queries and evidence"
+    summary: An editorial database lab connecting a workload, relational structure, integrity and query measurements.
+    entry_level: experience-required
+    prerequisites:
+      - Can write SQL joins and aggregates and explain primary and foreign keys.
+      - Have implemented an application using persistent storage.
+      - Can run a disposable local database with invented data and read query results critically.
+    outcome: A small relational design with integrity tests, measured index choices and a bounded storage decision.
+    stages:
+      - title: Model the workload and enforce its invariants
+        topics: [Entities and relationships, Constraints, Workload queries]
+        resources: [cs50-sql]
+        practice: Model bookings for rooms and users, list the main read and write operations and add key and required-field constraints in a disposable database.
+        checkpoint: Example valid records are accepted, invalid references are rejected and every requested query has a place in the model.
+      - title: Examine changes as transactions
+        topics: [Transactions, Integrity failures, Consistent updates]
+        resources: [postgresql-tutorial]
+        practice: Implement a booking change that updates two related records within a transaction and deliberately make the second operation fail in the lab.
+        checkpoint: Recorded before-and-after queries demonstrate that the failed transaction leaves no partial update, and the test distinguishes rollback from a successful commit.
+      - title: Measure an indexing decision
+        topics: [Index selection, Query plans, Write costs]
+        resources: [use-the-index-luke]
+        practice: Generate an invented dataset, inspect a representative filtered query before and after an index and record its query plan, dataset size and repeated timings.
+        checkpoint: The report explains the chosen index using the query shape and acknowledges storage or write overhead rather than treating one fast run as proof.
+      - title: Deliver a database-design mini-project
+        topics: [Schema documentation, Storage alternatives, Recovery questions]
+        resources: [cmu-15-445, madr]
+        practice: Package the schema, representative queries and integrity evidence, compare the selected relational store with one plausible alternative and list backup-and-restore checks still required before deployment.
+        checkpoint: A reader can reproduce the local workload and trace the storage choice to requirements; untested recovery and scale claims are explicitly excluded.
+    next_steps: Validate concurrent workloads, restore procedures and operational behavior with experienced database practitioners; a schema and benchmark do not establish production readiness.
+
+  - role: technical-lead
+    title: "Technical Lead: help a team deliver a coherent small change"
+    summary: An editorial collaboration exercise that combines technical direction, review and reproducible delivery without equating a title with seniority.
+    entry_level: experience-required
+    prerequisites:
+      - Can implement, test and review changes in an existing codebase.
+      - Have collaborated through Git and can explain a technical choice to another developer.
+      - Can ask for feedback and distinguish technical leadership from people-management authority.
+    outcome: A small reviewed change with a clear plan, decision record, test evidence and handover notes; individual practice cannot demonstrate team-leadership competence by itself.
+    stages:
+      - title: Frame a change so someone else can contribute
+        topics: [Acceptance criteria, Technical scope, Implementation dependencies]
+        resources: [arc42-template]
+        practice: Choose a modest improvement in a Python practice project, describe its externally observable result and map the affected components before splitting work into two reviewable tasks.
+        checkpoint: Each task has an acceptance example and the plan identifies the shared interface that must remain consistent.
+      - title: Make a decision that the team can challenge
+        topics: [Alternatives, Decision rationale, Review questions]
+        resources: [madr]
+        practice: Record one contested implementation choice with its constraints, alternatives and consequences, then ask a collaborator to challenge it or label a solo review explicitly.
+        checkpoint: The record includes an objection and a response based on the project's needs, not on the author's job title.
+      - title: Review behavior as well as the diff
+        topics: [Pull requests, Regression checks, Reproduction steps]
+        resources: [github-skills-introduction-to-github, pytest-getting-started]
+        practice: Implement the change on a branch in a separate practice repository, add a relevant Python test and prepare a pull request with reproduction steps; the GitHub exercise teaches mechanics, not a complete review methodology.
+        checkpoint: A relevant deliberate mistake makes the test fail, and review notes identify behavior or maintainability evidence rather than merely confirming that the diff exists.
+      - title: Deliver a technical-direction mini-project
+        topics: [Handover, Follow-up decisions, Collaboration limits]
+        resources: [madr]
+        gap: The catalogue does not yet contain verified training for coaching, conflict resolution or inclusive technical leadership; ADR guidance only supports the decision-documentation part.
+        practice: Package the plan, change, test evidence and review discussion, record one improvement from feedback and write handover instructions with the next technical risk to investigate.
+        checkpoint: Another reader can reproduce the result and identify which decisions changed after review; solo work is not presented as evidence of leading a team.
+    next_steps: Practise planning, mentoring and disagreement resolution with a real team and experienced feedback; fill the explicit leadership-training gap instead of treating reading or pull-request mechanics as leadership qualification.

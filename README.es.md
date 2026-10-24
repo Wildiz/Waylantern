@@ -1,24 +1,24 @@
 # Waylantern
 
-**Una guía gratuita y hecha para la comunidad con las mejores herramientas para aprender IT** (software, datos, IA y LLMs).
+**Encuentra qué aprender en tecnología y cuál es tu siguiente paso.**
 
-[English](README.md)
+No necesitas conocer todas las profesiones ni leer todo el catálogo. Elige una entrada:
 
-> **Hecho con IA.** Este directorio lo armó un asistente de IA (Claude) para su dueño, que está empezando en IT. La idea es reunir en un solo lugar los recursos gratuitos para estudiar. Se verificó cada entrada en su página oficial siempre que fue posible, pero pueden quedar errores, precios desactualizados o enlaces rotos. Confirma los datos en el sitio oficial y avísanos si algo está mal.
+| Tu situación | Empieza aquí | Qué encontrarás |
+|---|---|---|
+| Empiezo desde cero | [Mi primer paso](docs/path-0-fundamentals.md) | Una actividad inicial y cómo comprobar que la entendiste. |
+| No sé qué hace cada profesión | [Explorar profesiones](docs/professions.md) | Seis grupos con explicaciones sencillas de cada perfil. |
+| Sé qué perfil quiero estudiar | [Elegir un currículo](docs/curricula.md) | La receta: requisitos, etapas, práctica y criterios de avance. |
+| Busco un tema, curso o herramienta | [Consultar el catálogo](docs/catalogue.md) | Recursos por área y formato, con costes y requisitos. |
 
-## ¿Nunca has estudiado IT? Empieza aquí
-No hace falta leerlo todo. Elige **una** cosa de la sección *Start here* del [README en inglés](README.md), dedícale dos semanas y vuelve.
+**Si estás perdido, empieza por la primera entrada.** Avanza por lo que puedas demostrar, sin plazos fijos.
 
-## Qué encontrarás
-- Rutas completas tipo universidad, cursos y práctica interactiva.
-- Herramientas para tomar notas, memorizar y mantener el foco (incluye ideas amigables con el TDAH).
-- Comunidades donde pedir ayuda.
-- Cada entrada indica coste, nivel, idiomas (incluido español cuando existe) y la fecha en que se verificó.
+Las páginas detalladas están en inglés. Cada recurso indica sus idiomas y sus requisitos; no hace falta saber programar para explorar las profesiones.
 
-Las tablas están en inglés por ahora, pero verás qué recursos ofrecen español en la columna *Languages*.
+325 recursos: 314 disponibles en inglés y 11 en otros idiomas. 133 perfiles con recetas editoriales.
 
-## Cómo ayudar
-¿Falta una herramienta o un dato está mal? No necesitas saber Git: [abre una sugerencia](https://github.com/Wildiz/Waylantern/issues/new/choose) y rellena el formulario (puedes escribir en español).
+[English](README.md) · [Probar un área con un proyecto corto](docs/learning-paths.md) · [Fuentes y estado de revisión](docs/profession-references.md)
 
-## Licencia
-[CC BY 4.0](LICENSE): copia, adapta y comparte, solo da crédito.
+¿Encontraste un error o falta un recurso? [Abre una sugerencia](https://github.com/Wildiz/Waylantern/issues/new/choose) o consulta [cómo contribuir](CONTRIBUTING.md).
+
+[CC BY 4.0](LICENSE). Contenido organizado con ayuda de IA; el catálogo conserva las notas de comprobación y las limitaciones de cada fuente.

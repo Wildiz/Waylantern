@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate resource, path and profession data, then generate README.md and docs/*.md."""
 import json
+import html
 import re
 import sys
 from collections import defaultdict
@@ -12,8 +13,12 @@ from jsonschema import Draft202012Validator
 
 if __package__:
     from .profession_catalog import load_professions, render_professions
+    from .curricula import load_curricula, render_curricula
+    from .navigation import render_home, render_catalogue, render_path_index
 else:
     from profession_catalog import load_professions, render_professions
+    from curricula import load_curricula, render_curricula
+    from navigation import render_home, render_catalogue, render_path_index
 
 ROOT = Path(__file__).resolve().parent.parent
 REPO = "Wildiz/Waylantern"  # GitHub owner/name, used in generated links
@@ -26,7 +31,7 @@ def anchor(title):
 
 # slug -> (title, one-line explanation for beginners)
 CATEGORIES = {
-    "path": ("Full paths (a free university)", "A complete road from zero, in order. Best if you want structure and do not want to decide what to study next."),
+    "path": ("External programmes and curricula", "Longer study programmes and course sequences provided by other organisations; check their prerequisites and scope."),
     "course": ("Courses and books", "Individual courses and books on one topic. Good once you know roughly what you want to learn."),
     "practice": ("Practice by doing", "You write code or solve problems and get instant feedback. Best for staying engaged."),
     "roadmap": ("Roadmaps", "Maps that show what to learn and in what order. Use one to see the big picture."),
@@ -118,7 +123,13 @@ def repository_url(entry):
     if (parsed.scheme != "https" or parsed.hostname not in {"github.com", "gitlab.com"}
             or parsed.username or parsed.password or len(parts) < 2):
         return None
-    return f"https://{parsed.hostname}/{'/'.join(parts[:2])}"
+    if parsed.hostname == "github.com":
+        parts = parts[:2]
+    elif "-" in parts:
+        parts = parts[:parts.index("-")]
+    if len(parts) < 2:
+        return None
+    return f"https://{parsed.hostname}/{'/'.join(parts)}"
 
 
 def load_area_repositories(entries):
@@ -148,45 +159,57 @@ def load_area_repositories(entries):
     return selections, errors
 
 
+def cell(text):
+    """Keep user-authored text inside one Markdown table cell."""
+    return str(text).replace("|", "&#124;").replace("\r", "").replace("\n", "<br>")
+
+
+def resource_details(entry):
+    slug = entry.get("_slug", anchor(entry["name"]))
+    checked = entry.get("verified", {})
+    lines = [f'<a id="resource-{slug}"></a>',
+             f"<details><summary>{html.escape(entry['name'])}: requirements and source notes</summary>", ""]
+    if entry.get("prerequisites"):
+        lines += ["**Before you start:** " + "; ".join(entry["prerequisites"]), ""]
+    lines += [f"**Topic level:** {entry['level']}. Read the requirements below before choosing it.", "",
+              f"**Languages recorded:** {', '.join(entry.get('languages', []))}", ""]
+    if entry.get("pros"):
+        lines += ["**Useful for:**", "", *[f"- {item}" for item in entry["pros"]], ""]
+    if entry.get("cons"):
+        lines += ["**Requirements, costs and limitations:**", "", *[f"- {item}" for item in entry["cons"]], ""]
+    if checked:
+        lines += [f"**Source checked:** {checked.get('date', 'not recorded')} ({checked.get('method', 'not recorded')}).", "",
+                  checked.get("notes", "No further source notes recorded."), ""]
+    lines += [f"**Study format:** {entry.get('structure', 'not recorded')}. **Focus-friendly rating:** {entry.get('focus_friendly', 'unknown')} (editorial judgment).", "", "</details>"]
+    return "\n".join(lines)
+
+
 def table(items, detailed):
     items = sorted(items, key=lambda e: e["name"].lower())
-    if detailed:
-        head = "| Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |\n|---|---|---|---|---|---|---|"
-        rows = [
-            f"| {link(e)} | {PRICE_LABEL[e['price']]} | {e['level']} | {e['structure']} | {FOCUS_LABEL[e['focus_friendly']]} | "
-            f"{', '.join(e['languages'])} | {e['description']} |"
-            for e in items
-        ]
-    else:
-        head = "| Name | Cost | What it is |\n|---|---|---|"
-        rows = [f"| {link(e)} | {PRICE_LABEL[e['price']]} | {e['description']} |" for e in items]
-    return "\n".join([head] + rows)
+    rows = ["| Resource | Access | Topic level | What it offers |", "|---|---|---|---|"]
+    for entry in items:
+        slug = entry.get("_slug", anchor(entry["name"]))
+        title = f"{link(entry)} · [details](#resource-{slug})"
+        rows.append("| " + " | ".join(cell(value) for value in [title, PRICE_LABEL[entry["price"]], entry["level"], entry["description"]]) + " |")
+    rows += ["", *[resource_details(entry) + "\n" for entry in items]]
+    return "\n".join(rows)
 
 
-LEVEL_TITLES = [("beginner", "Beginner (no previous knowledge)"), ("intermediate", "Intermediate"), ("advanced", "Advanced"), ("all", "Any level")]
+LEVEL_TITLES = [("beginner", "Beginner in this topic"), ("intermediate", "Intermediate"), ("advanced", "Advanced"), ("all", "Any level")]
 
 
 def render_category(cat, items):
     title, blurb = CATEGORIES[cat]
     out = [f"# {title}", "", f"_{blurb}_", "", "[Back to the start](../README.md)", ""]
+    out += ["[Resource catalogue](catalogue.md) · [Read access and level labels](catalogue.md#read-resource-labels)", ""]
+    if cat == "path":
+        out += ["These are external programmes. For Waylantern's own learning recipes, [choose a profession curriculum](curricula.md). To try an area with one small project, [compare first-project guides](learning-paths.md).", ""]
     if len(items) > 25:
         out += ["Jump to: " + " | ".join(f"[{t.split(' (')[0]}](#{anchor(t)})" for lv, t in LEVEL_TITLES if any(e["level"] == lv for e in items)), ""]
     for lv, lv_title in LEVEL_TITLES:
         group = [e for e in items if e["level"] == lv]
         if group:
             out += [f"## {lv_title}", "", table(group, True), ""]
-    notes = [e for e in sorted(items, key=lambda e: e["name"].lower()) if e.get("pros") or e.get("cons")]
-    if notes:
-        out += ["## Pros and cons", "", "<details><summary>Show pros and cons for each entry</summary>", ""]
-        for e in notes:
-            out.append(f"**{e['name']}**")
-            out.append("")
-            for p in e.get("pros", []):
-                out.append(f"- Good: {p}")
-            for c in e.get("cons", []):
-                out.append(f"- Watch out: {c}")
-            out.append("")
-        out += ["</details>", ""]
     out += ["---", "Entries marked 'Price not confirmed yet' have a detail we could not verify from an official source. Help us confirm it: see [CONTRIBUTING](../CONTRIBUTING.md).", ""]
     return "\n".join(out)
 
@@ -202,118 +225,9 @@ def path0_readme_table(data, by_slug):
     return rows
 
 
-def render_readme(entries, groups, n_other=0, path0=None, by_slug=None, paths=(), selections=None):
-    main_entries = [e for _, e in entries]
-    es = [e for _, e in entries if "es" in e["languages"]]
-    out = [
-        "# Waylantern",
-        "",
-        "_A lantern for your first steps in IT._",
-        "",
-        "**A free, community-style guide to resources for learning IT** (software, data, AI, networks, hardware and IT operations).",
-        "Courses, books, practice labs, open-source projects and study tools, organized by topic and format.",
-        "Not sure what a role involves or what to do next? Choose a short learning path with a first project and checkpoints, then use the catalogue to explore further.",
-        "",
-        "[Español](README.es.md)",
-        "",
-        "[Explore areas and professions](docs/professions.md) · [Compare learning paths](#choose-a-learning-path)",
-        "",
-        f"> **Made with AI.** This directory was put together by an AI assistant (Claude) working for its owner, who is a beginner in IT. The goal is to gather in one place the free resources people can use to study. Entries were checked against official pages whenever possible, but mistakes, outdated prices and broken links can still happen. Please confirm details on the official site and [tell us what is wrong]({ISSUES_URL}).",
-        "",
-        "## Never studied IT before? Start here",
-        "",
-        "Follow **[Path 0: fundamentals](docs/path-0-fundamentals.md)**: a few small steps, no deadlines. Do one step at a time and move on when you can do the check at the end of it, not when a calendar says so.",
-        "",
-    ]
-    out += path0_readme_table(path0, by_slug)
-    out += [
-        "",
-        "The [full page](docs/path-0-fundamentals.md) explains why each resource is there and when to move on.",
-        "",
-        "## Choose a learning path",
-        "",
-        "Each path explains what a related role does, the knowledge you need first and a small project to build. Choose one and follow its checkpoints. If you are unsure, begin with Path 0. You can change direction later.",
-        "",
-        "| Path | What you will try |",
-        "|---|---|",
-    ]
-    out += [f"| [{data['title']}](docs/{slug}.md) | {data['summary']} |" for slug, data in paths]
-    out += [
-        "",
-        "## Looking for one specific area?",
-        "",
-        "Start with a short route or a selected repository. Open the full area for all its courses, books, practice and tools. Repository links include educational materials and applications to explore; each resource's page explains its level and requirements.",
-        "",
-        "| Area | What is inside | Start here | Selected repositories | All resources |",
-        "|---|---|---|---|---|",
-    ]
-    for area, (a_title, a_blurb) in AREAS.items():
-        n = sum(1 for e in main_entries if area in e["areas"])
-        if n:
-            related = [(slug, data) for slug, data in paths if area in data["areas"]]
-            start = ", ".join(f"[{data['title']}](docs/{slug}.md)" for slug, data in related) or f"[Browse](docs/area-{area}.md)"
-            repos = ", ".join(f"[{by_slug[slug]['name']}]({repository_url(by_slug[slug])})" for slug in (selections or {}).get(area, [])) or "—"
-            out.append(f"| [{a_title}](docs/area-{area}.md) | {a_blurb} | {start} | {repos} | [{n}](docs/area-{area}.md) |")
-    out += ["", "[How these repositories were researched](research/2026-10-24-repositories-and-careers.md)."]
-    out += [
-        "",
-        "## What do you need?",
-        "",
-        "| I want... | Go to |",
-        "|---|---|",
-    ]
-    needs = [
-        ("docs/path.md", "A full, ordered path like a university degree", "path"),
-        ("docs/practice.md", "To learn by writing code and getting instant feedback", "practice"),
-        ("docs/roadmap.md", "To see the big picture of what exists", "roadmap"),
-        ("docs/area-focus.md", "Help staying focused (ADHD-friendly ideas)", None),
-        ("docs/area-study-skills.md", "Notes, flashcards and remembering things", None),
-        ("docs/community.md", "People to learn with", "community"),
-    ]
-    out += [f"| {text} | [Open]({page}) |" for page, text, c in needs if c is None or groups.get(c)]
-    out += [
-        "",
-        "## Browse by format",
-        "",
-        "| Format | What is inside | Entries |",
-        "|---|---|---|",
-    ]
-    for cat, (title, blurb) in CATEGORIES.items():
-        if groups.get(cat):
-            out.append(f"| [{title}](docs/{cat}.md) | {blurb} | {len(groups[cat])} |")
-    out += [
-        "",
-        f"**{len(entries)} entries in total**, {len(es)} of them with Spanish available.",
-        "",
-    ]
-    if n_other:
-        out += [f"**Optional:** {n_other} more resources that are only available in other languages (Spanish) are in [Resources in other languages](docs/other-languages.md).", ""]
-    out += [
-        "## How to read the tables",
-        "",
-        "- **Cost**: `Free` means free to learn. Some free sites sell optional certificates. `Price not confirmed yet` means we have not verified it on the official page yet.",
-        "- **Level**: `beginner` needs no previous knowledge.",
-        "- **Guided?**: `guided` has a path to follow; `self-directed` means you choose your own way.",
-        "- **Focus-friendly**: our judgment of how easy it is to stay engaged (short sessions, instant feedback, clear next step). `-` means we do not know yet.",
-        "",
-        "## Tips that come from the community",
-        "",
-        "- Free content has plenty of material but little structure. The most common reason people quit is not knowing what to do next, so pick a path and stick to it.",
-        "- After each lesson, build something small of your own. Watching tutorials alone is a trap.",
-        "- Free lists go out of date and links break. That is why every entry here has a verification date, and a bot checks the links regularly.",
-        "",
-        "## Want to help?",
-        "",
-        f"Found a tool that is missing, or a wrong detail? You do **not** need to know Git: [open a suggestion]({ISSUES_URL}) and fill in the form. Developers can send a pull request: see [CONTRIBUTING](CONTRIBUTING.md).",
-        "",
-        "## License",
-        "",
-        "[CC BY 4.0](LICENSE): copy it, adapt it, share it, just give credit.",
-        "",
-        "> README and `docs/` are generated from the YAML source files in `data/` by `scripts/build.py`. Edit the data files, not the generated pages.",
-        "",
-    ]
-    return "\n".join(out)
+def render_readme(entries, groups, n_other=0, path0=None, by_slug=None, paths=(), selections=None, role_count=0):
+    return render_home(len(entries) + n_other, len(entries), n_other, role_count)
+
 
 
 def render_other_languages(items):
@@ -332,37 +246,47 @@ def render_other_languages(items):
 
 def render_path(data, by_slug, path_slug):
     out = [f"# {data['title']}", "", data["intro"].strip(), "", "[Back to the start](../README.md)", ""]
+    out += ["**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).", ""]
+    if data.get("prerequisites"):
+        out += ["## Before you start", "", data["prerequisites"], ""]
     if path_slug != "path-0-fundamentals":
         out += ["If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.", ""]
-    if "helpers" in data:
-        helpers = data["helpers"]
-        out += ["## Optional helpers for focus and memory", "", helpers["why"], ""]
-        out += [f"- {link(by_slug[slug])} ({PRICE_LABEL[by_slug[slug]['price']]}): {by_slug[slug]['description']}" for slug in helpers["tools"]]
-        out += [""]
     for i, step in enumerate(data["steps"], 1):
         out += [f"## Step {i}: {step['title']}", "", step["why"], ""]
         for slug in step["tools"]:
             e = by_slug[slug]
             out.append(f"- {link(e)} ({PRICE_LABEL[e['price']]}): {e['description']}")
         out += ["", f"**Advance when:** {step['advance_when']}", ""]
+    if "helpers" in data:
+        helpers = data["helpers"]
+        out += ["<details><summary>Optional tools for focus and memory</summary>", "", helpers["why"], ""]
+        out += [f"- {link(by_slug[slug])} ({PRICE_LABEL[by_slug[slug]['price']]}): {by_slug[slug]['description']}" for slug in helpers["tools"]]
+        out += ["", "</details>", ""]
     out += ["## Where to go next", "", "After the last checkpoint, improve your project or browse the related areas for a specific gap:", ""]
     out += [f"- [{AREAS[area][0]}](area-{area}.md)" for area in data["areas"]]
-    out += ["", "[Compare the learning paths](../README.md#choose-a-learning-path)", "", "---", "This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).", ""]
+    out += ["", "[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)", "", "---", "Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).", ""]
     return "\n".join(out)
 
 
 def render_area(area, items, paths=(), selected=()):
     title, blurb = AREAS[area]
-    out = [f"# {title}", "", f"_{blurb}_", "", f"{len(items)} resources. [Back to the start](../README.md)", ""]
-    if selected:
-        out += ["## Selected repositories", ""]
-        out += [f"- [{e['name']}]({repository_url(e)}): {e['description']} ({e['level']}; {PRICE_LABEL[e['price']]})" for e in selected]
-        out += ["", "Need to understand a job title first? [Explore areas and professions](professions.md).", ""]
+    out = [f"# {title}", "", f"_{blurb}_", "",
+           f"{len(items)} resources. [Home](../README.md) / [Catalogue](catalogue.md)", "",
+           "## Not sure where to start?", ""]
     related = [(slug, data) for slug, data in paths if area in data["areas"]]
     if related:
-        out += ["## Not sure where to start?", ""]
-        out += [f"- [{data['title']}]({slug}.md): {data['summary']}" for slug, data in related]
-        out += [""]
+        for slug, data in related:
+            out += [f"- [{data['title']}]({slug}.md): {data['summary']}"]
+            if data.get("prerequisites"):
+                out += [f"  Before you start: {data['prerequisites']}"]
+    else:
+        out += ["Start by [understanding the professions](professions.md) or [comparing short first-project guides](learning-paths.md). This area has no dedicated first-project guide yet."]
+    out += ["", "For a longer learning recipe, [choose a profession curriculum](curricula.md).", "",
+            "The catalogue below is a reference shelf. You do not need to use every resource. [Read the access and level labels](catalogue.md#read-resource-labels).", ""]
+    if selected:
+        out += ["<details><summary>Explore selected repositories after the first steps</summary>", "", "## Selected repositories", ""]
+        out += [f"- [{e['name']}]({repository_url(e)}): {e['description']} ({e['level']} in this topic; {PRICE_LABEL[e['price']]})" for e in selected]
+        out += ["", "</details>", ""]
     present = [c for c in CATEGORIES if any(e["category"] == c for e in items)]
     out += ["Jump to: " + " | ".join(f"[{CATEGORIES[c][0]}](#{anchor(CATEGORIES[c][0])})" for c in present), ""]
     for c in present:
@@ -370,7 +294,8 @@ def render_area(area, items, paths=(), selected=()):
     return "\n".join(out)
 
 
-def render_all(entries, paths, selections=None, professions=None, guidelines=None):
+def render_all(entries, paths, selections=None, professions=None, guidelines=None, curricula=None):
+    entries = [(slug, dict(entry, _slug=slug)) for slug, entry in entries]
     main = [(s, e) for s, e in entries if "en" in e["languages"]]
     other = [e for _, e in entries if "en" not in e["languages"]]
     groups = defaultdict(list)
@@ -378,7 +303,13 @@ def render_all(entries, paths, selections=None, professions=None, guidelines=Non
         groups[e["category"]].append(e)
     by_slug = {s: e for s, e in entries}
     path0 = dict(paths)["path-0-fundamentals"]
-    files = {"README.md": render_readme(main, groups, len(other), path0, by_slug, paths, selections)}
+    role_count = sum(len(group["roles"]) for group in (professions or []))
+    files = {
+        "README.md": render_readme(main, groups, len(other), path0, by_slug, paths, selections, role_count),
+        "README.es.md": render_home(len(entries), len(main), len(other), role_count, spanish=True),
+        "docs/catalogue.md": render_catalogue(entries, AREAS, CATEGORIES),
+        "docs/learning-paths.md": render_path_index(paths),
+    }
     for cat, items in groups.items():
         files[f"docs/{cat}.md"] = render_category(cat, items)
     for area in AREAS:
@@ -391,7 +322,9 @@ def render_all(entries, paths, selections=None, professions=None, guidelines=Non
     if other:
         files["docs/other-languages.md"] = render_other_languages(other)
     if professions is not None:
-        files.update(render_professions(professions, guidelines or [], AREAS, paths))
+        files.update(render_professions(professions, guidelines or [], AREAS, paths, curricula or []))
+    if curricula is not None:
+        files.update(render_curricula(curricula, professions or [], entries, guidelines or []))
     return {name: body.rstrip() for name, body in files.items()}
 
 
@@ -410,7 +343,11 @@ def main():
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
-    files = render_all(entries, paths, selections, professions, guidelines)
+    curricula, errors = load_curricula(ROOT, entries, professions)
+    if errors:
+        print("\n".join(errors), file=sys.stderr)
+        return 1
+    files = render_all(entries, paths, selections, professions, guidelines, curricula)
     if "--check" in sys.argv:
         stale = [name for name, text in files.items() if not (ROOT / name).exists() or (ROOT / name).read_text() != text + "\n"]
         stale += [f"docs/{p.name} (obsolete)" for p in (ROOT / "docs").glob("*.md") if f"docs/{p.name}" not in files]

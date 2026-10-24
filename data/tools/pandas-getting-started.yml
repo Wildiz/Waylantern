@@ -1,13 +1,26 @@
 name: pandas Getting Started Tutorials
 url: https://pandas.pydata.org/docs/getting_started/index.html
 category: reference
-areas: [data]
+areas:
+- data
 price: free
 level: beginner
-languages: [en]
+languages:
+- en
 structure: semi
-focus_friendly: high   # small task-oriented tutorials
-description: Official pandas getting-started guide with short tutorials on reading and writing data, selecting, filtering, plotting, reshaping, merging and time series.
-pros: [Official and maintained with the library, Small task-based tutorials, Free and open source]
-cons: [Assumes basic Python, Documentation rather than a guided curriculum]
-verified: {date: 2026-10-21, method: official-site, notes: "pandas.pydata.org getting-started index reachable; intro tutorials listed; version of docs not checked"}
+focus_friendly: high
+description: Official pandas getting-started guide with short tutorials on reading and writing data, selecting,
+  filtering, plotting, reshaping, merging and time series.
+pros:
+- Official and maintained with the library
+- Small task-based tutorials
+- Free and open source
+cons:
+- Assumes basic Python
+- Documentation rather than a guided curriculum
+verified:
+  date: 2026-10-21
+  method: official-site
+  notes: pandas.pydata.org getting-started index reachable; intro tutorials listed; version of docs not checked
+prerequisites:
+- Basic Python variables, collections and functions.

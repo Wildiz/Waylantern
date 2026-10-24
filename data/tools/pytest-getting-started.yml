@@ -1,22 +1,32 @@
 name: pytest - Get Started
 url: https://github.com/pytest-dev/pytest/blob/main/doc/en/getting-started.rst
 category: reference
-areas: [testing, software]
+areas:
+- testing
+- software
 price: free
 level: beginner
-languages: [en]
+languages:
+- en
 structure: guided
 focus_friendly: unknown
-description: Official introductory guide to installing pytest, writing a first Python test and interpreting assertion failures before progressing to multiple tests.
+description: Official introductory guide to installing pytest, writing a first Python test and interpreting
+  assertion failures before progressing to multiple tests.
 pros:
-  - Framework and accompanying documentation use the MIT license
-  - Starts with a small test and explains its deliberate failure
-  - Shows how ordinary Python assertions produce useful failure reports
+- Framework and accompanying documentation use the MIT license
+- Starts with a small test and explains its deliberate failure
+- Shows how ordinary Python assertions produce useful failure reports
 cons:
-  - Assumes basic Python knowledge and command-line use
-  - Requires installing Python and pytest to run examples
-  - Introduces a testing tool rather than a complete software testing curriculum
+- Assumes basic Python knowledge and command-line use
+- Requires installing Python and pytest to run examples
+- Introduces a testing tool rather than a complete software testing curriculum
 verified:
   date: '2026-10-24'
   method: github-repo
-  notes: "Read pytest-dev/pytest main README.rst, LICENSE and doc/en/getting-started.rst via raw.githubusercontent.com. The guide shows installation, version checking, a first intentionally failing test, failure interpretation and running multiple tests. LICENSE explicitly covers the software and associated documentation under MIT. Hosted docs.pytest.org access returned a proxy denial, so this entry links the verified repository source. Free refers to the guide and local framework. English checked; no tests from the guide were executed."
+  notes: Read pytest-dev/pytest main README.rst, LICENSE and doc/en/getting-started.rst via raw.githubusercontent.com.
+    The guide shows installation, version checking, a first intentionally failing test, failure interpretation
+    and running multiple tests. LICENSE explicitly covers the software and associated documentation under MIT.
+    Hosted docs.pytest.org access returned a proxy denial, so this entry links the verified repository source.
+    Free refers to the guide and local framework. English checked; no tests from the guide were executed.
+prerequisites:
+- Basic Python and command-line use.

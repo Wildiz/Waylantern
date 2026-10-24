@@ -1,13 +1,29 @@
 name: Tiimo
 url: https://www.tiimoapp.com/
 category: tool
-areas: [focus]
+areas:
+- focus
 price: freemium
 level: all
-languages: [en, de, fr, es, pt, ko, ja]
+languages:
+- en
 structure: self-directed
 focus_friendly: high
-description: Visual daily planner for neurodivergent users with timers, to-do lists, AI-generated step-by-step plans and a focus timer on iOS, Android and web.
-pros: [Visual timeline and focus timer make time visible, Free version available on the mobile apps]
-cons: [Full features need Tiimo Pro subscription, Free version is not available on the web app, 7-day trial applies only to the yearly plan]
-verified: {date: '2026-10-21', method: official-site, notes: 'Tiimo FAQ: free version (iOS/Android only), Pro subscription with 7-day trial on yearly plan; local prices shown at checkout and not captured. Re-checked 2026-10-21: the Tiimo site footer offers English, Deutsch, Francais, Espanol, Portugues, Korean and Japanese, and the FAQ explains how to change the app language on iOS, Android and the web planner; the exact in-app language list was not itemised, so the languages field follows the site footer.'}
+description: Visual daily planner for neurodivergent users with timers, to-do lists, AI-generated step-by-step
+  plans and a focus timer on iOS, Android and web.
+pros:
+- Visual timeline and focus timer make time visible
+- Free version available on the mobile apps
+cons:
+- Full features need Tiimo Pro subscription
+- Free version is not available on the web app
+- 7-day trial applies only to the yearly plan
+verified:
+  date: '2026-10-21'
+  method: official-site
+  notes: 'Tiimo FAQ: free version (iOS/Android only), Pro subscription with 7-day trial on yearly plan; local
+    prices shown at checkout and not captured. Re-checked 2026-10-21: the Tiimo site footer offers English,
+    Deutsch, Francais, Espanol, Portugues, Korean and Japanese, and the FAQ explains how to change the app
+    language on iOS, Android and the web planner; the exact in-app language list was not itemised, so the footer
+    language list does not establish in-app language availability. Language metadata narrowed to English during
+    the editorial audit: footer links alone do not verify application-interface language support.'

@@ -1,8 +1,15 @@
-# Path: software testing and QA
+# First project: software testing and QA
 
 QA and test automation engineers investigate how software behaves, report problems and build repeatable checks. This introductory route practises those tasks on code you own; it is not a complete qualification or a promise of employment. Start with basic programming and command-line skills. Choose one track for the whole route: Python functions with pytest, or a small local web application with Playwright if you already know JavaScript or TypeScript and basic HTML. The paired resources below are alternatives, not two required courses. You need a computer and the chosen toolchain; Playwright also needs its browser installation. No special hardware or paid testing service is required for this local exercise.
+ Default to pytest if you already know Python; choose Playwright if you already know JavaScript and want to test a browser interface. You only need one track.
 
 [Back to the start](../README.md)
+
+**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).
+
+## Before you start
+
+Basic programming and terminal skills; the Playwright option also needs JavaScript or TypeScript and basic HTML.
 
 If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.
 
@@ -56,7 +63,7 @@ After the last checkpoint, improve your project or browse the related areas for 
 
 - [Software testing and QA](area-testing.md)
 
-[Compare the learning paths](../README.md#choose-a-learning-path)
+[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)
 
 ---
-This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).

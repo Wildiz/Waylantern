@@ -1,13 +1,28 @@
 name: 'React: Learn (react.dev)'
 url: https://react.dev/learn
 category: course
-areas: [web]
+areas:
+- web
 price: free
 level: beginner
-languages: [en]
+languages:
+- en
 structure: guided
 focus_friendly: unknown
-description: Official React documentation with a quick start, a tic-tac-toe tutorial, Thinking in React, and chapters on describing the UI, state, and escape hatches, with live editable examples.
-pros: ['Official, current docs (React 19.3 shown)', Interactive code sandboxes in the pages, Tutorial plus conceptual chapters]
-cons: [Needs solid JavaScript first, 'Covers React itself, not routing or frameworks in depth']
-verified: {date: '2026-10-21', method: official-site, notes: 'react.dev/learn loads and shows ''React v 19.3'' with Quick Start, Tutorial: Tic-Tac-Toe, Thinking in React, Describing the UI, Adding Interactivity, Managing State, Escape Hatches; translations of react.dev were not checked'}
+description: Official React documentation with a quick start, a tic-tac-toe tutorial, Thinking in React, and
+  chapters on describing the UI, state, and escape hatches, with live editable examples.
+pros:
+- Official, current docs (React 19.3 shown)
+- Interactive code sandboxes in the pages
+- Tutorial plus conceptual chapters
+cons:
+- Needs solid JavaScript first
+- Covers React itself, not routing or frameworks in depth
+verified:
+  date: '2026-10-21'
+  method: official-site
+  notes: 'react.dev/learn loads and shows ''React v 19.3'' with Quick Start, Tutorial: Tic-Tac-Toe, Thinking
+    in React, Describing the UI, Adding Interactivity, Managing State, Escape Hatches; translations of react.dev
+    were not checked'
+prerequisites:
+- Working JavaScript knowledge and basic HTML and CSS.

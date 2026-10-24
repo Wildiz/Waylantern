@@ -1,7 +1,6 @@
 id: leadership
 title: Leadership, product and technology relationships
-description: Roles that coordinate technology strategy, product decisions, delivery and relationships
-  with users and teams.
+description: Decide what to build, coordinate teams and explain technology to people.
 areas:
 - career
 - design-product
@@ -55,8 +54,7 @@ roles:
   - sfia
 - id: chief-information-officer
   title: Chief Information Officer
-  description: Leads an organisation's information systems strategy and its alignment with organisational
-    goals.
+  description: Leads an organisation's information systems strategy and its alignment with organisational goals.
   areas:
   - career
   paths: []
@@ -98,8 +96,8 @@ roles:
   - sfia
 - id: cloud-business-office-lead
   title: Cloud Business Office Lead
-  description: Coordinates cloud adoption decisions, governance and collaboration between business and
-    technology teams.
+  description: Coordinates cloud adoption decisions, governance and collaboration between business and technology
+    teams.
   areas:
   - career
   - devops
@@ -118,8 +116,7 @@ roles:
   - swebok
 - id: developer-relations-specialist
   title: Developer Relations Specialist
-  description: Helps developers use a technology through examples, community support and feedback to its
-    creators.
+  description: Helps developers use a technology through examples, community support and feedback to its creators.
   areas:
   - career
   - software
@@ -141,8 +138,8 @@ roles:
   - sfia
 - id: technical-seo-specialist
   title: Technical SEO Specialist
-  description: Investigates the technical factors that affect how search engines discover and understand
-    web content.
+  description: Investigates the technical factors that affect how search engines discover and understand web
+    content.
   areas:
   - web
   - career
@@ -154,8 +151,7 @@ roles:
   - SEO Specialist
 - id: technical-recruiter
   title: Technical Recruiter
-  description: Connects technology teams with candidates by clarifying role requirements and coordinating
-    recruitment.
+  description: Connects technology teams with candidates by clarifying role requirements and coordinating recruitment.
   areas:
   - career
   paths: []
@@ -163,8 +159,8 @@ roles:
   - sfia
 - id: account-manager
   title: Account Manager
-  description: Coordinates a technology supplier's relationship with a customer and follows up on their
-    service needs.
+  description: Coordinates a technology supplier's relationship with a customer and follows up on their service
+    needs.
   areas:
   - career
   paths: []

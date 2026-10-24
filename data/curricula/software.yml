@@ -1,0 +1,1558 @@
+group: software
+curricula:
+- role: software-engineer
+  title: Software Engineer
+  summary: Turn a small requirement into tested, maintainable software.
+  entry_level: from-zero
+  prerequisites:
+  - Basic file and folder skills
+  - A computer that can run Python
+  outcome: A command-line study tracker with saved data, tests and reproducible instructions.
+  stages:
+  - title: Write a small program
+    topics:
+    - Variables and types
+    - Conditions and loops
+    - Functions
+    resources:
+    - cs50-python
+    practice: Record a study session and calculate its total minutes.
+    checkpoint: Run three inputs and explain how the program computes each total.
+  - title: Preserve structured records
+    topics:
+    - Lists and dictionaries
+    - File input and output
+    - Validation
+    resources:
+    - python-tutorial
+    practice: Save sessions in JSON and reject negative durations and empty subjects.
+    checkpoint: Restart the program and recover the saved sessions while invalid records remain rejected.
+  - title: Check changes systematically
+    topics:
+    - Unit tests
+    - Exceptions
+    - Version control
+    resources:
+    - pytest-getting-started
+    - pro-git
+    practice: Separate calculations from input/output and test empty, valid and invalid records.
+    checkpoint: Demonstrate a regression test failing before a fix and passing afterward.
+  - title: Deliver the tracker mini-project
+    topics:
+    - Module boundaries
+    - Documentation
+    - Regression checks
+    resources:
+    - python-tutorial
+    - pytest-getting-started
+    practice: Deliver sample data, setup instructions and a documented limitation with the tracker.
+    checkpoint: Follow the README in a fresh folder and reproduce the sample totals and test results.
+  next_steps: Study data structures and software design next; Senior and Principal describe responsibilities and
+    experience, not separate beginner courses.
+- role: frontend-developer
+  title: Frontend Developer
+  summary: Build an accessible browser interface before introducing frameworks.
+  entry_level: from-zero
+  prerequisites:
+  - Basic file skills
+  - A browser and text editor
+  outcome: A responsive study planner with keyboard-operable controls and a browser test.
+  stages:
+  - title: Structure a task interface
+    topics:
+    - Semantic HTML
+    - Labels and forms
+    resources:
+    - mdn-web-docs
+    practice: Create a planner page with headings, a labelled task field and a task list.
+    checkpoint: Reach and submit the form using only the keyboard and explain its document structure.
+  - title: Adapt the layout
+    topics:
+    - CSS layout
+    - Responsive design
+    - Visible focus
+    resources:
+    - web-dev-learn
+    practice: Style the planner for narrow and wide windows while preserving visible focus.
+    checkpoint: Check both widths without horizontal overflow and reach every control by keyboard.
+  - title: Handle state and events
+    topics:
+    - DOM updates
+    - Event handlers
+    - Input validation
+    resources:
+    - javascript-info
+    practice: Add, complete and filter tasks with a small JavaScript state model.
+    checkpoint: Demonstrate empty, invalid and populated states without console errors.
+  - title: Deliver the interface mini-project
+    topics:
+    - Browser assertions
+    - Accessibility checks
+    - Local setup
+    resources:
+    - playwright-getting-started
+    - mdn-web-docs
+    practice: Add a browser test for creating a task and document how to run the planner locally.
+    checkpoint: Reproduce the task workflow with mouse and keyboard and show the automated result.
+  next_steps: Compare a framework only after explaining the state and events in the interface you can already build.
+- role: backend-developer
+  title: Backend Developer
+  summary: Build a service with explicit data rules and testable API responses.
+  entry_level: after-basics
+  prerequisites:
+  - Python functions and modules
+  - Basic terminal use
+  - Basic Git
+  outcome: A local inventory API with SQLite persistence, validation and API tests.
+  stages:
+  - title: Specify an API contract
+    topics:
+    - HTTP methods
+    - Status codes
+    - Request schemas
+    resources:
+    - mdn-web-docs
+    - fastapi-tutorial
+    practice: Define create, list and update inventory operations and implement an in-memory endpoint.
+    checkpoint: Send valid and invalid requests and explain their different responses.
+  - title: Store consistent records
+    topics:
+    - SQL queries
+    - Keys and constraints
+    - Transactions
+    resources:
+    - sqlbolt
+    - db-browser-for-sqlite
+    practice: Create an inventory table with unique IDs and document the rejected-duplicate case.
+    checkpoint: Restart the service and recover records while preserving the uniqueness rule.
+  - title: Separate and test business rules
+    topics:
+    - Dependency boundaries
+    - Error handling
+    - API tests
+    resources:
+    - fastapi-tutorial
+    - pytest-getting-started
+    practice: Test stock calculations separately and return consistent errors for absent records.
+    checkpoint: Cover successful updates, missing items and invalid quantities in tests.
+  - title: Deliver the service mini-project
+    topics:
+    - Configuration
+    - Initialization
+    - Reproducible requests
+    resources:
+    - fastapi-tutorial
+    - pytest-getting-started
+    practice: Deliver synthetic fixtures, setup instructions and representative API requests.
+    checkpoint: Initialize a fresh local database and reproduce the documented stock changes.
+  next_steps: Study authorization, migrations and concurrency in a controlled lab before exposing a service to real
+    users.
+- role: full-stack-developer
+  title: Full Stack Developer
+  summary: Connect a browser workflow to a service and database while keeping their responsibilities clear.
+  entry_level: after-basics
+  prerequisites:
+  - Basic JavaScript and HTML
+  - Basic Python
+  - HTTP and Git basics
+  outcome: A reading-list application with browser interaction, server validation and persistent records.
+  stages:
+  - title: Trace a complete user action
+    topics:
+    - User journey
+    - Browser and server boundaries
+    - Data flow
+    resources:
+    - mdn-web-docs
+    - open-practice-library
+    practice: Diagram adding a book from the form through server validation to storage, then build the static form.
+    checkpoint: Identify which layer displays results, validates records and persists them.
+  - title: Build the server slice
+    topics:
+    - Models and records
+    - Server validation
+    - Request handling
+    resources:
+    - django-tutorial
+    practice: Create the reading-list model and a server-backed list using the tutorial structure.
+    checkpoint: Submit a book, reload the application and retrieve its stored data.
+  - title: Connect interactive feedback
+    topics:
+    - Client requests
+    - Loading and error states
+    - Accessible status messages
+    resources:
+    - javascript-info
+    - mdn-web-docs
+    practice: Add a browser interaction that reports submission status and preserves input when a request fails.
+    checkpoint: Demonstrate a successful request and a simulated error without losing the typed title.
+  - title: Deliver an end-to-end mini-project
+    topics:
+    - Browser tests
+    - Test fixtures
+    - Reproducible setup
+    resources:
+    - playwright-getting-started
+    - pytest-getting-started
+    practice: Deliver an add-and-complete-book workflow with synthetic fixtures and automated checks.
+    checkpoint: Recreate the application locally and verify a saved book through a browser test after reload.
+  next_steps: Add one feature at a time and study authentication and deployment as separate engineering topics.
+- role: desktop-application-developer
+  title: Desktop Application Developer
+  summary: Explore desktop event-driven applications while making toolkit-specific gaps visible.
+  entry_level: after-basics
+  prerequisites:
+  - Python functions and files
+  - Basic testing
+  - Access to a desktop computer
+  outcome: A local notes prototype with saved data, a graphical workflow and explicit platform limits.
+  stages:
+  - title: Separate notes from the interface
+    topics:
+    - Application state
+    - File persistence
+    - Exceptions
+    resources:
+    - python-tutorial
+    practice: Implement note creation and saving before adding graphical controls.
+    checkpoint: Recover notes after restart and handle a missing file predictably.
+  - title: Learn a desktop event loop
+    topics:
+    - Widgets and layout
+    - Callbacks
+    - UI responsiveness
+    resources: []
+    practice: Use separately verified toolkit material to connect a text field and save button to the note functions.
+    checkpoint: Create and save a note without freezing the interface.
+    gap: No dedicated desktop GUI toolkit tutorial is verified in the catalogue; select platform-compatible official
+      documentation before this implementation.
+  - title: Handle desktop lifecycle choices
+    topics:
+    - File dialogs
+    - Unsaved changes
+    - Keyboard navigation
+    resources: []
+    practice: Specify save, cancel and close behavior and implement a visible unsaved-changes state.
+    checkpoint: Show cancel preserving work and keyboard access to the save action.
+    gap: Toolkit-specific documentation for dialogs and application lifecycle remains unverified; the Python language
+      tutorial does not cover these responsibilities.
+  - title: Deliver the desktop mini-project
+    topics:
+    - Core regression tests
+    - Data recovery
+    - Platform instructions
+    resources:
+    - pytest-getting-started
+    - python-tutorial
+    practice: Deliver the notes prototype with persistence tests and instructions for its supported operating system.
+    checkpoint: A repeated run restores notes and a corrupted test file produces a useful error rather than silent
+      data loss.
+  next_steps: Verify packaging, platform accessibility and update behavior for the chosen toolkit before distributing
+    the application.
+- role: forward-deployed-engineer
+  title: Forward Deployed Engineer
+  summary: Adapt a product to a fictional customer workflow using explicit acceptance evidence.
+  entry_level: experience-required
+  prerequisites:
+  - Experience building and testing a service
+  - SQL and HTTP fundamentals
+  - Ability to explain technical trade-offs
+  outcome: A synthetic customer integration with acceptance tests, rollback instructions and a handover.
+  stages:
+  - title: Discover the operational need
+    topics:
+    - Stakeholder questions
+    - Workflow mapping
+    - Acceptance criteria
+    resources:
+    - open-practice-library
+    practice: Define a fictional support-team workflow with three constraints and measurable success conditions.
+    checkpoint: Trace each requested change to an example or an explicitly labelled assumption.
+  - title: Inspect integration boundaries
+    topics:
+    - API contracts
+    - Data mapping
+    - Failure ownership
+    resources:
+    - fastapi-tutorial
+    - arc42-template
+    practice: Define source and target schemas for synthetic tickets and diagram an adapter boundary.
+    checkpoint: Explain who retries transfers and which system owns each field.
+  - title: Prove a limited adaptation
+    topics:
+    - Input validation
+    - Reconciliation
+    - Idempotency
+    resources:
+    - python-tutorial
+    - pytest-getting-started
+    - db-browser-for-sqlite
+    practice: Import synthetic tickets through an adapter and record rejected records separately.
+    checkpoint: Repeat the import without duplicates and reconcile source, accepted and rejected counts.
+  - title: Deliver the customer-case mini-project
+    topics:
+    - Acceptance tests
+    - Rollout and rollback
+    - Operational handover
+    resources:
+    - madr
+    - pytest-getting-started
+    practice: Deliver a before-and-after demonstration and a rollback procedure for the fictional customer.
+    checkpoint: Replay the acceptance scenarios and restore the original state from the documented procedure.
+  next_steps: Seek supervised work with organizational constraints; do not use customer data without permission
+    or present a fictional case as customer experience.
+- role: cloud-software-engineer
+  title: Cloud Software Engineer
+  summary: Make an application portable and observable in a local cloud-style lab.
+  entry_level: after-basics
+  prerequisites:
+  - A working small application
+  - Basic Linux commands
+  - HTTP and Git
+  outcome: A containerized local service with external configuration, readiness checks and recovery evidence.
+  stages:
+  - title: Separate configuration and state
+    topics:
+    - External settings
+    - Persistent state
+    - Application logs
+    resources:
+    - docker-docs-get-started
+    practice: Move settings out of application code and identify the records that must survive restart.
+    checkpoint: Change a non-secret setting without editing source and locate the persisted sample data.
+  - title: Build a portable service
+    topics:
+    - Container images
+    - Ports and volumes
+    - Process lifecycle
+    resources:
+    - docker-docs-get-started
+    - container-training
+    practice: Containerize the service and run it with a disposable local database volume.
+    checkpoint: Rebuild the image and retrieve the saved sample record from the retained volume.
+  - title: Observe dependency failures
+    topics:
+    - Readiness checks
+    - Timeouts
+    - Recovery behavior
+    resources:
+    - container-training
+    - system-design-primer
+    practice: Stop the local dependency and compare logs and readiness before and after recovery.
+    checkpoint: Show an unavailable readiness result during the outage and a successful request after recovery.
+  - title: Deliver a recovery mini-project
+    topics:
+    - Deployment configuration
+    - Version rollback
+    - Resource observations
+    resources:
+    - container-training
+    - madr
+    practice: Provide repeatable local deployment instructions, a previous image version and a measured restart
+      exercise.
+    checkpoint: Recreate the lab and roll back while preserving the agreed sample records.
+  next_steps: Choose a cloud provider only when needed, check billing explicitly and study its access model before
+    provisioning resources.
+- role: integration-developer
+  title: Integration Developer
+  summary: Transfer synthetic records between systems without losing meaning or recoverability.
+  entry_level: after-basics
+  prerequisites:
+  - Basic programming
+  - HTTP and JSON
+  - Simple SQL
+  outcome: A local adapter with documented mappings, bounded retries and duplicate protection.
+  stages:
+  - title: Map two contracts
+    topics:
+    - Field semantics
+    - Schema mapping
+    - Data ownership
+    resources:
+    - mdn-web-docs
+    - arc42-template
+    practice: Map a fictional shop order to a warehouse record, including units and missing values.
+    checkpoint: Explain every mapped field and flag ambiguous transformations instead of guessing.
+  - title: Implement an adapter
+    topics:
+    - Serialization
+    - Validation
+    - Error responses
+    resources:
+    - python-tutorial
+    - fastapi-tutorial
+    practice: Build a local endpoint that validates orders and produces the warehouse schema.
+    checkpoint: Valid fixtures transform correctly and malformed fixtures return a documented error.
+  - title: Make repeated delivery safe
+    topics:
+    - Idempotency keys
+    - Retry limits
+    - Reconciliation
+    resources:
+    - pytest-getting-started
+    - db-browser-for-sqlite
+    practice: Store processed message IDs and record failed transfers in a review table.
+    checkpoint: Sending the same message twice creates one record and every failure remains traceable.
+  - title: Deliver the integration mini-project
+    topics:
+    - Contract tests
+    - Schema versions
+    - Recovery runbook
+    resources:
+    - pytest-getting-started
+    - madr
+    practice: Support a second message version and document a controlled replay of rejected messages.
+    checkpoint: Test both supported versions and reconcile the replay without creating duplicates.
+  next_steps: Study messaging platforms and distributed transactions after understanding failures and reconciliation
+    in the local adapter.
+- role: embedded-software-engineer
+  title: Embedded Software Engineer
+  summary: Connect programs to device inputs and outputs with explicit timing checks.
+  entry_level: after-basics
+  prerequisites:
+  - Basic programming and loops
+  - Binary numbers and units
+  - A supported board or suitable simulator
+  outcome: A nonblocking device-state prototype with input handling and labelled hardware or simulation evidence.
+  stages:
+  - title: Understand device execution
+    topics:
+    - Pins and peripherals
+    - Main loop
+    - Build and flash
+    resources:
+    - arduino-built-in-examples
+    practice: Follow Blink on supported equipment and label the required board and output.
+    checkpoint: Explain what runs on the device and distinguish a measured signal from simulated behavior.
+  - title: Read inputs and track state
+    topics:
+    - Digital inputs
+    - State machines
+    - Input noise
+    resources:
+    - raspberry-pi-pico-examples
+    practice: Use a matching-board input example to design button-controlled operating states.
+    checkpoint: Predict and record output for a sequence of inputs, including repeated transitions.
+  - title: Avoid blocking the device
+    topics:
+    - Timers
+    - Scheduling
+    - Debug output
+    resources:
+    - zephyr-synchronization-sample
+    practice: Study the synchronization example and compare blocking behavior with scheduled updates in a lab.
+    checkpoint: Demonstrate that a second periodic action continues while the first waits.
+  - title: Deliver the device mini-project
+    topics:
+    - State-table tests
+    - Timing observations
+    - Fault states
+    resources:
+    - arduino-built-in-examples
+    - raspberry-pi-pico-examples
+    practice: Build a button-controlled indicator with timing checks and a documented safe output state.
+    checkpoint: Reproduce normal input, a noisy-input case and restart, labelling each hardware or simulation result.
+  next_steps: Choose one platform for deeper study; electrical design, real-time assurance and safety engineering
+    require specialist instruction.
+- role: firmware-engineer
+  title: Firmware Engineer
+  summary: Explore device startup, peripheral configuration and bounded execution.
+  entry_level: after-basics
+  prerequisites:
+  - C fundamentals including pointers
+  - Binary and hexadecimal notation
+  - Basic digital electronics
+  outcome: A peripheral firmware prototype with initialization notes, fault handling and timing evidence.
+  stages:
+  - title: Trace startup and memory
+    topics:
+    - Reset sequence
+    - Memory layout
+    - Initialization
+    resources:
+    - beejs-guides
+    - raspberry-pi-pico-examples
+    practice: Compile a minimal board example and annotate startup calls and global state.
+    checkpoint: Explain initialization order and distinguish software variables from hardware registers.
+  - title: Configure a peripheral
+    topics:
+    - Peripheral interfaces
+    - Clock settings
+    - Pin assignment
+    resources:
+    - raspberry-pi-pico-examples
+    practice: Adapt a serial or timer example and document its pins and selected rate.
+    checkpoint: Compare the configured output with a measurement of stated resolution.
+  - title: Bound waits and recover
+    topics:
+    - Interrupt boundaries
+    - Timeouts
+    - Watchdog concepts
+    resources: []
+    practice: Use the exact device documentation to design a bounded operation and a recovery state.
+    checkpoint: A missing peripheral response reaches a defined timeout instead of waiting forever.
+    gap: A board-specific reference for interrupts, watchdogs and register-level recovery is not verified in the
+      catalogue and must be checked before implementation.
+  - title: Deliver the firmware mini-project
+    topics:
+    - Build settings
+    - Restart checks
+    - Timing report
+    resources:
+    - raspberry-pi-pico-examples
+    practice: Deliver the peripheral example with a startup diagram and normal, timeout and restart observations.
+    checkpoint: Rebuild and reproduce the checks on the specified board or simulator.
+  next_steps: Verify the device manual, debugger and update-integrity guidance before advancing beyond the lab;
+    one board example is not complete firmware preparation.
+- role: robotics-engineer
+  title: Robotics Engineer
+  summary: Model sensing and motion before operating a physical robot.
+  entry_level: after-basics
+  prerequisites:
+  - Python functions
+  - Algebra and trigonometry
+  - Ability to plot numerical results
+  outcome: A simulated two-dimensional controller with measured tracking error and explicit physical-validation
+    gaps.
+  stages:
+  - title: Represent position and motion
+    topics:
+    - Vectors and frames
+    - Discrete time
+    - Pose updates
+    resources:
+    - 3blue1brown-linear-algebra
+    - python-tutorial
+    practice: Implement two-dimensional robot motion and plot its trajectory.
+    checkpoint: Check a straight move and a turn against hand-calculated positions.
+  - title: Close a feedback loop
+    topics:
+    - Setpoints and error
+    - Proportional control
+    - Actuator limits
+    resources: []
+    practice: Simulate steering with bounded output and a noisy position measurement.
+    checkpoint: Plot error over time and demonstrate a case with oscillation or saturation.
+    gap: No dedicated robotics or control-theory curriculum is verified; stability and tuning require a suitable
+      specialist source.
+  - title: Map sensing to interfaces
+    topics:
+    - Sampling intervals
+    - Actuator commands
+    - Missing measurements
+    resources:
+    - microsoft-iot-for-beginners
+    practice: Map simulated measurements and commands to a device interface without connecting moving hardware.
+    checkpoint: Explain sampling delay and define the response to an absent reading.
+  - title: Deliver the robot simulation
+    topics:
+    - Trajectory tests
+    - Noise experiments
+    - Reproducible parameters
+    resources:
+    - python-tutorial
+    - pytest-getting-started
+    practice: Package a waypoint-following simulation with parameter settings and fixed failure cases.
+    checkpoint: Reproduce straight and turning paths, compare tracking error and show the missing-sensor response.
+  next_steps: Use supervised robotics instruction for dynamics, localization and physical safety before operating
+    moving mechanisms.
+- role: hardware-engineer
+  title: Hardware Engineer
+  summary: Explore digital circuit design while exposing missing electronics and laboratory coverage.
+  entry_level: after-basics
+  prerequisites:
+  - Basic algebra
+  - Binary notation
+  - Introductory physics
+  outcome: A simulated digital circuit with test vectors and a separate physical-verification plan.
+  stages:
+  - title: Relate electrical quantities
+    topics:
+    - Voltage and current
+    - Power and units
+    - Measurement uncertainty
+    resources:
+    - khan-academy-math
+    practice: Calculate units and hypothetical low-voltage power and state every electrical assumption.
+    checkpoint: Check dimensions and identify properties that still require a circuit model.
+    gap: The mathematics resource supports calculations but no dedicated verified introductory circuit-analysis
+      course is present.
+  - title: Build combinational logic
+    topics:
+    - Boolean functions
+    - Truth tables
+    - Logic composition
+    resources:
+    - nand2tetris
+    practice: Construct a small arithmetic or selection circuit in the course hardware simulator.
+    checkpoint: Pass supplied tests and explain each row of a small truth table.
+  - title: Identify physical constraints
+    topics:
+    - Timing margins
+    - Signal levels
+    - Thermal limits
+    resources: []
+    practice: List component ratings and measurements needed for a hypothetical physical implementation.
+    checkpoint: Distinguish logical correctness from timing, voltage and thermal claims a logic simulator cannot
+      prove.
+    gap: No verified datasheet-reading, signal-integrity or laboratory-measurement curriculum is available; do not
+      build hardware from this checklist alone.
+  - title: Deliver the digital design study
+    topics:
+    - Test vectors
+    - Design alternatives
+    - Verification boundaries
+    resources:
+    - nand2tetris
+    practice: Compare two implementations of a logic function and supply simulations plus a proposed physical-test
+      plan.
+    checkpoint: Both implementations pass the same logic tests while electrical compatibility remains explicitly
+      unverified.
+  next_steps: Seek a structured electronics curriculum and supervised laboratory practice; microcontroller tutorials
+    do not replace circuit, PCB or hardware qualification training.
+- role: iot-engineer
+  title: IoT Engineer
+  summary: Connect device-like measurements to a local receiver with clear failure behavior.
+  entry_level: after-basics
+  prerequisites:
+  - Basic programming
+  - Simple HTTP and networks
+  - A supported or simulated sensor environment
+  outcome: A local telemetry prototype with validated messages and bounded reconnect behavior.
+  stages:
+  - title: Acquire a measurement
+    topics:
+    - Sensor inputs
+    - Units and sampling
+    - Synthetic signals
+    resources:
+    - microsoft-iot-for-beginners
+    practice: Use a virtual or supported sensor exercise to generate a labelled measurement sequence.
+    checkpoint: Explain units and sampling interval and identify synthetic readings.
+  - title: Define the message contract
+    topics:
+    - Device identity
+    - Timestamps
+    - Payload validation
+    resources:
+    - microsoft-iot-for-beginners
+    - fastapi-tutorial
+    practice: Send synthetic measurements to a local service using dummy device IDs and an explicit schema.
+    checkpoint: Reject a message with an invalid unit or missing required field.
+  - title: Handle interrupted delivery
+    topics:
+    - Buffer limits
+    - Reconnection
+    - Duplicate messages
+    resources:
+    - microsoft-iot-for-beginners
+    - computer-networks-systems-approach
+    practice: Disconnect the receiver and implement a bounded buffering and replay policy.
+    checkpoint: Restore delivery and account for accepted, duplicate and intentionally dropped readings.
+  - title: Deliver the telemetry mini-project
+    topics:
+    - Access boundaries
+    - Observability
+    - Recovery checks
+    resources:
+    - microsoft-iot-for-beginners
+    - pytest-getting-started
+    practice: Deliver a virtual-sensor pipeline with synthetic data and an outage exercise.
+    checkpoint: Reproduce normal operation, malformed input and restart without claiming production device security.
+  next_steps: Study secure provisioning and device updates separately and check hardware or cloud costs before choosing
+    external services.
+- role: mechatronics-engineer
+  title: Mechatronics Engineer
+  summary: Explore motion, electronics and control through a bounded simulation.
+  entry_level: after-basics
+  prerequisites:
+  - Algebra and trigonometry
+  - Basic mechanics and units
+  - Basic programming
+  outcome: A simulated positioning mechanism with limits and an engineering assumptions log.
+  stages:
+  - title: Model a mechanism
+    topics:
+    - Position and velocity
+    - Loads and units
+    - Kinematic relationships
+    resources:
+    - khan-academy-math
+    - 3blue1brown-linear-algebra
+    practice: Draw a positioning axis and compute travel from a hypothetical motor-to-motion ratio.
+    checkpoint: Check units and show how changing the ratio changes predicted position.
+    gap: No dedicated mechanics or machine-design course is verified; mathematics alone does not validate a mechanism.
+  - title: Connect mechanical and electrical limits
+    topics:
+    - Actuator characteristics
+    - Power budget
+    - Mechanical stops
+    resources: []
+    practice: Create a hypothetical actuator table with labelled assumptions and prohibited operating regions.
+    checkpoint: Explain why a proposed motion could exceed torque, speed or power limits.
+    gap: Motor-drive, actuator-selection and electrical-safety sources are not verified; do not select real hardware
+      solely from this exercise.
+  - title: Simulate feedback and failures
+    topics:
+    - Position error
+    - Discrete controller
+    - Limit detection
+    resources:
+    - python-tutorial
+    practice: Simulate the axis with bounded control output and a missing-sensor state.
+    checkpoint: Plot position and demonstrate entry into the defined limit state.
+    gap: A specialist control-theory source remains unverified; a simulated response does not establish stability
+      or functional safety.
+  - title: Deliver the positioning study
+    topics:
+    - Requirements and tolerances
+    - Failure tests
+    - Uncertainty report
+    resources:
+    - pytest-getting-started
+    practice: Deliver simulation parameters and normal, overload and sensor-loss cases.
+    checkpoint: Reproduce planned motion and distinguish software checks from unverified physical performance.
+  next_steps: Study mechanics, control and electronics with supervised laboratory work before building powered mechanisms;
+    these exercises cannot certify safety.
+- role: microsystems-engineer
+  title: Microsystems Engineer
+  summary: Examine a simplified microsensor model without implying fabrication training.
+  entry_level: experience-required
+  prerequisites:
+  - Electronics and physics foundations
+  - Calculus and linear algebra
+  - Numerical programming
+  outcome: A computational microsensor study with sensitivity analysis and calibration assumptions.
+  stages:
+  - title: Frame a microsystem model
+    topics:
+    - Transduction principle
+    - Dimensions and scaling
+    - Operating assumptions
+    resources: []
+    practice: Specify a hypothetical microsensor, measured quantity and simplified physical relationship.
+    checkpoint: Check units and explicitly exclude physical effects outside the model.
+    gap: No MEMS, microfabrication or microsensor course is verified; a specialist source must support the selected
+      physical relationship.
+  - title: Analyze sensitivity
+    topics:
+    - Symbolic relationships
+    - Parameter derivatives
+    - Numerical sweeps
+    resources:
+    - sympy
+    - 3blue1brown-calculus
+    practice: Vary two model parameters and plot the predicted output.
+    checkpoint: Compare a numerical output change with the derivative of the same relationship.
+  - title: Plan measurement evidence
+    topics:
+    - Calibration error
+    - Repeatability
+    - Process variation
+    resources:
+    - openintro-statistics
+    practice: Generate synthetic calibration observations and estimate residual error.
+    checkpoint: Distinguish measurement variation from model error and label every observation as synthetic.
+    gap: The statistics material does not cover cleanroom processes or device metrology; these specialist sources
+      remain unverified.
+  - title: Deliver the microsensor study
+    topics:
+    - Reproducibility
+    - Sensitivity limits
+    - Validation plan
+    resources:
+    - sympy
+    - python-tutorial
+    practice: Deliver the model, synthetic calibration analysis and proposed laboratory-validation plan.
+    checkpoint: Another reader reproduces the parameter sweep and identifies every claim requiring a physical measurement.
+  next_steps: Obtain specialist microfabrication and metrology instruction in a supervised facility; a numerical
+    study is not a validated device.
+- role: android-developer
+  title: Android Developer
+  summary: Build a small Android application with Kotlin, Compose and persistent state.
+  entry_level: from-zero
+  prerequisites:
+  - Basic computer skills
+  - A computer supporting Android development tools
+  outcome: An Android task app checked through invalid input, rotation and restart.
+  stages:
+  - title: Learn Kotlin values
+    topics:
+    - Variables and functions
+    - Conditions
+    - Collections
+    resources:
+    - android-basics-compose
+    practice: Complete introductory Kotlin exercises and represent a task as structured data.
+    checkpoint: Explain a function that adds a task and rejects an empty title.
+  - title: Build a Compose screen
+    topics:
+    - Composable functions
+    - State updates
+    - Labels and inputs
+    resources:
+    - android-basics-compose
+    practice: Create an add-task screen with a labelled field and visible list.
+    checkpoint: Add two tasks and explain why a state change updates the displayed list.
+  - title: Preserve application state
+    topics:
+    - Lifecycle events
+    - Local storage
+    - Error handling
+    resources:
+    - android-basics-compose
+    practice: Use the course persistence material and test a configuration change.
+    checkpoint: Distinguish state surviving rotation from state surviving a complete app restart.
+  - title: Deliver the Android mini-app
+    topics:
+    - UI checks
+    - Accessible controls
+    - Reproducible build
+    resources:
+    - android-basics-compose
+    practice: Deliver the task app with an emulator configuration and empty-input and restoration checks.
+    checkpoint: Rebuild and demonstrate task creation, restart recovery and clear control labels.
+  next_steps: Continue with networking and permissions; emulator checks do not replace supported physical-device
+    testing.
+- role: ios-developer
+  title: iOS Developer
+  summary: Build a small persistent application with Swift and SwiftUI.
+  entry_level: from-zero
+  prerequisites:
+  - Basic computer skills
+  - Compatible Apple development hardware and Xcode
+  outcome: A reading-log prototype with validation, navigation and saved records.
+  stages:
+  - title: Write Swift data models
+    topics:
+    - Values and types
+    - Functions
+    - Optional values
+    resources:
+    - develop-in-swift
+    practice: Follow introductory Swift material and represent a reading-log entry.
+    checkpoint: Explain an absent optional value and distinguish it from an empty title.
+  - title: Create the SwiftUI workflow
+    topics:
+    - Views and state
+    - Navigation
+    - Form input
+    resources:
+    - develop-in-swift
+    practice: Build a book list and a detail form for a reading note.
+    checkpoint: Navigate between list and detail without unexpectedly losing unsaved input.
+  - title: Persist and restore entries
+    topics:
+    - Local persistence
+    - Lifecycle
+    - Validation
+    resources:
+    - develop-in-swift
+    practice: Save the reading log using the tutorial approach and reject invalid entries.
+    checkpoint: Restart the simulator and retrieve the saved record while rejecting an empty title.
+  - title: Deliver the iOS mini-app
+    topics:
+    - Accessibility labels
+    - Repeatable checks
+    - Build instructions
+    resources:
+    - develop-in-swift
+    practice: Deliver simulator setup and checks for adding, editing and restoring reading notes.
+    checkpoint: A clean build reproduces the workflow and clearly distinguishes simulator from device evidence.
+  next_steps: Study permissions and device testing next and verify platform or publishing costs before choosing
+    distribution.
+- role: mobile-app-developer
+  title: Mobile App Developer
+  summary: Build a cross-platform prototype while checking platform assumptions explicitly.
+  entry_level: from-zero
+  prerequisites:
+  - Basic file skills
+  - A computer compatible with the chosen Flutter tooling
+  outcome: A Flutter habit log with local state and a documented platform test matrix.
+  stages:
+  - title: Learn Dart and the toolchain
+    topics:
+    - Variables and functions
+    - Collections
+    - Run and debug
+    resources:
+    - flutter-getting-started
+    practice: Complete introductory Dart material and run a minimal Flutter app.
+    checkpoint: Change a value, rerun the app and explain its output.
+  - title: Create a reusable screen
+    topics:
+    - Widgets and layout
+    - Input state
+    - Navigation
+    resources:
+    - flutter-getting-started
+    practice: Build a habit list and an entry form using a reusable row widget.
+    checkpoint: Add a habit on a narrow simulated screen without layout overflow.
+  - title: Preserve the habit log
+    topics:
+    - Local persistence
+    - Lifecycle behavior
+    - Platform differences
+    resources: []
+    practice: Select verified platform-compatible persistence documentation and store records locally.
+    checkpoint: Restart the app and recover entries while documenting the storage location for each target.
+    gap: A dedicated Flutter persistence and lifecycle guide is not verified; the setup pathway alone does not establish
+      these details.
+  - title: Deliver the portable mini-app
+    topics:
+    - Platform test matrix
+    - Accessible controls
+    - Reproduction notes
+    resources:
+    - flutter-getting-started
+    practice: Finish the habit log and record add-and-restart checks on two supported targets where available.
+    checkpoint: Label every target tested or untested and reproduce results instead of assuming portability.
+  next_steps: Choose one platform for deeper lifecycle and native-integration study rather than assuming every device
+    behaves identically.
+- role: ar-vr-developer
+  title: AR/VR Developer
+  summary: Prototype spatial interaction with explicit tracking and comfort limitations.
+  entry_level: after-basics
+  prerequisites:
+  - Basic programming
+  - Vectors and coordinate systems
+  - A computer suitable for a 3D editor
+  outcome: A simulated object-placement interaction with defined device-validation gaps.
+  stages:
+  - title: Build a scene at known scale
+    topics:
+    - Coordinate frames
+    - Transforms
+    - Camera and object scale
+    resources:
+    - unity-learn
+    - 3blue1brown-linear-algebra
+    practice: Create three labelled objects and inspect translation and rotation in a small scene.
+    checkpoint: Explain local versus world coordinates and reproduce a known arrangement.
+  - title: Model tracked interaction
+    topics:
+    - Tracking origin
+    - Selection and manipulation
+    - Input abstraction
+    resources: []
+    practice: Specify a hand or controller interaction and implement an equivalent simulator input.
+    checkpoint: Demonstrate select, release and a loss-of-tracking fallback.
+    gap: Device-specific XR interaction and tracking guidance is not verified; general Unity learning does not validate
+      the chosen XR runtime.
+  - title: Design spatial feedback
+    topics:
+    - Interaction affordances
+    - Comfort constraints
+    - Fallback behavior
+    resources:
+    - penpot
+    - unity-learn
+    practice: Prototype selection and cancellation feedback with a static alternative to scene movement.
+    checkpoint: A reviewer can identify selection and cancel without unexplained movement.
+    gap: Dedicated XR comfort, accessibility and calibration guidance remains unverified and must be checked before
+      headset testing.
+  - title: Deliver the spatial mini-project
+    topics:
+    - Frame-time observations
+    - Interaction tests
+    - Device boundaries
+    resources:
+    - unity-learn
+    practice: Deliver a three-object placement prototype with a scripted checklist and performance observations.
+    checkpoint: Reproduce select, place and cancel while labelling headset and tracking claims untested unless measured.
+  next_steps: Verify runtime-specific XR documentation before headset deployment; a simulator does not prove comfort
+    or tracking accuracy.
+- role: crm-developer
+  title: CRM Developer
+  summary: Explore CRM records and customization through a local surrogate rather than inventing platform coverage.
+  entry_level: after-basics
+  prerequisites:
+  - Basic programming
+  - Relational data and SQL
+  - Basic HTTP
+  outcome: A synthetic lead-management prototype with access checks and an explicit vendor-training gap.
+  stages:
+  - title: Model customer records
+    topics:
+    - Leads and accounts
+    - Relationships
+    - Record lifecycle
+    resources:
+    - sqlbolt
+    - db-browser-for-sqlite
+    practice: Create synthetic lead and account tables and document lead-status changes.
+    checkpoint: Query relationships and reject a lead referencing an absent account.
+  - title: Identify extension boundaries
+    topics:
+    - Objects and metadata
+    - Validation rules
+    - Transaction limits
+    resources: []
+    practice: Map a hypothetical workflow to vendor configuration and code responsibilities.
+    checkpoint: Explain which behavior could be configured without claiming a working platform implementation.
+    gap: No Salesforce or other CRM-specific developer curriculum is verified; select official platform documentation
+      before writing vendor-specific code.
+  - title: Protect and exchange records
+    topics:
+    - Record-level access
+    - Audit trails
+    - API mapping
+    resources:
+    - django-tutorial
+    - fastapi-tutorial
+    practice: Build a local surrogate with synthetic users, access rules and an export schema.
+    checkpoint: Demonstrate that one test user cannot retrieve another user's private record.
+    gap: Web resources support the surrogate only; vendor permissions, bulk limits and deployment procedures remain
+      unverified.
+  - title: Deliver the CRM workflow study
+    topics:
+    - Acceptance cases
+    - Reconciliation
+    - Platform distinctions
+    resources:
+    - pytest-getting-started
+    - django-tutorial
+    practice: Deliver valid transitions, rejected updates and access-boundary tests for the surrogate.
+    checkpoint: Reproduce each case and separate generic application behavior from unimplemented platform features.
+  next_steps: Select one verified vendor curriculum and permitted developer sandbox; a local surrogate does not
+    demonstrate Salesforce proficiency.
+- role: game-developer
+  title: Game Developer
+  summary: Build a complete small playable loop before increasing game scope.
+  entry_level: from-zero
+  prerequisites:
+  - Basic file skills
+  - A computer suitable for the chosen game editor
+  outcome: A two-dimensional collect-and-finish game with restart behavior and a checkable win condition.
+  stages:
+  - title: Control a game object
+    topics:
+    - Scenes and objects
+    - Input events
+    - Movement
+    resources:
+    - godot-docs
+    practice: Follow a first-game introduction and move a player within a bounded scene.
+    checkpoint: Show input-driven movement without leaving the intended play area.
+  - title: Implement the play loop
+    topics:
+    - Collision events
+    - Score state
+    - Win conditions
+    resources:
+    - godot-docs
+    practice: Add three collectibles and a visible finish condition.
+    checkpoint: Each collectible changes score once and the target score ends the round.
+  - title: Handle replay and timing
+    topics:
+    - Restart state
+    - Frame-independent movement
+    - Pause
+    resources:
+    - godot-docs
+    practice: Add restart and pause and clear leftover objects between rounds.
+    checkpoint: Replay two rounds with consistent movement and scoring.
+  - title: Deliver the playable mini-game
+    topics:
+    - Build instructions
+    - Playtest notes
+    - Known defects
+    resources:
+    - godot-docs
+    practice: Deliver controls, a scripted test run and one revision based on an observed player difficulty.
+    checkpoint: A new player can start, finish and restart from the instructions.
+  next_steps: Learn asset pipelines and performance through small additions; one prototype does not establish a
+    complete commercial production pipeline.
+- role: server-side-game-developer
+  title: Server Side Game Developer
+  summary: Build an authoritative local game service that rejects untrusted moves.
+  entry_level: after-basics
+  prerequisites:
+  - Programming functions and state
+  - Basic sockets or HTTP
+  - Simple data structures
+  outcome: A two-client turn-based game with server-validated moves and replayable logs.
+  stages:
+  - title: Specify authoritative rules
+    topics:
+    - Server-owned state
+    - Legal moves and turns
+    - Message schemas
+    resources:
+    - beejs-guides
+    practice: Define a small grid game and identify state that only the server can change.
+    checkpoint: Classify valid, out-of-turn and impossible moves before implementation.
+  - title: Connect two local clients
+    topics:
+    - Sockets and framing
+    - Connection lifecycle
+    - Error responses
+    resources:
+    - beejs-guides
+    practice: Run a local server and two clients exchanging bounded move messages.
+    checkpoint: Both clients observe the same accepted move and malformed messages are rejected.
+  - title: Handle repeats and disconnects
+    topics:
+    - Sequence numbers
+    - Duplicate messages
+    - Session recovery
+    resources:
+    - pytest-getting-started
+    - computer-networks-systems-approach
+    practice: Add message IDs and a game log and simulate retry after disconnect.
+    checkpoint: A repeated move is applied once and a reconnecting client receives current state.
+  - title: Deliver the multiplayer mini-project
+    topics:
+    - Rule tests
+    - Replay consistency
+    - Failure cases
+    resources:
+    - pytest-getting-started
+    practice: Deliver a deterministic replay and tests for illegal moves, duplicate delivery and disconnects.
+    checkpoint: Replay to the same final state and demonstrate that clients cannot set score directly.
+  next_steps: Study latency compensation and scaling afterward; turn-based lab results do not validate real-time
+    multiplayer architecture.
+- role: video-game-designer
+  title: Video Game Designer
+  summary: Test a small rule system through observable player choices.
+  entry_level: from-zero
+  prerequisites:
+  - Basic computer skills
+  - Ability to record consented playtest observations
+  outcome: A short playable rule prototype with a revision log and player feedback.
+  stages:
+  - title: Define a player experience
+    topics:
+    - Player goals
+    - Core choices
+    - Success and failure
+    resources:
+    - open-practice-library
+    practice: Write a one-page concept with one main decision and a clear ending.
+    checkpoint: Explain how the player choice changes progress.
+    gap: Product-discovery practices help frame questions but no dedicated game-design curriculum is verified.
+  - title: Make a paper rule prototype
+    topics:
+    - Rules and constraints
+    - Feedback loops
+    - State changes
+    resources: []
+    practice: Create a paper version with counters and record a complete round.
+    checkpoint: A second person completes a round from written rules without invented exceptions.
+    gap: A verified source for game mechanics, balancing and paper prototyping is absent; these are editorial exercises.
+  - title: Observe and revise play
+    topics:
+    - Playtest questions
+    - Difficulty and pacing
+    - Behavioral evidence
+    resources:
+    - open-practice-library
+    practice: Observe two short rounds with consent and change one rule in response to a specific observation.
+    checkpoint: Distinguish observations from interpretations and state what the next round should test.
+  - title: Deliver the design mini-project
+    topics:
+    - Rule documentation
+    - Prototype fidelity
+    - Revision evidence
+    resources:
+    - godot-docs
+    practice: Deliver the revised paper game or a minimal digital version with rules and a change rationale.
+    checkpoint: A new player finishes a round and the final rules trace to recorded observations.
+  next_steps: Seek dedicated game-design material for progression and balance and learn code only as needed to test
+    the next question.
+- role: video-game-tester
+  title: Video Game Tester
+  summary: Investigate a permitted game build and produce reproducible testing evidence.
+  entry_level: from-zero
+  prerequisites:
+  - Ability to run a permitted game build
+  - Basic file and screenshot skills
+  outcome: A game test pack with boundary cases, defect reports and retest results.
+  stages:
+  - title: Describe intended play
+    topics:
+    - Game states
+    - Controls and outcomes
+    - Test scope
+    resources:
+    - godot-docs
+    practice: Use a tutorial game to list start, play, pause, finish and restart states.
+    checkpoint: State the expected outcome of a transition between each neighboring state.
+  - title: Design focused game cases
+    topics:
+    - Input sequences
+    - Collision boundaries
+    - Save and restart
+    resources: []
+    practice: Create cases for repeated input, edge collisions and restart after winning.
+    checkpoint: Each case identifies initial state, action and an observable expected result.
+    gap: No dedicated game-testing curriculum is verified; controller matrices and platform requirements need specialist
+      material.
+  - title: Report reproducible defects
+    topics:
+    - Build identification
+    - Reproduction steps
+    - Expected versus actual
+    resources:
+    - open-source-guides
+    practice: Report one permitted-prototype defect using a minimal input sequence and sanitized evidence.
+    checkpoint: Another person reproduces it on the same identified build.
+  - title: Deliver the game test cycle
+    topics:
+    - Regression selection
+    - Retest evidence
+    - Untested platforms
+    resources: []
+    practice: Execute the matrix on two prototype revisions and record fixed, remaining and untested cases.
+    checkpoint: Trace every claimed fix to a retest and distinguish untested devices from passing devices.
+    gap: A verified game-QA reporting and platform-coverage source is absent; this exercise does not validate platform
+      compliance.
+  next_steps: Study platform-specific requirements on authorized builds and never claim compatibility for untested
+    devices.
+- role: ux-designer
+  title: UX Designer
+  summary: Investigate a user task and improve its interaction using evidence.
+  entry_level: from-zero
+  prerequisites:
+  - Basic computer skills
+  - Ability to obtain consent for a short usability session
+  outcome: A task-flow prototype revised after observing a consenting participant.
+  stages:
+  - title: Understand one user task
+    topics:
+    - Research questions
+    - Observation
+    - Consent and notes
+    resources:
+    - open-practice-library
+    practice: Observe a consenting person organizing fictional study tasks without collecting sensitive data.
+    checkpoint: Separate three observations from assumptions and describe the task in plain language.
+  - title: Model the interaction
+    topics:
+    - Task flow
+    - Information hierarchy
+    - Alternative approaches
+    resources:
+    - open-practice-library
+    - govuk-design-system
+    practice: Sketch the existing task flow and two simpler alternatives before polishing visuals.
+    checkpoint: Explain how each alternative addresses an observed obstacle.
+  - title: Prototype the critical path
+    topics:
+    - Low-fidelity screens
+    - Feedback states
+    - Accessible interactions
+    resources:
+    - penpot
+    - govuk-design-system
+    practice: Create a clickable flow with empty and error states.
+    checkpoint: A reviewer can complete the main task and recover from the designed error.
+  - title: Deliver the UX revision
+    topics:
+    - Usability observation
+    - Iteration
+    - Evidence limits
+    resources:
+    - open-practice-library
+    - penpot
+    practice: Run a consented task session and deliver before-and-after flows and a decision record.
+    checkpoint: Connect each revision to an observation without generalizing one participant to all users.
+  next_steps: Study research methods and accessibility further; a short session is exploratory evidence, not a representative
+    user study.
+- role: product-designer
+  title: Product Designer
+  summary: Connect a product problem, a usable concept and a measurable learning question.
+  entry_level: from-zero
+  prerequisites:
+  - Basic computer skills
+  - Interest in user and product decisions
+  outcome: A product concept with a tested interface, trade-offs and a proposed success measure.
+  stages:
+  - title: Frame the product problem
+    topics:
+    - User needs
+    - Product constraints
+    - Success assumptions
+    resources:
+    - open-practice-library
+    practice: Define a fictional study-planning problem with a user, constraint and proposed outcome measure.
+    checkpoint: Distinguish the problem from a preferred feature or unsupported business claim.
+  - title: Compare solution concepts
+    topics:
+    - Alternatives
+    - Value and effort
+    - Scope trade-offs
+    resources:
+    - open-practice-library
+    practice: Sketch three approaches including a low-technology option and choose a small testable scope.
+    checkpoint: Explain how the selected concept meets the stated need and constraint.
+  - title: Design a coherent experience
+    topics:
+    - Interaction flow
+    - Visual hierarchy
+    - Reusable components
+    resources:
+    - penpot
+    - govuk-design-system
+    practice: Prototype the concept with consistent components and explicit empty and error states.
+    checkpoint: A reviewer completes the key task and identifies its primary action without coaching.
+  - title: Deliver the product-design case
+    topics:
+    - Prototype testing
+    - Decision rationale
+    - Measurement plan
+    resources:
+    - open-practice-library
+    - penpot
+    practice: Deliver a revised prototype, decisions and a plan for measuring the intended product outcome.
+    checkpoint: Show an observation-driven change and distinguish tested usability from hypothetical product impact.
+  next_steps: Deepen research and business-context skills; a prototype does not demonstrate product-market fit or
+    financial impact.
+- role: ui-designer
+  title: UI Designer
+  summary: Create consistent visual components with clear states and readable layouts.
+  entry_level: from-zero
+  prerequisites:
+  - Basic computer skills
+  - Access to a design tool
+  outcome: A small interface kit and three coherent screens with documented state checks.
+  stages:
+  - title: Establish visual hierarchy
+    topics:
+    - Typography
+    - Spacing
+    - Visual priority
+    resources:
+    - govuk-design-system
+    - carbon-design-system
+    practice: Arrange a study-dashboard screen around one primary action using component examples as references.
+    checkpoint: Explain the intended reading order of title, action and supporting information.
+  - title: Build reusable components
+    topics:
+    - Component anatomy
+    - Design tokens
+    - Interaction states
+    resources:
+    - penpot
+    - carbon-design-system
+    practice: Create a button, field and card with shared spacing and visible focus and error states.
+    checkpoint: Change one shared token and show consistent updates across component instances.
+  - title: Check layout resilience
+    topics:
+    - Contrast and legibility
+    - Responsive behavior
+    - Text expansion
+    resources:
+    - govuk-design-system
+    - web-dev-learn
+    practice: Design narrow and wide screens and test long labels and error messages.
+    checkpoint: Keep essential text visible and focus and error states distinguishable.
+  - title: Deliver the interface mini-kit
+    topics:
+    - Screen consistency
+    - State specifications
+    - Developer handover
+    resources:
+    - penpot
+    - govuk-design-system
+    practice: Deliver three connected screens, reusable components and a short interaction-state specification.
+    checkpoint: Match each interactive element to a component and identify its empty, focus and error behavior.
+  next_steps: Continue with verified accessibility guidance and implementation collaboration; attractive static
+    screens alone do not establish usability.
+- role: web-developer
+  title: Web Developer
+  summary: Build a small content-oriented website with clear navigation and maintenance checks.
+  entry_level: from-zero
+  prerequisites:
+  - Basic file skills
+  - A browser and text editor
+  outcome: A multi-page information site with working links and a reproducible local setup.
+  stages:
+  - title: Structure useful content
+    topics:
+    - Semantic HTML
+    - Page titles
+    - Link destinations
+    resources:
+    - mdn-web-docs
+    practice: Create two study-resource pages with distinct titles and descriptive cross-links.
+    checkpoint: A reader identifies each page purpose and navigates between them without ambiguous links.
+  - title: Make the site readable
+    topics:
+    - CSS layout
+    - Responsive images
+    - Keyboard focus
+    resources:
+    - web-dev-learn
+    practice: Style narrow and wide layouts and add useful image alternative text.
+    checkpoint: Avoid horizontal overflow and reach every link by keyboard.
+  - title: Enhance without hiding content
+    topics:
+    - DOM events
+    - Basic validation
+    - Failure fallback
+    resources:
+    - javascript-info
+    practice: Add a resource filter while preserving the full list when JavaScript is unavailable.
+    checkpoint: Demonstrate filtering and verify that all content remains reachable without the enhancement.
+  - title: Deliver the information-site mini-project
+    topics:
+    - Static hosting
+    - Link checks
+    - Content maintenance
+    resources:
+    - github-pages
+    - mdn-web-docs
+    practice: Deliver local instructions and optionally publish only intended public content in a separate practice
+      repository.
+    checkpoint: Reproduce a fresh local run, verify internal links and update content without breaking navigation.
+  next_steps: Choose frontend application or backend study according to needed features; optional publication is
+    not a claim of production readiness.
+- role: software-qa-engineer
+  title: Software QA Engineer
+  summary: Engineer maintainable automated checks around a small application's risks.
+  entry_level: after-basics
+  prerequisites:
+  - Basic Python and JavaScript
+  - Ability to run a small web app
+  - Git basics
+  outcome: A deterministic test suite with separated checks, fixtures and failure diagnostics.
+  stages:
+  - title: Model quality risks
+    topics:
+    - Test boundaries
+    - Risk priorities
+    - Observable behavior
+    resources:
+    - cypress-real-world-app
+    practice: Inspect the demo and identify a critical flow and the lower-level rules it depends on.
+    checkpoint: Justify a unit, integration or browser check for each selected behavior.
+  - title: Implement deterministic checks
+    topics:
+    - Fixtures
+    - Assertions
+    - Isolation
+    resources:
+    - pytest-getting-started
+    practice: Test a small calculation with controlled input and a regression case.
+    checkpoint: Detect an intentional wrong result and pass after correcting it.
+  - title: Automate a browser workflow
+    topics:
+    - Locators
+    - User-visible assertions
+    - Failure artifacts
+    resources:
+    - playwright-getting-started
+    practice: Automate a local flow and capture diagnostics when an expected element is absent.
+    checkpoint: Repeat with fresh fixture state and produce a useful failure for a deliberately broken step.
+  - title: Deliver the test-engineering mini-project
+    topics:
+    - Suite organization
+    - Flaky-test investigation
+    - Reproducible execution
+    resources:
+    - pytest-getting-started
+    - playwright-getting-started
+    practice: Deliver unit and browser checks with setup notes, isolated data and one investigated intermittent
+      failure.
+    checkpoint: Report repeated-run results and explain the observed cause rather than merely adding retries.
+  next_steps: Study continuous integration and nonfunctional testing next; passing automation does not prove coverage
+    of every quality risk.
+- role: software-qa-analyst
+  title: Software Quality Assurance Analyst
+  summary: Turn requirements and risks into a traceable software test strategy.
+  entry_level: after-basics
+  prerequisites:
+  - Ability to use a small application
+  - Basic requirements and data concepts
+  - Clear written communication
+  outcome: A risk-based test plan with traceable scenarios and an evidence-based quality recommendation.
+  stages:
+  - title: Clarify a requirement
+    topics:
+    - Acceptance criteria
+    - Ambiguity
+    - Concrete examples
+    resources:
+    - open-practice-library
+    practice: Write criteria for a fictional booking feature and record unanswered rule questions.
+    checkpoint: Make each criterion observable and leave unresolved rules explicitly undecided.
+  - title: Design test coverage
+    topics:
+    - Equivalence classes
+    - Boundary values
+    - State transitions
+    resources: []
+    practice: Create cases spanning valid, invalid and boundary booking inputs and state changes.
+    checkpoint: Map each case to a rule or risk and identify a deliberate exclusion.
+    gap: No dedicated test-analysis syllabus is verified; formal test-design techniques require a suitable specialist
+      reference.
+  - title: Analyze defects and evidence
+    topics:
+    - Severity and priority
+    - Traceability
+    - Residual risk
+    resources:
+    - cypress-real-world-app
+    practice: Collect results from a permitted workflow and classify a defect by observed impact.
+    checkpoint: Separate evidence from suspected causes and connect the defect to an acceptance criterion.
+  - title: Deliver the quality assessment
+    topics:
+    - Coverage gaps
+    - Release recommendation
+    - Evidence summary
+    resources: []
+    practice: Deliver the plan, results and a qualified recommendation for the fictional feature.
+    checkpoint: Trace each conclusion to evidence and identify untested behavior and unresolved risks.
+    gap: A verified test-strategy and release-risk assessment guide is missing; this is an editorial practice assessment,
+      not certification.
+  next_steps: Study formal test-design techniques and the application domain further; a recommendation communicates
+    evidence rather than authorizing release automatically.
+- role: software-qa-tester
+  title: Software Quality Assurance Tester
+  summary: Execute careful checks and communicate reproducible software problems.
+  entry_level: from-zero
+  prerequisites:
+  - Basic computer and browser skills
+  - Permission to test the selected demo
+  outcome: A manual test cycle with defect reports and traceable retest evidence.
+  stages:
+  - title: Observe intended behavior
+    topics:
+    - Expected outcomes
+    - Test environment
+    - Application states
+    resources:
+    - cypress-real-world-app
+    practice: Run or inspect a permitted demo and describe a normal user flow in a named environment.
+    checkpoint: State the initial conditions, action and expected visible outcome.
+  - title: Execute focused cases
+    topics:
+    - Step-by-step checks
+    - Boundary inputs
+    - Actual results
+    resources: []
+    practice: Execute normal, empty and malformed-input cases and record what actually happened.
+    checkpoint: Mark cases passed, failed or blocked with evidence rather than counting blocked cases as passed.
+    gap: No dedicated manual-testing course is verified; the demo is a practice target, not a complete testing method.
+  - title: Write a reproducible report
+    topics:
+    - Minimal reproduction
+    - Expected versus actual
+    - Evidence hygiene
+    resources:
+    - open-source-guides
+    practice: Report one permitted-lab defect with build details, steps and sanitized supporting evidence.
+    checkpoint: A second person reproduces the problem without receiving credentials or personal data.
+  - title: Deliver the test-and-retest cycle
+    topics:
+    - Regression checks
+    - Retest status
+    - Run summary
+    resources: []
+    practice: Repeat the cases on a changed demo version and record fixed, remaining and blocked outcomes.
+    checkpoint: Trace each status to a specific run and clearly identify untested environments.
+    gap: A verified manual regression and defect-lifecycle reference is absent; these editorial exercises require
+      explicit evidence rather than claimed certification.
+  next_steps: Expand test-design skills before automating and use authorized targets; a demo test cycle is not a
+    professional qualification.

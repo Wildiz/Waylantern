@@ -1,8 +1,14 @@
-# Path: data analysis
+# First project: data analysis
 
 Data analysts turn questions into calculations, check the quality of the data and explain what the results support. This route is for beginners who want to explore a small table rather than build a production data system. SQL practice needs only a browser. Before the Python step, you should be able to use variables, lists, loops and functions from Path 0. Use a small public tutorial dataset or an invented CSV, never private records. Your final result is a short report with a reproducible calculation, a chart and limitations.
 
 [Back to the start](../README.md)
+
+**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).
+
+## Before you start
+
+A browser is enough to begin SQL; learn basic Python variables, lists, loops and functions before Step 3.
 
 If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.
 
@@ -44,7 +50,7 @@ After the last checkpoint, improve your project or browse the related areas for 
 
 - [Data, databases and statistics](area-data.md)
 
-[Compare the learning paths](../README.md#choose-a-learning-path)
+[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)
 
 ---
-This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).

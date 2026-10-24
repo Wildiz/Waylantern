@@ -22,6 +22,10 @@ Learning paths in `data/paths/*.yml` help people choose a direction and know wha
 
 Edit the group data in `data/professions/` and the reference metadata in `data/profession-guidelines.yml`. Explain what each role does, preserve useful aliases, and link only relevant areas and existing routes. Separate academic recommendations, skill frameworks, certification objectives and educational courses. Record the issuing organisation, scope and whether you actually read each source. A related reference is not evidence of a profession-specific curriculum. See `data/SCHEMA.md`, then regenerate and validate with `make build` and `make check`.
 
+## Improve a profession curriculum
+
+The editorial recipes in `data/curricula/` are longer learning sequences: prerequisites, topics, practice, checkpoints and a final work sample. Tailor each sequence to its role, state experience requirements and record resource gaps honestly. A short first-project guide is a way to try an area; it does not replace the full recipe. Keep one recipe per profile and use existing resource slugs. Run `make build` and `make check`; the checks protect complete profile coverage, valid references and navigation.
+
 ## What gets in
 - Free first. A cheap option is fine if the community clearly recommends it. Say honestly what it costs.
 - It must work today and be maintained (or clearly marked as an archive).

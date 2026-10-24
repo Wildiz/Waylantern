@@ -1,31 +1,54 @@
-title: "Path: data analysis"
+title: 'First project: data analysis'
 summary: Turn a small dataset into checked answers and a clear chart.
-areas: [data]
-intro: >
-  Data analysts turn questions into calculations, check the quality of the data and explain
-  what the results support. This route is for beginners who want to explore a small table
-  rather than build a production data system. SQL practice needs only a browser. Before
-  the Python step, you should be able to use variables, lists, loops and functions from
-  Path 0. Use a small public tutorial dataset or an invented CSV, never private records.
-  Your final result is a short report with a reproducible calculation, a chart and limitations.
+areas:
+- data
+intro: 'Data analysts turn questions into calculations, check the quality of the data and explain what the
+  results support. This route is for beginners who want to explore a small table rather than build a production
+  data system. SQL practice needs only a browser. Before the Python step, you should be able to use variables,
+  lists, loops and functions from Path 0. Use a small public tutorial dataset or an invented CSV, never private
+  records. Your final result is a short report with a reproducible calculation, a chart and limitations.
+
+  '
 steps:
-  - title: Answer questions with SQL
-    short: Query a table
-    tools: [sqlbolt]
-    why: Start with SELECT, filtering, sorting and aggregate lessons in the browser. Save three working queries and write the question each one answers, such as which group has the largest count. Check a small result by counting the example rows yourself. Then try one JOIN lesson and compare the input and output rows to see how repeated matches change a count.
-    advance_when: You can write a filtered query and a grouped summary, explain their results and identify when a JOIN could count the same record more than once.
-  - title: Explore your own small table
-    short: Inspect a dataset
-    tools: [db-browser-for-sqlite]
-    why: Install the desktop tool if your machine supports it, create a local SQLite database and import an invented CSV with a category and a numeric value. Include a missing value and a duplicate row so you can practise checking them. Write queries for row count, missing values and totals by category, and record how you treat the duplicate.
-    advance_when: Your saved SQL reproduces the totals, you have checked them against the small source table, and you can explain how missing or duplicated values affect the answer.
-  - title: Repeat the analysis in Python
-    short: Work with pandas
-    tools: [pandas-getting-started]
-    why: Follow the tutorials on reading a CSV, selecting data and calculating summary statistics. Load the same invented table, reproduce one SQL result and compare the numbers. Keep the CSV and a short Python script together, with notes about the duplicate and missing value. Start with only the operations needed for your question.
-    advance_when: Running your script from the start produces the expected summary, and you can explain any difference between the raw rows and the rows used in your calculation.
-  - title: Explain one finding with a chart
-    short: Report a finding
-    tools: [from-data-to-viz]
-    why: Use the chart guide to choose a simple display for your summary, then create it using the pandas plotting tutorial from the previous step. Label the title, axes and units. Write a short report containing the question, data source, result and one limitation; do not claim that a pattern proves its cause.
-    advance_when: A reader can tell what was measured, reproduce the reported number and understand a limitation without asking you to explain the chart.
+- title: Answer questions with SQL
+  short: Query a table
+  tools:
+  - sqlbolt
+  why: Start with SELECT, filtering, sorting and aggregate lessons in the browser. Save three working queries
+    and write the question each one answers, such as which group has the largest count. Check a small result
+    by counting the example rows yourself. Then try one JOIN lesson and compare the input and output rows to
+    see how repeated matches change a count.
+  advance_when: You can write a filtered query and a grouped summary, explain their results and identify when
+    a JOIN could count the same record more than once.
+- title: Explore your own small table
+  short: Inspect a dataset
+  tools:
+  - db-browser-for-sqlite
+  why: Install the desktop tool if your machine supports it, create a local SQLite database and import an invented
+    CSV with a category and a numeric value. Include a missing value and a duplicate row so you can practise
+    checking them. Write queries for row count, missing values and totals by category, and record how you treat
+    the duplicate.
+  advance_when: Your saved SQL reproduces the totals, you have checked them against the small source table,
+    and you can explain how missing or duplicated values affect the answer.
+- title: Repeat the analysis in Python
+  short: Work with pandas
+  tools:
+  - pandas-getting-started
+  why: Follow the tutorials on reading a CSV, selecting data and calculating summary statistics. Load the same
+    invented table, reproduce one SQL result and compare the numbers. Keep the CSV and a short Python script
+    together, with notes about the duplicate and missing value. Start with only the operations needed for your
+    question.
+  advance_when: Running your script from the start produces the expected summary, and you can explain any difference
+    between the raw rows and the rows used in your calculation.
+- title: Explain one finding with a chart
+  short: Report a finding
+  tools:
+  - from-data-to-viz
+  why: Use the chart guide to choose a simple display for your summary, then create it using the pandas plotting
+    tutorial from the previous step. Label the title, axes and units. Write a short report containing the question,
+    data source, result and one limitation; do not claim that a pattern proves its cause.
+  advance_when: A reader can tell what was measured, reproduce the reported number and understand a limitation
+    without asking you to explain the chart.
+entry_level: start-here
+prerequisites: A browser is enough to begin SQL; learn basic Python variables, lists, loops and functions before
+  Step 3.

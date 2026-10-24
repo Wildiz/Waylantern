@@ -1,0 +1,918 @@
+group: leadership
+curricula:
+- role: product-manager
+  title: 'Product management: from a user problem to an evaluated product decision'
+  summary: Investigate a user problem, prioritise an outcome and evaluate a small product experiment.
+  entry_level: after-basics
+  prerequisites:
+  - Can describe a digital service and its users in plain language.
+  - Can organise a small table and distinguish an observation from an assumption.
+  outcome: A product discovery brief, prioritised options and an experiment report with a justified next decision.
+  stages:
+  - title: Learn whose problem you are solving
+    topics:
+    - User goals and context
+    - Observation versus assumption
+    - Problem statements
+    resources:
+    - open-practice-library
+    practice: Choose one learning or support service. Adapt the empathy-mapping practice to record a user task,
+      obstacles and assumptions; discuss the task with a willing participant if available.
+    checkpoint: Your problem statement names a user, a task and an observed obstacle; assumptions are labelled
+      separately.
+  - title: Connect the problem to a measurable outcome
+    topics:
+    - Outcome versus feature
+    - Baseline measures
+    - Opportunity prioritisation
+    resources: []
+    practice: List three possible responses to the problem. Define an observable outcome, a baseline and a
+      constraint for each, then rank the options using a stated decision rule.
+    checkpoint: A reader can trace your chosen option to a user problem, outcome measure and explicit tradeoff.
+    gap: A verified product-outcome and prioritisation curriculum has not yet been catalogued; the practice
+      is an editorial exercise, not a method certified by an institution.
+  - title: Test the smallest useful idea
+    topics:
+    - Prototype scope
+    - Experiment design
+    - Evidence limits
+    resources:
+    - penpot
+    practice: Build a small clickable prototype of the chosen idea. Write a neutral task, observe a consenting
+      participant or label a self-review, and record findings without claiming production impact.
+    checkpoint: You have a prototype, a repeatable task and a findings log that distinguishes observed behaviour
+      from predicted benefit.
+  - title: Make and communicate the next product decision
+    topics:
+    - Success criteria
+    - Cost and risk
+    - Decision review
+    resources:
+    - madr
+    practice: Combine the brief, options, prototype findings and measures into a product decision packet. Use
+      the decision-record structure to explain whether to continue, change or stop the idea.
+    checkpoint: The packet includes a problem, evidence, decision, rejected option and a measurable next experiment;
+      no unmeasured business result is presented as proven.
+  next_steps: Repeat with a second problem and real stakeholder feedback before taking responsibility for a
+    product roadmap.
+- role: product-owner
+  title: 'Product ownership: from a product goal to a reviewable increment'
+  summary: Translate a product goal into ordered work and validate a small delivered increment.
+  entry_level: after-basics
+  prerequisites:
+  - Can explain a digital product and collaborate on a small project.
+  - Understands that a Product Owner role depends on the team context; Scrum rules require separate study.
+  outcome: A coherent product goal, ordered backlog, acceptance examples and a reviewed increment.
+  stages:
+  - title: Clarify one product goal
+    topics:
+    - User value
+    - Product goal
+    - Constraints
+    resources:
+    - open-practice-library
+    practice: For a small study-resource product, write the user problem, an outcome goal and two constraints.
+      Record which stakeholder can clarify each assumption.
+    checkpoint: The goal describes a change for users rather than a list of features, and the assumptions have
+      named questions.
+  - title: Turn the goal into ordered work
+    topics:
+    - Backlog ordering
+    - Small work items
+    - Acceptance examples
+    resources: []
+    practice: Create five small backlog items supporting the goal. Add concrete acceptance examples and order
+      them with a value, risk or learning rationale.
+    checkpoint: Every top item has an observable acceptance example and its priority is explained relative
+      to the same product goal.
+    gap: The catalogue does not yet contain a verified Product Owner or Scrum curriculum covering accountabilities
+      and backlog management.
+  - title: Clarify work with the people doing it
+    topics:
+    - Refinement
+    - Dependencies
+    - Scope negotiation
+    resources: []
+    practice: Walk through the first two items with a collaborator, or simulate the questions and label the
+      simulation. Split an oversized item and record a clarification without prescribing implementation details.
+    checkpoint: The two items can be explained consistently, dependencies are recorded and one scope decision
+      is traceable.
+    gap: A verified curriculum for product-backlog refinement and delivery-team collaboration is still needed.
+  - title: Review an increment and adapt the backlog
+    topics:
+    - Acceptance evidence
+    - Feedback
+    - Next ordering decision
+    resources:
+    - github-skills-introduction-to-github
+    practice: Use an existing small prototype or practice repository to demonstrate one completed item. Compare
+      its result with the acceptance examples, record feedback and reorder the next items.
+    checkpoint: Your packet contains the goal, backlog, a demonstrated increment, acceptance evidence and a
+      documented change following feedback; merely closing a ticket is not treated as value delivered.
+  next_steps: Study the applicable official role framework when verified sources become available, then practise
+    with a delivery team under supervision.
+- role: scrum-master
+  title: 'Scrum facilitation: understand the framework and improve one team impediment'
+  summary: Study Scrum responsibilities and practise facilitation using a small team case.
+  entry_level: after-basics
+  prerequisites:
+  - Has observed a collaborative project and can distinguish a delivery task from a team-process problem.
+  - Can facilitate a short discussion and record agreed actions.
+  outcome: A framework study log, facilitated retrospective and a measured impediment-improvement experiment.
+  stages:
+  - title: Study the framework before using its labels
+    topics:
+    - Scrum accountabilities
+    - Events and artefacts
+    - Commitments
+    resources: []
+    practice: Read a verified current Scrum Guide when it is added to the catalogue. Build a concept map linking
+      accountabilities, events, artefacts and commitments; mark unanswered questions.
+    checkpoint: You can explain the map without equating Scrum Master with project manager or assigning work
+      to team members.
+    gap: A verified Scrum Guide and Scrum-specific learning source have not yet been added; this required framework
+      study remains a resource gap.
+  - title: Observe a team and separate symptoms from causes
+    topics:
+    - Working agreements
+    - Impediments
+    - Team observations
+    resources:
+    - open-practice-library
+    practice: Use a small project you can observe, or a clearly labelled case. Record three examples of blocked
+      collaboration and select one impediment within the team influence.
+    checkpoint: The record contains observations, a hypothesis and a bounded impediment rather than a judgement
+      about a person.
+  - title: Facilitate one improvement conversation
+    topics:
+    - Participation
+    - Retrospective structure
+    - Action ownership
+    resources: []
+    practice: Prepare and facilitate a short retrospective with willing participants. Make room for different
+      views, select one action and record its owner and review point.
+    checkpoint: Participants can describe the agreed action and how they will inspect its effect; confidential
+      discussion is not published as training data.
+    gap: The catalogue lacks a verified Scrum facilitation curriculum; the exercise requires practice and feedback,
+      not just reading a tool reference.
+  - title: Inspect the effect instead of counting ceremonies
+    topics:
+    - Improvement measures
+    - Experiment review
+    - Facilitation feedback
+    resources: []
+    practice: Try the action over an agreed work interval, gather evidence and ask for feedback on the facilitation.
+      Write whether to keep, change or stop the experiment.
+    checkpoint: Your case contains a framework map, observation log, action and review evidence, and distinguishes
+      team improvement from merely holding a meeting.
+    gap: Verified learning material on Scrum effectiveness and coaching feedback is still needed.
+  next_steps: Repeat supervised facilitation with a real team and resolve the Scrum-source gap before presenting
+    this as a complete Scrum learning programme.
+- role: agile-coach
+  title: 'Agile coaching: from team evidence to a bounded organisational experiment'
+  summary: Diagnose a collaboration problem, choose an intervention and inspect organisational effects.
+  entry_level: experience-required
+  prerequisites:
+  - Has practical delivery-team experience and can describe more than one working approach.
+  - Has facilitated team discussions and received feedback on that facilitation.
+  - Can recognise the limits of personal authority and escalate employment or wellbeing concerns appropriately.
+  outcome: An evidence-based coaching agreement and a reviewed improvement experiment across team boundaries.
+  stages:
+  - title: Establish the coaching problem and boundaries
+    topics:
+    - Coaching agreement
+    - Stakeholder goals
+    - Observation
+    resources: []
+    practice: Use a real consenting team context or a labelled case. Agree what problem to investigate, who
+      is involved, what evidence can be used and what decisions are outside the coaching remit.
+    checkpoint: The agreement separates the desired outcome, sponsor expectations, confidentiality boundaries
+      and the coach influence.
+    gap: No verified agile-coaching curriculum or professional coaching ethics source is currently catalogued.
+  - title: Understand the system rather than prescribe a ritual
+    topics:
+    - Work flow
+    - Dependencies
+    - Feedback loops
+    resources:
+    - open-practice-library
+    practice: Map how a small item moves from request to feedback across two teams. Record queues, dependencies
+      and conflicting goals; validate the map with participants when possible.
+    checkpoint: A participant can follow one item through the map and correct it, and the proposed problem
+      is supported by observations.
+  - title: Choose a reversible intervention
+    topics:
+    - Facilitation versus coaching
+    - Experiment scope
+    - Unintended effects
+    resources: []
+    practice: Compare two interventions for one bottleneck, including the option to change nothing. Define
+      a small reversible trial, a leading measure and a possible adverse effect to watch.
+    checkpoint: The selected intervention has a rationale, owner, review date and stop condition; it is not
+      justified only by adherence to a named method.
+    gap: A verified curriculum on coaching approaches and organisational change is needed; product workshop
+      material alone does not cover this profession.
+  - title: Review the intervention with the system
+    topics:
+    - Evidence review
+    - Stakeholder feedback
+    - Capability transfer
+    resources: []
+    practice: Run the bounded trial with consent and supervision, or produce a simulated evidence packet clearly
+      marked as such. Review outcomes and hand over the inspection process to the team.
+    checkpoint: The final case explains initial evidence, intervention choice, effects, limitations and how
+      the team will continue without depending on the coach.
+    gap: Verified material on organisational coaching evaluation and sustainable capability development is
+      still missing.
+  next_steps: Build a supervised case portfolio across different team contexts; do not treat a simulated workshop
+    as evidence of organisational coaching experience.
+- role: it-project-manager
+  title: 'IT project management: scope, plan and review a bounded delivery'
+  summary: Coordinate a small technology project through scope, dependencies, risk and acceptance.
+  entry_level: experience-required
+  prerequisites:
+  - Has participated in a technology project and understands its delivery lifecycle.
+  - Can work with estimates, simple costs and stakeholder requirements.
+  outcome: A small project control pack with an accepted result and a review of planned versus actual work.
+  stages:
+  - title: Define what the project is meant to achieve
+    topics:
+    - Business objective
+    - Scope boundary
+    - Acceptance ownership
+    resources: []
+    practice: For a small internal-service change, write the objective, in-scope and out-of-scope work, acceptance
+      evidence and the person empowered to accept it.
+    checkpoint: The charter states a measurable objective, exclusions, decision owner and completion evidence.
+    gap: A verified project-management curriculum covering chartering and accountability has not yet been catalogued.
+  - title: Build a dependency-aware plan
+    topics:
+    - Work breakdown
+    - Estimation uncertainty
+    - Resource constraints
+    resources: []
+    practice: Break the scope into deliverables, identify dependencies and estimate ranges. Create a baseline
+      plan with owners, assumptions and one explicit resource constraint.
+    checkpoint: The plan shows which delay affects the completion date and explains estimate ranges rather
+      than presenting guesses as commitments.
+    gap: Verified scheduling, estimation and project-control learning material is still needed.
+  - title: Control risk and proposed changes
+    topics:
+    - Risk response
+    - Change evaluation
+    - Stakeholder communication
+    resources:
+    - madr
+    practice: Maintain a small risk and issue log. Use the decision-record structure to compare a proposed
+      scope change, including cost, schedule, acceptance and stakeholder consequences.
+    checkpoint: A reader can trace one risk to an owner and response, and one change to an explicit accept,
+      defer or reject decision.
+  - title: Deliver, accept and learn
+    topics:
+    - Acceptance checks
+    - Handover
+    - Project review
+    resources: []
+    practice: Coordinate one bounded deliverable in a practice project. Gather acceptance evidence, write handover
+      notes and compare the outcome with the plan, including what remained unfinished.
+    checkpoint: The pack includes charter, plan, logs, a recorded acceptance decision, handover and a review
+      of variance and lessons.
+    gap: A verified curriculum for project closure, benefits review and delivery governance is not yet available
+      in the catalogue.
+  next_steps: Take a larger project only with supervision and appropriate domain knowledge; add formal project-management
+    sources when verified.
+- role: chief-information-officer
+  title: 'CIO preparation: align information services with organisational decisions'
+  summary: Develop an information-systems strategy and an evidence-based investment and governance proposal.
+  entry_level: experience-required
+  prerequisites:
+  - Has substantial experience delivering or operating organisational information systems.
+  - Has managed budgets, stakeholders and service or delivery teams.
+  - Understands the organisation sector and can obtain qualified financial, legal and security advice.
+  outcome: A strategic information-services portfolio case with investment choices, governance and outcome
+    measures.
+  stages:
+  - title: Understand organisational needs and the current information estate
+    topics:
+    - Organisational objectives
+    - Information flows
+    - Service portfolio
+    resources: []
+    practice: For an organisation you know or a labelled case, map key outcomes to information-dependent services,
+      owners and major constraints. Separate known facts from assumptions.
+    checkpoint: The current-state brief links services and information to business outcomes and identifies
+      ownership gaps without claiming an exhaustive audit.
+    gap: No verified CIO or information-systems leadership curriculum is catalogued; sector-specific governance
+      and information-management sources are required.
+  - title: Assess service capability and exposure
+    topics:
+    - Service performance
+    - Dependencies
+    - Information risk
+    resources:
+    - glpi
+    practice: Use a synthetic service and asset inventory to practise tracing a critical service to its dependencies.
+      Combine this with operational measures and an explicit list of risks requiring specialist review.
+    checkpoint: The case identifies a critical dependency, a service weakness and responsible decision owners;
+      the GLPI exercise is not presented as a complete risk assessment.
+  - title: Compare investments and governance choices
+    topics:
+    - Portfolio prioritisation
+    - Financial assumptions
+    - Decision rights
+    resources: []
+    practice: Compare three investments against organisational goals, cost assumptions, risk and expected benefits.
+      Draft decision rights and escalation routes for funding and information policy.
+    checkpoint: Your recommendation states the preferred portfolio, rejected alternatives, uncertain assumptions
+      and how benefits will be inspected.
+    gap: Verified training in technology portfolio finance, information governance and executive decision-making
+      remains a resource gap.
+  - title: Create and challenge a strategic roadmap
+    topics:
+    - Sequenced change
+    - Accountability
+    - Outcome review
+    resources: []
+    practice: Assemble a multi-horizon roadmap with dependencies, accountable owners, service continuity plans
+      and review measures. Ask experienced operational and business reviewers to challenge the proposal.
+    checkpoint: The strategy pack connects current-state evidence, investment decisions, governance and measurable
+      review points; any simulated review is labelled.
+    gap: A verified executive information-systems curriculum and supervised organisational practice are needed
+      beyond this editorial case exercise.
+  next_steps: Pursue progressively accountable information-services leadership experience; a strategy case
+    is learning evidence, not a substitute for executive responsibility.
+- role: chief-technology-officer
+  title: 'CTO preparation: technology strategy grounded in product and delivery evidence'
+  summary: Connect technology capabilities, architecture and organisational choices to a product strategy.
+  entry_level: experience-required
+  prerequisites:
+  - Has led engineering work through delivery and operation of production systems.
+  - Can evaluate architecture tradeoffs and work with product, finance and security stakeholders.
+  - Has experience developing people and technical capability beyond personal implementation.
+  outcome: A challenged technology strategy with architecture options, capability needs and inspection measures.
+  stages:
+  - title: Describe the technology problem in product terms
+    topics:
+    - Product strategy
+    - Technical constraints
+    - Capability assessment
+    resources:
+    - arc42-template
+    practice: Use an existing product case to document quality goals, constraints and system context. Identify
+      which technical limits affect product outcomes rather than listing fashionable technologies.
+    checkpoint: The brief connects at least two product objectives to current technical constraints and distinguishes
+      measured facts from assumptions.
+  - title: Evaluate strategic technical options
+    topics:
+    - Architecture options
+    - Build versus buy
+    - Reversibility
+    resources:
+    - system-design-primer
+    - madr
+    practice: Compare two plausible directions for one system capability. Record workload assumptions, operational
+      demands, migration costs and reversible decisions using an architecture decision record.
+    checkpoint: Reviewers can understand why one option fits the stated requirements and what evidence would
+      justify changing direction.
+  - title: Plan the organisational capability to deliver
+    topics:
+    - Team capability
+    - Investment tradeoffs
+    - Technology governance
+    resources: []
+    practice: Map the proposed direction to skills, ownership boundaries, hiring or development needs and budget
+      assumptions. Compare delivery scenarios with product and operational stakeholders.
+    checkpoint: The proposal names accountable capabilities and constraints rather than assuming that a new
+      tool or new hire resolves the strategy.
+    gap: Verified resources on executive technology finance, organisational design and leadership development
+      are not yet catalogued.
+  - title: Defend and review a technology roadmap
+    topics:
+    - Portfolio sequencing
+    - Migration risk
+    - Strategy feedback
+    resources: []
+    practice: Produce a roadmap with an initial validation milestone, migration dependencies and review measures.
+      Ask experienced reviewers to challenge both the technical and organisational assumptions.
+    checkpoint: Your capstone includes a product-linked brief, option decision, capability plan and roadmap,
+      plus a documented response to critical feedback.
+    gap: A verified CTO curriculum and real cross-functional leadership practice remain necessary beyond the
+      technical references in this catalogue.
+  next_steps: Build evidence through accountable engineering leadership and production outcomes; keep revising
+    strategic decisions as product conditions change.
+- role: computer-information-systems-manager
+  title: 'Information systems management: coordinate services, people and demand'
+  summary: Balance information-service demand, operational evidence and team capacity in a bounded service
+    portfolio.
+  entry_level: experience-required
+  prerequisites:
+  - Has delivered or supported organisational information systems.
+  - Has coordinated people or service work and can interpret basic service measures.
+  outcome: A service portfolio and management review demonstrating accountable service and resource decisions.
+  stages:
+  - title: Understand service users and ownership
+    topics:
+    - Service catalogue
+    - Demand
+    - Ownership
+    resources:
+    - glpi
+    practice: Build a synthetic catalogue of three information services with users, owners, assets and support
+      responsibilities. Record how requests and incidents are routed.
+    checkpoint: A reader can identify the owner and support route of each service and distinguish a new request
+      from an operational failure.
+  - title: Connect service evidence with resources
+    topics:
+    - Capacity
+    - Service measures
+    - Skills coverage
+    resources: []
+    practice: Create a weekly sample of service demand and incidents, then map it to team capacity and skills.
+      Identify a bottleneck without reducing people to ticket counts.
+    checkpoint: Your review separates demand, available capacity and outcomes, and identifies the assumptions
+      behind one resource decision.
+    gap: A verified information-systems management and workforce-planning curriculum is missing from the catalogue.
+  - title: Manage a service change and continuity concern
+    topics:
+    - Change impact
+    - Continuity
+    - Supplier dependencies
+    resources:
+    - madr
+    practice: Choose one service change and record options, dependencies, continuity implications and decision
+      ownership. Include a supplier assumption requiring validation.
+    checkpoint: The decision names the change benefit, potential disruption, contingency and the party responsible
+      for each follow-up.
+  - title: Run a management review
+    topics:
+    - Accountability
+    - Prioritisation
+    - Improvement tracking
+    resources: []
+    practice: Assemble the catalogue, service evidence, capacity view and change decision into a management
+      review. Prioritise one improvement and define how its outcome will be checked.
+    checkpoint: The capstone produces an accountable improvement decision and a review plan supported by evidence
+      rather than a summary of completed activities.
+    gap: Verified material on service governance, people management and organisational reporting is still required.
+  next_steps: Practise management reviews with an experienced service owner and deepen the sector-specific
+    governance and people-management material.
+- role: it-infrastructure-manager
+  title: 'Infrastructure management: from a dependency inventory to an operable capacity plan'
+  summary: Coordinate infrastructure reliability, changes, capacity and support responsibilities.
+  entry_level: experience-required
+  prerequisites:
+  - Has operated infrastructure or supported production services.
+  - Can discuss compute, network and storage dependencies with the relevant specialists.
+  - Has experience coordinating maintenance or operational work.
+  outcome: An infrastructure operating plan with justified capacity, maintenance and recovery priorities.
+  stages:
+  - title: Map the infrastructure behind a service
+    topics:
+    - Asset inventory
+    - Service dependencies
+    - Operational ownership
+    resources:
+    - glpi
+    practice: Create an invented inventory for one business service, including compute, network, storage, owners
+      and supplier dependencies. Follow one failure path through the inventory.
+    checkpoint: The map identifies the dependencies whose failure would interrupt the service and records who
+      can act on them.
+  - title: Interpret operational evidence
+    topics:
+    - Service status
+    - Logs
+    - Capacity signals
+    resources:
+    - linux-upskill-challenge
+    practice: Use a disposable Linux lab to collect a small set of status, storage and service observations.
+      Explain which observations support a capacity or maintenance concern and which need a specialist.
+    checkpoint: You can show the evidence for one concern, its limits and the next check, instead of assuming
+      every alert requires more hardware.
+  - title: Plan maintenance and recovery
+    topics:
+    - Change windows
+    - Recovery objectives
+    - Supplier coordination
+    resources: []
+    practice: Draft a maintenance proposal and a tabletop recovery scenario for the service. Identify business
+      approval, fallback conditions, specialist roles and communication points.
+    checkpoint: The plan has an agreed service objective, a rollback or recovery path and named decision responsibilities.
+    gap: Verified learning resources on infrastructure capacity management, continuity planning and maintenance
+      governance are not yet catalogued.
+  - title: Present a risk-and-capacity operating plan
+    topics:
+    - Investment priorities
+    - Service reporting
+    - Operational review
+    resources: []
+    practice: Combine inventory and operational findings into a prioritised operating plan. Compare one upgrade
+      with a lower-cost operational alternative and schedule a review of the decision.
+    checkpoint: The capstone links spending and maintenance recommendations to service evidence, dependencies
+      and a measurable operational result.
+    gap: A verified infrastructure-management curriculum including financial and people responsibilities remains
+      a gap.
+  next_steps: Review the plan with experienced infrastructure and business owners; deepen the specialism needed
+    by the actual estate before taking responsibility.
+- role: cloud-business-office-lead
+  title: 'Cloud business office: coordinate adoption economics and governance'
+  summary: Build a cloud-adoption decision pack linking business value, ownership, costs and controls.
+  entry_level: experience-required
+  prerequisites:
+  - Has participated in cloud adoption or service governance with business and technology stakeholders.
+  - Can interpret usage and spending data and distinguish estimates from commitments.
+  outcome: A cloud operating-model proposal and reviewed adoption decision using explicit financial and service
+    assumptions.
+  stages:
+  - title: Understand why cloud is being considered
+    topics:
+    - Business drivers
+    - Stakeholder needs
+    - Adoption boundaries
+    resources:
+    - open-practice-library
+    practice: Facilitate a small discovery exercise for a fictional or consented service. Record the desired
+      outcome, constraints and which needs are not automatically solved by moving to cloud.
+    checkpoint: The brief names a business reason, affected stakeholders and assumptions requiring evidence
+      rather than treating migration itself as the goal.
+  - title: Build a transparent economic case
+    topics:
+    - Cost drivers
+    - Demand uncertainty
+    - Total ownership costs
+    resources: []
+    practice: Compare keeping one service in its current environment with a cloud option. Model a few usage
+      scenarios, including support, migration and exit costs, with all numbers labelled as estimates.
+    checkpoint: The model exposes its inputs and shows how a demand change can reverse the preferred option.
+    gap: A verified cloud financial-management or FinOps curriculum and current provider cost documentation
+      are not yet included.
+  - title: Define an operating and governance model
+    topics:
+    - Decision rights
+    - Service ownership
+    - Controls and exceptions
+    resources: []
+    practice: Draft the relationships between product owners, platform teams, finance and risk specialists.
+      Describe how a team requests a service, reports costs and escalates an exception.
+    checkpoint: A walkthrough identifies who can approve an adoption decision and who owns its running costs,
+      reliability and control evidence.
+    gap: Verified cloud governance and organisational operating-model guidance is still needed; Kubernetes
+      exam objectives would not cover this stage.
+  - title: Review an adoption portfolio decision
+    topics:
+    - Prioritisation
+    - Benefits review
+    - Exit strategy
+    resources:
+    - madr
+    practice: Compare two candidate workloads, record which should proceed first and define a review point.
+      Attach the economic model, governance map and a realistic rollback or exit assumption.
+    checkpoint: The packet provides a defensible adoption order, accountable owners and explicit conditions
+      to continue, change or stop.
+  next_steps: Develop real cloud operating-model and financial-review experience with qualified specialists
+    before leading an adoption office.
+- role: engineering-manager
+  title: 'Engineering management: support people while delivering a small service outcome'
+  summary: Practise team planning, feedback, technical coordination and delivery review.
+  entry_level: experience-required
+  prerequisites:
+  - Has contributed to an engineering team and understands the software delivery lifecycle.
+  - Can discuss implementation tradeoffs and has experience supporting colleagues.
+  outcome: A team operating and delivery case with feedback practices, accountable decisions and a reviewed
+    outcome.
+  stages:
+  - title: Understand the team work and constraints
+    topics:
+    - Team purpose
+    - Delivery flow
+    - Skills and support needs
+    resources:
+    - open-practice-library
+    practice: Map a small team work flow and discuss one obstacle with willing participants. Separate delivery
+      constraints, technical uncertainty and support needs instead of attributing every delay to performance.
+    checkpoint: The case identifies a team outcome, observed bottleneck and assumptions that need further discussion.
+  - title: Learn people-management responsibilities
+    topics:
+    - Feedback
+    - Coaching boundaries
+    - Fair performance processes
+    resources: []
+    practice: Draft a constructive feedback conversation using a fictional scenario. Identify what belongs
+      in coaching, what requires an organisational process and when qualified HR advice is needed.
+    checkpoint: The draft uses observable behaviour and a clear support request, and does not turn a training
+      role-play into an employment decision.
+    gap: Verified people-management, employment-practice and manager-coaching curricula are not yet catalogued;
+      technical references cannot substitute for them.
+  - title: Coordinate a delivery and technical decision
+    topics:
+    - Scope negotiation
+    - Technical ownership
+    - Risk communication
+    resources:
+    - madr
+    practice: For a practice service change, agree a bounded outcome, owners and a decision record for a relevant
+      tradeoff. Explain the delivery risk to a non-specialist stakeholder.
+    checkpoint: The team plan identifies scope, owners and a review point, while the technical record shows
+      engineer input rather than an imposed implementation.
+  - title: Review both delivery and team sustainability
+    topics:
+    - Outcome evidence
+    - Learning review
+    - Capability development
+    resources: []
+    practice: Run a small collaborative project or analyse a labelled case. Review the delivered outcome, coordination
+      failures and a development need, then choose one improvement with follow-up evidence.
+    checkpoint: Your capstone includes a team purpose, people-support exercise, delivery decision and review,
+      with clear limits on what a simulation demonstrates.
+    gap: A verified engineering-management curriculum and supervised responsibility for real team development
+      remain necessary.
+  next_steps: Seek supervised management responsibility and regular feedback from engineers and stakeholders;
+    develop people skills alongside technical judgement.
+- role: developer-relations-specialist
+  title: 'Developer relations: make a technology usable and close the feedback loop'
+  summary: Create a runnable example, support a learner and communicate actionable product feedback.
+  entry_level: after-basics
+  prerequisites:
+  - Can build and debug a small programme using the technology to be explained.
+  - Can write a short explanation and collaborate through Git.
+  outcome: A tested developer tutorial, a small support log and a product-feedback report tied to observed
+    friction.
+  stages:
+  - title: Understand the developer task
+    topics:
+    - Audience
+    - First successful action
+    - Setup friction
+    resources:
+    - open-source-guides
+    practice: Choose one small open-source library or tool you have used. Describe the target learner, the
+      task they want to perform and the minimum successful result.
+    checkpoint: Your brief identifies what the learner already knows and the exact first result they should
+      obtain.
+  - title: Build a reproducible example and tutorial
+    topics:
+    - Minimal examples
+    - Installation instructions
+    - Expected output
+    resources:
+    - github-skills-introduction-to-github
+    practice: Create a small practice repository with a runnable example, pinned setup assumptions, sample
+      input and expected output. Explain each non-obvious action and test from a clean starting state.
+    checkpoint: Someone following the tutorial can reproduce its advertised result, and limitations or environment
+      assumptions are visible.
+  - title: Practise useful community support
+    topics:
+    - Question clarification
+    - Issue triage
+    - Respectful contribution
+    resources:
+    - first-timers-only
+    - open-source-guides
+    practice: Use a fictional support request or contribute within a project community rules. Ask clarifying
+      questions, reproduce the issue when possible and separate a documentation problem from a product defect.
+    checkpoint: Your support log shows a clear problem statement, reproduction result and an appropriate next
+      action without promising authority you do not have.
+  - title: Turn learning friction into product feedback
+    topics:
+    - Evidence synthesis
+    - Feedback prioritisation
+    - Developer education outcomes
+    resources: []
+    practice: Ask a willing developer to try the example, record where they become blocked and propose one
+      documentation or product improvement. Distinguish tutorial completion from adoption or revenue.
+    checkpoint: The capstone includes a tutorial, runnable example, support log and prioritised feedback item
+      supported by a concrete observation.
+    gap: A verified developer-relations programme covering community strategy, programme measurement and organisational
+      responsibilities is not yet catalogued.
+  next_steps: Repeat with a different audience and contribute a small documented improvement through the project
+    normal review process.
+- role: technical-writer
+  title: 'Technical writing: from an audience task to maintainable documentation'
+  summary: Write and test a small documentation set that helps a defined reader complete a task.
+  entry_level: from-zero
+  prerequisites:
+  - Can use files and a browser and explain a small task in plain language.
+  - Can access a small tool or application to document; coding experience depends on that subject.
+  outcome: A tested quickstart, task guide and reference note with a maintenance and review plan.
+  stages:
+  - title: Define the reader and the job of the document
+    topics:
+    - Audience knowledge
+    - Task analysis
+    - Document scope
+    resources: []
+    practice: Choose a small tool you can use. Write who the reader is, their starting knowledge, the task
+      and the success condition; identify terms that need explaining before use.
+    checkpoint: The brief defines a specific task and reader without assuming unexplained jargon.
+    gap: A verified introductory technical-writing curriculum is not yet catalogued; this exercise defines
+      the learning task but does not replace writing instruction.
+  - title: Write a reproducible task guide
+    topics:
+    - Procedural steps
+    - Expected results
+    - Error recovery
+    resources:
+    - github-skills-introduction-to-github
+    practice: Create a simple Markdown guide in a practice repository. State prerequisites, give one action
+      per step, show the expected result and explain recovery from one likely mistake.
+    checkpoint: A reader can follow the guide in order and knows how to confirm each critical action.
+  - title: Separate explanation from reference
+    topics:
+    - Conceptual models
+    - Reference structure
+    - Consistent terminology
+    resources:
+    - mdn-web-docs
+    practice: Inspect how the documentation distinguishes a tutorial, explanation and API reference. Apply
+      that distinction to your tool by adding a short concept explanation and a compact reference note.
+    checkpoint: The three pieces answer different reader needs and use terms consistently; copying a reference
+      page is not treated as a complete tutorial.
+  - title: Test and maintain the documentation
+    topics:
+    - Reader feedback
+    - Review workflow
+    - Version assumptions
+    resources:
+    - open-source-guides
+    practice: Ask a willing reader to attempt the task without coaching, or label a solo walkthrough. Revise
+      one observed problem and record which product changes would require a documentation update.
+    checkpoint: Your capstone contains a quickstart, task guide, reference note, feedback evidence and a maintenance
+      checklist; untested claims are marked.
+  next_steps: Add a verified writing course when catalogued and practise documentation reviews in the domain
+    you want to explain.
+- role: technical-seo-specialist
+  title: 'Technical SEO: investigate crawlability and produce an evidence-based repair plan'
+  summary: Understand a website technical behaviour and prioritise discoverability and content-structure issues.
+  entry_level: after-basics
+  prerequisites:
+  - Can read basic HTML and understand HTTP requests, responses and status codes.
+  - Can modify a small website and inspect it using browser developer tools.
+  outcome: A reproducible site-audit case with technical evidence, a repaired issue and appropriately limited
+    outcome claims.
+  stages:
+  - title: Understand the page and its delivery
+    topics:
+    - HTML structure
+    - HTTP responses
+    - Links and rendering
+    resources:
+    - mdn-web-docs
+    practice: Create a small local website with three linked pages. Inspect the delivered HTML, status responses,
+      document titles and internal navigation, recording the difference between source and rendered content.
+    checkpoint: You can explain how each page is reached and identify its title, response status and link targets.
+  - title: Study search-specific mechanisms
+    topics:
+    - Crawling and indexing
+    - Canonical signals
+    - Robots and sitemaps
+    resources: []
+    practice: Use verified search-engine documentation when it is added to study robots directives, canonical
+      links and sitemap behaviour. Draft examples for the practice site and separate crawl control from guaranteed
+      index inclusion.
+    checkpoint: You can explain what each mechanism signals, a failure it can create and why no single setting
+      guarantees ranking.
+    gap: Current official search-engine SEO guidance has not yet been verified and catalogued; general web
+      documentation does not establish these search-specific rules.
+  - title: Evaluate accessibility and performance evidence
+    topics:
+    - Semantic content
+    - Resource loading
+    - Measurement context
+    resources:
+    - web-dev-learn
+    practice: Use the relevant HTML, performance and accessibility material to inspect the practice site. Record
+      one issue and a reproducible before-and-after technical measure, without equating a tool score with search
+      ranking.
+    checkpoint: Your finding includes a repeatable measurement, user impact and a distinction between observed
+      page behaviour and an unmeasured search effect.
+  - title: Prioritise and review a technical repair
+    topics:
+    - Audit evidence
+    - Impact assumptions
+    - Validation
+    resources: []
+    practice: Assemble a small audit with affected URLs, evidence, proposed repairs and validation steps. Fix
+      one local issue and record what a real site owner would need to monitor after publication.
+    checkpoint: The capstone includes an audit, prioritisation rationale and repair evidence, with no unsupported
+      promise of indexing, traffic or ranking gains.
+    gap: A verified technical-SEO curriculum and current search-console learning resources are needed for the
+      remaining search-specific workflow.
+  next_steps: Resolve the official-source gap before applying search-specific recommendations to a real site,
+    then build monitored cases with the site owner.
+- role: technical-recruiter
+  title: 'Technical recruiting: clarify a role and coordinate a fair candidate process'
+  summary: Translate a hiring need into an evidence-based role brief and a structured recruitment workflow.
+  entry_level: after-basics
+  prerequisites:
+  - Can describe basic technology roles and communicate clearly with hiring stakeholders.
+  - Understands that employment law and organisational hiring policies need qualified local guidance.
+  outcome: A fictional hiring brief, structured assessment plan and documented candidate communication workflow.
+  stages:
+  - title: Clarify the hiring problem with the team
+    topics:
+    - Role outcomes
+    - Essential versus learnable skills
+    - Seniority expectations
+    resources: []
+    practice: Use a fictional technical team and ask what work the new person must perform. Draft a role brief
+      separating required outcomes, essential constraints, learnable skills and unsupported wish-list items.
+    checkpoint: The brief links every essential criterion to actual work and distinguishes seniority from a
+      list of technologies.
+    gap: No verified technical-recruiting curriculum or applicable employment-practice source is currently
+      catalogued.
+  - title: Understand candidate preparation without copying an interview script
+    topics:
+    - Technical vocabulary
+    - Assessment relevance
+    - Candidate context
+    resources:
+    - tech-interview-handbook
+    practice: Read the candidate-facing interview material to understand its vocabulary and preparation demands.
+      Draft questions for the hiring team about how each proposed assessment relates to the job; do not treat
+      the handbook as a validated hiring rubric.
+    checkpoint: Your plan explains which job evidence each assessment seeks and identifies an irrelevant or
+      duplicative burden to remove.
+  - title: Design a structured and respectful workflow
+    topics:
+    - Consistent criteria
+    - Candidate communication
+    - Information handling
+    resources: []
+    practice: For invented candidates, outline stages, responsible reviewers and a consistent evidence rubric.
+      Write invitation, status and outcome templates and identify where accommodation or legal advice is needed.
+    checkpoint: The workflow states what information is needed, who reviews it and when candidates receive
+      an update, without making decisions about real applicants.
+    gap: Verified material on fair selection, local employment requirements and recruitment data handling remains
+      a gap.
+  - title: Review a simulated hiring case
+    topics:
+    - Evidence calibration
+    - Process bottlenecks
+    - Feedback
+    resources: []
+    practice: Run a tabletop review with two fictional candidate packets. Compare how reviewers apply the same
+      criteria, identify inconsistent reasoning and revise the process with a documented rationale.
+    checkpoint: The capstone contains the brief, workflow, evidence rubric, communication templates and a review
+      showing one corrected inconsistency.
+    gap: A verified recruiting-practice curriculum and supervised organisational experience are necessary before
+      using the exercise as an operational hiring process.
+  next_steps: Seek supervised recruiting experience with qualified HR and technical reviewers; add jurisdiction-appropriate
+    professional guidance rather than infer it from programming resources.
+- role: account-manager
+  title: 'Technology account management: connect a customer need to a service follow-up plan'
+  summary: Understand a customer use case, coordinate service commitments and review relationship health.
+  entry_level: after-basics
+  prerequisites:
+  - Can explain a technology service and communicate with customer and delivery stakeholders.
+  - Can separate a customer request from a contractual commitment and knows when to involve authorised specialists.
+  outcome: A fictional account plan with a needs brief, service follow-up log and evidence-based review.
+  stages:
+  - title: Understand the customer goal and service context
+    topics:
+    - Customer outcomes
+    - Stakeholder map
+    - Service boundaries
+    resources:
+    - open-practice-library
+    practice: Use an invented customer account to map the goal, users, decision-makers and the service currently
+      provided. Adapt the discovery practice to record needs and assumptions without turning an empathy map
+      into a sales forecast.
+    checkpoint: The brief distinguishes the customer outcome, the delivered service and questions that need
+      confirmation.
+  - title: Learn commercial and contractual responsibilities
+    topics:
+    - Commitment authority
+    - Service terms
+    - Renewal and pricing context
+    resources: []
+    practice: For a fictional service agreement, identify which requests are included, which need a change
+      decision and who can authorise pricing or terms. Record questions for qualified commercial or legal reviewers.
+    checkpoint: You can explain the boundary between coordinating a request and making an unauthorised commercial
+      commitment.
+    gap: A verified account-management curriculum and applicable contract, procurement and commercial-practice
+      sources are not catalogued.
+  - title: Coordinate a service problem and follow-up
+    topics:
+    - Escalation
+    - Ownership
+    - Customer communication
+    resources:
+    - glpi
+    practice: Create a synthetic service issue and a follow-up log in plain text or an optional GLPI lab. Record
+      the customer impact, delivery owner, next update and the evidence required before calling it resolved.
+    checkpoint: The log shows who is doing the work, what the customer has been told and how resolution will
+      be confirmed; using a ticket tool is not treated as learning the whole role.
+  - title: Review the account and prioritise actions
+    topics:
+    - Relationship health
+    - Outcome evidence
+    - Improvement planning
+    resources: []
+    practice: Prepare a fictional account review combining the customer goal, service evidence, unresolved
+      concerns and next actions. Separate measured outcomes from assumptions about satisfaction, renewal or
+      revenue.
+    checkpoint: The capstone contains a needs brief, responsibility map, service follow-up record and a justified
+      next-action plan with owners.
+    gap: Verified training in account strategy, commercial negotiation and relationship management remains
+      a learning-resource gap.
+  next_steps: Practise with supervised customer work and appropriate commercial training; do not use a simulated
+    review as evidence of real account ownership.

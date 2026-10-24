@@ -39,6 +39,8 @@ class LearningPathTests(unittest.TestCase):
             "summary": "Build a small project one step at a time.",
             "areas": ["software"],
             "intro": "Start with one small exercise.",
+            "entry_level": "start-here",
+            "prerequisites": "Basic file skills; no previous programming is required.",
             "steps": [{
                 "title": "Make something small",
                 "short": "First project",
@@ -63,7 +65,8 @@ class LearningPathTests(unittest.TestCase):
         self.assertIn("**Advance when:** You can explain your working project.", rendered)
         self.assertIn("(path-0-fundamentals.md)", rendered)
         self.assertIn("(area-software.md)", rendered)
-        self.assertIn("(../README.md#choose-a-learning-path)", rendered)
+        self.assertIn("(learning-paths.md)", rendered)
+        self.assertIn("(curricula.md)", rendered)
         self.assertNotIn("## Optional helpers", rendered)
 
     def test_fundamentals_summary_without_helpers_renders_first_step(self):

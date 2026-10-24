@@ -1,13 +1,25 @@
-name: "The Python Tutorial (official)"
+name: The Python Tutorial (official)
 url: https://docs.python.org/3/tutorial/
 category: course
-areas: [software]
+areas:
+- software
 price: free
 level: beginner
-languages: [en, es]
+languages:
+- en
+- es
 structure: guided
 focus_friendly: unknown
-description: "Official tutorial introducing Python's syntax, data structures, modules, classes and standard library."
-pros: ["Authoritative and kept current", "Spanish translation of the docs exists"]
-cons: ["Reading only; assumes you have programmed before"]
-verified: {date: 2026-10-21, method: official-site, notes: "Page loads (Python 3.15.1 docs); docs.python.org/es/3/tutorial/ returns 200."}
+description: Official tutorial introducing Python's syntax, data structures, modules, classes and standard
+  library.
+pros:
+- Authoritative and kept current
+- Spanish translation of the docs exists
+cons:
+- Reading only; assumes you have programmed before
+verified:
+  date: 2026-10-21
+  method: official-site
+  notes: Page loads (Python 3.15.1 docs); docs.python.org/es/3/tutorial/ returns 200.
+prerequisites:
+- Some previous programming experience; this tutorial introduces Python rather than programming from zero.

@@ -106,58 +106,91 @@ def _area_links(area_ids, areas):
 
 def _verification(source):
     if source["verification"] == "verified":
-        return "Verified: source content read"
-    return "Link only: source content not read; network access may be unavailable"
+        return "Source content read"
+    return "Link only: source content not read"
 
 
-def render_professions(groups, guidelines, areas, paths):
-    """Render Markdown without a trailing newline; callers control file writes."""
+def _table_cell(text):
+    return " ".join(text.split()).replace("|", "\\|")
+
+
+def render_professions(groups, guidelines, areas, paths, curricula=()):
+    """Render profession navigation and references without writing any files."""
+    order = {name: index for index, name in enumerate(
+        ("software", "data-ai", "operations", "security", "architecture", "leadership")
+    )}
+    groups = sorted(groups, key=lambda group: (order.get(group["id"], len(order)), group["title"].casefold()))
     sources = {source["id"]: source for source in guidelines}
     path_titles = {slug: data["title"] for slug, data in paths}
+    recipes = {curriculum["role"]: curriculum for curriculum in curricula}
+    entry_labels = {"from-zero": "Start with the basics", "after-basics": "Foundations first", "experience-required": "Experience required"}
+    reference_page = "profession-references.md"
     files = {}
     index = [
         "# Explore technology professions", "",
-        "Choose a role to understand its scope, related study areas and available learning paths. Job titles overlap across employers; these profiles are editorial starting points, not promises of employment or complete qualifications.", "",
-        "[Back to the start](../README.md)", "",
-        "## How to use the references", "",
-        "Academic curricula describe programmes of study; curriculum directories collect such recommendations. Competency frameworks describe skills and responsibility levels. Bodies of knowledge organise a discipline. Vendor-published curricula are educational courses; certification objectives describe an exam's scope, and professional guides give practice guidance. These sources serve different purposes.", "",
-        "No profession-specific curriculum has been verified for the profiles below. The references are related discipline guidelines, skills frameworks, exam objectives or introductory courses. Use their type, scope and verification status to judge what they cover; an unverified link does not show that a profession has no curriculum.", "",
-        "A related reference does not establish an official curriculum for a particular job title or an endorsement of this profile. Check each source's scope and verification status below. A link-only source has not had its content read, for example because network access was unavailable; this does not mean the source does not exist.", "",
+        "Choose a group, compare its roles, then open a study recipe to see what to learn, practise and demonstrate. Job titles and responsibilities vary by employer.", "",
+        "[Back to the start](../README.md) · [About the reference sources](profession-references.md)", "",
         "## Profession groups", "",
+        "| Group | What it covers | Roles |", "|---|---|---|",
     ]
     for group in groups:
         page = f"professions-{group['id']}.md"
-        index += [f"### [{group['title']}]({page})", "", group["description"], "",
-                  "Related areas: " + _area_links(group["areas"], areas), ""]
-        index += [f"- [{role['title']}]({page}#{role['id']})" for role in group["roles"]]
-        index += [""]
-        content = [f"# {group['title']}", "", group["description"], "",
-                   "[All profession groups and reference sources](professions.md) · [Back to the start](../README.md)", "",
-                   "Role titles and requirements vary by employer. No profession-specific curriculum has been verified for these profiles; the reference links point to related study material, frameworks and guidelines, with verification status shown individually.", ""]
+        index.append(f"| [{group['title']}]({page}) | {_table_cell(group['description'])} | {len(group['roles'])} |")
+        content = [
+            f"# {group['title']}", "", group["description"], "",
+            "[All profession groups](professions.md#profession-groups) · [Reference sources](profession-references.md) · [Back to the start](../README.md)", "",
+            "Study recipes are editorial learning sequences; starting paths are shorter introductions. Related sources provide context, not a verified qualification for a job. Title variants may indicate seniority or responsibility rather than an identical role.", "",
+            "## Roles in this group", "",
+            "| Role | What they do | Study recipe |", "|---|---|---|",
+        ]
+        for role in group["roles"]:
+            recipe = f"[Curriculum](curriculum-{role['id']}.md) — {entry_labels.get(recipes[role['id']].get('entry_level'), 'Check prerequisites')}" if role["id"] in recipes else "Not added yet"
+            content.append(f"| [{role['title']}](#{role['id']}) | {_table_cell(role['description'])} | {recipe} |")
+        content += [""]
         for role in group["roles"]:
             content += [f'<a id="{role["id"]}"></a>', f"## {role['title']}", "", role["description"], ""]
             if role.get("aliases"):
-                content += ["Also called: " + ", ".join(role["aliases"]), ""]
+                content += ["Title variants: " + ", ".join(role["aliases"]), ""]
             content += ["Related areas: " + _area_links(role["areas"], areas), ""]
-            if role["paths"]:
-                content += ["Related starting paths (not complete professional curricula):", ""]
-                content += [f"- [{path_titles[slug]}]({slug}.md)" for slug in role["paths"]]
-                content += [""]
+            if role["id"] in recipes:
+                content += [f"Study recipe: [Curriculum for {role['title']}](curriculum-{role['id']}.md)", ""]
             else:
-                content += ["No dedicated learning path is available in this directory yet. Browse the related areas above and the references below for context.", ""]
-            content += ["Related reference sources:", ""]
-            content += [f"- [{sources[ref]['title']}](professions.md#reference-{ref}) — {GUIDELINE_TYPES[sources[ref]['type']]}; {_verification(sources[ref])}." for ref in role["guidance"]]
-            content += ["", "[Compare profession groups](professions.md#profession-groups)", ""]
+                content += ["Study recipe: not added yet.", ""]
+            if role["paths"]:
+                links = ", ".join(f"[{path_titles[slug]}]({slug}.md)" for slug in role["paths"])
+                content += ["Starting paths: " + links, ""]
+            else:
+                content += ["Starting path: not added yet.", ""]
+            content += ["<details><summary>Related references</summary>", ""]
+            content += [f"- [{sources[ref]['title']}]({reference_page}#reference-{ref}) — {GUIDELINE_TYPES[sources[ref]['type']]}; {_verification(sources[ref])}." for ref in role["guidance"]]
+            content += ["", "</details>", "", "[Back to roles in this group](#roles-in-this-group)", ""]
         files[f"docs/{page}"] = "\n".join(content).rstrip()
-    index += ["## Reference sources", ""]
+    index += ["", "## Reference sources", "",
+              "[Read source details, types and verification notes](profession-references.md).", "",
+              "<details><summary>Reference list</summary>", ""]
+    # Retain the original fragment targets so existing source bookmarks still lead somewhere useful.
     for source in guidelines:
-        index += [f'<a id="reference-{source["id"]}"></a>', f"### {source['title']}", "",
-                  f"- Publisher: {source['publisher']}",
-                  f"- Type: {GUIDELINE_TYPES[source['type']]}",
-                  f"- Source: [{source['title']}]({source['url']})",
-                  f"- Scope: {source['scope']}",
-                  f"- Status: {_verification(source)}",
-                  f"- Checked: {source['checked']}",
-                  f"- Verification notes: {source['notes']}", ""]
+        index += [f'<a id="reference-{source["id"]}"></a>',
+                  f"- [{source['title']}]({reference_page}#reference-{source['id']})", ""]
+    index += ["</details>"]
+    references = [
+        "# Profession reference sources", "",
+        "[All profession groups](professions.md#profession-groups) · [Back to the start](../README.md)", "",
+        "## How to use the references", "",
+        "Academic curricula describe programmes of study; curriculum directories collect such recommendations. Competency frameworks describe skills and responsibility levels. Bodies of knowledge organise a discipline. Vendor-published curricula are educational courses; certification objectives describe an exam's scope, and professional guides give practice guidance.", "",
+        "No externally prescribed profession-specific curriculum has been verified for these profiles. Waylantern's study recipes are editorial sequences, while these references supply related context. Reading a source does not verify a role mapping or establish an endorsement, accreditation or complete qualification.", "",
+        "A link-only source has not had its content read; this does not mean the source does not exist. Check the scope and notes before treating a reference as relevant to your goal.", "",
+        "## Reference sources", "",
+    ]
+    for source in guidelines:
+        references += [f'<a id="reference-{source["id"]}"></a>', f"### {source['title']}", "",
+                       f"- Publisher: {source['publisher']}",
+                       f"- Type: {GUIDELINE_TYPES[source['type']]}",
+                       f"- Source: [{source['title']}]({source['url']})",
+                       f"- Scope: {source['scope']}",
+                       f"- Status: {_verification(source)}",
+                       f"- Checked: {source['checked']}",
+                       f"- Verification notes: {source['notes']}", ""]
     files["docs/professions.md"] = "\n".join(index).rstrip()
+    files[f"docs/{reference_page}"] = "\n".join(references).rstrip()
     return files

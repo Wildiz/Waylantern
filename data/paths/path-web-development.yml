@@ -1,31 +1,52 @@
-title: "Path: web development"
+title: 'First project: web development'
 summary: Build a small, accessible website with HTML, CSS and JavaScript.
-areas: [web, software]
-intro: >
-  Web developers build pages and applications people use in a browser. This route is for
-  beginners who want to make their first small website, starting with the visible page
-  rather than a server or framework. You need basic file and folder skills, a browser
-  and a text editor; no previous web programming is required. Basic Git from Path 0 helps
-  with the optional publishing step. Keep the same small project throughout, such as a
-  study-resource page, and use invented example content instead of personal information.
+areas:
+- web
+- software
+intro: 'Web developers build pages and applications people use in a browser. This route is for beginners who
+  want to make their first small website, starting with the visible page rather than a server or framework.
+  You need basic file and folder skills, a browser and a text editor; no previous web programming is required.
+  Basic Git from Path 0 helps with the optional publishing step. Keep the same small project throughout, such
+  as a study-resource page, and use invented example content instead of personal information.
+
+  '
 steps:
-  - title: Make one useful HTML page
-    short: Structure a page
-    tools: [mdn-web-docs]
-    why: Use the Learn web development section, starting with HTML and your first website. Create a study-resource page with a descriptive title, a heading, a short introduction, a list of links and an image with useful alternative text. Open your own file in a browser and check that its links work.
-    advance_when: Your page opens locally, has a clear heading structure and meaningful link text, and you can explain what each HTML element adds.
-  - title: Make the page readable on a small screen
-    short: Add layout and styling
-    tools: [mdn-web-docs]
-    why: Follow the introductory CSS lessons and style the same page. Give the text a comfortable width, space the sections and let the layout adapt to narrow windows. Use the browser's developer tools to try a change before saving it. Check the page using the keyboard as well as the mouse.
-    advance_when: The page remains readable in a narrow window without horizontal scrolling, and you can reach each link with the keyboard and see which link has focus.
-  - title: Add one small interaction
-    short: Practise JavaScript
-    tools: [javascript-info]
-    why: Read the basics of variables, functions and conditions, then the browser lessons on DOM elements and events. Add a button that shows or hides extra study notes on your page. Give it a clear label, test both states and use the browser console to investigate mistakes. You do not need a framework.
-    advance_when: The button works with mouse and keyboard, the page is still useful before it is clicked, and you can explain how the event changes the page.
-  - title: Review and optionally publish your website
-    short: Finish a small website
-    tools: [github-pages]
-    why: Check your page's links, layout and interaction once more, then write a short README explaining how to open it. If you want to share it, follow the GitHub Pages quickstart in a separate practice repository. Public-repository hosting is available on GitHub Free; publish only files and content you intend anyone to see. Publishing is optional, and a local working site is a valid result.
-    advance_when: Someone else can follow your README to open the site, or visit the optional published version, and you can describe one improvement based on their feedback.
+- title: Make one useful HTML page
+  short: Structure a page
+  tools:
+  - mdn-web-docs
+  why: Use the Learn web development section, starting with HTML and your first website. Create a study-resource
+    page with a descriptive title, a heading, a short introduction, a list of links and an image with useful
+    alternative text. Open your own file in a browser and check that its links work.
+  advance_when: Your page opens locally, has a clear heading structure and meaningful link text, and you can
+    explain what each HTML element adds.
+- title: Make the page readable on a small screen
+  short: Add layout and styling
+  tools:
+  - mdn-web-docs
+  why: Follow the introductory CSS lessons and style the same page. Give the text a comfortable width, space
+    the sections and let the layout adapt to narrow windows. Use the browser's developer tools to try a change
+    before saving it. Check the page using the keyboard as well as the mouse.
+  advance_when: The page remains readable in a narrow window without horizontal scrolling, and you can reach
+    each link with the keyboard and see which link has focus.
+- title: Add one small interaction
+  short: Practise JavaScript
+  tools:
+  - javascript-info
+  why: Read the basics of variables, functions and conditions, then the browser lessons on DOM elements and
+    events. Add a button that shows or hides extra study notes on your page. Give it a clear label, test both
+    states and use the browser console to investigate mistakes. You do not need a framework.
+  advance_when: The button works with mouse and keyboard, the page is still useful before it is clicked, and
+    you can explain how the event changes the page.
+- title: Review and optionally publish your website
+  short: Finish a small website
+  tools:
+  - github-pages
+  why: Check your page's links, layout and interaction once more, then write a short README explaining how
+    to open it. If you want to share it, follow the GitHub Pages quickstart in a separate practice repository.
+    Public-repository hosting is available on GitHub Free; publish only files and content you intend anyone
+    to see. Publishing is optional, and a local working site is a valid result.
+  advance_when: Someone else can follow your README to open the site, or visit the optional published version,
+    and you can describe one improvement based on their feedback.
+entry_level: start-here
+prerequisites: Basic file and folder skills, a browser and a text editor; Git is only needed for optional publishing.

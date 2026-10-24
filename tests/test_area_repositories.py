@@ -1,14 +1,14 @@
 """Validate selected repositories and their links in area navigation."""
 import copy
+import re
 import tempfile
 import unittest
-from collections import defaultdict
 from pathlib import Path
 from unittest.mock import patch
 
 import yaml
 
-from scripts import build
+from scripts import build, navigation
 
 
 class RepositoryUrlTests(unittest.TestCase):
@@ -18,6 +18,9 @@ class RepositoryUrlTests(unittest.TestCase):
             ("https://github.com/example/lessons/tree/main/examples?tab=readme", "https://github.com/example/lessons"),
             ("https://gitlab.com/example/lessons/-/tree/main/examples", "https://gitlab.com/example/lessons"),
             ("https://gitlab.com/example/lessons/-/blob/main/README.md", "https://gitlab.com/example/lessons"),
+            ("https://gitlab.com/example/team/lessons/-/tree/main/examples", "https://gitlab.com/example/team/lessons"),
+            ("https://gitlab.com/example/group/team/lessons/-/blob/main/README.md", "https://gitlab.com/example/group/team/lessons"),
+            ("https://gitlab.com/example/team/lessons", "https://gitlab.com/example/team/lessons"),
         ]
         for source, expected in cases:
             with self.subTest(source=source):
@@ -67,6 +70,7 @@ class AreaRepositoryTests(unittest.TestCase):
             "structure": "guided",
             "focus_friendly": "unknown",
             "description": "Build a small program with explained examples.",
+            "verified": {"date": "2026-10-24", "method": "official-site", "notes": "Fixture source inspected."},
         }
         self.other = dict(self.entry, name="Another resource", url="https://example.org/other")
         self.entries = [("lessons", self.entry), ("other", self.other)]
@@ -75,6 +79,8 @@ class AreaRepositoryTests(unittest.TestCase):
             "summary": "Build one small program.",
             "areas": ["software"],
             "intro": "Start with a small project.",
+            "entry_level": "start-here",
+            "prerequisites": "Use files and a text editor.",
             "steps": [{
                 "title": "Try the example", "short": "First example", "tools": ["lessons"],
                 "why": "Read and modify one example.", "advance_when": "You can explain the result.",
@@ -143,36 +149,51 @@ class AreaRepositoryTests(unittest.TestCase):
                 self.assertTrue(errors)
                 self.assertTrue(all("area-repositories.yml:" in error for error in errors))
 
-    def test_readme_area_row_has_path_repository_and_full_resource_count(self):
-        by_slug = dict(self.entries)
-        groups = defaultdict(list)
-        groups["course"] = [self.entry, self.other]
-        rendered = build.render_readme(
-            self.entries, groups, path0=self.path, by_slug=by_slug,
-            paths=[("path-software", self.path)], selections={"software": ["lessons"]},
-        )
+    def test_catalogue_area_row_points_to_the_full_area_and_counts_all_its_resources(self):
+        rendered = navigation.render_catalogue(self.entries, build.AREAS, build.CATEGORIES)
         row = next(line for line in rendered.splitlines()
                    if line.startswith("| [Programming and software engineering]"))
-        self.assertIn("[Software first steps](docs/path-software.md)", row)
-        self.assertIn("[Practical software lessons](https://github.com/example/lessons)", row)
-        self.assertIn("[2](docs/area-software.md)", row)
-        self.assertNotIn("blob/main", row)
-        self.assertNotIn("Another resource", row)
+        self.assertIn("(area-software.md)", row)
+        self.assertRegex(row, r"\| 2 \|$")
+        self.assertNotIn("github.com", row)
+        self.assertNotIn("lessons/blob", row)
 
     def test_area_page_shows_selected_repository_level_and_learning_path(self):
         rendered = build.render_area(
             "software", [self.entry, self.other],
             paths=[("path-software", self.path)], selected=[self.entry],
         )
-        self.assertIn("## Selected repositories", rendered)
-        selected_section = rendered.split("## Selected repositories", 1)[1].split("## Not sure", 1)[0]
+        repository_details = re.search(r"<details>\s*<summary>[^<]*selected repositories[^<]*</summary>.*?</details>", rendered, re.S | re.I)
+        self.assertIsNotNone(repository_details, "Selected repositories should be available in an expandable section")
+        selected_section = repository_details.group(0)
         self.assertIn("[Practical software lessons](https://github.com/example/lessons)", selected_section)
         self.assertIn("intermediate", selected_section)
         self.assertIn("Free", selected_section)
         self.assertNotIn("Another resource", selected_section)
-        self.assertIn("[Software first steps](path-software.md)", rendered)
+        self.assertIn("(path-software.md)", rendered)
+        self.assertIn(self.path["title"], rendered)
+        self.assertLess(rendered.index("Not sure where to start?"), rendered.index("Selected repositories"))
         self.assertIn("2 resources.", rendered)
         self.assertIn("[Another resource](https://example.org/other)", rendered)
+
+    def test_all_areas_put_the_first_project_before_selected_repositories(self):
+        for area in build.AREAS:
+            with self.subTest(area=area):
+                entry = dict(self.entry, areas=[area])
+                path = dict(self.path, areas=[area])
+                rendered = build.render_area(area, [entry], paths=[("path-example", path)], selected=[entry])
+                self.assertLess(rendered.index("Not sure where to start?"), rendered.index("Selected repositories"))
+                self.assertIn("(path-example.md)", rendered)
+                self.assertIn(path["title"], rendered)
+
+    def test_area_without_a_short_path_still_offers_a_next_step_before_repositories(self):
+        rendered = build.render_area("software", [self.entry], paths=[], selected=[self.entry])
+        heading = rendered.index("Not sure where to start?")
+        repositories = rendered.index("Selected repositories")
+        self.assertLess(heading, repositories)
+        guidance = rendered[heading:repositories]
+        self.assertTrue("(professions.md)" in guidance or "(curricula.md)" in guidance)
+        self.assertNotIn("path-software.md", guidance)
 
 
 if __name__ == "__main__":

@@ -57,19 +57,31 @@ class ProfessionCatalogueTests(unittest.TestCase):
         pages = profession_catalog.render_professions(groups, sources, self.areas, self.paths)
         index = pages["docs/professions.md"]
         profile = pages["docs/professions-software.md"]
-        self.assertIn("(professions-software.md#software-engineer)", index)
+        references = pages["docs/profession-references.md"]
+        self.assertIn("(professions-software.md)", index)
+        self.assertNotIn("#software-engineer", index)
+        self.assertIn("[Software Engineer](#software-engineer)", profile)
         self.assertIn('<a id="software-engineer"></a>', profile)
-        self.assertIn("Also called: Developer", profile)
+        self.assertIn("Title variants: Developer", profile)
         self.assertIn("[Software](area-software.md)", profile)
         self.assertIn("[Software foundations](path-software.md)", profile)
-        self.assertIn("(professions.md#reference-reference-one)", profile)
+        self.assertIn("(profession-references.md#reference-reference-one)", profile)
+        self.assertIn("<details><summary>Related references</summary>", profile)
+        self.assertIn("(#roles-in-this-group)", profile)
+        self.assertIn("## Profession groups", index)
+        self.assertIn("## Reference sources", index)
         self.assertIn('<a id="reference-reference-one"></a>', index)
-        self.assertIn("Verified: source content read", index)
-        self.assertIn("Link only: source content not read", index)
-        self.assertIn("does not mean the source does not exist", index)
-        self.assertIn("Publisher: Example university", index)
-        self.assertIn("Type: Academic curriculum", index)
-        self.assertIn("Scope: Degree-level study.", index)
+        self.assertIn("(profession-references.md#reference-reference-one)", index)
+        self.assertIn('<a id="reference-reference-one"></a>', references)
+        self.assertIn("Source content read", references)
+        self.assertIn("Link only: source content not read", references)
+        self.assertIn("does not mean the source does not exist", references)
+        self.assertIn("Publisher: Example university", references)
+        self.assertIn("Type: Academic curriculum", references)
+        self.assertIn("Scope: Degree-level study.", references)
+        self.assertIn("Verification notes: Network access prevented reading the content.", references)
+        self.assertNotIn("Publisher:", index)
+        self.assertNotIn("Source content read", index)
         for page in pages.values():
             self.assertEqual(page, page.rstrip())
 
@@ -79,10 +91,57 @@ class ProfessionCatalogueTests(unittest.TestCase):
         groups, sources, errors = self.load()
         self.assertEqual(errors, [])
         profile = profession_catalog.render_professions(groups, sources, self.areas, self.paths)["docs/professions-software.md"]
-        self.assertIn("No dedicated learning path is available", profile)
+        self.assertIn("Starting path: not added yet.", profile)
+        self.assertIn("Study recipe: not added yet.", profile)
+        self.assertNotIn("curriculum-software-engineer.md", profile)
         self.assertNotIn("(path-software.md)", profile)
         self.assertIn("(area-software.md)", profile)
-        self.assertIn("(professions.md#reference-reference-two)", profile)
+        self.assertIn("(profession-references.md#reference-reference-two)", profile)
+
+    def test_curriculum_links_appear_in_group_navigation_and_profile(self):
+        groups, sources, errors = self.load()
+        self.assertEqual(errors, [])
+        curricula = [{"role": "software-engineer", "title": "Software Engineer", "entry_level": "after-basics"}]
+        pages = profession_catalog.render_professions(groups, sources, self.areas, self.paths, curricula)
+        profile = pages["docs/professions-software.md"]
+        self.assertIn("[Curriculum](curriculum-software-engineer.md)", profile)
+        self.assertIn("Study recipe: [Curriculum for Software Engineer](curriculum-software-engineer.md)", profile)
+        self.assertNotIn("Study recipe: not added yet.", profile)
+        self.assertNotIn("curriculum-software-engineer.md", pages["docs/professions.md"])
+
+    def test_recipe_does_not_invent_a_missing_introductory_path(self):
+        self.group["roles"][0]["paths"] = []
+        pages = profession_catalog.render_professions(
+            [self.group], self.sources, self.areas, self.paths,
+            [{"role": "software-engineer"}],
+        )
+        profile = pages["docs/professions-software.md"]
+        self.assertIn("curriculum-software-engineer.md", profile)
+        self.assertIn("Starting path: not added yet.", profile)
+        self.assertNotIn("(path-software.md)", profile)
+
+    def test_group_order_is_editorial_and_not_dependent_on_file_order(self):
+        groups = []
+        expected = ["software", "data-ai", "operations", "security", "architecture", "leadership"]
+        for group_id in reversed(expected):
+            group = copy.deepcopy(self.group)
+            group["id"] = group_id
+            group["title"] = group_id.title()
+            groups.append(group)
+        pages = profession_catalog.render_professions(groups, self.sources, self.areas, self.paths)
+        index = pages["docs/professions.md"]
+        positions = [index.index(f"(professions-{group_id}.md)") for group_id in expected]
+        self.assertEqual(positions, sorted(positions))
+        self.assertEqual(index.count(" | Roles |"), 1)
+
+    def test_every_legacy_source_anchor_is_preserved_as_a_link_to_its_details(self):
+        pages = profession_catalog.render_professions([self.group], self.sources, self.areas, self.paths)
+        for source in self.sources:
+            fragment = f"reference-{source['id']}"
+            with self.subTest(fragment=fragment):
+                self.assertIn(f'<a id="{fragment}"></a>', pages["docs/professions.md"])
+                self.assertIn(f"(profession-references.md#{fragment})", pages["docs/professions.md"])
+                self.assertIn(f'<a id="{fragment}"></a>', pages["docs/profession-references.md"])
 
     def test_unknown_area_path_and_guidance_are_actionable(self):
         role = self.group["roles"][0]

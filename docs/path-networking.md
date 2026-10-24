@@ -1,8 +1,14 @@
-# Path: networking
+# First project: networking
 
 Network engineers connect devices and services, keep communication working and investigate failures. Start here if you can manage files and run basic terminal commands; programming experience is not required. If the terminal is unfamiliar, begin with Path 0. Use one small lab throughout this route instead of trying to finish every course. The textbook is a reference for the topic in front of you, not a prerequisite to complete cover to cover. These checkpoints introduce the work; they do not establish professional readiness or guarantee employment.
 
 [Back to the start](../README.md)
+
+**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).
+
+## Before you start
+
+Basic file management and terminal commands; programming experience is not required.
 
 If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.
 
@@ -44,7 +50,7 @@ After the last checkpoint, improve your project or browse the related areas for 
 
 - [Computer networks](area-networking.md)
 
-[Compare the learning paths](../README.md#choose-a-learning-path)
+[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)
 
 ---
-This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).

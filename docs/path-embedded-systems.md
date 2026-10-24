@@ -1,8 +1,15 @@
-# Path: embedded systems
+# First project: embedded systems
 
 Embedded and firmware engineers write software that controls hardware and communicates with physical devices. This route introduces that work through an observable LED project, not a complete engineering curriculum or a promise of employment. You need a computer, basic programming concepts, a compatible board and its connection cable. Choose one route: Arduino with the Blink tutorial, or Raspberry Pi Pico with its C/C++ SDK examples. Keep that choice throughout; the resources shown together are alternatives. Documentation and example code are free to read, but hardware and additional components are not included. Follow the selected board's official setup and circuit instructions; do not assume pin assignments or example compatibility transfer unchanged to a different board. Start with the onboard LED so no extra circuit is needed.
+ If unsure and choosing hardware for a first project, start with the Arduino Blink route. If you do not have a board yet, explore the virtual-hardware option in the Microsoft IoT curriculum before buying one; the physical LED checkpoint still needs a compatible board.
 
 [Back to the start](../README.md)
+
+**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).
+
+## Before you start
+
+Basic programming concepts, a compatible Arduino or Raspberry Pi Pico board, its cable and the matching toolchain.
 
 If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.
 
@@ -45,7 +52,7 @@ After the last checkpoint, improve your project or browse the related areas for 
 
 - [Embedded systems and firmware](area-embedded.md)
 
-[Compare the learning paths](../README.md#choose-a-learning-path)
+[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)
 
 ---
-This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).

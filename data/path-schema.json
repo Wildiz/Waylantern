@@ -1,12 +1,14 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
-  "required": ["title", "summary", "areas", "intro", "steps"],
+  "required": ["title", "summary", "areas", "intro", "entry_level", "prerequisites", "steps"],
   "additionalProperties": false,
   "properties": {
     "title": {"$ref": "#/$defs/text"},
     "summary": {"$ref": "#/$defs/text"},
     "intro": {"$ref": "#/$defs/text"},
+    "entry_level": {"enum": ["start-here", "after-basics", "some-experience"]},
+    "prerequisites": {"$ref": "#/$defs/text"},
     "areas": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/text"}},
     "helpers": {
       "type": "object", "required": ["why", "tools"], "additionalProperties": false,

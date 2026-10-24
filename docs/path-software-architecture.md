@@ -1,8 +1,14 @@
-# Path: software architecture
+# First project: software architecture
 
-Software architects help teams choose system boundaries, interfaces and technical tradeoffs that fit a project's requirements. Start after you can write and debug a small program, use Git and explain a basic automated test; Path 0 is a better starting point if those are new. Use a small application you understand, such as a local task tracker, rather than starting with a large distributed system. Read only the sections needed for the current decision. This route introduces architectural reasoning; it does not make someone a professional architect or promise a job after completing a checklist.
+Software architects help teams choose system boundaries, interfaces and technical tradeoffs that fit a project's requirements. Start after you can write and debug a small program, use Git and explain a basic automated test; Path 0 is a better starting point if those are new. Use a small application you understand, such as a local task tracker, rather than starting with a large distributed system. Read only the sections needed for the current decision. This route introduces architectural reasoning; it does not make someone a professional architect or promise a job after completing a checklist. If writing a test is unfamiliar, first use the software testing first-project guide; Path 0 alone does not teach test automation.
 
 [Back to the start](../README.md)
+
+**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).
+
+## Before you start
+
+Ability to write and debug a small program, use Git and write a basic automated test.
 
 If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.
 
@@ -44,7 +50,7 @@ After the last checkpoint, improve your project or browse the related areas for 
 
 - [Software and systems architecture](area-architecture.md)
 
-[Compare the learning paths](../README.md#choose-a-learning-path)
+[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)
 
 ---
-This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).

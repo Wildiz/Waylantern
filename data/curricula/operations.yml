@@ -1,0 +1,1633 @@
+group: operations
+curricula:
+- role: devops-engineer
+  title: DevOps Engineer
+  summary: Connect a small application change to a repeatable build, deployment and recovery workflow.
+  entry_level: after-basics
+  prerequisites:
+  - Write and test a small program.
+  - Use Git and navigate a Linux shell.
+  outcome: A versioned application with recorded tests, a reproducible container build and a demonstrated
+    rollback.
+  stages:
+  - title: Follow a change through Git
+    topics:
+    - Commits and branches
+    - Reviewable changes
+    resources:
+    - github-skills-introduction-to-git
+    - pro-git
+    practice: Change one behaviour in a tiny application on a branch and record how a reviewer can test
+      it.
+    checkpoint: Show the diff and explain which commit introduced the change.
+  - title: Build a checked artifact
+    topics:
+    - Automated test failures
+    - Container images
+    resources:
+    - pytest-getting-started
+    - docker-docs-get-started
+    practice: Write a test for the behaviour, make it fail once deliberately, then build a container from
+      the corrected source.
+    checkpoint: Keep the failing and passing test outputs and identify the source version of the image.
+  - title: Practise release and recovery
+    topics:
+    - Deployment configuration
+    - Rollback evidence
+    resources:
+    - container-training
+    practice: Run two local versions of the app, introduce a configuration fault and restore the previous
+      working version.
+    checkpoint: A local request demonstrates the fault and another demonstrates recovery; record the commands
+      and logs.
+  - title: 'Capstone: deliver one repeatable change'
+    topics:
+    - Build and release steps
+    - Operational handover
+    resources: []
+    practice: Package the change, checks, local deployment and rollback in a documented workflow that
+      another person can follow.
+    checkpoint: A clean run reproduces the working release and rollback, with secret-free logs and explicit
+      local resource requirements.
+    gap: No reviewed resource covers this complete editorial delivery project; the earlier Git, testing
+      and container material supplies its parts.
+  next_steps: Add supervised CI and staging practice before taking responsibility for production releases.
+- role: devsecops-engineer
+  title: DevSecOps Engineer
+  summary: Add focused security checks and controlled failure handling to a small delivery workflow.
+  entry_level: after-basics
+  prerequisites:
+  - Build and test an application.
+  - Understand Git, containers and basic HTTP.
+  outcome: A delivery demonstration with an explicit threat, a failing security check, a corrected change
+    and evidence of enforcement.
+  stages:
+  - title: Identify exposure in the application
+    topics:
+    - Trust boundaries
+    - Input and credential risks
+    resources:
+    - owasp-top-10
+    practice: Draw where input and credentials enter a tiny app and select one applicable risk from the
+      reference.
+    checkpoint: Explain the selected risk using a concrete input path rather than treating the Top 10
+      as a complete threat model.
+  - title: Turn one risk into a check
+    topics:
+    - Negative tests
+    - Regression evidence
+    resources:
+    - pytest-getting-started
+    practice: For an app you own, add a test that rejects an invalid input and demonstrate its failure
+      before the correction.
+    checkpoint: The check distinguishes the vulnerable and corrected versions without exposing credentials.
+  - title: Control delivery permissions
+    topics:
+    - Least privilege
+    - Artifact and secret handling
+    resources: []
+    practice: Draft a pipeline-permissions table and an artifact review checklist; identify where a secret
+      would be supplied securely rather than committed.
+    checkpoint: Each permission has a named purpose and the design excludes secrets from artifacts and
+      logs.
+    gap: No reviewed resource in the catalogue provides a complete pipeline-permissions or secret-scanning
+      implementation guide.
+  - title: 'Capstone: block a risky change'
+    topics:
+    - Release gates
+    - Exception and recovery records
+    resources: []
+    practice: Run a local delivery script that stops on the security test failure, succeeds after correction
+      and records the result for review.
+    checkpoint: A deliberately unsafe version is blocked and a corrected version is released; document
+      remaining threats and who may approve an exception.
+    gap: This editorial project demonstrates one gate; a reviewed DevSecOps platform-hardening and software-supply-chain
+      course is still missing.
+  next_steps: Study identity, dependency integrity and organisation-specific security policy with an experienced
+    delivery/security team.
+- role: mlops-engineer
+  title: MLOps Engineer
+  summary: Make a trained model reproducible, deployable and observable through a small service lifecycle.
+  entry_level: after-basics
+  prerequisites:
+  - Use Python, Git and Docker confidently.
+  - Train and evaluate a simple model; the linked MLOps course expects substantial programming practice.
+  outcome: A reproducible model experiment, versioned serving artifact and monitoring/retraining decision
+    record.
+  stages:
+  - title: Reproduce a baseline experiment
+    topics:
+    - Data and parameter versions
+    - Evaluation split
+    resources:
+    - datatalks-machine-learning-zoomcamp
+    practice: Train a small model on a fixed public or synthetic dataset and save parameters, split rules
+      and evaluation results.
+    checkpoint: A repeat run can be traced to the same data and settings without leakage from the evaluation
+      set.
+  - title: Track and package the model
+    topics:
+    - Experiment tracking
+    - Serving interfaces
+    resources:
+    - datatalks-mlops-zoomcamp
+    practice: Follow the relevant tracking and deployment material to package the chosen model behind
+      a local prediction endpoint.
+    checkpoint: A request returns the expected response and the running artifact can be linked to a recorded
+      experiment.
+  - title: Define operational checks
+    topics:
+    - Prediction quality signals
+    - Drift and retraining triggers
+    resources:
+    - datatalks-mlops-zoomcamp
+    practice: Use synthetic shifted inputs to compare baseline and changed traffic, then write a proposed
+      retraining trigger.
+    checkpoint: Separate observed input change from unmeasured real-world prediction quality and explain
+      when labels would be needed.
+  - title: 'Capstone: recover a model release'
+    topics:
+    - Version rollback
+    - Monitoring handover
+    resources: []
+    practice: Release a second model locally, compare its recorded checks with the baseline and restore
+      the first version when a chosen check fails.
+    checkpoint: A fresh operator can locate the model version, reproduce a prediction and follow the documented
+      rollback decision.
+    gap: The complete release-and-recovery exercise is editorial; the course supplies lifecycle topics
+      rather than this exact assignment.
+  next_steps: Practise delayed labels, privacy and supervised production monitoring before managing live
+    model services.
+- role: aiops-engineer
+  title: AIOps Engineer
+  summary: Evaluate whether an anomaly detector helps operators find incidents without hiding false alarms.
+  entry_level: after-basics
+  prerequisites:
+  - Use Python and basic statistics.
+  - Understand service logs and the difference between metrics and incidents.
+  outcome: A documented baseline and anomaly experiment evaluated on labelled synthetic operational events.
+  stages:
+  - title: Build an operational event dataset
+    topics:
+    - Time ordering
+    - Incident labels and missing data
+    resources:
+    - microsoft-data-science-for-beginners
+    practice: Prepare a small synthetic time series with normal intervals, missing values and known incident
+      windows.
+    checkpoint: Explain each label and preserve a time-ordered evaluation segment that was not used to
+      tune the detector.
+  - title: Establish a simple alert baseline
+    topics:
+    - Threshold alerts
+    - Precision and recall
+    resources: []
+    practice: Use a fixed threshold before trying a model and count true alarms, false alarms and missed
+      labelled incidents.
+    checkpoint: Provide a confusion table and explain the operator cost of a false alarm versus a miss.
+    gap: No reviewed AIOps-specific evaluation resource is catalogued; this stage is an editorial operational-analysis
+      exercise.
+  - title: Compare an anomaly method
+    topics:
+    - Temporal leakage
+    - Human review and drift
+    resources: []
+    practice: Compare one simple anomaly score with the threshold on the held-out interval and inspect
+      its largest errors.
+    checkpoint: Report whether the method improves the chosen measure and document cases where it should
+      not trigger automated remediation.
+    gap: A reviewed course on operational anomaly methods and safe AIOps integration is missing; do not
+      treat general AI material as coverage.
+  - title: 'Capstone: propose an operator-facing alert'
+    topics:
+    - Evidence summaries
+    - Escalation safeguards
+    resources: []
+    practice: Produce a mock alert containing evidence, uncertainty and the next diagnostic check; test
+      it against both a true incident and a false alarm.
+    checkpoint: An operator can distinguish a signal from a diagnosis and no remediation is executed automatically.
+    gap: No reviewed resource covers this complete AIOps alert workflow; it remains an explicitly bounded
+      editorial project.
+  next_steps: Validate real alert usefulness and data handling under supervision before integrating any
+    automated action.
+- role: cloudops-engineer
+  title: CloudOps Engineer
+  summary: Operate a small cloud-style service using inventory, health checks and a controlled maintenance
+    record.
+  entry_level: after-basics
+  prerequisites:
+  - Administer a basic Linux service.
+  - Understand cloud account permissions and that hosted services can incur charges.
+  outcome: An inventory, monitoring checklist and recovery record for a disposable practice deployment.
+  stages:
+  - title: Map cloud resources and responsibilities
+    topics:
+    - Service inventory
+    - Account and region boundaries
+    resources:
+    - aws-skill-builder
+    practice: Select introductory provider material and draw a hypothetical service using compute, storage
+      and networking; label ownership and billing boundaries.
+    checkpoint: Identify which resources would exist, who may change them and how they would be removed;
+      reading does not require buying a lab.
+  - title: Make configuration repeatable
+    topics:
+    - Declared configuration
+    - State and cleanup
+    resources:
+    - terraform-tutorials
+    practice: Use the local Docker getting-started track to describe and recreate a practice resource
+      without using a paid cloud account.
+    checkpoint: Show the declared inputs, resulting state and successful removal; note differences from
+      a real provider deployment.
+  - title: Write health and maintenance checks
+    topics:
+    - Service status and logs
+    - Backup and change windows
+    resources: []
+    practice: Draft checks for availability and resource pressure, then record a maintenance plan for
+      the hypothetical cloud service.
+    checkpoint: Each check has expected output, an escalation condition and an owner; recovery assumptions
+      are explicitly identified.
+    gap: A provider-specific reviewed CloudOps monitoring, backup and identity runbook is not available
+      in the catalogue.
+  - title: 'Capstone: operate a disposable service'
+    topics:
+    - Incident evidence
+    - Cost and resource closure
+    resources: []
+    practice: Recreate the local service, simulate one outage, restore it and reconcile the inventory
+      with the resources left after cleanup.
+    checkpoint: The report shows health before/after, the recovery timeline and evidence that no practice
+      resources remain.
+    gap: The local simulation is an editorial operations exercise, not verification of live cloud availability
+      or billing controls.
+  next_steps: Choose one provider and verify current monitoring, backup, identity and billing procedures
+    before a supervised real deployment.
+- role: gitops-engineer
+  title: GitOps Engineer
+  summary: Use version-controlled desired state and reconciliation evidence to reason about controlled
+    deployments.
+  entry_level: after-basics
+  prerequisites:
+  - Use Git branches and review changes.
+  - Understand YAML and basic Kubernetes resources.
+  outcome: A desired-state repository and a reconciliation demonstration that distinguishes approved change,
+    drift and rollback.
+  stages:
+  - title: Describe the workload declaratively
+    topics:
+    - Resource manifests
+    - Desired versus observed state
+    resources:
+    - kubernetes-tutorials
+    practice: Create a small local workload using the relevant basics tutorial and record its manifest
+      and observed state.
+    checkpoint: Explain which fields express intent and which observations show what actually runs.
+  - title: Review desired-state changes
+    topics:
+    - Version history
+    - Environment boundaries
+    resources:
+    - pro-git
+    practice: Commit the manifest, propose a configuration change on a branch and document what must be
+      reviewed before merge.
+    checkpoint: A reviewer can identify the intended environment, changed behaviour and previous working
+      revision.
+  - title: Understand reconciliation and drift
+    topics:
+    - Controller behaviour
+    - Credential and deletion boundaries
+    resources: []
+    practice: Write a dry-run reconciliation table for approved state, manual drift and a deleted resource;
+      state what a controller should restore or leave untouched.
+    checkpoint: Distinguish a Git change, a reconciliation action and a deployment result, including failure
+      handling.
+    gap: No reviewed GitOps-controller setup or security guide is catalogued; this stage models behaviour
+      rather than inventing controller commands.
+  - title: 'Capstone: demonstrate change and recovery'
+    topics:
+    - Reconciliation records
+    - Rollback limitations
+    resources: []
+    practice: In a disposable local lab, apply the approved manifest changes and record a simulated reconciliation/rollback
+      sequence; clearly mark manual actions.
+    checkpoint: Show the repository versions and observed states, and explain that a manual simulation
+      does not demonstrate an actual GitOps controller.
+    gap: A complete automated GitOps-controller lab is missing; its absence must remain visible in this
+      editorial capstone.
+  next_steps: Add a reviewed controller-specific lab and least-privilege credentials before describing
+    the workflow as fully automated GitOps.
+- role: dataops-engineer
+  title: DataOps Engineer
+  summary: Make a small data workflow testable, repeatable and explainable when an input or scheduled
+    run fails.
+  entry_level: after-basics
+  prerequisites:
+  - Write basic Python and SQL.
+  - Use Git and understand a table schema.
+  outcome: A repeatable synthetic-data pipeline with quality checks, retry evidence and a recovery note.
+  stages:
+  - title: Define input and output expectations
+    topics:
+    - Schema and ownership
+    - Data-quality rules
+    resources:
+    - datatalks-data-engineering-zoomcamp
+    practice: Describe a small synthetic source table and the fields and quality rules expected by a downstream
+      consumer.
+    checkpoint: Examples include a valid row and two rejected cases with reasons.
+  - title: Schedule a traceable transformation
+    topics:
+    - Workflow dependencies
+    - Run identifiers
+    resources:
+    - airflow-tutorial
+    practice: Follow the relevant tutorial to run a small transformation, preserving the input version
+      and a per-run result.
+    checkpoint: A run can be traced from its input through its tasks to a recorded output.
+  - title: Handle failure without corrupting results
+    topics:
+    - Retries and idempotency
+    - Quality gates
+    resources:
+    - airflow-tutorial
+    practice: Inject a missing input or duplicate row into the practice data and record how the pipeline
+      rejects or safely reprocesses it.
+    checkpoint: Rerunning the same input does not duplicate accepted output, and the failure is visible
+      to an operator.
+  - title: 'Capstone: recover and hand over a data run'
+    topics:
+    - Consumer impact
+    - Recovery evidence
+    resources: []
+    practice: Demonstrate a failed run and a corrected rerun, then write the incident and the downstream
+      validation required before releasing the output.
+    checkpoint: A reader can locate the faulty input, recovery action and checks protecting the consumer.
+    gap: This complete data-operations handover is an editorial exercise; the workflow tutorials do not
+      define an organisation-wide DataOps process.
+  next_steps: Study access control, data lineage and supervised backfills before operating pipelines with
+    sensitive or business-critical data.
+- role: finops-practitioner
+  title: FinOps Practitioner
+  summary: Analyse a fictional cloud bill and propose measurable cost decisions with owners and service
+    trade-offs.
+  entry_level: experience-required
+  prerequisites:
+  - Understand common cloud resource and pricing models.
+  - Have practical experience discussing service ownership and operational constraints.
+  - Use spreadsheets or SQL to reconcile totals.
+  outcome: A reconciled synthetic spend report, allocation policy, forecast and justified optimisation
+    proposal.
+  stages:
+  - title: Construct a defensible cost model
+    topics:
+    - Usage units and rates
+    - Credits and shared charges
+    resources: []
+    practice: Create a fictional bill with compute hours, storage quantities, transfer charges and one
+      credit; state all assumptions.
+    checkpoint: The total reconciles with unit rates and no invented number is presented as a current
+      provider price.
+    gap: No reviewed FinOps cost-management curriculum or current provider price source is catalogued.
+  - title: Allocate costs to accountable owners
+    topics:
+    - Labels and allocation rules
+    - Shared-cost treatment
+    resources: []
+    practice: Assign synthetic charges to two teams and one shared platform, documenting what remains
+      unallocated.
+    checkpoint: The allocations sum to the original bill and every shared-charge rule is explained.
+    gap: A reviewed FinOps allocation and governance guide is missing; the allocation policy is a stated
+      practice assumption.
+  - title: Compare optimisation options
+    topics:
+    - Forecast uncertainty
+    - Reliability and commitment risks
+    resources: []
+    practice: Compare deleting an idle resource, rightsizing and a hypothetical commitment using estimated
+      usage ranges.
+    checkpoint: The recommendation includes savings assumptions, break-even conditions and a service-risk
+      owner.
+    gap: No reviewed resource establishes current discount products, purchasing terms or FinOps optimisation
+      standards.
+  - title: 'Capstone: present a cost decision'
+    topics:
+    - Action ownership
+    - Measurement after change
+    resources: []
+    practice: Prepare a one-page cost review with an allocation chart, forecast range and one proposed
+      action with a follow-up date.
+    checkpoint: A stakeholder can identify the baseline, approved action, expected saving and evidence
+      that would invalidate it.
+    gap: This is an editorial simulation using fictional prices, not financial advice, a certification
+      syllabus or a reviewed cloud-billing lab.
+  next_steps: Use current provider billing documentation and an experienced finance/engineering partner
+    before making real purchasing commitments.
+- role: site-reliability-engineer
+  title: Site Reliability Engineer
+  summary: Measure a small service, define a user-facing reliability target and practise recovery from
+    one failure.
+  entry_level: after-basics
+  prerequisites:
+  - Program and test a small service.
+  - Read Linux logs and understand basic HTTP responses.
+  outcome: A reproducible service lab with a measured reliability indicator, failure exercise and learning
+    review.
+  stages:
+  - title: Identify the user-visible service
+    topics:
+    - Request outcomes
+    - Dependencies and failure modes
+    resources:
+    - system-design-primer
+    practice: Draw the request path of a tiny local service and distinguish latency, errors and complete
+      unavailability.
+    checkpoint: Each selected metric has a defined observation point and a user-visible meaning.
+  - title: Define a measurable objective
+    topics:
+    - Service-level indicators
+    - Objective windows and error budgets
+    resources: []
+    practice: Choose a success indicator, a time window and a hypothetical objective; calculate results
+      from a synthetic request log.
+    checkpoint: Show the numerator, denominator and remaining failure allowance without claiming it is
+      an industry-mandated target.
+    gap: No reviewed SRE objectives or error-budget guide is currently catalogued; this stage states explicit
+      editorial assumptions.
+  - title: Exercise safe recovery
+    topics:
+    - Failure injection
+    - Rollback and evidence
+    resources:
+    - container-training
+    practice: Stop a dependency in a disposable service lab, observe the effect and restore it using a
+      recorded procedure.
+    checkpoint: Requests and logs demonstrate the failure and recovery, not merely a restarted process.
+  - title: 'Capstone: learn from an outage'
+    topics:
+    - Timeline and contributing factors
+    - Follow-up actions
+    resources: []
+    practice: Combine the indicator, outage evidence and a short review that separates observation, hypothesis
+      and corrective action.
+    checkpoint: The review names one measurable reliability improvement and how its effect would be checked.
+    gap: A complete reviewed SRE incident-management curriculum is missing; this capstone is a bounded
+      service experiment.
+  next_steps: Practise on-call, capacity planning and production changes under supervision; a local outage
+    exercise is not operational experience.
+- role: cloud-site-reliability-engineer
+  title: Cloud Site Reliability Engineer
+  summary: Reason about cloud failure boundaries and test the recovery assumptions of a small service.
+  entry_level: after-basics
+  prerequisites:
+  - Operate a basic service and interpret availability measurements.
+  - Understand cloud regions, zones and usage charges.
+  outcome: A cloud failure-boundary design and a documented local simulation of detection and recovery.
+  stages:
+  - title: Map failure domains
+    topics:
+    - Shared dependencies
+    - Zones and regional boundaries
+    resources:
+    - aws-skill-builder
+    - system-design-primer
+    practice: Use introductory provider material to diagram a hypothetical deployment and identify components
+      that fail together.
+    checkpoint: Separate a documented provider capability from an assumption that still needs verification.
+  - title: Design observable recovery
+    topics:
+    - Health signals
+    - Recovery-time and data-loss goals
+    resources: []
+    practice: Define detection signals and fictional recovery objectives for one component outage and
+      one data loss scenario.
+    checkpoint: Explain how each objective would be measured and which dependencies can prevent recovery.
+    gap: No reviewed provider-specific reliability objective or disaster-recovery curriculum is available.
+  - title: Make the practice environment reproducible
+    topics:
+    - Infrastructure state
+    - Change review and removal
+    resources:
+    - terraform-tutorials
+    practice: Use the local Docker tutorial to create a disposable dependency, record its state and recreate
+      it after removal.
+    checkpoint: A second setup reproduces the intended local configuration; the report states what cloud-specific
+      behaviour it does not test.
+  - title: 'Capstone: rehearse one cloud recovery plan'
+    topics:
+    - Failover decisions
+    - Recovery verification
+    resources: []
+    practice: Simulate a component failure locally and write a cloud recovery plan using the observed
+      evidence and explicitly untested provider assumptions.
+    checkpoint: A reviewer can distinguish demonstrated local restoration from proposed cloud failover
+      and data-restoration behaviour.
+    gap: No reviewed live-cloud failover lab is catalogued; the capstone must not claim regional resilience
+      from a local simulation.
+  next_steps: Verify current provider guarantees and rehearse backups and regional recovery in an authorised
+    staging environment with cost limits.
+- role: platform-engineer
+  title: Platform Engineer
+  summary: Build a small reusable development capability and check whether a second developer can use
+    it.
+  entry_level: after-basics
+  prerequisites:
+  - Build a containerised service and use Git.
+  - Understand basic developer workflows and Linux tooling.
+  outcome: A reusable local project template with a clear interface, ownership notes and an observed setup
+    trial.
+  stages:
+  - title: Find a recurring developer task
+    topics:
+    - User needs
+    - Workflow friction
+    resources:
+    - open-practice-library
+    practice: Interview a willing developer or record clearly labelled assumptions about starting a new
+      service; choose one repeated setup problem.
+    checkpoint: State the target user, repeated task and an observable sign of improvement without treating
+      workshop guesses as validated needs.
+  - title: Build the smallest paved path
+    topics:
+    - Reusable configuration
+    - Service boundaries
+    resources:
+    - docker-docs-get-started
+    - container-training
+    practice: Package a minimal containerised service template with a start command, a health check and
+      documented configuration inputs.
+    checkpoint: A clean copy starts successfully with explicit prerequisites and no embedded credentials.
+  - title: Set support and change expectations
+    topics:
+    - Versioning and ownership
+    - Escape hatches and upgrades
+    resources: []
+    practice: 'Write the template contract: supported inputs, update policy, responsible maintainer and
+      what users should do when it cannot meet a need.'
+    checkpoint: A user can tell which behaviours are promised and which customisations fall outside the
+      supported path.
+    gap: No reviewed platform-product or internal-developer-platform lifecycle guide is catalogued.
+  - title: 'Capstone: observe a fresh setup'
+    topics:
+    - Developer experience evidence
+    - Support feedback
+    resources: []
+    practice: Ask another person to start a service from the template, or label a clean-machine self-trial
+      explicitly, and fix one observed obstacle.
+    checkpoint: Record setup success, the obstacle, the resulting change and a basic recovery procedure.
+    gap: This is an editorial platform-capability project, not a verified enterprise platform curriculum
+      or a production readiness claim.
+  next_steps: Expand only after collecting user feedback; practise tenancy, access control and sustainable
+    support before serving multiple teams.
+- role: cloud-engineer
+  title: Cloud Engineer
+  summary: Translate service requirements into reproducible infrastructure and a documented deployment
+    check.
+  entry_level: after-basics
+  prerequisites:
+  - Understand a Linux service and basic IP networking.
+  - Use Git and inspect command output.
+  outcome: A disposable infrastructure configuration and a design explaining how it would map to a chosen
+    cloud provider.
+  stages:
+  - title: Choose service requirements
+    topics:
+    - Compute and storage needs
+    - Security and cost constraints
+    resources:
+    - aws-skill-builder
+    practice: Describe a small practice service and identify the compute, storage, identity and network
+      categories it needs.
+    checkpoint: Each proposed component has a requirement and a documented assumption rather than an unexplained
+      provider choice.
+  - title: Understand network exposure
+    topics:
+    - Addressing and routing
+    - Ports and trust boundaries
+    resources:
+    - computer-networks-systems-approach
+    practice: Draw the service network and mark which clients may connect to each port.
+    checkpoint: Explain the path of a request and distinguish public exposure from local or private access.
+  - title: Provision a local infrastructure example
+    topics:
+    - Declarative resources
+    - State and repeatability
+    resources:
+    - terraform-tutorials
+    practice: Use the Docker tutorial to provision, inspect, change and remove a local practice resource.
+    checkpoint: Show the plan, resulting resource and cleanup, and explain why state must be protected.
+  - title: 'Capstone: make a reviewed deployment package'
+    topics:
+    - Configuration review
+    - Validation and cleanup
+    resources: []
+    practice: Deliver the local configuration with a cloud mapping diagram, explicit unsupported assumptions
+      and a fresh setup/removal trial.
+    checkpoint: Another person can reproduce the local deployment and identify what still requires current
+      provider documentation.
+    gap: No single reviewed resource covers this complete cloud-engineering handover; the local project
+      does not establish real cloud permissions, cost or resilience.
+  next_steps: Choose and verify a provider-specific implementation guide before applying infrastructure
+    to a paid account or a shared environment.
+- role: network-engineer
+  title: Network Engineer
+  summary: Build and diagnose a small IP network using protocol reasoning and observable packet behaviour.
+  entry_level: from-zero
+  prerequisites:
+  - Use files and basic computer settings.
+  - Have a suitable isolated Linux/emulation lab or access to a supervised one.
+  outcome: An addressed network diagram, connectivity tests and a packet-backed diagnosis of one deliberate
+    fault.
+  stages:
+  - title: Learn what carries a request
+    topics:
+    - Ethernet and IP addressing
+    - TCP, UDP and DNS
+    resources:
+    - computer-networks-systems-approach
+    practice: Trace a hypothetical browser request from a host through its local network and name the
+      protocol responsibility at each step.
+    checkpoint: Explain the distinction between an address, a route, a transport port and a DNS name.
+  - title: Construct an isolated network
+    topics:
+    - Subnets and default routes
+    - Switch and router roles
+    resources:
+    - mininet
+    practice: Adapt a small emulator example with multiple hosts and record addresses and expected connectivity.
+    checkpoint: The diagram matches the configured hosts and tests distinguish reachable from intentionally
+      unreachable paths.
+  - title: Diagnose using packets and commands
+    topics:
+    - Capture filters
+    - Layered fault isolation
+    resources:
+    - wireshark
+    practice: Capture only lab traffic and compare a successful connection with a deliberate addressing
+      or name-resolution fault.
+    checkpoint: Use command output and packets to locate the faulty layer without sharing private traffic.
+  - title: 'Capstone: repair a network fault'
+    topics:
+    - Change evidence
+    - Post-change verification
+    resources: []
+    practice: Create a short fault ticket, apply one justified correction and repeat the connectivity
+      tests against the original diagram.
+    checkpoint: Before/after evidence supports the diagnosis and the fix does not silently broaden access.
+    gap: The complete fault-and-handover assignment is editorial; emulator results do not establish real
+      equipment performance.
+  next_steps: Add supervised routing, switching, wireless and physical-network practice before changing
+    organisational networks.
+- role: systems-administrator
+  title: Systems Administrator
+  summary: Administer a disposable system through accounts, services, updates and a tested recovery step.
+  entry_level: after-basics
+  prerequisites:
+  - Navigate a shell and explain files and permissions.
+  - Use a disposable operating-system lab rather than a daily-use or production machine.
+  outcome: A documented system configuration with account permissions, service checks and evidence of
+    restoration.
+  stages:
+  - title: Manage identities and access
+    topics:
+    - Users and groups
+    - Permissions and privilege
+    resources:
+    - linux-upskill-challenge
+    practice: Create a fictional user and restricted practice directory, then test permitted and denied
+      access.
+    checkpoint: Show both access outcomes and explain why the user does not need full administrative privileges.
+  - title: Operate and inspect services
+    topics:
+    - Package changes
+    - Service status and logs
+    resources:
+    - linux-upskill-challenge
+    - powershell-101
+    practice: On one selected operating system, record an installed service, inspect status/logs and document
+      a reversible configuration change.
+    checkpoint: A functional request confirms service behaviour; distinguish Linux examples from Windows-specific
+      commands.
+  - title: Plan and test restoration
+    topics:
+    - Backup scope
+    - Restore validation
+    resources: []
+    practice: Back up a practice configuration and sample data, remove the lab copy and restore it into
+      a clean location.
+    checkpoint: The restored content and service behaviour match the stated recovery scope, with exceptions
+      recorded.
+    gap: A reviewed cross-platform backup and restore administration guide is not yet catalogued.
+  - title: 'Capstone: hand over a maintained system'
+    topics:
+    - Maintenance record
+    - Recovery runbook
+    resources: []
+    practice: Combine the accounts, service checks, patch/configuration notes and restore evidence into
+      a handover for the lab.
+    checkpoint: A second operator can identify the system baseline, health test and steps for undoing
+      the practice change.
+    gap: This editorial lab covers a small system only; it does not verify enterprise identity, endpoint
+      management or all operating systems.
+  next_steps: Choose an operating-system specialisation and practise identity, patching and backup procedures
+    under experienced supervision.
+- role: network-computer-systems-administrator
+  title: Network and Computer Systems Administrator
+  summary: Connect host administration with network diagnosis without confusing a host fault with a network
+    fault.
+  entry_level: after-basics
+  prerequisites:
+  - Read shell commands and basic system settings.
+  - Understand IP addresses and have isolated host/network practice environments.
+  outcome: A combined host/network inventory and two diagnosed failures with evidence at the appropriate
+    layer.
+  stages:
+  - title: Document connected systems
+    topics:
+    - Host and service inventory
+    - Address and dependency mapping
+    resources:
+    - computer-networks-systems-approach
+    practice: Draw two fictional systems, their addresses and the services they require from one another.
+    checkpoint: The diagram identifies host configuration separately from network path assumptions.
+  - title: Manage the host side
+    topics:
+    - Accounts and service startup
+    - Operating-system logs
+    resources:
+    - linux-upskill-challenge
+    practice: Set up a practice service with a restricted account and record how to check its process,
+      listening port and logs.
+    checkpoint: Explain what would be observed if the service were stopped even though the host remained
+      reachable.
+  - title: Separate connectivity failures
+    topics:
+    - Routing and DNS checks
+    - Packet observations
+    resources:
+    - mininet
+    - wireshark
+    practice: Compare a stopped service with an isolated network or DNS fault using only lab systems.
+    checkpoint: Evidence distinguishes a transport or name-resolution problem from application unavailability.
+  - title: 'Capstone: restore a dependent service'
+    topics:
+    - Cross-layer diagnosis
+    - Handover notes
+    resources: []
+    practice: Create two simulated tickets, diagnose each at its layer and document the minimal repair
+      and follow-up tests.
+    checkpoint: Another operator can follow the host and network evidence without relying on a guessed
+      root cause.
+    gap: No reviewed resource supplies this complete mixed administration scenario; lab commands must
+      be adapted to the selected platform.
+  next_steps: Extend into supervised network-device administration and operating-system management for
+    the environment you intend to support.
+- role: telecommunications-engineering-specialist
+  title: Telecommunications Engineering Specialist
+  summary: Analyse the requirements and limits of a small communications link before proposing a design.
+  entry_level: after-basics
+  prerequisites:
+  - Understand basic algebra and network protocols.
+  - Know that virtual IP labs do not validate physical telecommunications equipment.
+  outcome: A requirements-based link proposal with explicit capacity assumptions and an acceptance-test
+    plan.
+  stages:
+  - title: Describe a communications service
+    topics:
+    - Capacity and latency needs
+    - Availability and physical constraints
+    resources:
+    - computer-networks-systems-approach
+    practice: Write a fictional voice/data service brief with traffic, distance and outage constraints.
+    checkpoint: Separate application requirements from assumptions about the physical transmission medium.
+  - title: Study transmission limits
+    topics:
+    - Bandwidth and signal quality
+    - Link budgets and interference
+    resources: []
+    practice: Build an illustrative link-budget worksheet from clearly fictional supplied values and list
+      measurements needed for a real installation.
+    checkpoint: Units and assumptions are explicit; no simulated value is claimed as a certified physical
+      measurement.
+    gap: No reviewed physical-layer telecommunications or RF/link-budget course is available in the catalogue.
+  - title: Evaluate packet-level behaviour
+    topics:
+    - Delay and loss
+    - Traffic classification
+    resources:
+    - mininet
+    practice: Simulate different delay/loss settings on a small IP path and compare observed application
+      behaviour.
+    checkpoint: Explain what the emulator demonstrates and what it cannot establish about radio, fibre,
+      cabling or carrier equipment.
+  - title: 'Capstone: review a link proposal'
+    topics:
+    - Design alternatives
+    - Acceptance criteria
+    resources: []
+    practice: Present two hypothetical link options, a justified selection and a plan for capacity, failure
+      and safety acceptance tests.
+    checkpoint: A reviewer can trace the choice to requirements and identify every assumption that needs
+      professional measurement.
+    gap: No reviewed specialist telecommunications design or regulatory source covers this capstone; it
+      is a planning exercise, not authorisation to install equipment.
+  next_steps: Obtain current physical-layer, safety and local regulatory training plus supervised equipment
+    practice before real deployment.
+- role: telecommunications-specialist
+  title: Telecommunications Specialist
+  summary: Document and troubleshoot a communications service while distinguishing service symptoms from
+    equipment assumptions.
+  entry_level: after-basics
+  prerequisites:
+  - Understand basic IP connectivity.
+  - Use only authorised communication systems and isolated practice equipment.
+  outcome: A service inventory, symptom-based diagnostic checklist and fictional escalation record.
+  stages:
+  - title: Map service components
+    topics:
+    - Voice and data service boundaries
+    - Provider and customer responsibility
+    resources:
+    - computer-networks-systems-approach
+    practice: Draw a hypothetical service from an end device through local connectivity to a provider
+      handoff.
+    checkpoint: Identify which elements an operator controls and which require escalation to the provider.
+  - title: Learn physical checks and safe limits
+    topics:
+    - Cabling and connectors
+    - Power and equipment status
+    resources: []
+    practice: Create an equipment inspection checklist using photographs or fictional inventory; mark
+      tasks requiring specialist safety guidance.
+    checkpoint: The checklist does not ask a learner to open powered equipment or modify carrier infrastructure.
+    gap: A reviewed telecommunications installation, cabling and electrical-safety manual is missing.
+  - title: Investigate service quality
+    topics:
+    - Latency, loss and name resolution
+    - Evidence collection
+    resources:
+    - mininet
+    - wireshark
+    practice: Compare normal and impaired lab traffic and record timing, packet loss and the service symptom.
+    checkpoint: A short report separates measured IP behaviour from untested explanations about a real
+      voice or access network.
+  - title: 'Capstone: escalate a reproducible fault'
+    topics:
+    - Service-impact summary
+    - Ownership and verification
+    resources: []
+    practice: Write a fictional outage ticket with the observed symptom, safe checks, relevant evidence
+      and a handoff to the responsible team.
+    checkpoint: A receiving operator knows the affected service, what was checked and what remains to
+      be measured.
+    gap: The catalogue lacks a reviewed end-to-end telecommunications support lab; this scenario covers
+      diagnosis and communication only.
+  next_steps: Choose a technology such as enterprise voice, fibre access or radio and obtain supervised
+    practice with its current manuals and safety rules.
+- role: configuration-manager
+  title: Configuration Manager
+  summary: Maintain a useful configuration baseline and investigate drift without treating an inventory
+    as a complete service model.
+  entry_level: experience-required
+  prerequisites:
+  - Have practical experience with service operations and controlled changes.
+  - Understand assets, configuration records and version history.
+  outcome: A fictional configuration register, baselines, drift investigation and a reconciled change
+    record.
+  stages:
+  - title: Define the register boundary
+    topics:
+    - Configuration items
+    - Service relationships and ownership
+    resources:
+    - glpi
+    practice: Use fictional assets to model one small service and state which item types and relationships
+      the register will track.
+    checkpoint: Every item has an owner and identifier, and the register scope is explicit; GLPI supplies
+      the lab tool, not a management standard.
+  - title: Record controlled baselines
+    topics:
+    - Approved configuration
+    - Version and evidence links
+    resources:
+    - pro-git
+    practice: Version the practice service configuration and link its approved values to the corresponding
+      asset records.
+    checkpoint: A reader can distinguish an asset identifier, a configuration version and an approval
+      record.
+  - title: Investigate configuration drift
+    topics:
+    - Discovery versus approval
+    - Reconciliation and audit trail
+    resources: []
+    practice: Introduce an undocumented synthetic configuration difference and compare observed evidence
+      with the baseline.
+    checkpoint: Record whether the difference is a data-quality problem, an unauthorised change or an
+      unresolved observation.
+    gap: No reviewed configuration-management process or discovery-tool administration guide is currently
+      catalogued.
+  - title: 'Capstone: reconcile a service baseline'
+    topics:
+    - Corrective action
+    - Register quality checks
+    resources: []
+    practice: Resolve the fictional discrepancy through a documented decision and update the baseline
+      and related records consistently.
+    checkpoint: The register, version history and change note agree, and the evidence explains who authorised
+      the correction.
+    gap: This is an editorial configuration-governance exercise, not an official ITIL process or a complete
+      configuration-management qualification.
+  next_steps: Review the organisation's actual configuration policy and practise ownership, discovery
+    and audit controls under supervision.
+- role: change-control-manager
+  title: Change Control Manager
+  summary: Assess a proposed service change and record a justified approval, rejection or deferral with
+    a rollback plan.
+  entry_level: experience-required
+  prerequisites:
+  - Have experience coordinating operational changes and affected stakeholders.
+  - Understand service dependencies and incident impact.
+  outcome: A fictional change package with risk assessment, approval conditions, verification and closure
+    evidence.
+  stages:
+  - title: Frame the change request
+    topics:
+    - Purpose and scope
+    - Affected services and owners
+    resources:
+    - glpi
+    practice: Create an invented service change and identify its intended benefit, scope, affected users
+      and decision owner.
+    checkpoint: A reviewer can distinguish the requested change from the problem motivating it; the tool
+      is not the approval policy.
+  - title: Assess implementation risk
+    topics:
+    - Dependency impact
+    - Rollback and verification
+    resources: []
+    practice: Compare a normal rollout with a failure scenario and write implementation, validation and
+      rollback steps.
+    checkpoint: Each significant risk has a control, an accountable person and evidence needed before
+      approval.
+    gap: No reviewed change-control or ITIL procedure is catalogued; the risk rubric is an explicit editorial
+      practice assumption.
+  - title: Coordinate the decision
+    topics:
+    - Maintenance windows
+    - Approval and communication records
+    resources: []
+    practice: Run a tabletop review with fictional stakeholders and record approval, rejection or deferral
+      and any conditions.
+    checkpoint: The decision names its authority, service constraints and communication plan rather than
+      relying on a meeting alone.
+    gap: A reviewed source for change authorities and organisation-specific approval rules is missing.
+  - title: 'Capstone: close a simulated change'
+    topics:
+    - Outcome review
+    - Exception and rollback records
+    resources: []
+    practice: Walk through the change plan, inject one failed validation result and decide whether to
+      proceed, pause or roll back.
+    checkpoint: The closure record traces the decision to evidence and confirms the service state after
+      the exercise.
+    gap: The capstone is a management simulation, not proof of a production change or conformity to a
+      named service-management framework.
+  next_steps: Use the employer's actual policy and supervised change reviews before authorising modifications
+    to shared services.
+- role: incident-manager
+  title: Incident Manager
+  summary: Coordinate restoration of a service while keeping impact, ownership and communications clear.
+  entry_level: experience-required
+  prerequisites:
+  - Have hands-on support or operational incident experience.
+  - Understand escalation ownership and service-impact communication.
+  outcome: A tabletop incident timeline with decisions, user updates, recovery checks and a handover.
+  stages:
+  - title: Classify a reported interruption
+    topics:
+    - Impact and urgency
+    - Initial evidence and ownership
+    resources:
+    - glpi
+    practice: Enter a fictional service interruption and record users affected, known symptoms and the
+      responsible technical team.
+    checkpoint: Separate verified impact from an estimated scope and name the current incident owner.
+  - title: Coordinate restoration work
+    topics:
+    - Task ownership
+    - Workarounds and escalation
+    resources: []
+    practice: Assign diagnostic and recovery tasks in a fictional scenario, including a condition for
+      escalating unresolved work.
+    checkpoint: Each action has one owner and expected evidence, with no competing untracked recovery
+      changes.
+    gap: No reviewed incident-coordination or service-restoration curriculum is catalogued; the workflow
+      is an editorial tabletop.
+  - title: Communicate verified progress
+    topics:
+    - Status cadence
+    - User-facing uncertainty
+    resources: []
+    practice: Write an initial notice and two updates as new facts arrive, avoiding guessed causes or
+      unsupported restoration times.
+    checkpoint: Updates state impact, work underway, next update time and what remains unknown.
+    gap: A reviewed operational communications guide and organisation-specific notification policy are
+      missing.
+  - title: 'Capstone: confirm restoration and hand over'
+    topics:
+    - Functional recovery checks
+    - Timeline and follow-up
+    resources: []
+    practice: Run a tabletop from first report to recovery and close it only after the fictional service
+      test and stakeholder confirmation.
+    checkpoint: The record distinguishes service restoration from root-cause analysis and assigns follow-up
+      work.
+    gap: This editorial simulation is not an official incident-management process or a substitute for
+      supervised operational practice.
+  next_steps: Participate in real incidents under an experienced coordinator and learn the organisation's
+    escalation, communication and review policies.
+- role: major-incident-manager
+  title: Major Incident Manager
+  summary: Coordinate a high-impact multi-team outage using decision discipline and explicit recovery
+    evidence.
+  entry_level: experience-required
+  prerequisites:
+  - Have experience coordinating ordinary incidents.
+  - Understand business impact, technical ownership and executive communication.
+  outcome: A multi-team outage exercise with a command structure, decision log, stakeholder updates and
+    recovery sign-off.
+  stages:
+  - title: Declare and scope a major incident
+    topics:
+    - Business impact
+    - Activation criteria
+    resources: []
+    practice: Define fictional activation thresholds and use them to classify two outage reports with
+      different business impacts.
+    checkpoint: The declaration cites impact and decision authority rather than just the number of technical
+      alerts.
+    gap: No reviewed major-incident framework or current organisation-specific thresholds are catalogued.
+  - title: Set the coordination structure
+    topics:
+    - Incident command roles
+    - Parallel workstreams
+    resources: []
+    practice: Assign a coordinator, technical leads, recorder and communications owner for a fictional
+      two-service outage.
+    checkpoint: Workstreams have explicit owners and coordination points, with one shared decision record.
+    gap: A reviewed guide for major-incident command and cross-team escalation is missing.
+  - title: Manage uncertainty and recovery choices
+    topics:
+    - Option and risk records
+    - Executive and user updates
+    resources: []
+    practice: Compare a workaround with a riskier repair and write separate concise updates for users
+      and decision-makers.
+    checkpoint: The recommendation identifies evidence, reversibility and unresolved risk without inventing
+      a restoration deadline.
+    gap: No reviewed major-outage decision or stakeholder-communications source supports a formal prescribed
+      method here.
+  - title: 'Capstone: rehearse a multi-service outage'
+    topics:
+    - Recovery sign-off
+    - Learning review
+    resources: []
+    practice: Facilitate a timed tabletop with changing injects and end with service-specific verification
+      and a shared review.
+    checkpoint: The timeline shows who made each recovery decision and each follow-up action has an accountable
+      owner.
+    gap: The whole exercise is editorial; fictional verification does not establish live-service recovery
+      or a professional qualification.
+  next_steps: Shadow major-incident coordination and practise the organisation's actual notification,
+    authority and continuity requirements.
+- role: lead-incident-manager
+  title: Lead Incident Manager
+  summary: Improve incident coordination across teams using evidence from multiple cases rather than one
+    outage.
+  entry_level: experience-required
+  prerequisites:
+  - Have repeated incident-coordination experience.
+  - Understand service ownership, review practices and escalation policies.
+  outcome: A cross-incident improvement proposal with measurable findings, a coaching exercise and governance
+    follow-up.
+  stages:
+  - title: Compare incident records fairly
+    topics:
+    - Consistent event definitions
+    - Data completeness and bias
+    resources: []
+    practice: Build a fictional set of incident timelines and define detection, ownership, mitigation
+      and restoration timestamps consistently.
+    checkpoint: The dataset identifies missing evidence and does not treat incomparable durations as a
+      reliable team ranking.
+    gap: No reviewed incident-programme analytics or leadership curriculum is currently catalogued.
+  - title: Find coordination weaknesses
+    topics:
+    - Handoff quality
+    - Escalation bottlenecks
+    resources: []
+    practice: Analyse the records for delayed ownership or contradictory updates and propose a testable
+      process improvement.
+    checkpoint: The improvement targets an observed coordination failure rather than assigning blame to
+      an individual.
+    gap: A reviewed method for cross-incident organisational diagnosis is missing; the analysis is an
+      editorial exercise.
+  - title: Coach coordinators and rehearse policy
+    topics:
+    - Scenario facilitation
+    - Decision authority and feedback
+    resources: []
+    practice: Design a tabletop that tests the proposed handoff improvement and give concrete feedback
+      on the participants' decisions.
+    checkpoint: The exercise has observable success criteria and distinguishes coaching feedback from
+      policy approval.
+    gap: No reviewed incident-leadership training or employer-approved simulation policy is catalogued.
+  - title: 'Capstone: evaluate an incident-programme change'
+    topics:
+    - Before/after measures
+    - Governance and action tracking
+    resources: []
+    practice: Present the baseline evidence, exercise findings and a proposed rollout with an owner, review
+      date and rollback condition.
+    checkpoint: A reviewer can see how the change would be evaluated and what evidence could disprove
+      its value.
+    gap: This is an editorial leadership proposal, not proof of improved production incident performance
+      or compliance with a framework.
+  next_steps: Validate the proposal with experienced service owners and actual governance before changing
+    incident policy.
+- role: cyber-incident-manager
+  title: Cyber Incident Manager
+  summary: Coordinate a fictional security response while preserving evidence and separating containment
+    from recovery.
+  entry_level: experience-required
+  prerequisites:
+  - Have operational incident experience and security fundamentals.
+  - Understand authorised evidence handling and the need for legal/privacy escalation.
+  outcome: A security-incident tabletop with scope decisions, evidence records, containment options and
+    recovery criteria.
+  stages:
+  - title: Recognise and scope the security report
+    topics:
+    - Indicators versus conclusions
+    - Affected assets and evidence boundaries
+    resources:
+    - cyberdefenders
+    practice: Use an available authorised defensive lab or supplied fictional logs to record indicators
+      and possible affected assets; verify any lab charges before enrolling.
+    checkpoint: Separate what the evidence shows from hypotheses and record the source and handling of
+      each artefact.
+  - title: Coordinate containment decisions
+    topics:
+    - Containment trade-offs
+    - Evidence preservation and authority
+    resources: []
+    practice: For a fictional compromised account, compare disabling access with monitoring it and record
+      who may authorise each action.
+    checkpoint: The decision accounts for impact, evidence loss and privacy without giving a learner authority
+      over real accounts.
+    gap: No reviewed full incident-response coordination, forensic preservation or legal-notification
+      guide is catalogued.
+  - title: Plan eradication and safe return
+    topics:
+    - Recovery prerequisites
+    - Communications and notification escalation
+    resources: []
+    practice: Draft recovery checks, stakeholder updates and questions for the organisation's legal/privacy
+      and technical owners.
+    checkpoint: Restoration conditions include evidence that the initial access path is addressed; do
+      not invent legal deadlines.
+    gap: Current legal obligations and a complete reviewed cyber-response recovery procedure remain outside
+      the verified catalogue.
+  - title: 'Capstone: run a security-response tabletop'
+    topics:
+    - Decision and evidence logs
+    - Lessons and outstanding risk
+    resources: []
+    practice: Work through a fictional alert, containment decision and recovery review with staged new
+      evidence.
+    checkpoint: The final record traces authority, evidence, containment, recovery checks and unresolved
+      risks without publishing sensitive artefacts.
+    gap: This is an editorial tabletop, not an official response playbook or demonstrated readiness for
+      a real security incident.
+  next_steps: Use current organisational response plans, legal advice and supervised defensive exercises
+    before directing real incidents.
+- role: release-train-engineer
+  title: Release Train Engineer
+  summary: Coordinate a multi-team delivery plan with visible dependencies, capacity limits and inspection
+    points.
+  entry_level: experience-required
+  prerequisites:
+  - Have experience facilitating delivery across multiple teams.
+  - Understand iteration planning, work tracking and stakeholder constraints.
+  outcome: A fictional integrated delivery plan with dependencies, risks, a facilitation record and revised
+    commitments.
+  stages:
+  - title: Map value and dependencies
+    topics:
+    - Shared outcomes
+    - Team interfaces and sequencing
+    resources: []
+    practice: Describe a small fictional product increment spanning three teams and map the dependencies
+      blocking delivery.
+    checkpoint: Every dependency has a provider, consumer and required decision or deliverable.
+    gap: No reviewed release-train or named scaling-framework curriculum is catalogued; terms are used
+      descriptively.
+  - title: Facilitate a realistic plan
+    topics:
+    - Capacity and uncertainty
+    - Risk and ownership
+    resources: []
+    practice: Run a tabletop planning session using invented team capacities and external constraints.
+    checkpoint: The plan avoids double-counted capacity and records unresolved risks and who will address
+      them.
+    gap: A reviewed multi-team programme planning or release-train facilitation manual is missing.
+  - title: Inspect integration and adapt
+    topics:
+    - Integrated evidence
+    - Dependency changes
+    resources: []
+    practice: Introduce a delayed dependency and revise the plan using a concrete integration check rather
+      than status claims alone.
+    checkpoint: Teams can identify the changed commitment, delivery impact and next integration evidence.
+    gap: No reviewed source supplies an official integration cadence or event structure for this role.
+  - title: 'Capstone: rehearse an integrated delivery review'
+    topics:
+    - Facilitation and decisions
+    - Improvement actions
+    resources: []
+    practice: Present the original plan, simulated integration results, changed dependencies and an improvement
+      proposal.
+    checkpoint: The review traces outcomes to evidence and makes ownership clear without presenting the
+      exercise as framework certification.
+    gap: This editorial delivery-coordination simulation is not an official curriculum from any branded
+      scaling framework.
+  next_steps: Choose the actual delivery model used by the organisation and study its authorised guidance
+    with experienced facilitators.
+- role: incident-analyst
+  title: Incident Analyst
+  summary: Turn a reported symptom into a reproducible case with evidence and a clear diagnostic next
+    step.
+  entry_level: after-basics
+  prerequisites:
+  - Understand common support requests and simple system checks.
+  - Use fictional data or a disposable lab.
+  outcome: A classified incident record with evidence, a tested hypothesis and a justified escalation
+    or resolution.
+  stages:
+  - title: Capture a useful report
+    topics:
+    - Symptoms and reproduction
+    - Impact versus assumed cause
+    resources:
+    - glpi
+    practice: Create a fictional ticket and ask what changed, who is affected and how the failure can
+      be repeated.
+    checkpoint: The record includes the symptom and reproduction conditions without labelling a guess
+      as the cause.
+  - title: Gather diagnostic evidence
+    topics:
+    - System status and logs
+    - Time and environment context
+    resources:
+    - linux-upskill-challenge
+    - microsoft-windows-troubleshooting
+    practice: Choose one relevant operating-system case and collect a small status/log excerpt from an
+      isolated practice system.
+    checkpoint: The evidence records time and environment and excludes private identifiers and credentials.
+  - title: Test and document a hypothesis
+    topics:
+    - Expected versus observed result
+    - Escalation boundaries
+    resources: []
+    practice: Write two possible explanations and perform one reversible authorised lab check that helps
+      distinguish them.
+    checkpoint: The result supports or weakens a hypothesis and identifies what information is still missing.
+    gap: A reviewed general incident-analysis method is missing; product-specific articles must not be
+      treated as universal diagnostic recipes.
+  - title: 'Capstone: hand off a complete incident'
+    topics:
+    - Resolution verification
+    - Receiver-ready notes
+    resources: []
+    practice: Finish the ticket with a functional recovery test or an escalation containing the exact
+      next question and supporting evidence.
+    checkpoint: A second reader can continue the case without repeating all initial information gathering.
+    gap: This is an editorial evidence-and-handover assignment rather than a complete incident-analyst
+      qualification.
+  next_steps: Practise real tickets under supervision and learn the organisation's priority, escalation
+    and data-handling rules.
+- role: it-support-technician
+  title: IT Support Technician
+  summary: Resolve a small user problem through safe checks, a reversible fix and a clear support record.
+  entry_level: from-zero
+  prerequisites:
+  - Use basic files and applications.
+  - Have a disposable practice system and fictional user information.
+  outcome: A lab support case with user-friendly notes, diagnostic evidence and a verified outcome.
+  stages:
+  - title: Understand the user and system
+    topics:
+    - Plain-language questioning
+    - Basic hardware and operating-system boundaries
+    resources:
+    - professor-messer
+    practice: Use introductory A+ video material to distinguish device, operating-system and application
+      symptoms in three fictional reports.
+    checkpoint: For each report, ask a useful next question and identify a safe first check; videos alone
+      do not count as hands-on practice.
+  - title: Run safe operating-system checks
+    topics:
+    - Files, accounts and permissions
+    - Service status and logs
+    resources:
+    - linux-upskill-challenge
+    - powershell-101
+    practice: On one chosen practice operating system, inspect identity, storage availability and a service
+      without changing the daily-use system.
+    checkpoint: Explain the output in plain language and distinguish an observation from a diagnosis.
+  - title: Make and verify a reversible fix
+    topics:
+    - Change records
+    - Functional user checks
+    resources:
+    - microsoft-windows-troubleshooting
+    practice: Choose an applicable Windows case or explicitly documented lab configuration issue, record
+      the current state and test one reversible correction.
+    checkpoint: A user-facing check succeeds after the change and the record explains how to undo it;
+      do not apply unrelated article fixes.
+  - title: 'Capstone: complete a fictional support ticket'
+    topics:
+    - User communication
+    - Evidence and escalation
+    resources:
+    - glpi
+    practice: Record the report, checks, correction and functional outcome in a test ticket, or escalate
+      if the evidence remains inconclusive.
+    checkpoint: Another reader can see what the user experienced, what changed and why the case was resolved
+      or escalated.
+  next_steps: Choose an operating system and device environment, then gain supervised support practice
+    beyond this small lab.
+- role: help-desk-analyst
+  title: Help Desk Analyst
+  summary: Receive, classify and communicate a support request so that the next person can act on it.
+  entry_level: from-zero
+  prerequisites:
+  - Use basic computer applications and communicate clearly.
+  - Practise with fictional users and tickets.
+  outcome: A small ticket queue with recorded priorities, clear updates and evidence-based closure or
+    escalation.
+  stages:
+  - title: Ask questions that narrow the request
+    topics:
+    - User goal and impact
+    - Reproduction details
+    resources: []
+    practice: Write short intake conversations for an access problem, an unavailable application and an
+      unclear request.
+    checkpoint: Each conversation captures the user's goal and impact without asking them to send passwords.
+    gap: No reviewed help-desk interviewing curriculum is catalogued; these are editorial communication
+      exercises.
+  - title: Record and prioritise work
+    topics:
+    - Ticket categories
+    - Impact and urgency
+    resources:
+    - glpi
+    practice: Create three fictional tickets in a test queue and state the assumptions behind their relative
+      priorities.
+    checkpoint: The queue order is explained by impact and urgency, not invented service-level commitments
+      or personal preference.
+  - title: Communicate and escalate clearly
+    topics:
+    - Status updates
+    - Ownership handoff
+    resources: []
+    practice: Write a progress update and a technical escalation for the same ticket, using different
+      detail for each audience.
+    checkpoint: The update gives the next contact point and the escalation includes checks already done
+      and evidence still needed.
+    gap: An employer's escalation matrix, service levels and reviewed customer-support communications
+      guide are missing.
+  - title: 'Capstone: manage a small ticket queue'
+    topics:
+    - Resolution confirmation
+    - Reopened cases and knowledge notes
+    resources:
+    - glpi
+    practice: Work the three fictional requests through updates, one resolution and one justified escalation;
+      reopen one case when verification fails.
+    checkpoint: The ticket histories show continuous ownership and closure is supported by a user-facing
+      check rather than an administrative status change.
+  next_steps: Learn the actual service catalogue, access-verification rules and escalation paths before
+    handling real customer requests.
+- role: computer-technician
+  title: Computer Technician
+  summary: Diagnose a fictional computer fault and plan safe physical work without confusing a simulation
+    with repair experience.
+  entry_level: from-zero
+  prerequisites:
+  - Know basic computer controls and files.
+  - Use authorised training equipment; do not open powered or unfamiliar equipment.
+  outcome: A component map, diagnostic evidence and a safe repair/verification plan for a practice computer
+    scenario.
+  stages:
+  - title: Identify computer components
+    topics:
+    - Storage and memory
+    - Power, peripherals and boot stages
+    resources:
+    - professor-messer
+    practice: Use introductory A+ material to label a computer diagram and connect a boot or peripheral
+      symptom to possible component categories.
+    checkpoint: Distinguish a symptom from proof of a failed part and list observations needed before
+      replacing it.
+  - title: Learn safe physical procedures
+    topics:
+    - Power isolation and handling
+    - Electrostatic and model-specific precautions
+    resources: []
+    practice: Write a supervised-work checklist using the exact manufacturer guidance required for a proposed
+      training device.
+    checkpoint: Mark any unavailable manufacturer procedure as a blocker rather than inventing disassembly
+      or battery-handling steps.
+    gap: No reviewed device-specific repair, battery-safety or electrical-work manual is included in the
+      catalogue.
+  - title: Separate software from hardware evidence
+    topics:
+    - Boot and storage observations
+    - Reversible diagnostic checks
+    resources:
+    - microsoft-windows-troubleshooting
+    practice: Read a relevant Windows diagnostic article and plan non-destructive observations for a fictional
+      boot or device problem.
+    checkpoint: The plan identifies what a software log can show and what still requires approved physical
+      diagnostics.
+  - title: 'Capstone: prepare a repair handover'
+    topics:
+    - Part-replacement justification
+    - Post-work acceptance checks
+    resources: []
+    practice: Create a fictional repair report with observations, candidate causes, a supervised action
+      plan and checks for boot, data and peripherals.
+    checkpoint: The report preserves uncertainty and does not claim a component was repaired or replaced
+      unless that work actually occurred.
+    gap: A complete supervised repair lab and model-specific procedures remain missing; a written plan
+      is not hands-on hardware competence.
+  next_steps: Obtain supervised hands-on training and current manufacturer procedures before repairing
+    customer equipment or handling hazardous components.
+- role: computer-network-support-specialist
+  title: Computer Network Support Specialist
+  summary: Narrow a user connectivity issue through host, name-resolution and network-path checks.
+  entry_level: from-zero
+  prerequisites:
+  - Use basic system settings.
+  - Have permission to inspect only an isolated lab network and its traffic.
+  outcome: A connectivity case showing structured checks, relevant packet evidence and a bounded repair
+    or escalation.
+  stages:
+  - title: Understand one host connection
+    topics:
+    - Addresses, gateways and DNS
+    - Local versus remote failures
+    resources:
+    - computer-networks-systems-approach
+    practice: Draw how a fictional user reaches a service and identify the host, gateway, resolver and
+      destination.
+    checkpoint: Explain why a failed name lookup is different from a failed connection to a known address.
+  - title: Collect reproducible connection evidence
+    topics:
+    - Interface and route checks
+    - Transport reachability
+    resources:
+    - mininet
+    practice: Use a small emulator example to compare normal connectivity with a missing route or stopped
+      endpoint.
+    checkpoint: Record the commands and outputs and explain which part of the path each check examines.
+  - title: Inspect a relevant capture
+    topics:
+    - DNS queries and responses
+    - Connection attempts and responses
+    resources:
+    - wireshark
+    practice: Capture the isolated test and compare a working name lookup or TCP connection with the failed
+      case.
+    checkpoint: Point to the relevant packets and avoid inferring a network fault solely from one timeout.
+  - title: 'Capstone: support an affected user'
+    topics:
+    - Minimal changes
+    - Clear escalation evidence
+    resources:
+    - glpi
+    practice: Create a fictional connectivity ticket with the host settings, failed test, justified correction
+      or escalation and a repeated user-facing check.
+    checkpoint: The receiving technician can locate the fault boundary without requesting passwords or
+      exposing unrelated packet data.
+  next_steps: Practise supervised wireless, VPN and enterprise access cases with current approved procedures
+    for the organisation.
+- role: operations-support-analyst
+  title: Operations Support Analyst
+  summary: Monitor a service, follow a bounded runbook and escalate deviations with usable evidence.
+  entry_level: after-basics
+  prerequisites:
+  - Read basic Linux commands and service logs.
+  - Understand what a runbook permits an operator to change.
+  outcome: A shift-style operations record with health checks, a failed scheduled task and a documented
+    escalation.
+  stages:
+  - title: Identify service expectations
+    topics:
+    - Health checks and schedules
+    - Ownership and dependencies
+    resources:
+    - linux-upskill-challenge
+    practice: Create a fictional operations checklist for a practice service and one scheduled job, including
+      expected outputs.
+    checkpoint: Each check has a time, owner and explicit success condition rather than only a command
+      name.
+  - title: Investigate a failed operation
+    topics:
+    - Task output and logs
+    - Environment and time context
+    resources:
+    - linux-upskill-challenge
+    practice: Make a harmless practice job fail because of a missing input, then preserve its error and
+      relevant log context.
+    checkpoint: Explain the failed step without overwriting the evidence or assuming every nonzero exit
+      has the same cause.
+  - title: Apply runbook limits
+    topics:
+    - Approved retries
+    - Escalation and handover
+    resources: []
+    practice: Write a bounded procedure saying when a retry is safe, when to stop and what evidence the
+      next team needs.
+    checkpoint: The procedure avoids repeating a state-changing job without checking for duplicate work.
+    gap: No reviewed operations-runbook governance guide is catalogued; approval and retry rules are explicit
+      practice assumptions.
+  - title: 'Capstone: hand over an operational shift'
+    topics:
+    - Check completion records
+    - Outstanding work and risk
+    resources: []
+    practice: Perform the checklist in a disposable lab, record the job failure and write a shift handover
+      with ownership for unresolved work.
+    checkpoint: The next operator can identify service state, completed actions and the precise next safe
+      step.
+    gap: The shift scenario is editorial and does not establish employer-specific operational authority
+      or production experience.
+  next_steps: Practise actual approved runbooks and controlled shift handovers with an experienced operations
+    team.
+- role: infrastructure-specialist
+  title: Infrastructure Specialist
+  summary: Connect compute, storage and networking requirements to a small reproducible infrastructure
+    lab.
+  entry_level: after-basics
+  prerequisites:
+  - Administer a basic operating-system service.
+  - Understand IP addressing and resource limits.
+  outcome: A dependency inventory and reproducible local infrastructure setup with capacity and recovery
+    notes.
+  stages:
+  - title: Map the infrastructure boundary
+    topics:
+    - Compute, storage and network roles
+    - Resource ownership
+    resources:
+    - system-design-primer
+    practice: Diagram the infrastructure used by a small practice service and identify dependencies outside
+      the operator's control.
+    checkpoint: Each component has an observable function and a recorded ownership assumption.
+  - title: Inspect capacity and connectivity
+    topics:
+    - CPU, memory and storage observations
+    - Network reachability
+    resources:
+    - linux-upskill-challenge
+    - computer-networks-systems-approach
+    practice: Record local resource observations and the expected network path, then identify one potential
+      constraint without guessing production capacity.
+    checkpoint: The evidence distinguishes measured usage from an untested scaling estimate.
+  - title: Reproduce a controlled configuration
+    topics:
+    - Infrastructure definitions
+    - State and removal
+    resources:
+    - terraform-tutorials
+    practice: Use the local Docker track to create a practice resource and repeat its setup and teardown
+      from declared configuration.
+    checkpoint: A clean run creates the expected local resource and cleanup is verified without affecting
+      shared infrastructure.
+  - title: 'Capstone: deliver an infrastructure handover'
+    topics:
+    - Failure and recovery evidence
+    - Capacity and ownership notes
+    resources: []
+    practice: Combine the diagram, configuration, checks and one local failure/recovery demonstration
+      into an operator handover.
+    checkpoint: Another person can identify dependencies, reproduce the local setup and explain what real
+      hardware or cloud behaviour remains untested.
+    gap: The complete infrastructure assignment is editorial; no reviewed resource covers all physical,
+      cloud, backup and enterprise infrastructure responsibilities.
+  next_steps: Choose a compute, storage or network specialisation and gain supervised practice with the
+    relevant current platform manuals.

@@ -1,0 +1,728 @@
+group: data-ai
+curricula:
+  - role: data-analyst
+    title: "Data Analyst: turn a question into checked evidence"
+    summary: An editorial route from a first SQL query to a small reproducible analysis, not an institutional programme.
+    entry_level: from-zero
+    prerequisites: [Basic computer and file handling, Arithmetic with percentages and averages]
+    outcome: A small analysis with saved queries, a reproducible cleaning script and a chart answering a stated question.
+    stages:
+      - title: Ask a question and retrieve relevant rows
+        topics: [Questions and units of observation, SELECT and filtering, GROUP BY and simple joins]
+        resources: [sqlbolt, postgresql-exercises]
+        practice: Choose one question about a practice dataset and write queries for its row counts, groups and totals.
+        checkpoint: Explain each query and independently reconcile one grouped total with the source rows.
+      - title: Learn enough Python to clean a small table
+        topics: [Variables and loops, Functions and files, Missing values and data types]
+        resources: [automate-the-boring-stuff, pandas-getting-started]
+        practice: Complete the introductory Python examples before using pandas to load a CSV, standardize a column and record rejected rows.
+        checkpoint: Run the script twice on the same source and obtain identical output and an explicit rejection count.
+      - title: Summarize variation and communicate a result
+        topics: [Distributions and outliers, Suitable chart choices, Correlation versus explanation]
+        resources: [openintro-statistics, from-data-to-viz]
+        practice: Compare a mean with a median and make a labelled chart that answers the original question without hiding missing data.
+        checkpoint: State the units, sample size and one limitation; reproduce the chart from saved data and code.
+      - title: Capstone - deliver an answer someone can check
+        topics: [Source provenance, Query and code reproducibility, Conclusions and uncertainty]
+        resources: [storytelling-with-data-resources]
+        practice: Package a small permitted dataset, a question, SQL, cleaning code and a one-page findings report.
+        checkpoint: A reader can rerun the analysis, reconcile the key number and distinguish the finding from speculation.
+    next_steps: Add larger datasets and domain knowledge gradually; this introductory project does not cover every analyst responsibility.
+
+  - role: data-scientist
+    title: "Data Scientist: investigate a hypothesis with a defensible model"
+    summary: An editorial study recipe connecting statistical reasoning to a reproducible modelling experiment.
+    entry_level: after-basics
+    prerequisites: [Basic Python and data manipulation, Algebra and descriptive statistics, Ability to read simple plots]
+    outcome: A reproducible experiment comparing a baseline and a model with leakage checks, uncertainty and stated limitations.
+    stages:
+      - title: Define the population and investigation
+        topics: [Sampling and measurement, Hypotheses and confounding, Data provenance and ethics]
+        resources: [openintro-statistics, microsoft-data-science-for-beginners]
+        practice: Write a question, intended population and data dictionary before exploring a small permitted dataset.
+        checkpoint: Identify a sampling limitation and distinguish an association question from a causal claim.
+      - title: Build a trustworthy analysis table
+        topics: [Missingness and outliers, Joins and data leakage, Reproducible transformations]
+        resources: [pandas-getting-started, think-stats]
+        practice: Create a cleaning pipeline that preserves raw data and records exclusions and derived variables.
+        checkpoint: Reconcile row counts at every transformation and show that evaluation data do not inform fitted preprocessing.
+      - title: Compare a baseline with a model
+        topics: [Training and evaluation splits, Appropriate metrics, Uncertainty and error analysis]
+        resources: [microsoft-ml-for-beginners, think-bayes]
+        practice: Train a simple baseline and one model, then inspect mistakes across meaningful data slices.
+        checkpoint: Explain why the metric fits the question and report cases where improvement is uncertain or misleading.
+      - title: Capstone - report a reproducible experiment
+        topics: [Experiment records, Sensitivity checks, Communicating model limits]
+        resources: [made-with-ml, storytelling-with-data-resources]
+        practice: Deliver code, data provenance, saved configuration, baseline comparison and a concise technical report.
+        checkpoint: Reproduce the reported result from a clean run and explain one failure case without claiming causation or universal accuracy.
+    next_steps: Study experimental design and the chosen application domain before attempting high-stakes conclusions or production deployment.
+
+  - role: quantitative-analyst
+    title: "Quantitative Analyst: separate a financial hypothesis from backtest artefacts"
+    summary: An editorial preparation route with explicit gaps in financial economics and specialist quantitative methods.
+    entry_level: experience-required
+    prerequisites: [Calculus and linear algebra, Probability and statistical estimation, Python programming, Financial-market fundamentals]
+    outcome: A small research notebook documenting a toy financial hypothesis, evaluation assumptions and backtest limitations.
+    stages:
+      - title: Refresh mathematical and statistical foundations
+        topics: [Linear algebra and optimization, Probability and estimation, Numerical stability]
+        resources: [mathematics-for-machine-learning, think-bayes]
+        practice: Solve a small estimation problem analytically where possible and compare it with a numerical calculation.
+        checkpoint: Explain assumptions, units and numerical sensitivity instead of treating a computed number as exact.
+      - title: Establish the financial model and data contract
+        topics: [Returns and valuation assumptions, Corporate actions and trading calendars, Market conventions and instrument risk]
+        resources: []
+        gap: No verified financial-economics or instrument-specific curriculum is currently catalogued; obtain suitable specialist instruction before interpreting financial results.
+        practice: Specify a toy instrument and write the required fields, time conventions and assumptions without substituting generic machine learning for financial theory.
+        checkpoint: A domain reviewer can identify how each assumption affects the proposed analysis; unresolved conventions remain explicit.
+      - title: Design an honest historical experiment
+        topics: [Chronological evaluation, Look-ahead and survivorship bias, Transaction costs and parameter sensitivity]
+        resources: [pandas-getting-started, think-stats]
+        gap: The linked resources support data handling and statistics, not a verified financial backtesting methodology.
+        practice: Build a toy chronological analysis and compare results before and after simple declared cost and parameter changes.
+        checkpoint: Show that later observations never determine earlier decisions and explain why a historical result is not a return guarantee.
+      - title: Capstone - write a bounded quantitative research note
+        topics: [Baseline comparisons, Stress assumptions, Reproducibility and risk disclosure]
+        resources: []
+        gap: No verified specialist quantitative-finance capstone is available in the catalogue; the proposed project requires domain review.
+        practice: Package the toy experiment with data permissions, assumptions, baseline, sensitivity table and reasons the hypothesis may fail.
+        checkpoint: Another reader can rerun the notebook and distinguish model evidence, financial assumptions and unverified domain conclusions.
+    next_steps: Complete specialist finance, time-series and risk education; this route neither qualifies trading decisions nor supplies investment advice.
+
+  - role: statistician
+    title: "Statistician: design an analysis before computing a result"
+    summary: An editorial route through probability, study design, inference and a transparent statistical investigation.
+    entry_level: after-basics
+    prerequisites: [Algebra and introductory calculus, Basic programming or willingness to learn Python, Comfort interpreting tables]
+    outcome: A statistical report with a defined estimand, documented assumptions, uncertainty and sensitivity analysis.
+    stages:
+      - title: Connect probability to sampling variation
+        topics: [Random variables and distributions, Sampling and simulation, Expectation and variation]
+        resources: [seeing-theory, openintro-statistics]
+        practice: Simulate repeated samples and compare their summaries with the population you specified.
+        checkpoint: Explain why individual variation differs from uncertainty in an estimated mean.
+      - title: Design the comparison before inspecting outcomes
+        topics: [Population and estimand, Randomization and confounding, Measurement and missingness]
+        resources: [openintro-statistics]
+        practice: Draft a study plan that states the comparison, measurements, exclusions and intended analysis.
+        checkpoint: Identify a confounder and explain which conclusions the design can and cannot support.
+      - title: Estimate effects and check assumptions
+        topics: [Intervals and hypothesis tests, Regression diagnostics, Bayesian updating]
+        resources: [think-stats, think-bayes]
+        practice: Analyze a permitted small dataset with one primary method and one clearly justified sensitivity check.
+        checkpoint: Interpret an interval or posterior correctly and report a diagnostic that challenges the model assumptions.
+      - title: Capstone - deliver a reproducible statistical report
+        topics: [Analysis specification, Uncertainty communication, Limitations and reproducible computation]
+        resources: [project-jupyter, storytelling-with-data-resources]
+        practice: Produce a report separating the study design, analysis decisions, result and threats to validity.
+        checkpoint: Regenerate the tables from code and explain why statistical significance alone is insufficient.
+    next_steps: Add advanced probability, experimental design and domain-specific methodology; formal statistical practice requires more than this project.
+
+  - role: computer-and-information-research-scientist
+    title: "Computing Research Scientist: turn an idea into a reproducible comparison"
+    summary: An editorial research-method recipe built on prior computer science education, with a literature-method gap made explicit.
+    entry_level: experience-required
+    prerequisites: [Undergraduate algorithms and discrete mathematics, Strong programming skills, Ability to read technical papers]
+    outcome: A small research-style artefact comparing a proposed method with a baseline under stated assumptions.
+    stages:
+      - title: State the problem and formal assumptions
+        topics: [Problem definitions and models, Complexity and invariants, Baseline selection]
+        resources: [mit-6006-introduction-to-algorithms, mit-mathematics-for-computer-science]
+        practice: Choose a bounded computational problem and specify inputs, outputs and a baseline algorithm.
+        checkpoint: Explain the correctness conditions and asymptotic cost of the baseline before optimizing it.
+      - title: Position a research question in existing work
+        topics: [Literature search and critical reading, Reproduction versus novelty, Research ethics and attribution]
+        resources: []
+        gap: No verified general research-methods or literature-review curriculum is currently catalogued; specialist supervision or an appropriate methods source is still needed.
+        practice: Build an annotated comparison of a few relevant papers and mark every claim you have not independently checked.
+        checkpoint: Distinguish a reproduced result, a proposed extension and an unsupported novelty claim.
+      - title: Implement a controlled comparison
+        topics: [Reference implementations, Experimental controls, Performance and correctness measurements]
+        resources: [norvig-pytudes, pytest-getting-started]
+        practice: Implement the baseline and one bounded variation with correctness tests and a documented measurement procedure.
+        checkpoint: Show equivalent outputs on declared test cases and separate run-to-run variation from an apparent improvement.
+      - title: Capstone - publish a local research artefact
+        topics: [Reproducibility instructions, Negative results, Threats to validity]
+        resources: [pro-git, project-jupyter]
+        practice: Prepare a versioned implementation, input generator or permitted dataset, experiment script and short research report.
+        checkpoint: A fresh local run reproduces the reported comparison and the report states what remains unproven.
+    next_steps: Seek field-specific methods training and peer feedback; a small research artefact is not equivalent to a research degree or publication.
+
+  - role: bioinformatics-scientist
+    title: "Bioinformatics Scientist: connect a biological question to a defensible analysis"
+    summary: An editorial route that explicitly requires biology and assay-specific training beyond general data science.
+    entry_level: experience-required
+    prerequisites: [Molecular biology and genetics, Basic Python and command-line use, Probability and statistics, Research data ethics]
+    outcome: A documented analysis plan and small supervised biological-data study with provenance and assay limitations.
+    stages:
+      - title: Define the biological question and assay
+        topics: [Biological mechanism and hypothesis, Assay measurement limits, Experimental units and controls]
+        resources: []
+        gap: No verified molecular-biology or assay-design curriculum is currently catalogued; obtain domain instruction before selecting an analysis.
+        practice: Describe one biological question and how a chosen assay could measure evidence relevant to it.
+        checkpoint: Identify the biological replicate, a relevant control and a measurement limitation with domain-review input.
+      - title: Establish provenance and a reproducible data table
+        topics: [Sample identifiers and metadata, Data permissions and consent, Reproducible parsing and joins]
+        resources: [pandas-getting-started, pro-git]
+        practice: Use a permitted teaching dataset or synthetic metadata to create an auditable sample-to-file manifest.
+        checkpoint: Every analysis row traces back to a sample and source; duplicates and missing identifiers are reported.
+      - title: Select assay-specific quality checks and inference
+        topics: [Assay quality metrics, Normalization and batch effects, Multiple comparisons and uncertainty]
+        resources: [openintro-statistics, think-bayes]
+        gap: These resources cover statistical foundations, not sequencing, alignment or assay-specific normalization; verified specialist material is still missing.
+        practice: Write a quality-control and analysis plan specifying which domain-specific decisions require review, then evaluate a small approved example.
+        checkpoint: Separate statistical uncertainty from technical artefacts and avoid interpreting a batch effect as biology.
+      - title: Capstone - produce a bounded biological analysis report
+        topics: [Biological interpretation, Reproducible workflow and parameters, Limitations and ethical reporting]
+        resources: []
+        gap: No verified end-to-end bioinformatics practical is available in the catalogue; a domain-appropriate teaching workflow and reviewer are required.
+        practice: Complete the reviewed small study with an input manifest, parameter record, results and biological limitations.
+        checkpoint: A reviewer can reproduce the workflow and trace each interpretation to evidence without exposing sensitive sample data.
+    next_steps: Study the relevant experimental and computational biology methods; generic Python or ML training does not replace them.
+
+  - role: bioinformatics-technician
+    title: "Bioinformatics Technician: maintain a trustworthy sample-to-result workflow"
+    summary: An editorial workflow-practice recipe with explicit gaps in laboratory procedures and assay tooling.
+    entry_level: after-basics
+    prerequisites: [Basic biology and laboratory terminology, File handling and command-line basics, Awareness of confidential sample information]
+    outcome: A small practice workflow with a sample manifest, logged processing steps and a clear escalation record.
+    stages:
+      - title: Learn the sample and file conventions
+        topics: [Sample chain of custody, Assay file formats, Laboratory procedures and acceptance criteria]
+        resources: []
+        gap: No verified laboratory informatics, assay-format or sample-handling curriculum is currently catalogued.
+        practice: With an approved procedure or training example, map sample identifiers to expected files and acceptance checks.
+        checkpoint: Explain which identifier joins files to samples and when a mismatch must be escalated rather than corrected by guessing.
+      - title: Automate manifest checks
+        topics: [Directory and file handling, Structured metadata validation, Reproducible processing logs]
+        resources: [automate-the-boring-stuff, pandas-getting-started]
+        practice: On synthetic sample records, flag duplicate identifiers, missing files and invalid metadata while retaining the original records.
+        checkpoint: Known injected errors appear in the report and no original sample information is silently overwritten.
+      - title: Operate a reviewed quality-control step
+        topics: [Standard operating procedures, Quality thresholds and exceptions, Version and parameter records]
+        resources: []
+        gap: A verified assay-specific quality-control tool and training procedure are missing; do not substitute a generic data-cleaning tutorial.
+        practice: Follow a supervised teaching procedure, record tool versions and classify results against its supplied thresholds.
+        checkpoint: Repeat the same inputs with the same settings and document an exception without changing acceptance criteria retrospectively.
+      - title: Capstone - hand off an auditable practice batch
+        topics: [Batch reconciliation, Traceable outputs, Exception reporting]
+        resources: [pro-git]
+        gap: Git supports code history only; biological SOP compliance and quality interpretation still require a verified domain procedure.
+        practice: Package a synthetic or approved batch manifest, processing instructions, output inventory and escalation note.
+        checkpoint: Each input is accounted for as processed, rejected or pending, and a colleague can follow the handoff without private sample data.
+    next_steps: Learn the laboratory's actual SOPs and supervised assay tools before operating on real biological or clinical samples.
+
+  - role: remote-sensing-scientist
+    title: "Remote Sensing Scientist: relate image measurements to a spatial question"
+    summary: An editorial study recipe exposing gaps in GIS, sensor physics and specialist image interpretation.
+    entry_level: experience-required
+    prerequisites: [Physical geography or relevant domain science, Basic Python and array operations, Statistics, Familiarity with spatial coordinates]
+    outcome: A small documented spatial experiment whose sensor, coordinate and validation assumptions are explicit.
+    stages:
+      - title: Identify the sensor and physical measurement
+        topics: [Spectral bands and radiometry, Spatial and temporal resolution, Measurement and atmospheric limitations]
+        resources: []
+        gap: No verified remote-sensing physics or sensor-specific curriculum is currently catalogued.
+        practice: Select a permitted teaching image and prepare a metadata sheet explaining what the measurements represent.
+        checkpoint: Distinguish a sensor observation from a derived environmental interpretation and identify the relevant resolution limits.
+      - title: Inspect arrays without losing meaning
+        topics: [Array dimensions and masks, Missing pixels and data types, Descriptive image statistics]
+        resources: [numpy-tutorials, numpy-100-exercises]
+        gap: NumPy supports array handling but does not teach geospatial formats or radiometric corrections.
+        practice: Use a synthetic multiband array to practice masking and summary calculations before applying an approved image-reading procedure.
+        checkpoint: Preserve shape and mask semantics and explain why missing pixels must not be treated as zero observations.
+      - title: Establish spatial alignment and validation
+        topics: [Coordinate reference systems, Resampling and spatial dependence, Ground reference and uncertainty]
+        resources: []
+        gap: No verified GIS, georeferencing or ground-validation practical is currently catalogued; obtain specialist guidance before spatial conclusions.
+        practice: Design an alignment and validation checklist for two observations of the same area, explicitly recording unresolved transformations.
+        checkpoint: Demonstrate with a reviewed example that corresponding locations align and that validation observations are independent where required.
+      - title: Capstone - report a small bounded spatial comparison
+        topics: [Change interpretation, Reproducible spatial processing, Sensor and validation limitations]
+        resources: [openintro-statistics]
+        gap: Statistical foundations do not replace a verified end-to-end remote-sensing workflow; specialist review remains required.
+        practice: Complete one supervised teaching comparison with metadata, processing parameters, a map or image and validation evidence.
+        checkpoint: Explain the coordinate and measurement assumptions, reproduce the processing and avoid attributing sensor artefacts to environmental change.
+    next_steps: Add a verified GIS stack and domain-specific remote-sensing training before extending the analysis to operational decisions.
+
+  - role: ai-engineer
+    title: "AI Engineer: build one evaluated model-backed feature"
+    summary: An editorial route from an explicit user task to a bounded AI application with measurable failure handling.
+    entry_level: after-basics
+    prerequisites: [Python programming, Basic HTTP and application development, Introductory algebra and statistics]
+    outcome: A small AI-backed feature with a baseline, evaluation set, cost record and documented limitations.
+    stages:
+      - title: Define the task and a non-model baseline
+        topics: [Inputs and expected outputs, Task-specific acceptance criteria, Data permissions and misuse boundaries]
+        resources: [microsoft-ai-for-beginners, microsoft-generative-ai-for-beginners]
+        practice: Choose one small task such as answering questions over permitted notes and define cases where the feature should decline an answer.
+        checkpoint: Write an evaluation set and a simple baseline before selecting a model or provider.
+      - title: Build a narrow application boundary
+        topics: [Model API or local-model interface, Input and output validation, Retrieval and source handling]
+        resources: [datatalks-llm-zoomcamp, fastapi-tutorial]
+        practice: Implement one model-backed endpoint with clear inputs, outputs and handling for unavailable dependencies.
+        checkpoint: Demonstrate a successful request and an explicit failure path without exposing credentials or private data.
+      - title: Measure behavior and resource use
+        topics: [Task evaluation and error analysis, Latency and usage cost, Unsupported answers and adversarial inputs]
+        resources: [openai-cookbook, made-with-ml]
+        practice: Compare the feature with the baseline on the saved cases and record incorrect answers, time and any provider charges.
+        checkpoint: Report both successes and failures and show that a model change can be evaluated against the same cases.
+      - title: Capstone - deliver a bounded AI feature
+        topics: [Reproducible configuration, Operational fallbacks, User-visible limitations]
+        resources: [full-stack-deep-learning]
+        practice: Package the feature, evaluation script, configuration example without secrets and a short operating guide; use local inference or explicitly budget external API use.
+        checkpoint: A fresh run reproduces the evaluation and demonstrates graceful handling of an unsupported question or model outage.
+    next_steps: Add authentication, monitoring and domain review before real deployment; model availability and provider costs require separate checking.
+
+  - role: machine-learning-engineer
+    title: "Machine Learning Engineer: turn a trained model into tested software"
+    summary: An editorial recipe connecting model evaluation to reproducible training and a small prediction interface.
+    entry_level: after-basics
+    prerequisites: [Python and basic software testing, Linear algebra and elementary probability, Basic data manipulation]
+    outcome: A versioned training pipeline and prediction interface with tests, model metrics and reproducible inputs.
+    stages:
+      - title: Establish data splits and a modelling baseline
+        topics: [Feature and target definitions, Training versus evaluation data, Metrics and baseline models]
+        resources: [microsoft-ml-for-beginners, google-machine-learning-crash-course]
+        practice: Fit a baseline on a small teaching dataset and preserve an untouched evaluation split.
+        checkpoint: Explain the metric, detect a deliberately leaked feature and remove it before the reported evaluation.
+      - title: Make training repeatable
+        topics: [Preprocessing pipelines, Experiment configuration, Artefact and dependency records]
+        resources: [made-with-ml, datatalks-machine-learning-zoomcamp]
+        practice: Move the experiment from a notebook into a repeatable training command with saved settings and output metrics.
+        checkpoint: Recreate a comparable model and evaluation from the recorded inputs and explain any nondeterminism.
+      - title: Test a prediction boundary
+        topics: [Input contracts and invalid data, Training-serving consistency, Model and software tests]
+        resources: [fastapi-tutorial, pytest-getting-started]
+        practice: Expose a small local prediction interface and test valid records, missing fields and preprocessing consistency.
+        checkpoint: Invalid requests fail explicitly and a saved example receives the same preprocessing during training and prediction.
+      - title: Capstone - package an evaluated model service
+        topics: [Model versioning, Evaluation regression checks, Monitoring and rollback design]
+        resources: [datatalks-mlops-zoomcamp]
+        practice: Deliver training code, an evaluation report, the local service and a documented plan to detect model degradation and restore a previous artefact.
+        checkpoint: Rebuild and test the service from the recorded artefacts and demonstrate switching between two declared model versions.
+    next_steps: Study production data quality, deployment and model monitoring in the chosen environment; a local service is not proof of production readiness.
+
+  - role: inference-engineer
+    title: "Inference Engineer: measure and improve a prediction serving path"
+    summary: An editorial performance route for an existing model, with explicit gaps in backend-specific optimization.
+    entry_level: experience-required
+    prerequisites: [Model inference and deployment experience, Python and systems profiling basics, Understanding latency and throughput, Access to suitable local compute]
+    outcome: A repeatable benchmark showing an inference tradeoff with correctness, resource and workload controls.
+    stages:
+      - title: Specify the serving workload
+        topics: [Latency distributions and throughput, Workload size and concurrency, Model correctness tolerances]
+        resources: [full-stack-deep-learning, made-with-ml]
+        practice: Choose a small existing model and define representative request sizes, concurrency and a reference output set.
+        checkpoint: Publish a benchmark protocol separating cold start from steady-state measurements and explaining the quality tolerance.
+      - title: Profile the unoptimized path
+        topics: [Preprocessing and model time, Memory and transfer costs, Measurement noise]
+        resources: [d2l-dive-into-deep-learning]
+        gap: The textbook supplies model-computation foundations; a verified profiler and serving-backend performance guide are not yet catalogued.
+        practice: Break a local request into measured stages and repeat measurements under recorded hardware and software conditions.
+        checkpoint: Identify the dominant measured cost with repeated observations rather than assuming the model is the bottleneck.
+      - title: Evaluate one controlled optimization
+        topics: [Batching and concurrency, Precision and output tolerance, Resource versus latency tradeoffs]
+        resources: []
+        gap: No verified runtime-specific quantization, compiler or inference-server optimization curriculum is currently catalogued.
+        practice: Following suitable backend documentation, change one setting at a time and compare latency, throughput, memory and output differences.
+        checkpoint: Demonstrate a measured improvement or negative result while preserving the declared correctness tolerance.
+      - title: Capstone - produce a defensible serving benchmark
+        topics: [Reproducible load generation, Quality regression gates, Deployment recommendations and limits]
+        resources: [made-with-ml]
+        practice: Deliver benchmark inputs, raw measurements, baseline and optimized configurations and a recommendation tied to the target workload.
+        checkpoint: Another run reproduces the direction of the result and the report identifies workloads or hardware where it may not hold.
+    next_steps: Add verified backend documentation and capacity testing before operational deployment; rented accelerators may incur costs.
+
+  - role: ai-researcher
+    title: "AI Researcher: reproduce a result before proposing an extension"
+    summary: An editorial research recipe for comparing hypotheses, implementations and experimental evidence in AI.
+    entry_level: experience-required
+    prerequisites: [Python and a deep learning framework, Linear algebra calculus and probability, Ability to read ML papers, Access to a bounded compute budget]
+    outcome: A small reproducibility report with a baseline, controlled extension and explicit limits on research claims.
+    stages:
+      - title: Refresh the model and objective
+        topics: [Optimization and loss functions, Model assumptions, Evaluation tasks and metrics]
+        resources: [d2l-dive-into-deep-learning, mathematics-for-machine-learning]
+        practice: Derive or explain the objective for a small model and verify the training loop on a tiny input.
+        checkpoint: Trace the objective, gradients and evaluation metric without relying only on an opaque training command.
+      - title: Reconstruct one published experiment
+        topics: [Data and preprocessing choices, Hyperparameters and compute, Baseline reproduction]
+        resources: [pyprobml-notebooks, stanford-cs336]
+        practice: Select one manageable documented experiment and record which original details and artefacts are available.
+        checkpoint: Separate a faithful reproduction from unavoidable deviations and report whether the baseline is reproduced within stated variation.
+      - title: Test one research hypothesis
+        topics: [Controlled ablations, Multiple runs and uncertainty, Negative results and confounders]
+        resources: [think-stats, d2l-dive-into-deep-learning]
+        practice: Change one justified element of the baseline and evaluate it under the same data and resource constraints.
+        checkpoint: Report a comparison across repeated runs and identify alternative explanations for any observed improvement.
+      - title: Capstone - write an auditable research note
+        topics: [Claim and evidence alignment, Reproducible artefacts, Limitations and future experiments]
+        resources: [pro-git, project-jupyter]
+        gap: General research supervision, peer review and literature-method training are not supplied by these software resources.
+        practice: Deliver the hypothesis, baseline, extension, raw results, configuration and a short report that includes failures and compute use.
+        checkpoint: Every major claim points to an experiment or cited source and a fresh run can reconstruct the main comparison.
+    next_steps: Seek specialist supervision and broader literature review before claiming novelty or general scientific conclusions.
+
+  - role: nlp-specialist
+    title: "NLP Specialist: evaluate a language task across realistic text"
+    summary: An editorial route from text representation to error analysis and a reproducible language-processing project.
+    entry_level: after-basics
+    prerequisites: [Python and basic machine learning, Linear algebra and probability, Understanding training and evaluation splits]
+    outcome: A small text-processing system with a baseline, held-out evaluation and language-specific error analysis.
+    stages:
+      - title: Define the text task and inspect its data
+        topics: [Language and annotation conventions, Text normalization and leakage, Task-specific metrics]
+        resources: [microsoft-ai-for-beginners, huggingface-llm-course]
+        practice: Choose a bounded task such as classifying short texts and inspect examples, labels and duplicate documents.
+        checkpoint: State the unit of prediction, identify label ambiguity and create an evaluation split that avoids duplicated-text leakage.
+      - title: Compare text representations
+        topics: [Tokenization and vocabulary, Sparse features and embeddings, Baseline classification]
+        resources: [microsoft-ml-for-beginners, stanford-cs224n]
+        practice: Build a simple representation-based baseline before using a more complex pretrained model.
+        checkpoint: Explain how tokens become model inputs and compare the approaches using the same metric and split.
+      - title: Investigate language-specific failures
+        topics: [Class imbalance and rare expressions, Language variation and bias, Error categories and uncertainty]
+        resources: [huggingface-llm-course, stanford-cs224n]
+        practice: Group mistakes by meaningful text characteristics and test a few controlled variations of wording.
+        checkpoint: Provide examples of systematic failure and distinguish measured behavior from an assumption about all speakers or languages.
+      - title: Capstone - deliver a bounded NLP experiment
+        topics: [Data and model permissions, Reproducible preprocessing, Evaluation and model limitations]
+        resources: [made-with-ml]
+        practice: Package the text task, preprocessing, baseline, selected model and evaluation report using permitted data without personal information.
+        checkpoint: Reproduce the comparison and document which languages, domains and input conditions were actually evaluated.
+    next_steps: Add linguistics and domain-specific annotation methods; performance on one text collection does not establish general language understanding.
+
+  - role: data-engineer
+    title: "Data Engineer: build a small reliable ingestion pipeline"
+    summary: An editorial recipe for moving permitted source data into a checked analytical dataset.
+    entry_level: after-basics
+    prerequisites: [SQL queries and joins, Python scripting and files, Basic command-line use]
+    outcome: A small repeatable pipeline with source contracts, validation, scheduled tasks and a documented recovery procedure.
+    stages:
+      - title: Define the source and destination contracts
+        topics: [Schemas and data types, Keys and update semantics, Batch ingestion boundaries]
+        resources: [postgresql-tutorial, duckdb-docs]
+        practice: Specify a small source file format and destination tables, including stable identifiers and expected update behavior.
+        checkpoint: Explain what happens when the same source batch arrives twice or a field changes type.
+      - title: Implement validated transformations
+        topics: [Parsing and rejected records, Deterministic transformations, Data-quality assertions]
+        resources: [pandas-getting-started, pytest-getting-started]
+        practice: Create a pipeline that retains raw inputs, records invalid rows and writes a stable output table.
+        checkpoint: Inject malformed and duplicate records and show explicit handling without silent loss or double counting.
+      - title: Orchestrate dependencies and recovery
+        topics: [Task ordering and retries, Idempotency and backfills, Logging and run status]
+        resources: [airflow-tutorial, datatalks-data-engineering-zoomcamp]
+        practice: Split ingestion and transformation into explicit tasks and simulate an interruption followed by a safe rerun.
+        checkpoint: Recover a failed run without duplicating output and reconcile the records for a replayed batch.
+      - title: Capstone - publish a reproducible data pipeline
+        topics: [Operational runbook, Output verification, Data lineage and limitations]
+        resources: [datatalks-data-engineering-zoomcamp]
+        practice: Deliver source examples, schema, pipeline code, checks and a runbook for a local end-to-end flow.
+        checkpoint: A fresh run creates the expected tables, rejects known bad records and can recover from the documented failure.
+    next_steps: Extend to real source systems, access control and scale only after the local contracts and recovery behavior are understood.
+
+  - role: postgresql-specialist
+    title: "PostgreSQL Specialist: explain and improve a small database workload"
+    summary: An editorial route through relational modelling, transactions and query performance in PostgreSQL.
+    entry_level: after-basics
+    prerequisites: [Basic SQL and joins, Familiarity with a local database, Command-line basics]
+    outcome: A small PostgreSQL schema with transaction examples, measured query improvements and reproducible setup notes.
+    stages:
+      - title: Model a consistent relational dataset
+        topics: [Keys and constraints, Normalization and relationships, Types and nullability]
+        resources: [postgresql-tutorial, cs50-sql]
+        practice: Model a small booking or inventory dataset and create constraints that reject invalid records.
+        checkpoint: Demonstrate a foreign-key or uniqueness failure and explain the business rule it protects.
+      - title: Reason about transactions and shared access
+        topics: [Atomic changes, Isolation and concurrent sessions, Failure and rollback]
+        resources: [postgresql-tutorial, cmu-15-445]
+        gap: The linked materials provide foundations; a verified PostgreSQL-version-specific concurrency lab is not yet catalogued.
+        practice: Use two local sessions to study a reviewed transaction example and record the observed behavior and rollback result.
+        checkpoint: Explain which changes commit together and distinguish observed session behavior from an unverified isolation guarantee.
+      - title: Inspect a query before adding an index
+        topics: [Query plans and selectivity, Index tradeoffs, Measured workload performance]
+        resources: [use-the-index-luke, postgresql-exercises]
+        practice: Choose one slow query on generated data, inspect its plan and compare a justified index with the baseline.
+        checkpoint: Record the before-and-after plan and timing conditions and explain the index's storage or write tradeoff.
+      - title: Capstone - deliver a documented database workload
+        topics: [Repeatable schema and seed data, Transaction tests, Performance evidence]
+        resources: [postgresql-tutorial]
+        practice: Package schema creation, sample data, representative queries and a short performance note for the local database.
+        checkpoint: Rebuild the workload and reproduce its integrity checks and main query comparison.
+    next_steps: Choose an application-development or administration specialization and add verified version-specific operational documentation.
+
+  - role: database-administrator
+    title: "Database Administrator: practise integrity, access and recovery"
+    summary: An editorial local-database operations recipe that exposes missing vendor-specific administration instruction.
+    entry_level: after-basics
+    prerequisites: [SQL and relational database basics, Basic Linux or host-system administration, Ability to use a disposable local database]
+    outcome: A documented practice database with access tests, a reviewed recovery exercise and a maintenance runbook.
+    stages:
+      - title: Inventory the database and its dependencies
+        topics: [Storage and transaction fundamentals, Schema and workload inventory, Operational responsibilities]
+        resources: [cmu-15-445, postgresql-tutorial]
+        practice: Build a disposable database and document its tables, data size, users and expected workload.
+        checkpoint: Explain where durable state lives and which dependencies must exist before the service can work.
+      - title: Define and test access boundaries
+        topics: [Accounts and least privilege, Read versus write permissions, Auditable configuration]
+        resources: []
+        gap: No verified database-engine-specific account and privilege administration lab is currently catalogued.
+        practice: Using suitable engine documentation, create separate practice reader and writer identities without using production credentials.
+        checkpoint: Demonstrate an allowed read and a denied write under the reader identity and record how permissions are reviewed.
+      - title: Perform a reviewed backup and restore drill
+        topics: [Backup consistency, Recovery objectives, Restoration and integrity checks]
+        resources: []
+        gap: No verified engine-specific backup, restore or point-in-time recovery tutorial is currently catalogued.
+        practice: On disposable data, follow a reviewed engine procedure to make a backup and restore into a separate instance.
+        checkpoint: Verify restored record counts and representative queries and state the measured recovery time and untested recovery conditions.
+      - title: Capstone - deliver a database operations exercise
+        topics: [Routine checks and alerts, Change and rollback notes, Recovery evidence]
+        resources: [use-the-index-luke]
+        gap: Query-tuning material is supplementary; full operational procedures still require verified administration guidance for the selected engine.
+        practice: Package the database inventory, access evidence, restore report and runbook for a simulated small service.
+        checkpoint: A practice operator can identify the database, run the checks and follow the reviewed recovery steps without guessing credentials.
+    next_steps: Add engine-specific administration and supervised recovery work before operating on important data.
+
+  - role: cloud-database-administrator
+    title: "Cloud Database Administrator: plan and verify a managed database"
+    summary: An editorial managed-database operations recipe with explicit provider-specific training gaps and cost boundaries.
+    entry_level: experience-required
+    prerequisites: [Relational database administration basics, Networking and access-control fundamentals, Familiarity with cloud accounts and billing]
+    outcome: A provider-specific practice plan or disposable deployment with documented access, recovery and cost controls.
+    stages:
+      - title: Compare managed-service responsibilities
+        topics: [Service tiers and availability, Shared operational responsibilities, Billing and lifecycle limits]
+        resources: []
+        gap: No verified managed-database service curriculum is currently catalogued; current provider documentation is required before provisioning anything.
+        practice: Create a responsibility and cost checklist for one provider and mark which operations remain the customer's responsibility.
+        checkpoint: Identify the exact service, region, expected charges and teardown procedure; do not equate a free course with a free database.
+      - title: Design a narrow access path
+        topics: [Network reachability, Database and cloud identities, Secret handling]
+        resources: []
+        gap: No verified provider-specific private-connectivity and database-identity practical is available in the catalogue.
+        practice: Draft the network and identity configuration for a disposable instance, or apply it only in an authorized budgeted training account.
+        checkpoint: Explain the intended allowed path, how denied access is tested and where credentials are stored without publishing their values.
+      - title: Validate recovery and operational visibility
+        topics: [Backup retention and restore targets, Monitoring and maintenance windows, Availability versus data recovery]
+        resources: []
+        gap: Recovery and monitoring behavior depends on provider and service tier; no verified service-specific lab is currently catalogued.
+        practice: Write a reviewed restore drill and alert checklist; if executing in an approved account, restore only disposable teaching data.
+        checkpoint: Distinguish documented provider capabilities from personally tested recovery evidence and record any unperformed steps.
+      - title: Capstone - produce a managed-database operating dossier
+        topics: [Access and recovery evidence, Cost review and teardown, Responsibility handoff]
+        resources: [arc42-template]
+        gap: The template helps organize decisions but is not cloud database administration training.
+        practice: Deliver a bounded deployment design or approved lab report containing topology, permissions, recovery plan, cost estimate and deletion checklist.
+        checkpoint: Each operational claim identifies its provider evidence or lab result, and every created resource has a verified cleanup disposition.
+    next_steps: Obtain the chosen provider's current administration training; an unexecuted deployment plan is not an operational readiness result.
+
+  - role: data-production-engineer
+    title: "Data Production Engineer: diagnose and recover a broken data run"
+    summary: An editorial operations recipe centred on repeatable runs, data freshness and recovery evidence.
+    entry_level: experience-required
+    prerequisites: [Python and SQL, Experience running a small data pipeline, Logs and command-line diagnosis]
+    outcome: A small operated pipeline with freshness checks, a simulated incident and a tested local recovery runbook.
+    stages:
+      - title: Map the production data flow
+        topics: [Inputs outputs and dependencies, Freshness and completeness, Expected service behavior]
+        resources: [datatalks-data-engineering-zoomcamp, airflow-tutorial]
+        practice: Document a small existing pipeline's dependencies and expected run schedule and output conditions.
+        checkpoint: Trace one output back to its input and define how lateness differs from incorrect or incomplete data.
+      - title: Add operational signals and checks
+        topics: [Run status and task logs, Volume and schema checks, Actionable failure messages]
+        resources: [airflow-tutorial, pytest-getting-started]
+        practice: Instrument a local pipeline with checks for a missing input, changed schema and unexpected row count.
+        checkpoint: Each injected fault produces a distinguishable signal and useful diagnostic context rather than a silent empty output.
+      - title: Practise replay and safe recovery
+        topics: [Retries and idempotency, Partial-write handling, Backfill and downstream verification]
+        resources: [airflow-tutorial, duckdb-docs]
+        practice: Interrupt a disposable run after one stage, inspect partial state and replay only the necessary work.
+        checkpoint: Recover the correct output without duplicate rows and reconcile downstream totals after the replay.
+      - title: Capstone - run a local data incident exercise
+        topics: [Triage timeline, Recovery evidence, Preventive follow-up]
+        resources: [datatalks-data-engineering-zoomcamp]
+        practice: Inject one documented failure, diagnose it from logs and produce an incident note with cause, recovery steps and one concrete prevention change.
+        checkpoint: Reproduce the failure and recovery from the runbook and demonstrate that the prevention change catches the same failure earlier.
+    next_steps: Add access control, deployment and real operational monitoring under supervision before supporting consequential production workflows.
+
+  - role: analytics-engineer
+    title: "Analytics Engineer: turn source tables into tested analytical models"
+    summary: An editorial route through model grain, SQL transformations, data tests and documented metrics.
+    entry_level: after-basics
+    prerequisites: [SQL joins and aggregation, Relational keys, Basic Git workflow]
+    outcome: A small versioned analytical model with tests, lineage and a reconciled metric definition.
+    stages:
+      - title: Define model grain and metric meaning
+        topics: [Source table contracts, Grain and dimensional relationships, Business metric definitions]
+        resources: [cs50-sql, postgresql-exercises]
+        practice: Model a small set of transactions and customers and state exactly what one row represents at each stage.
+        checkpoint: Detect a join that duplicates measures and reconcile one reported metric to source records.
+      - title: Organize repeatable SQL transformations
+        topics: [Staging and derived models, Dependencies and materialization, Version-controlled changes]
+        resources: [dbt-learn, pro-git]
+        practice: Build a small layered transformation project using the supported training environment and record account or warehouse requirements.
+        checkpoint: Rebuild the models in dependency order and explain which source changes invalidate a downstream result.
+      - title: Test and document the analytical contract
+        topics: [Uniqueness and relationship checks, Null and accepted-value checks, Lineage and column documentation]
+        resources: [dbt-learn]
+        practice: Add checks for key assumptions and documentation for a measure, then introduce a known duplicate or missing key.
+        checkpoint: The relevant check fails on the injected error and the documentation explains why that error matters to a user.
+      - title: Capstone - deliver a trustworthy reporting model
+        topics: [Metric reconciliation, Change review, Rebuild and handoff instructions]
+        resources: [dbt-learn]
+        practice: Deliver a small tested model project, lineage explanation and a metric comparison against the raw source.
+        checkpoint: A reader can rebuild the result, trace a measure through transformations and review the effect of one model change.
+    next_steps: Add warehouse performance and team deployment practices; dbt training and cloud warehouse free-tier limits require checking separately.
+
+  - role: bi-developer
+    title: "BI Developer: build a report on a coherent analytical model"
+    summary: An editorial Power BI-based recipe for modelling, measures and a tested interactive report.
+    entry_level: after-basics
+    prerequisites: [Basic SQL and tabular data, Arithmetic and business metrics, Access to a supported Power BI environment]
+    outcome: A small reporting model and dashboard with reconciled measures and documented refresh requirements.
+    stages:
+      - title: Define the reporting question and model grain
+        topics: [Audience and decisions, Facts and dimensions, Metric definitions]
+        resources: [cs50-sql, power-bi-microsoft-learn]
+        practice: Choose a simple reporting question and sketch source tables, relationships and the meaning of each measure.
+        checkpoint: Explain the grain and reconcile one total before using it in a report visual.
+      - title: Prepare data and create relationships
+        topics: [Data types and cleaning, Relationship direction and cardinality, Refresh inputs]
+        resources: [power-bi-microsoft-learn]
+        practice: Load permitted practice tables, clean their fields and build relationships without hiding unmatched records.
+        checkpoint: Report unmatched keys and show that relationships do not inflate a known source total.
+      - title: Implement measures and interaction checks
+        topics: [Calculated measures, Filtering and context, Visual choice and usability]
+        resources: [power-bi-microsoft-learn, from-data-to-viz]
+        practice: Build a few measures and inspect them under different date, group and cross-filter selections.
+        checkpoint: Reconcile selected report values with independent SQL or manual calculations and identify an intentionally misleading visual.
+      - title: Capstone - hand off a reproducible BI report
+        topics: [Refresh procedure, Permissions and sharing limits, User instructions and acceptance checks]
+        resources: [power-bi-microsoft-learn]
+        practice: Deliver a small local report, model notes, measure definitions and refresh instructions; do not assume paid sharing features are included.
+        checkpoint: Reopen and refresh from the documented inputs and demonstrate the report's agreed questions and limitations.
+    next_steps: Add governed distribution and operational refresh in the chosen environment; Power BI Desktop platform and publishing licence requirements remain separate.
+
+  - role: etl-developer
+    title: "ETL Developer: transform a source batch without losing its meaning"
+    summary: An editorial implementation recipe for validated extraction, transformation and loading with replayable batches.
+    entry_level: after-basics
+    prerequisites: [Python scripting, SQL and database tables, File formats and basic command-line use]
+    outcome: A local ETL job that accounts for accepted and rejected rows and safely replays a batch.
+    stages:
+      - title: Write a source-to-target mapping
+        topics: [Field and type mappings, Keys and null semantics, Business transformation rules]
+        resources: [postgresql-tutorial, pandas-getting-started]
+        practice: Map a small CSV into destination tables and document conversions, required fields and rejected-value handling.
+        checkpoint: Trace each target column to a source field or explicit derivation and explain what happens to malformed input.
+      - title: Implement transformations with fixtures
+        topics: [Parsing and normalization, Deterministic functions, Transformation tests]
+        resources: [pandas-getting-started, pytest-getting-started]
+        practice: Implement the mapping on a tiny fixture containing missing values, invalid dates and duplicated identifiers.
+        checkpoint: Tests verify expected outputs and the rejected-record report accounts for every invalid fixture row.
+      - title: Load a batch safely
+        topics: [Staging and transactional writes, Idempotent batch identifiers, Reconciliation and retry behavior]
+        resources: [postgresql-tutorial, airflow-tutorial]
+        practice: Load validated rows through a staging step and simulate a failure before finalizing the batch.
+        checkpoint: Rerunning the same batch does not double-count records and source counts reconcile with accepted and rejected totals.
+      - title: Capstone - deliver a replayable ETL package
+        topics: [Job configuration, Run logs and audit counts, Recovery and source-change notes]
+        resources: [airflow-tutorial]
+        practice: Package extraction, mapping, tests, load steps and a runbook for a small two-table destination.
+        checkpoint: A fresh run loads the expected data, a repeated run is safe and a changed source field produces an actionable failure.
+    next_steps: Add verified connector-specific extraction and change-data-capture instruction before working with live source systems.
+
+  - role: data-warehousing-specialist
+    title: "Data Warehousing Specialist: design a small analytical history"
+    summary: An editorial recipe for warehouse grain, dimensional history and reconciled analytical queries, with specialist modelling gaps explicit.
+    entry_level: experience-required
+    prerequisites: [Relational modelling and SQL, Experience building a data pipeline, Understanding business measures]
+    outcome: A small warehouse prototype with documented grain, history rules, loads and reconciled query results.
+    stages:
+      - title: Define an analytical workload and grain
+        topics: [Business processes and measures, Fact grain and dimensions, Source-to-model reconciliation]
+        resources: [cs50-sql, duckdb-docs]
+        gap: These sources support SQL and analytical execution, not a verified full dimensional-modelling curriculum.
+        practice: Choose one business process and specify a fact table's grain and the dimensions needed to answer a few questions.
+        checkpoint: Detect a mixed-grain design and explain how it could double-count a measure.
+      - title: Design history and late-arriving data rules
+        topics: [Changing dimension attributes, Effective dates and unknown members, Late data and corrections]
+        resources: []
+        gap: No verified specialist dimensional-history or warehouse modelling course is currently catalogued.
+        practice: Create a reviewed design for one changing customer attribute and one late transaction using synthetic examples.
+        checkpoint: Explain which dimension state applies to each example and distinguish a historical fact from a corrected current attribute.
+      - title: Build and test analytical transformations
+        topics: [Layered model dependencies, Data-quality checks, Query workload and storage tradeoffs]
+        resources: [dbt-learn, use-the-index-luke]
+        practice: Implement the reviewed small model, test relationship assumptions and run representative analytical queries.
+        checkpoint: Reconcile aggregate measures against sources and demonstrate that history handling preserves the intended answer.
+      - title: Capstone - deliver a small warehouse prototype
+        topics: [Model and history documentation, Repeatable loads, Performance and correctness evidence]
+        resources: [datatalks-data-engineering-zoomcamp]
+        gap: The engineering course supports implementation; the specialist history design still requires suitable domain instruction or review.
+        practice: Package the fact and dimension model, synthetic history changes, load code, tests and a set of business queries.
+        checkpoint: Rebuild the prototype and correctly answer the same question for two historical dates without mixing grain or history semantics.
+    next_steps: Study specialist dimensional modelling and the chosen warehouse platform before extending to enterprise-scale integration.
+
+  - role: bi-analyst
+    title: "BI Analyst: turn a business metric into a checked recommendation"
+    summary: An editorial route from a decision question to a reconciled business-intelligence analysis.
+    entry_level: from-zero
+    prerequisites: [Basic computer and file handling, Arithmetic with percentages and ratios, Interest in a specific business process]
+    outcome: A small metric brief and dashboard interpretation with traceable numbers and explicit decision limits.
+    stages:
+      - title: Define a decision and its metric
+        topics: [Decision context, Numerator denominator and time window, Data availability and caveats]
+        resources: [microsoft-data-science-for-beginners]
+        practice: Write a decision question and define one metric precisely before opening a visualization tool.
+        checkpoint: Calculate the metric on a few hand-worked examples and explain how an altered denominator changes its meaning.
+      - title: Retrieve and reconcile business data
+        topics: [SQL filters and grouping, Joins and duplicate measures, Data completeness]
+        resources: [sqlbolt, postgresql-exercises]
+        practice: Answer the question on a practice dataset with saved SQL, including a check for missing or duplicated records.
+        checkpoint: Reconcile one result to the input rows and explain how a join or filter affects the denominator.
+      - title: Build and interpret a focused view
+        topics: [Chart selection, Segmentation and comparison, Correlation and decision uncertainty]
+        resources: [from-data-to-viz, power-bi-microsoft-learn]
+        practice: Create a small chart or local dashboard showing the metric over time or across relevant segments.
+        checkpoint: Explain a change using actual underlying records and separate an observed pattern from a proposed cause.
+      - title: Capstone - deliver a decision brief
+        topics: [Evidence and recommendation, Metric definitions and freshness, Limitations and follow-up questions]
+        resources: [storytelling-with-data-resources]
+        practice: Deliver a one-page brief with the question, metric, reconciled chart, proposed action and conditions that could change the recommendation.
+        checkpoint: A reader can trace the main number to saved queries and identify both the recommended action and the unresolved uncertainty.
+    next_steps: Add business-domain knowledge and repeated stakeholder review; a dashboard alone does not establish a sound business decision.
+
+  - role: business-analyst
+    title: "Business Analyst: turn an observed problem into testable requirements"
+    summary: An editorial discovery and requirements recipe, with business-analysis methods training gaps clearly identified.
+    entry_level: after-basics
+    prerequisites: [Clear written communication, Basic understanding of an organizational process, Ability to distinguish observations from assumptions]
+    outcome: A small requirements package containing a process description, stakeholder needs and testable acceptance examples.
+    stages:
+      - title: Describe the current process and problem
+        topics: [Stakeholders and process boundaries, Observations versus assumptions, Desired outcomes and constraints]
+        resources: [open-practice-library]
+        gap: This practice library offers related activities, not a complete verified business-analysis competency curriculum.
+        practice: Observe or simulate a simple process such as booking a shared room and record handoffs, delays and unresolved questions.
+        checkpoint: Separate a reported symptom from an assumed solution and identify the people affected by the process.
+      - title: Elicit and reconcile needs
+        topics: [Interview and workshop questions, Conflicting stakeholder needs, Scope and priorities]
+        resources: []
+        gap: No verified requirements-elicitation or business-analysis methods course is currently catalogued.
+        practice: Conduct a permitted small discovery exercise or use an explicitly simulated case, recording needs and conflicting priorities.
+        checkpoint: Every proposed requirement traces to an observation or stated need, and disagreements remain visible rather than being silently resolved.
+      - title: Specify behavior and acceptance examples
+        topics: [Functional behavior and quality constraints, Alternative and failure cases, Traceable acceptance criteria]
+        resources: [arc42-template, madr]
+        gap: Architecture templates support documenting decisions and constraints but do not replace specialist requirements-engineering instruction.
+        practice: Write a small set of requirements with concrete examples for the normal booking flow, a conflict and an invalid request.
+        checkpoint: Another reader can judge whether each example passes or fails without interpreting vague words such as fast or intuitive.
+      - title: Capstone - review a bounded change proposal
+        topics: [Problem and option comparison, Requirements traceability, Acceptance and remaining questions]
+        resources: [open-practice-library]
+        practice: Package the current process, needs, proposed change, acceptance examples and assumptions in a short reviewable document.
+        checkpoint: A reviewer can trace the proposal to evidence, challenge an assumption and identify what must be decided before implementation.
+    next_steps: Add verified business-analysis and requirements methods plus real domain practice; this simulated package does not constitute a professional standard.

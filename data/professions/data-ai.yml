@@ -1,8 +1,6 @@
 id: data-ai
 title: Data, analytics and artificial intelligence
-description: Roles that analyze data, develop models or maintain analytical and database systems; Lead is a
-  level rather than a separate discipline, while MLOps Engineer and DataOps Engineer are listed once in operations
-  and infrastructure.
+description: Use data to answer questions and build models that make predictions.
 areas:
 - data
 - ai

@@ -1,8 +1,14 @@
-# Path: interface and product design
+# First project: interface and product design
 
 UX and UI designers study how people use a product and make its interfaces understandable; product designers may also connect those decisions with broader product goals. This short route introduces observation, layout, prototyping and feedback through one small project. It does not cover the whole profession or promise job readiness. Penpot is a design tool, not a complete design course, and Carbon is a reference system rather than a curriculum. You can use their documentation while practising without installing their source code.
 
 [Back to the start](../README.md)
+
+**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).
+
+## Before you start
+
+Basic browser and file skills; no coding experience is required to sketch and prototype an interface.
 
 If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.
 
@@ -40,7 +46,7 @@ After the last checkpoint, improve your project or browse the related areas for 
 
 - [UX, UI and product design](area-design-product.md)
 
-[Compare the learning paths](../README.md#choose-a-learning-path)
+[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)
 
 ---
-This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).

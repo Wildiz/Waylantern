@@ -1,60 +1,79 @@
-title: "Path: software testing and QA"
+title: 'First project: software testing and QA'
 summary: Learn to describe expected behavior, automate checks and investigate failures in one small project.
-areas: [testing]
-intro: >
-  QA and test automation engineers investigate how software behaves, report problems and
-  build repeatable checks. This introductory route practises those tasks on code you own;
-  it is not a complete qualification or a promise of employment. Start with basic programming
-  and command-line skills. Choose one track for the whole route: Python functions with pytest,
-  or a small local web application with Playwright if you already know JavaScript or TypeScript
-  and basic HTML. The paired resources below are alternatives, not two required courses.
-  You need a computer and the chosen toolchain; Playwright also needs its browser installation.
-  No special hardware or paid testing service is required for this local exercise.
+areas:
+- testing
+intro: "QA and test automation engineers investigate how software behaves, report problems and build repeatable\
+  \ checks. This introductory route practises those tasks on code you own; it is not a complete qualification\
+  \ or a promise of employment. Start with basic programming and command-line skills. Choose one track for\
+  \ the whole route: Python functions with pytest, or a small local web application with Playwright if you\
+  \ already know JavaScript or TypeScript and basic HTML. The paired resources below are alternatives, not\
+  \ two required courses. You need a computer and the chosen toolchain; Playwright also needs its browser installation.\
+  \ No special hardware or paid testing service is required for this local exercise.\n Default to pytest if\
+  \ you already know Python; choose Playwright if you already know JavaScript and want to test a browser interface.\
+  \ You only need one track."
 steps:
-  - title: Choose one small behavior and describe its expected results
-    short: Define the behavior
-    tools: [pytest-getting-started, playwright-getting-started]
-    why: >
-      Follow only your chosen track. For Python, use a tiny function such as calculating
-      a basket total from a list of prices. For the web track, use a local page where a
-      button changes a visible message. Write down the starting state, the action or input,
-      and the result you expect. Keep the project small enough to explain without a framework tour.
-    advance_when: >
-      You can demonstrate the behavior manually and write three clear input or action examples
-      with expected outcomes, including an empty input or initial state where relevant.
-  - title: Automate one check and deliberately make it fail
-    short: Write a first test
-    tools: [pytest-getting-started, playwright-getting-started]
-    why: >
-      Use the installation and first-test instructions for the same track. With pytest,
-      call your function and assert the expected result. With Playwright, run your local
-      application, find the control using a suitable locator, perform the action and assert
-      the visible result. Temporarily change your own code to break that behavior, then restore
-      it after reading the failure. A passing test is useful only if it detects the relevant mistake.
-    advance_when: >
-      Your test passes with the intended behavior, fails after the deliberate change and
-      passes again after restoration; you can identify the expected and actual results in the report.
-  - title: Turn the examples into a small repeatable suite
-    short: Check boundaries and repeatability
-    tools: [pytest-getting-started, playwright-getting-started]
-    why: >
-      Add checks for the remaining examples from the first step. For Python, include the empty
-      list and a simple total with more than one price. For the web page, include its initial
-      message and the result of another interaction. Give every check a clear name and avoid
-      depending on a previous test's side effects. Run the suite twice from the same clean starting
-      state, investigating any inconsistent result rather than hiding it with a fixed delay.
-    advance_when: >
-      At least three checks run and produce the same expected outcomes on two consecutive runs,
-      and changing one relevant behavior causes the appropriate check to fail.
-  - title: Leave a useful failure report and instructions for the next run
-    short: Document the evidence
-    tools: [pytest-getting-started, playwright-getting-started]
-    why: >
-      Finish the mini project with a short README containing installation steps, the command
-      to run tests and any application startup step. Write one sample bug report from the
-      deliberate failure: starting state, reproduction steps, expected result and actual result.
-      State what your suite does not cover. Keep reports local and remove passwords or personal
-      data from screenshots and logs before sharing them.
-    advance_when: >
-      You can restart the chosen toolchain and rerun the checks using only your notes, and
-      someone reading the sample report can understand and reproduce the problem.
+- title: Choose one small behavior and describe its expected results
+  short: Define the behavior
+  tools:
+  - pytest-getting-started
+  - playwright-getting-started
+  why: 'Follow only your chosen track. For Python, use a tiny function such as calculating a basket total from
+    a list of prices. For the web track, use a local page where a button changes a visible message. Write down
+    the starting state, the action or input, and the result you expect. Keep the project small enough to explain
+    without a framework tour.
+
+    '
+  advance_when: 'You can demonstrate the behavior manually and write three clear input or action examples with
+    expected outcomes, including an empty input or initial state where relevant.
+
+    '
+- title: Automate one check and deliberately make it fail
+  short: Write a first test
+  tools:
+  - pytest-getting-started
+  - playwright-getting-started
+  why: 'Use the installation and first-test instructions for the same track. With pytest, call your function
+    and assert the expected result. With Playwright, run your local application, find the control using a suitable
+    locator, perform the action and assert the visible result. Temporarily change your own code to break that
+    behavior, then restore it after reading the failure. A passing test is useful only if it detects the relevant
+    mistake.
+
+    '
+  advance_when: 'Your test passes with the intended behavior, fails after the deliberate change and passes
+    again after restoration; you can identify the expected and actual results in the report.
+
+    '
+- title: Turn the examples into a small repeatable suite
+  short: Check boundaries and repeatability
+  tools:
+  - pytest-getting-started
+  - playwright-getting-started
+  why: 'Add checks for the remaining examples from the first step. For Python, include the empty list and a
+    simple total with more than one price. For the web page, include its initial message and the result of
+    another interaction. Give every check a clear name and avoid depending on a previous test''s side effects.
+    Run the suite twice from the same clean starting state, investigating any inconsistent result rather than
+    hiding it with a fixed delay.
+
+    '
+  advance_when: 'At least three checks run and produce the same expected outcomes on two consecutive runs,
+    and changing one relevant behavior causes the appropriate check to fail.
+
+    '
+- title: Leave a useful failure report and instructions for the next run
+  short: Document the evidence
+  tools:
+  - pytest-getting-started
+  - playwright-getting-started
+  why: 'Finish the mini project with a short README containing installation steps, the command to run tests
+    and any application startup step. Write one sample bug report from the deliberate failure: starting state,
+    reproduction steps, expected result and actual result. State what your suite does not cover. Keep reports
+    local and remove passwords or personal data from screenshots and logs before sharing them.
+
+    '
+  advance_when: 'You can restart the chosen toolchain and rerun the checks using only your notes, and someone
+    reading the sample report can understand and reproduce the problem.
+
+    '
+entry_level: after-basics
+prerequisites: Basic programming and terminal skills; the Playwright option also needs JavaScript or TypeScript
+  and basic HTML.

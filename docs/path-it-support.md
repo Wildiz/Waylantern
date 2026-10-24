@@ -1,8 +1,14 @@
-# Path: IT support and help desk
+# First project: IT support and help desk
 
 IT support and help desk work involves understanding a reported problem, checking evidence, helping a user and documenting the result or escalation. This route introduces those habits through a Linux practice system and a separate ticketing lab. Linux administration is only part of IT support: Windows support, desktop hardware, identity administration and organisation-specific procedures are outside this short route. It is a first project, not a full support qualification or a promise of employment. Use disposable local systems and invented users, assets and tickets; GLPI is a service-desk tool, not a complete support course.
 
 [Back to the start](../README.md)
+
+**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).
+
+## Before you start
+
+Basic computer skills and access to a disposable Linux practice environment; no programming experience is required.
 
 If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.
 
@@ -39,7 +45,7 @@ After the last checkpoint, improve your project or browse the related areas for 
 
 - [IT support and service management](area-it-support.md)
 
-[Compare the learning paths](../README.md#choose-a-learning-path)
+[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)
 
 ---
-This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).

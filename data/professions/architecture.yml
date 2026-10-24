@@ -1,7 +1,6 @@
 id: architecture
 title: Architecture and systems design
-description: Roles that define system structures, integration boundaries and technical trade-offs across an
-  organisation.
+description: Plan how the parts of a larger system should work together.
 areas:
 - architecture
 - software

@@ -1,8 +1,14 @@
-# Path: AI and machine learning
+# First project: AI and machine learning
 
 Machine-learning practitioners use data to build models, test predictions on examples the model has not seen and explain where the results can fail. This route is for beginners exploring that work, not a promise of professional readiness. You need basic Python, including functions and lists, plus comfort with tables, averages and simple algebra. Complete the relevant parts of Path 0 first if needed. Start with small public tutorial datasets and classic models; no paid API or large model is required. Never upload personal, confidential or sensitive data to a hosted notebook.
 
 [Back to the start](../README.md)
+
+**Short first-project guide.** To study toward a profession over a longer sequence, [choose a curriculum](curricula.md).
+
+## Before you start
+
+Basic Python functions and lists, plus familiarity with tables, averages and simple algebra.
 
 If a step assumes programming or terminal skills you have not learned, use the relevant parts of [Path 0](path-0-fundamentals.md) first. Work through one small step at a time; you do not need to finish every linked course.
 
@@ -36,7 +42,7 @@ After the last checkpoint, improve your project or browse the related areas for 
 
 - [AI, machine learning and LLMs](area-ai.md)
 
-[Compare the learning paths](../README.md#choose-a-learning-path)
+[Compare first-project guides](learning-paths.md) · [Choose a profession curriculum](curricula.md)
 
 ---
-This path is an editorial starting point, not an exhaustive curriculum or certification. Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
+Tell us what worked for you: see [CONTRIBUTING](../CONTRIBUTING.md).
