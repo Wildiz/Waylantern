@@ -41,7 +41,9 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [iximiuz Labs](https://labs.iximiuz.com/) | Free + paid extras | intermediate | semi | - | en | Hands-on platform with playgrounds, tutorials, challenges and paths for Linux, Docker, Kubernetes and networking. |
 | [Killercoda](https://killercoda.com/) | Free + paid extras | intermediate | semi | - | en | Browser-based interactive scenarios for Linux, Kubernetes and DevOps tools with free sessions and paid exam-prep courses. |
 | [NeetCode](https://neetcode.io/) | Free + paid extras | intermediate | semi | - | en | Coding-interview preparation site with structured courses, a curated problem list (1,000+ problems), head-to-head Versus mode and AI-assisted assessments. |
+| [OWASP crAPI](https://github.com/OWASP/crAPI) | Free | intermediate | semi | - | en | A deliberately vulnerable microservices application for practising API security through challenges based on common API risks. |
 | [Project Euler](https://projecteuler.net/) | Free | intermediate | self-directed | - | en | Archive of challenging mathematical and programming problems with numeric answers, solvable in any language. |
+| [Vulhub](https://github.com/vulhub/vulhub) | Free | intermediate | self-directed | - | en, zh | An open-source collection of deliberately vulnerable Docker environments with per-environment instructions for reproducing and understanding security flaws. |
 
 ## Advanced
 
@@ -276,6 +278,13 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Hints are minimal by design
 - Watch out: Community-run, little hand-holding
 
+**OWASP crAPI**
+
+- Good: Open-source code under Apache-2.0
+- Good: Provides a user workflow and security challenges for a realistic API application
+- Watch out: Requires local Docker and Docker Compose setup, image downloads and sufficient machine resources
+- Watch out: Run as an isolated local lab and test only systems you own or have permission to assess
+
 **OWASP Juice Shop**
 
 - Good: Score board tracks challenge progress
@@ -327,6 +336,13 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Many practice queries
 - Good: No setup
 - Watch out: Dated interface
+
+**Vulhub**
+
+- Good: MIT-licensed collection with Docker Compose environments
+- Good: Each environment includes reproduction steps and usage instructions
+- Watch out: Needs Docker, image downloads and enough local resources; compatibility varies by environment
+- Watch out: Keep labs isolated and practise only on systems you own or are authorised to test
 
 </details>
 

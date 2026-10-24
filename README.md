@@ -28,14 +28,14 @@ The [full page](docs/path-0-fundamentals.md) explains why each resource is there
 
 | Area | What is inside | Resources |
 |---|---|---|
-| [Computer science and algorithms](docs/area-cs.md) | How computers work, data structures, algorithms and the theory behind them. | 46 |
-| [Programming and software engineering](docs/area-software.md) | Learn languages, Git, the command line and how to build software well. | 56 |
-| [Web development](docs/area-web.md) | HTML, CSS, JavaScript, frameworks and everything for building websites and web apps. | 37 |
-| [Data, databases and statistics](docs/area-data.md) | SQL, data analysis, data engineering, visualization and statistics. | 36 |
-| [AI, machine learning and LLMs](docs/area-ai.md) | Machine learning, deep learning, language models and AI agents. | 40 |
-| [DevOps, cloud and Linux](docs/area-devops.md) | Containers, Kubernetes, cloud platforms, infrastructure and Linux administration. | 24 |
-| [Cybersecurity](docs/area-security.md) | Legal, authorized practice to learn how systems are attacked and defended. | 13 |
-| [Math for tech](docs/area-math.md) | Linear algebra, calculus, discrete math and probability for CS, data and AI. | 17 |
+| [Computer science and algorithms](docs/area-cs.md) | How computers work, data structures, algorithms and the theory behind them. | 47 |
+| [Programming and software engineering](docs/area-software.md) | Learn languages, Git, the command line and how to build software well. | 62 |
+| [Web development](docs/area-web.md) | HTML, CSS, JavaScript, frameworks and everything for building websites and web apps. | 38 |
+| [Data, databases and statistics](docs/area-data.md) | SQL, data analysis, data engineering, visualization and statistics. | 41 |
+| [AI, machine learning and LLMs](docs/area-ai.md) | Machine learning, deep learning, language models and AI agents. | 41 |
+| [DevOps, cloud and Linux](docs/area-devops.md) | Containers, Kubernetes, cloud platforms, infrastructure and Linux administration. | 25 |
+| [Cybersecurity](docs/area-security.md) | Legal, authorized practice to learn how systems are attacked and defended. | 15 |
+| [Math for tech](docs/area-math.md) | Linear algebra, calculus, discrete math and probability for CS, data and AI. | 19 |
 | [Games and mobile apps](docs/area-games-mobile.md) | Game engines and mobile app development. | 9 |
 | [Career, interviews and open source](docs/area-career.md) | Interview practice, your first open-source contributions and portfolio hosting. | 27 |
 | [Study skills and memory](docs/area-study-skills.md) | How to learn, take notes and remember what you study, including AI study helpers. | 37 |
@@ -59,13 +59,13 @@ The [full page](docs/path-0-fundamentals.md) explains why each resource is there
 |---|---|---|
 | [Full paths (a free university)](docs/path.md) | A complete road from zero, in order. Best if you want structure and do not want to decide what to study next. | 16 |
 | [Courses and books](docs/course.md) | Individual courses and books on one topic. Good once you know roughly what you want to learn. | 104 |
-| [Practice by doing](docs/practice.md) | You write code or solve problems and get instant feedback. Best for staying engaged. | 36 |
+| [Practice by doing](docs/practice.md) | You write code or solve problems and get instant feedback. Best for staying engaged. | 38 |
 | [Roadmaps](docs/roadmap.md) | Maps that show what to learn and in what order. Use one to see the big picture. | 6 |
-| [Lists, docs and articles](docs/reference.md) | Big collections of links, documentation and guides. Great to browse or look things up, overwhelming if you start here. | 48 |
-| [Tools and apps](docs/tool.md) | Apps and software for taking notes, remembering, staying focused or building your own projects. | 43 |
+| [Lists, docs and articles](docs/reference.md) | Big collections of links, documentation and guides. Great to browse or look things up, overwhelming if you start here. | 49 |
+| [Tools and apps](docs/tool.md) | Apps and software for taking notes, remembering, staying focused or building your own projects. | 49 |
 | [Communities](docs/community.md) | Places to ask for help and find people learning alongside you. | 18 |
 
-**271 entries in total**, 43 of them with Spanish available.
+**280 entries in total**, 43 of them with Spanish available.
 
 **Optional:** 10 more resources that are only available in other languages (Spanish) are in [Resources in other languages](docs/other-languages.md).
 

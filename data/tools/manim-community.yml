@@ -1,0 +1,29 @@
+name: Manim Community
+url: https://github.com/ManimCommunity/manim
+category: tool
+areas: [math, software]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Python animation engine for creating explanatory mathematics videos with programmable scenes, example code and a gallery.
+pros:
+  - Open-source software under the MIT license
+  - Create mathematical visualizations by writing and modifying Python code
+  - Documentation includes installation instructions and examples
+cons:
+  - Local use requires Python and additional dependencies
+  - The community edition and the original 3Blue1Brown version have different installation instructions
+  - A tool for creating explanations rather than a structured mathematics course
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read the official README at https://raw.githubusercontent.com/ManimCommunity/manim/main/README.md
+    and MIT license files at https://raw.githubusercontent.com/ManimCommunity/manim/main/LICENSE
+    and https://raw.githubusercontent.com/ManimCommunity/manim/main/LICENSE.community.
+    The README describes the animation engine, Python scene example, documentation, gallery
+    and an online trial option. Free refers to the open-source software; hosted trial availability
+    and terms were not tested. English documentation checked. Installation, rendering and
+    recent maintenance were not independently tested.

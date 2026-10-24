@@ -40,6 +40,7 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | [OpenAI Cookbook](https://cookbook.openai.com) | Free | intermediate | self-directed | medium | en | Open-source collection of example code and guides for common tasks with the OpenAI API (mostly Python notebooks), such as retrieval, function calling, evaluation and fine-tuning. |
 | [Polars User Guide](https://docs.pola.rs/) | Free | intermediate | self-directed | - | en | Official user guide for the Polars DataFrame library covering expressions, the lazy API, joins, time series, IO and streaming. |
 | [Project Based Learning](https://github.com/practical-tutorials/project-based-learning) | Free | intermediate | self-directed | low | en | Curated list of project-based programming tutorials grouped by language such as Python, JavaScript, Go, C/C++ and Rust. |
+| [The Algorithms - Python](https://github.com/TheAlgorithms/Python) | Free | intermediate | self-directed | - | en | Collection of Python algorithm implementations for reading, experimenting and learning, with a directory for browsing the examples. |
 | [The TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) | Free | intermediate | semi | - | en | Official TypeScript documentation with a Handbook (basics, narrowing, generics, classes, modules) and start guides such as TypeScript for JavaScript programmers. |
 
 ## Advanced
@@ -394,6 +395,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Clearly separates free resources from paid trainings
 - Watch out: The paid trainings and books hold most structured learning
 - Watch out: Not tool-specific; no coding practice
+
+**The Algorithms - Python**
+
+- Good: Open-source examples under the MIT license
+- Good: Read and modify implementations to explore how algorithms work
+- Good: A directory helps navigate the collection
+- Watch out: A reference collection rather than an ordered beginner curriculum
+- Watch out: The authors warn that educational implementations may be less efficient than Python standard-library alternatives
+- Watch out: Requires enough Python knowledge to understand and run the examples
 
 **The Learning Scientists**
 

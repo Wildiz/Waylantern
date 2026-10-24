@@ -2,7 +2,7 @@
 
 _HTML, CSS, JavaScript, frameworks and everything for building websites and web apps._
 
-37 resources. [Back to the start](../README.md)
+38 resources. [Back to the start](../README.md)
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
@@ -39,6 +39,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [freeCodeCamp](https://www.freecodecamp.org/) | Free | beginner | guided | - | en, es | Free self-paced curriculum with interactive coding challenges, projects and certifications (web, JavaScript, Python, databases, APIs, machine learning). |
 | [Frontend Mentor](https://www.frontendmentor.io/) | Free + paid extras | beginner | self-directed | - | en | Build real front-end and full-stack projects from professional designs and briefs, with community code review and AI code reviews. |
 | [Grid Garden](https://cssgridgarden.com/) | Free | beginner | guided | high | en, es, fr, de, ja, zh | Browser game by Codepip where you write CSS grid properties to water a garden, level by level. |
+| [OWASP crAPI](https://github.com/OWASP/crAPI) | Free | intermediate | semi | - | en | A deliberately vulnerable microservices application for practising API security through challenges based on common API risks. |
 | [OWASP Juice Shop](https://owasp-juice.shop/) | Free | beginner | self-directed | - | en | An intentionally insecure, open-source web shop with many hacking challenges covering the OWASP Top 10, run locally (Docker, packaged or from source) for legal security training and CTFs. |
 
 ## Roadmaps

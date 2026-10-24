@@ -1,0 +1,20 @@
+name: "Vulhub"
+url: https://github.com/vulhub/vulhub
+category: practice
+areas: [security, devops]
+price: free
+level: intermediate
+languages: [en, zh]
+structure: self-directed
+focus_friendly: unknown
+description: "An open-source collection of deliberately vulnerable Docker environments with per-environment instructions for reproducing and understanding security flaws."
+pros:
+  - "MIT-licensed collection with Docker Compose environments"
+  - "Each environment includes reproduction steps and usage instructions"
+cons:
+  - "Needs Docker, image downloads and enough local resources; compatibility varies by environment"
+  - "Keep labs isolated and practise only on systems you own or are authorised to test"
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read the official vulhub/vulhub master README.md, README.zh-cn.md and LICENSE via raw.githubusercontent.com. The README describes ready-to-use vulnerable Docker environments, Docker Compose startup and per-environment instructions; LICENSE contains the MIT License. English and Chinese README files verified, not completeness of every lab's translations. The free classification refers to the repository, not paid infrastructure or hardware. No environments were installed or executed; individual labs and platform compatibility were not tested."

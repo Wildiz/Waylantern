@@ -2,9 +2,9 @@
 
 _Linear algebra, calculus, discrete math and probability for CS, data and AI._
 
-17 resources. [Back to the start](../README.md)
+19 resources. [Back to the start](../README.md)
 
-Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Lists, docs and articles](#lists-docs-and-articles)
+Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps)
 
 ## Full paths (a free university)
 
@@ -42,4 +42,11 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
 | [Paul's Online Math Notes](https://tutorial.math.lamar.edu/) | Free | beginner | self-directed | - | en | Lamar University notes by Paul Dawkins on algebra, calculus I-III and differential equations, with worked examples and practice problems. |
+
+## Tools and apps
+
+| Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
+|---|---|---|---|---|---|---|
+| [Manim Community](https://github.com/ManimCommunity/manim) | Free | intermediate | self-directed | - | en | Python animation engine for creating explanatory mathematics videos with programmable scenes, example code and a gallery. |
+| [SymPy](https://github.com/sympy/sympy) | Free | intermediate | self-directed | - | en | Python library for symbolic mathematics that lets you manipulate mathematical expressions interactively or in programs, with documentation and code examples. |
 

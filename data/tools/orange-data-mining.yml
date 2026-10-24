@@ -1,0 +1,22 @@
+name: Orange Data Mining
+url: https://github.com/biolab/orange3
+category: tool
+areas: [data, ai]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Visual data mining and machine learning toolbox for exploring data through connected workflows without requiring programming or in-depth mathematical knowledge.
+pros:
+  - Open-source under GPL-3.0 or later
+  - Visual workflows provide a way to explore data without writing code
+  - Windows and macOS installers are linked from the official README
+cons:
+  - Local installation is required
+  - Linux installation requires preparing an environment; pip installation may need a compiler
+  - Individual add-ons and their requirements were not checked
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read README.md and LICENSE from biolab/orange3 on the master branch via raw.githubusercontent.com. README describes data mining and visualization for novices and experts, states no programming or in-depth mathematical knowledge is required, and documents local installation. LICENSE permits use and redistribution under GPL-3.0 or later. Free refers to the local open-source software; individual add-ons were not evaluated. English documentation checked; other interface languages and current maintenance status were not verified. Not installed or executed."

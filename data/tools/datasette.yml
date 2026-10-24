@@ -1,0 +1,22 @@
+name: Datasette
+url: https://github.com/simonw/datasette
+category: tool
+areas: [data, software]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Open-source tool for exploring SQLite databases and publishing data as an interactive website with an accompanying API.
+pros:
+  - Open-source under Apache-2.0
+  - Explore database tables and query data through a web interface
+  - README links examples, documentation and the browser-based Datasette Lite variant
+cons:
+  - Local server installation requires Python 3.11 or higher according to the README
+  - Publishing on external hosting providers may incur costs
+  - A self-directed data tool rather than a guided SQL course
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read README.md and LICENSE from simonw/datasette on the main branch via raw.githubusercontent.com. README describes interactive data exploration and publication with an API, local SQLite usage, a Python 3.11 minimum and deployment to external hosting providers. It also links Datasette Lite, a WebAssembly variant running in a browser; that variant was not tested. LICENSE is Apache-2.0. Free refers to the local open-source software, not a guarantee of free external hosting. English documentation checked; other interface languages and current maintenance status were not verified. Not installed or executed."

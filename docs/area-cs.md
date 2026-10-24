@@ -2,7 +2,7 @@
 
 _How computers work, data structures, algorithms and the theory behind them._
 
-46 resources. [Back to the start](../README.md)
+47 resources. [Back to the start](../README.md)
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
@@ -73,6 +73,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Build Your Own X](https://github.com/codecrafters-io/build-your-own-x) | Free | intermediate | self-directed | - | en | Curated list of step-by-step tutorials for re-creating technologies such as databases, Git, shells, interpreters and browsers from scratch. |
 | [free-programming-books](https://github.com/EbookFoundation/free-programming-books) | Free | all | self-directed | low | en, es | Very large community-maintained list of free books, courses, interactive tutorials, playgrounds and problem sets, split by language. |
 | [Papers We Love](https://github.com/papers-we-love/papers-we-love) | Free | advanced | self-directed | low | en | Community repository of computer science research papers organised by topic, with reading guides and links to local chapters. |
+| [The Algorithms - Python](https://github.com/TheAlgorithms/Python) | Free | intermediate | self-directed | - | en | Collection of Python algorithm implementations for reading, experimenting and learning, with a directory for browsing the examples. |
 
 ## Tools and apps
 

@@ -11,8 +11,10 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
 | [CS50.ai (CS50 Duck)](https://cs50.ai/) | Price not confirmed yet | beginner | semi | - | en | Harvard CS50's AI rubber-duck debugger and tutor, built on Azure/OpenAI with course-specific data, for CS50 students and teachers. |
+| [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser) | Free | beginner | self-directed | - | en | Visual desktop tool for creating and editing SQLite databases, importing CSV files and running SQL queries with inspectable results. |
 | [GitHub Pages](https://pages.github.com/) | Free | beginner | guided | - | en | Static website hosting from a GitHub repository, with one user or organization site per account and unlimited project sites, suitable for a beginner portfolio. |
 | [Netlify (Free plan)](https://www.netlify.com/pricing/) | Free + paid extras | beginner | self-directed | - | en | Web hosting and deployment platform whose Free plan ($0 forever per its pricing page) includes deploys from Git, deploy previews, custom domains with SSL and serverless functions within a monthly credit limit. |
+| [Orange Data Mining](https://github.com/biolab/orange3) | Free | beginner | self-directed | - | en | Visual data mining and machine learning toolbox for exploring data through connected workflows without requiring programming or in-depth mathematical knowledge. |
 | [Vercel (Hobby plan)](https://vercel.com/pricing) | Free + paid extras | beginner | self-directed | - | en | Frontend hosting platform whose free Hobby plan is aimed at personal projects and includes Git-based deploys, a global CDN and monthly usage allowances. |
 | [VisuAlgo](https://visualgo.net/) | Free | beginner | self-directed | - | en | Animated visualizations of data structures and algorithms created at the National University of Singapore, where you can run each algorithm on your own input. |
 
@@ -20,8 +22,12 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [Datasette](https://github.com/simonw/datasette) | Free | intermediate | self-directed | - | en | Open-source tool for exploring SQLite databases and publishing data as an interactive website with an accompanying API. |
 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | Free | intermediate | self-directed | - | en, zh, de, fr, uk | Open-source, self-hosted agent-based learning workspace that combines tutoring chat, problem solving, quiz generation, research and a knowledge base over your own documents. |
 | [FSRS (Free Spaced Repetition Scheduler)](https://github.com/open-spaced-repetition/fsrs4anki) | Free | intermediate | self-directed | - | en | Open-source, machine-learning-based spaced-repetition scheduling algorithm that fits review intervals to your own review history; available built into Anki and as an add-on for older versions. |
+| [Manim Community](https://github.com/ManimCommunity/manim) | Free | intermediate | self-directed | - | en | Python animation engine for creating explanatory mathematics videos with programmable scenes, example code and a gallery. |
+| [marimo](https://github.com/marimo-team/marimo) | Free | intermediate | self-directed | - | en | Reactive Python notebook environment with SQL support, interactive controls and notebooks stored as Python files that can also run as scripts or apps. |
+| [SymPy](https://github.com/sympy/sympy) | Free | intermediate | self-directed | - | en | Python library for symbolic mathematics that lets you manipulate mathematical expressions interactively or in programs, with documentation and code examples. |
 
 ## Any level
 
@@ -122,6 +128,24 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Requires logging in; whether it is free to all learners was not confirmed
 - Watch out: CS50 itself warns it is an experimental AI and not to trust it blindly
 - Watch out: Aimed at CS50 course work
+
+**Datasette**
+
+- Good: Open-source under Apache-2.0
+- Good: Explore database tables and query data through a web interface
+- Good: README links examples, documentation and the browser-based Datasette Lite variant
+- Watch out: Local server installation requires Python 3.11 or higher according to the README
+- Watch out: Publishing on external hosting providers may incur costs
+- Watch out: A self-directed data tool rather than a guided SQL course
+
+**DB Browser for SQLite**
+
+- Good: Open-source under a choice of MPL-2.0 or GPL-3.0 or later
+- Good: Browse tables and records through a spreadsheet-like interface
+- Good: Run SQL queries and inspect the generated SQL command log
+- Watch out: Requires local installation
+- Watch out: Works with SQLite databases rather than every database engine
+- Watch out: Not intended to replace a spreadsheet application
 
 **DeepTutor**
 
@@ -288,6 +312,24 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Watch out: Mobile apps are less mature (README: DB-version iOS app alpha, Android coming soon)
 - Watch out: Learning curve for the outliner workflow
 
+**Manim Community**
+
+- Good: Open-source software under the MIT license
+- Good: Create mathematical visualizations by writing and modifying Python code
+- Good: Documentation includes installation instructions and examples
+- Watch out: Local use requires Python and additional dependencies
+- Watch out: The community edition and the original 3Blue1Brown version have different installation instructions
+- Watch out: A tool for creating explanations rather than a structured mathematics course
+
+**marimo**
+
+- Good: Open-source under Apache-2.0
+- Good: Dependent cells update when their inputs change
+- Good: Includes an introductory tutorial and links to examples
+- Watch out: Assumes familiarity with Python for writing notebooks
+- Watch out: Reactive execution can rerun expensive computations unless configured otherwise
+- Watch out: External AI providers or hosting can have separate costs and requirements
+
 **Mermaid**
 
 - Good: MIT license
@@ -328,6 +370,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Plugin catalogue is linked from the official site (not itemised here)
 - Watch out: Official Sync costs US$4/month (billed yearly) or US$5/month
 - Watch out: Easy to over-tinker with plugins and themes instead of studying (widely reported in the community)
+
+**Orange Data Mining**
+
+- Good: Open-source under GPL-3.0 or later
+- Good: Visual workflows provide a way to explore data without writing code
+- Good: Windows and macOS installers are linked from the official README
+- Watch out: Local installation is required
+- Watch out: Linux installation requires preparing an environment; pip installation may need a compiler
+- Watch out: Individual add-ons and their requirements were not checked
 
 **Pomofocus**
 
@@ -383,6 +434,15 @@ Jump to: [Beginner](#beginner-no-previous-knowledge) | [Intermediate](#intermedi
 - Good: Has dedicated pages on ADHD and developer productivity
 - Watch out: More features than a bare timer, which can feel like a lot to set up
 - Watch out: Other interface languages not confirmed
+
+**SymPy**
+
+- Good: Open-source software under the BSD 3-Clause license
+- Good: Explore symbolic mathematics through Python expressions
+- Good: Documentation and an interactive console support experimentation
+- Watch out: Requires Python and familiarity with the mathematics being explored
+- Watch out: A computation tool rather than a structured mathematics course
+- Watch out: Symbolic results do not replace understanding or checking the underlying reasoning
 
 **The Pomodoro Technique (official site)**
 

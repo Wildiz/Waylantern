@@ -1,0 +1,22 @@
+name: marimo
+url: https://github.com/marimo-team/marimo
+category: tool
+areas: [data, software]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Reactive Python notebook environment with SQL support, interactive controls and notebooks stored as Python files that can also run as scripts or apps.
+pros:
+  - Open-source under Apache-2.0
+  - Dependent cells update when their inputs change
+  - Includes an introductory tutorial and links to examples
+cons:
+  - Assumes familiarity with Python for writing notebooks
+  - Reactive execution can rerun expensive computations unless configured otherwise
+  - External AI providers or hosting can have separate costs and requirements
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read README.md and LICENSE from marimo-team/marimo on the main branch via raw.githubusercontent.com. README confirms reactive execution, Python-file storage, SQL support, UI controls, tutorial command and script or app use. LICENSE is Apache-2.0. Free refers to the local open-source software; the README also advertises a free online notebook, but hosting limits and external AI-provider pricing were not checked. README_Spanish.md was read, but a documentation translation does not establish a Spanish interface, so only en is listed. Current maintenance status was not verified. Not installed or executed."

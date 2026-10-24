@@ -2,7 +2,7 @@
 
 _Legal, authorized practice to learn how systems are attacked and defended._
 
-13 resources. [Back to the start](../README.md)
+15 resources. [Back to the start](../README.md)
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Lists, docs and articles](#lists-docs-and-articles)
 
@@ -29,9 +29,11 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Cisco Packet Tracer](https://www.netacad.com/cisco-packet-tracer) | Free | beginner | self-directed | - | en | Cisco's network simulation software for building and testing virtual networks (routers, switches, IoT, basic cybersecurity) without hardware, with free training from Cisco Networking Academy. |
 | [CyberDefenders](https://cyberdefenders.org/blue-team-labs/) | Free + paid extras | intermediate | self-directed | - | en | Blue team (defensive security) platform with browser-based DFIR and SOC investigation labs; free signup, with premium labs and certifications sold separately. |
 | [OverTheWire Wargames](https://overthewire.org/wargames/) | Free | beginner | semi | - | en | Security wargames played over SSH (Bandit for Linux command-line basics, Natas for web security, and others) that teach security concepts as puzzle levels. |
+| [OWASP crAPI](https://github.com/OWASP/crAPI) | Free | intermediate | semi | - | en | A deliberately vulnerable microservices application for practising API security through challenges based on common API risks. |
 | [OWASP Juice Shop](https://owasp-juice.shop/) | Free | beginner | self-directed | - | en | An intentionally insecure, open-source web shop with many hacking challenges covering the OWASP Top 10, run locally (Docker, packaged or from source) for legal security training and CTFs. |
 | [OWASP WebGoat](https://owasp.org/www-project-webgoat/) | Free | beginner | guided | - | en | A deliberately insecure Java application with guided lessons that teach common web application vulnerabilities in a safe, local, legal environment. |
 | [picoCTF (CyLab Security Academy)](https://www.picoctf.org/) | Free | beginner | semi | - | en | Carnegie Mellon's free cybersecurity learning platform with capture-the-flag style challenges; picoCTF has moved into CyLab Security Academy. |
+| [Vulhub](https://github.com/vulhub/vulhub) | Free | intermediate | self-directed | - | en, zh | An open-source collection of deliberately vulnerable Docker environments with per-environment instructions for reproducing and understanding security flaws. |
 
 ## Lists, docs and articles
 

@@ -2,7 +2,7 @@
 
 _Containers, Kubernetes, cloud platforms, infrastructure and Linux administration._
 
-24 resources. [Back to the start](../README.md)
+25 resources. [Back to the start](../README.md)
 
 Jump to: [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps)
 
@@ -33,6 +33,7 @@ Jump to: [Courses and books](#courses-and-books) | [Practice by doing](#practice
 | [Killercoda](https://killercoda.com/) | Free + paid extras | intermediate | semi | - | en | Browser-based interactive scenarios for Linux, Kubernetes and DevOps tools with free sessions and paid exam-prep courses. |
 | [KodeKloud](https://kodekloud.com/) | Free + paid extras | beginner | guided | - | en | DevOps and cloud training platform with video courses and hands-on browser labs (Linux, Docker, Kubernetes, AWS, Azure), with some free labs and free challenge programs such as 100 Days of Cloud. |
 | [OverTheWire Wargames](https://overthewire.org/wargames/) | Free | beginner | semi | - | en | Security wargames played over SSH (Bandit for Linux command-line basics, Natas for web security, and others) that teach security concepts as puzzle levels. |
+| [Vulhub](https://github.com/vulhub/vulhub) | Free | intermediate | self-directed | - | en, zh | An open-source collection of deliberately vulnerable Docker environments with per-environment instructions for reproducing and understanding security flaws. |
 
 ## Lists, docs and articles
 

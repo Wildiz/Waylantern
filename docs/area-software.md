@@ -2,7 +2,7 @@
 
 _Learn languages, Git, the command line and how to build software well._
 
-56 resources. [Back to the start](../README.md)
+62 resources. [Back to the start](../README.md)
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
@@ -74,6 +74,7 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Open Source Guides](https://opensource.guide/) | Free | beginner | self-directed | - | en | GitHub's collection of short guides on how to contribute to, launch and maintain open-source projects, including security and accessibility best practices. |
 | [Project Based Learning](https://github.com/practical-tutorials/project-based-learning) | Free | intermediate | self-directed | low | en | Curated list of project-based programming tutorials grouped by language such as Python, JavaScript, Go, C/C++ and Rust. |
 | [Public APIs](https://github.com/public-apis/public-apis) | Free | all | self-directed | low | en | Community-maintained list of free public APIs grouped by category (for example weather, science, machine learning, open data) for use in practice projects. |
+| [The Algorithms - Python](https://github.com/TheAlgorithms/Python) | Free | intermediate | self-directed | - | en | Collection of Python algorithm implementations for reading, experimenting and learning, with a directory for browsing the examples. |
 | [tldr pages](https://tldr.sh/) | Free | all | self-directed | medium | en, es | Community-maintained simplified man pages that show practical examples for common command-line tools, usable via web, PDF or command-line clients. |
 | [Up For Grabs](https://up-for-grabs.net/) | Free | beginner | self-directed | - | en | Community-maintained directory of open-source projects that curate tasks specifically for new contributors. |
 
@@ -81,7 +82,12 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [Datasette](https://github.com/simonw/datasette) | Free | intermediate | self-directed | - | en | Open-source tool for exploring SQLite databases and publishing data as an interactive website with an accompanying API. |
+| [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser) | Free | beginner | self-directed | - | en | Visual desktop tool for creating and editing SQLite databases, importing CSV files and running SQL queries with inspectable results. |
 | [GitHub Pages](https://pages.github.com/) | Free | beginner | guided | - | en | Static website hosting from a GitHub repository, with one user or organization site per account and unlimited project sites, suitable for a beginner portfolio. |
+| [Manim Community](https://github.com/ManimCommunity/manim) | Free | intermediate | self-directed | - | en | Python animation engine for creating explanatory mathematics videos with programmable scenes, example code and a gallery. |
+| [marimo](https://github.com/marimo-team/marimo) | Free | intermediate | self-directed | - | en | Reactive Python notebook environment with SQL support, interactive controls and notebooks stored as Python files that can also run as scripts or apps. |
+| [SymPy](https://github.com/sympy/sympy) | Free | intermediate | self-directed | - | en | Python library for symbolic mathematics that lets you manipulate mathematical expressions interactively or in programs, with documentation and code examples. |
 
 ## Communities
 

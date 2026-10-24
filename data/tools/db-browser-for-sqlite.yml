@@ -1,0 +1,22 @@
+name: DB Browser for SQLite
+url: https://github.com/sqlitebrowser/sqlitebrowser
+category: tool
+areas: [data, software]
+price: free
+level: beginner
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Visual desktop tool for creating and editing SQLite databases, importing CSV files and running SQL queries with inspectable results.
+pros:
+  - Open-source under a choice of MPL-2.0 or GPL-3.0 or later
+  - Browse tables and records through a spreadsheet-like interface
+  - Run SQL queries and inspect the generated SQL command log
+cons:
+  - Requires local installation
+  - Works with SQLite databases rather than every database engine
+  - Not intended to replace a spreadsheet application
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read README.md and LICENSE from sqlitebrowser/sqlitebrowser on the master branch via raw.githubusercontent.com. README confirms visual database creation and editing, CSV import and export, SQL queries, command logs and simple plots. LICENSE states dual licensing under MPL-2.0 and GPL-3.0 or later and identifies separate third-party licensing notices. Free refers to the local open-source application. English documentation checked; other interface languages and current maintenance status were not verified. Not installed or executed."

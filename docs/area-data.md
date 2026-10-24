@@ -2,7 +2,7 @@
 
 _SQL, data analysis, data engineering, visualization and statistics._
 
-36 resources. [Back to the start](../README.md)
+41 resources. [Back to the start](../README.md)
 
 Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
@@ -66,8 +66,13 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 
 | Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
 |---|---|---|---|---|---|---|
+| [Datasette](https://github.com/simonw/datasette) | Free | intermediate | self-directed | - | en | Open-source tool for exploring SQLite databases and publishing data as an interactive website with an accompanying API. |
+| [DB Browser for SQLite](https://github.com/sqlitebrowser/sqlitebrowser) | Free | beginner | self-directed | - | en | Visual desktop tool for creating and editing SQLite databases, importing CSV files and running SQL queries with inspectable results. |
 | [Google Colab](https://colab.research.google.com/) | Free + paid extras | all | self-directed | - | en | Hosted Jupyter notebook service from Google that runs in the browser with free access to computing including GPUs and TPUs, with paid plans for more. |
+| [marimo](https://github.com/marimo-team/marimo) | Free | intermediate | self-directed | - | en | Reactive Python notebook environment with SQL support, interactive controls and notebooks stored as Python files that can also run as scripts or apps. |
+| [Orange Data Mining](https://github.com/biolab/orange3) | Free | beginner | self-directed | - | en | Visual data mining and machine learning toolbox for exploring data through connected workflows without requiring programming or in-depth mathematical knowledge. |
 | [Project Jupyter](https://jupyter.org/) | Free | all | self-directed | - | en | Open-source project behind JupyterLab and Jupyter Notebook, interactive notebook environments for code, data and text that you can try in the browser or install locally. |
+| [SymPy](https://github.com/sympy/sympy) | Free | intermediate | self-directed | - | en | Python library for symbolic mathematics that lets you manipulate mathematical expressions interactively or in programs, with documentation and code examples. |
 
 ## Communities
 

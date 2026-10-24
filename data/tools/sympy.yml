@@ -1,0 +1,29 @@
+name: SymPy
+url: https://github.com/sympy/sympy
+category: tool
+areas: [math, software, data]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Python library for symbolic mathematics that lets you manipulate mathematical expressions interactively or in programs, with documentation and code examples.
+pros:
+  - Open-source software under the BSD 3-Clause license
+  - Explore symbolic mathematics through Python expressions
+  - Documentation and an interactive console support experimentation
+cons:
+  - Requires Python and familiarity with the mathematics being explored
+  - A computation tool rather than a structured mathematics course
+  - Symbolic results do not replace understanding or checking the underlying reasoning
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read the official README at https://raw.githubusercontent.com/sympy/sympy/master/README.md
+    and license at https://raw.githubusercontent.com/sympy/sympy/master/LICENSE.
+    The README calls the license New BSD; the license file contains the three redistribution
+    conditions of BSD 3-Clause. The README includes installation instructions, an interactive
+    symbolic series example and documentation links. Free refers to the open-source software.
+    English README checked. Installation, computations and recent maintenance were not
+    independently tested.

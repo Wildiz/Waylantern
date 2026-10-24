@@ -1,0 +1,20 @@
+name: "OWASP crAPI"
+url: https://github.com/OWASP/crAPI
+category: practice
+areas: [security, web]
+price: free
+level: intermediate
+languages: [en]
+structure: semi
+focus_friendly: unknown
+description: "A deliberately vulnerable microservices application for practising API security through challenges based on common API risks."
+pros:
+  - "Open-source code under Apache-2.0"
+  - "Provides a user workflow and security challenges for a realistic API application"
+cons:
+  - "Requires local Docker and Docker Compose setup, image downloads and sufficient machine resources"
+  - "Run as an isolated local lab and test only systems you own or have permission to assess"
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: "Read the official OWASP/crAPI develop README and LICENSE.md via raw.githubusercontent.com. The README describes a deliberately vulnerable microservices application, API security risks, a recommended user workflow and Docker Compose setup; LICENSE.md contains Apache License 2.0. The free classification refers to the open-source lab, not paid hosting or hardware. English README verified. The lab was not installed or executed."

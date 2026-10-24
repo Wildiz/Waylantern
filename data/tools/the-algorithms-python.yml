@@ -1,0 +1,28 @@
+name: The Algorithms - Python
+url: https://github.com/TheAlgorithms/Python
+category: reference
+areas: [cs, software]
+price: free
+level: intermediate
+languages: [en]
+structure: self-directed
+focus_friendly: unknown
+description: Collection of Python algorithm implementations for reading, experimenting and learning, with a directory for browsing the examples.
+pros:
+  - Open-source examples under the MIT license
+  - Read and modify implementations to explore how algorithms work
+  - A directory helps navigate the collection
+cons:
+  - A reference collection rather than an ordered beginner curriculum
+  - The authors warn that educational implementations may be less efficient than Python standard-library alternatives
+  - Requires enough Python knowledge to understand and run the examples
+verified:
+  date: '2026-10-24'
+  method: github-repo
+  notes: >-
+    Read the official README at https://raw.githubusercontent.com/TheAlgorithms/Python/master/README.md
+    and MIT license at https://raw.githubusercontent.com/TheAlgorithms/Python/master/LICENSE.md.
+    The README states that implementations are for learning, links a directory of algorithms
+    and warns that implementations may be less efficient than those in the Python standard
+    library. Free refers to the open-source examples, not any third-party hosted service.
+    English README checked. Code execution and recent maintenance were not independently tested.

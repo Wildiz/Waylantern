@@ -2,9 +2,9 @@
 
 _Machine learning, deep learning, language models and AI agents._
 
-40 resources. [Back to the start](../README.md)
+41 resources. [Back to the start](../README.md)
 
-Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Communities](#communities)
+Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Courses and books](#courses-and-books) | [Practice by doing](#practice-by-doing) | [Roadmaps](#roadmaps) | [Lists, docs and articles](#lists-docs-and-articles) | [Tools and apps](#tools-and-apps) | [Communities](#communities)
 
 ## Full paths (a free university)
 
@@ -68,6 +68,12 @@ Jump to: [Full paths (a free university)](#full-paths-a-free-university) | [Cour
 | [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) | Free | intermediate | self-directed | low | en | Curated list of machine learning frameworks, libraries and software grouped by programming language, with a section on educational tools. |
 | [Hugging Face Learn](https://huggingface.co/learn) | Free | all | self-directed | - | en | Hub page linking Hugging Face courses and cookbooks, including the LLM, Agents, Deep RL, Audio, Computer Vision, Diffusion and smol courses. |
 | [OpenAI Cookbook](https://cookbook.openai.com) | Free | intermediate | self-directed | medium | en | Open-source collection of example code and guides for common tasks with the OpenAI API (mostly Python notebooks), such as retrieval, function calling, evaluation and fine-tuning. |
+
+## Tools and apps
+
+| Name | Cost | Level | Guided? | Focus-friendly | Languages | What it is |
+|---|---|---|---|---|---|---|
+| [Orange Data Mining](https://github.com/biolab/orange3) | Free | beginner | self-directed | - | en | Visual data mining and machine learning toolbox for exploring data through connected workflows without requiring programming or in-depth mathematical knowledge. |
 
 ## Communities
 
